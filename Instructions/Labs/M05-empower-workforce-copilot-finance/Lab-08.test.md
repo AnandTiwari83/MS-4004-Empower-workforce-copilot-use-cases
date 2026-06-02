@@ -89,10 +89,22 @@ The final output of this task — a Word document called **Smart Sensor contract
 1. In Microsoft Edge, navigate to the **Microsoft 365 home page**: `https://www.microsoft365.com`
 
 2. Select the **Work** option in Copilot Chat to ensure Copilot searches your internal OneDrive and organizational content.
+   - If Copilot Chat is not already open, first select **Copilot** from the left navigation pane (or from the app launcher), then switch to **Work** near the top of the chat experience.
 
 3. In the prompt field, attach **both vendor contract files** that you downloaded in Step 1.
+   - If needed, use the **Attach** / paperclip icon (or **+** if shown) to browse to the two files.
+
+> **📸 Screenshot placeholder:** Capture Copilot Chat in **Work** mode with both vendor contract files attached in the prompt field before you submit the request.  
+> Suggested filename: `M05-Lab08-Step01-BothContractsAttached.png`
 
 > ✅ **Checkpoint:** Both contract files should appear as attachments in the Copilot prompt field before you submit your request.
+
+> **🔧 Troubleshooting:**
+> - If you cannot attach both files at once, attach one file first, submit the prompt, then start a new conversation and attach both again.
+> - If the **Edit in Pages** icon does not appear, scroll to the very bottom of Copilot's response where action icons typically appear.
+> - If Word opens in desktop app instead of Word for the web, save the document to OneDrive first, then reopen from OneDrive in the browser.
+> - If Copilot in Word does not show **Edit with Copilot**, your account may not have Copilot enabled for Word. Contact your lab administrator.
+> - If the document name does not save, select the title text area above the ribbon and type the new name directly.
 
 ---
 
@@ -110,13 +122,21 @@ Ask Copilot to compare the two contracts using the following prompt. This prompt
 
 > ✅ **Expected Outcome:** A bulleted comparison identifying key contractual differences across pricing, delivery, warranties, and liability — including a risk assessment and negotiation recommendations.
 
+> **📸 Screenshot placeholder:** Capture the Copilot response showing the completed contract comparison, risk assessment, and negotiation recommendations.  
+> Suggested filename: `M05-Lab08-Step02-ContractComparisonResponse.png`
+
 ---
 
 ### Step 4: Save the Analysis to a Word Document
 
 1. At the end of Copilot's response, select the **Edit in Pages** icon.
+   - The icon typically appears in the bottom-right action area of the Copilot response and looks like a **page with a pencil/edit symbol**.
+
+> **📸 Screenshot placeholder:** Capture the bottom-right action area of the Copilot response with the **Edit in Pages** icon visible.  
+> Suggested filename: `M05-Lab08-Step03-EditInPagesOption.png`
 
 2. In the Pages form that appears alongside the Copilot chat pane, select the **Create** button, then select **Document** from the drop-down menu.
+   - This is the action path that creates a Word document from the Copilot response.
 
 3. In the dialog box, select **Open Word**. This opens a new Word document in Word for the web containing Copilot's full response.
 
@@ -128,6 +148,9 @@ Ask Copilot to compare the two contracts using the following prompt. This prompt
 6. Leave the document open — you will add more content to it in the next steps.
 
 > ✅ **Checkpoint:** You have a Word document named **Smart Sensor contract comparison** open in Word for the web, containing the initial contract comparison analysis.
+
+> **📸 Screenshot placeholder:** Capture the Word for the web document open with the imported comparison content visible.  
+> Suggested filename: `M05-Lab08-Step04-WordDocumentOpen.png`
 
 ---
 
@@ -150,6 +173,9 @@ You now want to add a concise Executive Summary at the beginning of the document
 - Review the Executive Summary added to the document.
 
 > ✅ **Expected Outcome:** A new Executive Summary section at the top of the document that provides a leadership-ready overview of the contract comparison findings.
+
+> **📸 Screenshot placeholder:** Capture the document after the **Executive Summary** section has been added near the top.  
+> Suggested filename: `M05-Lab08-Step05-ExecutiveSummaryAdded.png`
 
 ---
 
@@ -178,6 +204,9 @@ Finance professionals who review supplier contracts typically examine several im
 
 > ✅ **Expected Outcome:** A new section added to the document that provides a detailed comparison of both contracts for your selected topic.
 
+> **📸 Screenshot placeholder:** Capture the first focused analysis section after Copilot adds it to the document.  
+> Suggested filename: `M05-Lab08-Step06-FocusedAnalysisSection1.png`
+
 ---
 
 ### Step 7: Add a Focused Analysis Section — Second Contract Area
@@ -194,6 +223,9 @@ Choose a **second topic** from the list above that interests you.
 
 > ✅ **Expected Outcome:** A second focused analysis section added to the document, further enriching the contract comparison.
 
+> **📸 Screenshot placeholder:** Capture the second focused analysis section after it has been added to the document.  
+> Suggested filename: `M05-Lab08-Step07-FocusedAnalysisSection2.png`
+
 ---
 
 ### Final Document Checkpoint
@@ -206,6 +238,9 @@ Before proceeding to Lab-09, verify that your **Smart Sensor contract comparison
 - [ ] Document is saved in OneDrive as **Smart Sensor contract comparison**
 
 > ⚠️ **Important:** You will use this document as the source for your PowerPoint presentation in **Lab-09**. Ensure it is saved to OneDrive before proceeding.
+
+> **📸 Screenshot placeholder:** Capture the final document saved in OneDrive with the name **Smart Sensor contract comparison** visible.  
+> Suggested filename: `M05-Lab08-Step08-DocumentSavedOneDrive.png`
 
 ---
 

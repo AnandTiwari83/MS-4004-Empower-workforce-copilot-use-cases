@@ -71,7 +71,17 @@ You will create a Loop workspace with three collaborative pages:
 3. In Loop for the web, create a **new workspace** titled:  
    **Adatum/Contoso contract comparison**
 
+> **📸 Screenshot placeholder:** Capture the new Loop workspace immediately after creation.  
+> Suggested filename: `M05-Lab10-Step01-LoopWorkspaceCreated.png`
+
 > ✅ **Checkpoint:** You have a new Loop workspace named **Adatum/Contoso contract comparison** with an initial unnamed page.
+
+> **🔧 Troubleshooting:**
+> - If you cannot find Microsoft Loop in the Apps list, navigate directly to https://loop.microsoft.com in Microsoft Edge.
+> - If the "/" shortcut does not show file attachment options, look for the (+) button at the left of the Loop text area instead.
+> - If the PowerPoint file is not found when attaching, open it once from OneDrive in PowerPoint for the web, then return to Loop and try again.
+> - If Copilot in Loop doesn't generate a table (only text), add "format this as a table" to your prompt.
+> - Copy the URL from the browser bar immediately after creating all three pages — navigating away may make it harder to locate the workspace URL again.
 
 ---
 
@@ -81,6 +91,9 @@ The first page will capture the presentation's negotiation recommendations in a 
 
 1. Change the title of the first page from **Untitled** to:  
    **Negotiation Strategy**
+
+> **📸 Screenshot placeholder:** Capture the first Loop page after renaming it to **Negotiation Strategy**.  
+> Suggested filename: `M05-Lab10-Step02-NegotiationStrategyPage.png`
 
 2. Open the **Copilot pane** within this Loop page.
 
@@ -92,8 +105,13 @@ The first page will capture the presentation's negotiation recommendations in a 
      - **Owner** — the team member responsible
      - **Deadline** — target completion date
    - Attach the file by typing a forward slash (`/`) and selecting the **Smart Sensor contract comparison – Finance.pptx** file from the **Files** tab.
+   - If the slash menu offers multiple choices, type `/` in the Loop page body, select **File** or **Attachment**, and then choose the presentation from OneDrive.
+
+> **📸 Screenshot placeholder:** Capture the Loop Copilot prompt area with the PowerPoint file attached from OneDrive.  
+> Suggested filename: `M05-Lab10-Step03-PowerPointAttachedInLoop.png`
 
 > 💡 **Guidance:** Use the forward slash (`/`) shortcut in Loop to attach your PowerPoint file directly from OneDrive. Make sure you reference the correct file name.
+> Additional navigation detail: Type `/` in the Loop page body, select **File** or **Attachment**, and then select the presentation from OneDrive.
 
 **After Copilot responds:**
 1. Review the table results in the Copilot pane.
@@ -102,6 +120,9 @@ The first page will capture the presentation's negotiation recommendations in a 
 4. Delete any extraneous text that was pasted along with the table (such as introductory phrases from the Copilot response).
 
 > ✅ **Expected Outcome:** A structured negotiation strategy table embedded in the Loop page with Action, Priority, Owner, and Deadline columns populated from the presentation's negotiation recommendations.
+
+> **📸 Screenshot placeholder:** Capture the completed negotiation strategy table on the Loop page.  
+> Suggested filename: `M05-Lab10-Step04-NegotiationTableGenerated.png`
 
 ---
 
@@ -127,6 +148,9 @@ The second page will transform the presentation's risk mitigation content into a
 3. Delete any extraneous text that was copied and pasted along with the checklist.
 
 > ✅ **Expected Outcome:** A checklist embedded in the Loop page listing each risk mitigation action with a status field (e.g., Not Started, In Progress, Complete) that team members can update collaboratively.
+
+> **📸 Screenshot placeholder:** Capture the **Risk mitigation ideas** page showing the generated checklist content.  
+> Suggested filename: `M05-Lab10-Step05-RiskMitigationIdeasPage.png`
 
 ---
 
@@ -155,6 +179,9 @@ The third page will establish how and when the contract comparison findings shou
 
 > ✅ **Expected Outcome:** A structured communication plan embedded in the Loop page, listing each stakeholder group, the communication timeline, and the channel/format for sharing the contract comparison findings.
 
+> **📸 Screenshot placeholder:** Capture the **Communication plan** page showing the generated stakeholder communication content.  
+> Suggested filename: `M05-Lab10-Step06-CommunicationPlanPage.png`
+
 ---
 
 ### Step 5: Copy the Loop Workspace Link
@@ -166,6 +193,9 @@ In Lab-11, you will send an email to your Finance colleagues that includes a lin
 2. Save this link somewhere accessible (e.g., a temporary note, the browser clipboard) so you can paste it into your Outlook email in Lab-11.
 
 > ⚠️ **Important:** Keep the Loop workspace open or note its URL before navigating away. You will need this link in Lab-11.
+
+> **📸 Screenshot placeholder:** Capture the browser address bar with the Loop workspace URL visible.  
+> Suggested filename: `M05-Lab10-Step07-LoopWorkspaceURL.png`
 
 ---
 

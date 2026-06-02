@@ -52,11 +52,23 @@ All exercises in this module reference files stored in your OneDrive. Complete t
 
 **Step 1:** Log into the virtual machine provided by your lab environment as the local **Administrator** using the password `Pa55w.rd`.
 
+> **📸 Screenshot placeholder:** Capture the virtual machine desktop immediately after signing in as the local Administrator.  
+> Suggested filename: `M05-Lab01-Step01-VMDesktopSignIn.png`
+
 **Step 2:** In the Windows taskbar, select **Microsoft Edge**.
+
+- If Microsoft Edge is pinned, select the blue-and-green **e** icon on the taskbar.
+- If the browser is already open, select its taskbar icon to bring it to the front.
+
+> **📸 Screenshot placeholder:** Capture Microsoft Edge after the browser window opens on the virtual machine.  
+> Suggested filename: `M05-Lab01-Step02-EdgeBrowserOpen.png`
 
 **Step 3:** In the address bar, enter `https://www.office.com` and press **Enter**.
 
 **Step 4:** On the Microsoft 365 welcome page, select **Sign in**.
+
+- If the page loads directly to a sign-in experience, continue without returning to the home page.
+- If you are already signed in, confirm you are using the lab-issued Microsoft 365 account before proceeding.
 
 **Step 5:** At the sign-in prompt, enter the username provided by your lab environment (`userx@yourtenant.onmicrosoft.com`), then select **Next**.
 
@@ -64,19 +76,49 @@ All exercises in this module reference files stored in your OneDrive. Complete t
 
 **Step 7:** If prompted with **Stay signed in?**, select **Don't show this again** and then **Yes**.
 
+> **📸 Screenshot placeholder:** Capture the Microsoft 365 home page after sign-in is complete.  
+> Suggested filename: `M05-Lab01-Step03-M365HomePage.png`
+
 **Step 8:** In Microsoft 365, select **Apps** in the left navigation pane.
+
+- If the left navigation pane is collapsed, select the **Apps** icon or expand the navigation menu first.
 
 **Step 9:** In the **Apps** menu, select **OneDrive**.
 
+> **📸 Screenshot placeholder:** Capture the OneDrive **My files** page after it opens.  
+> Suggested filename: `M05-Lab01-Step04-OneDriveOpen.png`
+
 **Step 10:** In OneDrive, select the **+** (add new) button in the top-left corner, then select **File upload**.
+
+- Make sure you are on the **My files** view before starting the upload.
+
+> **📸 Screenshot placeholder:** Capture the OneDrive upload menu with **File upload** visible.  
+> Suggested filename: `M05-Lab01-Step05-OneDriveUploadMenu.png`
 
 **Step 11:** In the **File Explorer** window that opens, navigate to **This PC** → **Local Disk (C:)** → **ResourceFiles** folder.
 
+> **📸 Screenshot placeholder:** Capture the **ResourceFiles** folder in File Explorer before selecting the files.  
+> Suggested filename: `M05-Lab01-Step06-ResourceFilesFolder.png`
+
 **Step 12:** Select **all files** within the ResourceFiles folder, then select **Open** to begin the upload.
+
+- You can press **Ctrl+A** in the folder to select every file before choosing **Open**.
+
+> **📸 Screenshot placeholder:** Capture OneDrive while the file upload is in progress.  
+> Suggested filename: `M05-Lab01-Step07-UploadInProgress.png`
 
 **Step 13:** Wait for the upload to complete. You should see a message at the bottom of the screen confirming **Uploaded 29 items to My files**.
 
+> **📸 Screenshot placeholder:** Capture OneDrive showing the completed upload confirmation with 29 items available in **My files**.  
+> Suggested filename: `M05-Lab01-Step08-UploadComplete29Items.png`
+
 **Step 14:** Leave Microsoft Edge open and proceed to Part 2.
+
+> **🔧 Troubleshooting:**
+> - If you see fewer than 29 files after upload, wait 30 seconds and refresh OneDrive.
+> - If OneDrive doesn't open, ensure you are signed in with your Microsoft 365 account, not a personal Microsoft account.
+> - If file upload fails, try uploading in smaller batches of 5-10 files at a time.
+> - If you are prompted for MFA, complete the verification as directed by your lab provider.
 
 ### Expected Outcome
 
@@ -136,6 +178,17 @@ The quality of your Copilot output depends heavily on the quality of your prompt
 > ⚠️ **Important:** Microsoft 365 Copilot can only work with files saved to **OneDrive**. Files stored locally on your PC will not be accessible to Copilot. Ensure all files are uploaded before starting the exercises.
 
 > 💡 **File Availability Tip:** When using Copilot, some files may not immediately appear in suggestions because Copilot references the **Most Recently Used (MRU)** list. To add a file to the MRU list, simply open it in the relevant Microsoft 365 app before using it with Copilot.
+
+---
+
+## Before You Continue
+
+Before moving to **Lab-02**, confirm the following:
+
+- [ ] I can open **OneDrive** and see **29 resource files** in **My files**.
+- [ ] I am still signed in to Microsoft 365 with my lab-provided account in Microsoft Edge.
+- [ ] I understand that Copilot can only work with files stored in **OneDrive**.
+- [ ] I can identify the four prompt elements: **Goal**, **Context**, **Sources**, and **Expectations**.
 
 ---
 

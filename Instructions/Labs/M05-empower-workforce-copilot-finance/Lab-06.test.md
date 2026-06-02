@@ -74,10 +74,15 @@ Copilot in Excel makes this process significantly faster by automatically recalc
 1. In Microsoft Edge, navigate to the **Microsoft 365 home page**: `https://www.microsoft365.com`
 
 2. Select **Apps** → **Excel**.
+   - Exact path: **Microsoft 365 home** → **Apps** → **Excel**.
 
 3. In Excel for the web, select **Upload a file**, navigate to your OneDrive, and open the **Relecloud Acquisition Financials** spreadsheet.
 
+> **📸 Screenshot placeholder:** Capture the **Relecloud Acquisition Financials** workbook open in Excel for the web.
+> Suggested filename: `M05-Lab06-Step01-AcquisitionFinancialsOpen.png`
+
 4. Select **Copilot** on the **Home** tab ribbon.
+   - Exact path in Excel: **Home** tab → **Copilot**.
 
 5. In the Copilot pane:
    - Leave the response mode selector set to **Auto**.
@@ -86,7 +91,18 @@ Copilot in Excel makes this process significantly faster by automatically recalc
 
 6. Verify you are in the **Financial Analysis** sheet before proceeding.
 
+> **📸 Screenshot placeholder:** Capture the workbook with the **Financial Analysis** sheet tab selected and the Copilot pane open.
+> Suggested filename: `M05-Lab06-Step02-FinancialAnalysisSheet.png`
+
 > ✅ **Checkpoint:** You are in the Financial Analysis sheet with Edit with Copilot active.
+
+> ✅ **Validation checkpoint:** Confirm the sheet tab reads **Financial Analysis**, the Copilot pane is open, and the **Edit with Copilot** option is active before you start modeling scenarios.
+
+> **🔧 Troubleshooting:**
+> - **Always return to the Financial Analysis sheet** before starting a new scenario. If you apply Scenario 2 while the Scenario 1 sheet is active, Copilot may model the changes on top of Scenario 1 data instead of the original baseline.
+> - If Copilot modifies the original Financial Analysis sheet instead of creating a new sheet, add "in a new sheet" explicitly to your prompt.
+> - If a chart does not appear in a separate sheet, ask Copilot: "Please place the chart in a new worksheet."
+> - If Copilot's financial calculations seem wrong, verify you are in the correct sheet before submitting your prompt.
 
 ---
 
@@ -106,6 +122,11 @@ Robin wants to see how the financial model changes if Fabrikam negotiates a bett
 - Review the new what-if scenario sheet.
 - Remain in this sheet for Step 4.
 
+> **📸 Screenshot placeholder:** Capture the new worksheet showing Scenario 1 results with the updated EBITDA multiple and synergy savings.
+> Suggested filename: `M05-Lab06-Step03-Scenario1EBITDASheet.png`
+
+> ✅ **Validation checkpoint:** Confirm Copilot created a new sheet, left the original **Financial Analysis** sheet unchanged, and updated both the EBITDA multiple and synergy savings assumptions.
+
 > ✅ **Expected Outcome:** A new sheet showing updated financial projections reflecting the increased EBITDA multiple and higher synergy savings.
 
 ---
@@ -123,11 +144,18 @@ Now create visualizations to make the Scenario 1 impact easy to see and present.
 - Review both charts in the new sheet.
 - Confirm that the column chart clearly shows the before/after comparison and the line chart shows the EBITDA trajectory.
 
+> **📸 Screenshot placeholder:** Capture the Scenario 1 chart sheet showing both the column chart and the line chart.
+> Suggested filename: `M05-Lab06-Step04-Scenario1Charts.png`
+
+> ✅ **Validation checkpoint:** Confirm both chart types were created in a separate sheet and clearly compare baseline results with Scenario 1 results.
+
 > ✅ **Expected Outcome:** A new sheet with two charts visualizing the EBITDA and synergy savings impact of Scenario 1.
 
 ---
 
 ### Step 5: Scenario 2 — Delayed and Reduced Synergy Savings
+
+> ⚠️ **Return to baseline reminder:** Before you submit the Scenario 2 prompt, select the original **Financial Analysis** sheet again. Do **not** start from the Scenario 1 results sheet, or Copilot may build Scenario 2 on top of Scenario 1 instead of the original baseline.
 
 One risk in any acquisition is that synergies take longer to realize than planned. Robin wants to model this risk explicitly.
 
@@ -143,6 +171,11 @@ One risk in any acquisition is that synergies take longer to realize than planne
 - Review the new scenario sheet showing the timing and reduction impacts.
 - Remain in this sheet for Step 6.
 
+> **📸 Screenshot placeholder:** Capture the Scenario 2 worksheet showing delayed and reduced synergy savings.
+> Suggested filename: `M05-Lab06-Step05-Scenario2SynergyDelay.png`
+
+> ✅ **Validation checkpoint:** Confirm the new sheet reflects both assumptions: a 12-month delay and only 75% realization of synergy savings, compared against the original baseline.
+
 > ✅ **Expected Outcome:** A new sheet modeling the acquisition financials with delayed and reduced synergy realization, showing reduced or shifted benefits compared to the baseline.
 
 ---
@@ -157,11 +190,18 @@ One risk in any acquisition is that synergies take longer to realize than planne
 **After Copilot responds:**
 - Review both charts to confirm they clearly show the delayed timing and reduced magnitude of synergy savings.
 
+> **📸 Screenshot placeholder:** Capture the Scenario 2 chart sheet showing the stacked column chart and the line chart.
+> Suggested filename: `M05-Lab06-Step06-Scenario2Charts.png`
+
+> ✅ **Validation checkpoint:** Confirm the visuals highlight both the delayed timing and the smaller total value of realized synergies.
+
 > ✅ **Expected Outcome:** A new sheet with a stacked column chart and line chart illustrating how the 12-month delay and 75% realization reduce and postpone the financial benefits.
 
 ---
 
 ### Step 7: Scenario 3 — Higher Operating Expenses Due to Integration Challenges
+
+> ⚠️ **Return to baseline reminder:** Before you begin Scenario 3, go back to the original **Financial Analysis** sheet again. If you stay on a prior scenario sheet, Copilot may calculate Scenario 3 from already-modified numbers instead of the baseline model.
 
 Integration activities often introduce unexpected costs. Robin wants to understand how Fabrikam's profitability would be affected if operating expenses rise during integration.
 
@@ -175,6 +215,11 @@ Integration activities often introduce unexpected costs. Robin wants to understa
 **After Copilot responds:**
 - Review the new scenario sheet.
 - Remain in this sheet for Step 8.
+
+> **📸 Screenshot placeholder:** Capture the Scenario 3 worksheet showing higher operating expenses and the resulting financial changes.
+> Suggested filename: `M05-Lab06-Step07-Scenario3HigherOpEx.png`
+
+> ✅ **Validation checkpoint:** Confirm the scenario adjusts operating expenses upward by 10% in a new sheet and shows the resulting impact on profitability relative to the original model.
 
 > ✅ **Expected Outcome:** A new sheet showing updated financials with higher OpEx, and the resulting impact on EBITDA and net income compared to the baseline.
 
@@ -190,6 +235,11 @@ Integration activities often introduce unexpected costs. Robin wants to understa
 **After Copilot responds:**
 - Review both charts to confirm they clearly illustrate the profitability impact of increased integration costs.
 - Feel free to explore any of Copilot's suggested follow-up prompts to further enhance the workbook.
+
+> **📸 Screenshot placeholder:** Capture the Scenario 3 chart sheet showing the profitability charts.
+> Suggested filename: `M05-Lab06-Step08-Scenario3Charts.png`
+
+> ✅ **Validation checkpoint:** Confirm the line chart shows OpEx and EBITDA trends over time and the column chart clearly compares baseline versus Scenario 3 net income.
 
 > ✅ **Expected Outcome:** A new sheet with a line chart showing OpEx and EBITDA trajectories and a column chart comparing net income under the original and scenario assumptions.
 

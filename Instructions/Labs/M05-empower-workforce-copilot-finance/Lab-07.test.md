@@ -38,6 +38,9 @@ Exercise 2 consists of **four tasks**, each using a different Microsoft 365 appl
 | Lab-10 | Task 3: Turn insights into collaborative content | Microsoft Copilot in Loop | ~15 min |
 | Lab-11 | Task 4: Draft feedback email | Microsoft Copilot in Outlook | ~10 min |
 
+> **📸 Screenshot placeholder:** Capture the Exercise 2 overview table showing all four labs, tasks, applications, and durations.  
+> Suggested filename: `M05-Lab07-Step01-Exercise2Overview.png`
+
 Each task builds on the output of the previous one, forming a complete contract review and communication workflow.
 
 ---
@@ -98,12 +101,22 @@ Draft email to Finance team   ←   Use Loop to organize insights
 soliciting feedback               for team collaboration
 ```
 
+> **📸 Screenshot placeholder:** Capture the task workflow diagram that shows how outputs move from Copilot Chat to PowerPoint to Loop to Outlook.  
+> Suggested filename: `M05-Lab07-Step02-WorkflowDiagram.png`
+
 **Key continuity across tasks:**
 - The **Word document** created in Task 1 (Smart Sensor contract comparison) becomes the source for the **PowerPoint presentation** in Task 2.
 - The **PowerPoint file** saved in Task 2 becomes the source for the **Loop workspace** in Task 3.
 - The **Loop workspace link** is embedded in the **Outlook email** drafted in Task 4.
 
 > ⚠️ **Important:** Save your outputs from each task to OneDrive. Each subsequent task depends on the file created in the previous one.
+
+> ⚠️ **Outputs to Save Across Exercise 2 Labs:**
+> | Lab | File to Save | Used In |
+> |-----|-------------|---------|
+> | Lab-08 | Smart Sensor contract comparison.docx | Lab-09 (PowerPoint source) |
+> | Lab-09 | Smart Sensor contract comparison - Finance.pptx | Lab-10 (Loop source) |
+> | Lab-10 | Loop workspace URL (from browser) | Lab-11 (email link) |
 
 ---
 
@@ -123,6 +136,16 @@ This orientation lab has introduced you to:
 - ✅ **The two vendor contracts** you will analyze: Adatum Corporation and Contoso, Ltd.
 - ✅ **Your four deliverables**: contract analysis document, leadership presentation, Loop collaboration workspace, and stakeholder email.
 - ✅ **How each task's output feeds into the next**, creating a complete end-to-end Finance workflow.
+
+### Before You Start Lab-08
+
+Before you continue, confirm the following:
+
+- [ ] I understand that **Lab-08** begins in **Microsoft 365 Copilot Chat** and that I must switch to **Work** mode.
+- [ ] I know I must compare **both** vendor contracts: **Adatum Corporation** and **Contoso, Ltd.**
+- [ ] I am prepared to save every Exercise 2 output to **OneDrive** using the specified file names.
+- [ ] I understand that the Word document created in Lab-08 becomes the source file for Lab-09.
+- [ ] I am ready to continue through Labs 08–11 without deleting or renaming required files.
 
 You are now ready to begin the hands-on work. Proceed to **Lab-08** to start Task 1: Evaluating vendor contracts using Microsoft 365 Copilot Chat.
 

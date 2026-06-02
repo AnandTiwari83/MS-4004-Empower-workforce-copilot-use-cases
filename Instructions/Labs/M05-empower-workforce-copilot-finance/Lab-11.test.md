@@ -81,11 +81,24 @@ When you use Copilot in Outlook to draft an email, each new request generates a 
 
 3. In Outlook on the web, select **New mail** (or **+ New email**) to create a new message.
 
+> **📸 Screenshot placeholder:** Capture the Outlook on the web compose window immediately after opening a new email.  
+> Suggested filename: `M05-Lab11-Step01-OutlookNewEmail.png`
+
+> **🔧 Troubleshooting:**
+> - If the Copilot icon is not visible in the email body, look for a sparkle (✨) icon in the compose toolbar, or select **More options** (···) in the compose bar.
+> - If Copilot does not include your Loop link in the email, add it explicitly by pasting the URL directly into the email body after selecting "Keep it".
+> - If the **Change Tone** option is not visible, scroll down in the Copilot menu — it may be at the bottom of the available options list.
+> - If you accidentally close the Copilot draft window, you can reopen it by selecting the Copilot icon in the email compose area again.
+> - If the Loop link is not clickable in the sent email, verify the URL was pasted correctly and starts with https://.
+
 ---
 
 ### Step 2: Open Copilot and Draft the First Version of the Email
 
 1. In the body of the new email, select the **Open Copilot** icon (it may appear as a Copilot icon or sparkle icon in the message body toolbar).
+
+> **📸 Screenshot placeholder:** Capture the email compose area with the Copilot icon visible in the message body toolbar.  
+> Suggested filename: `M05-Lab11-Step02-CopilotIconInEmailBody.png`
 
 2. In the Copilot prompt field that appears, **write and submit your own prompt** asking Copilot to draft an email that:
    - Is addressed to your **Finance colleagues**.
@@ -102,6 +115,9 @@ When you use Copilot in Outlook to draft an email, each new request generates a 
 - Note the overall structure, tone, and content.
 
 > ✅ **Expected Outcome:** A professional, formally toned email (Draft 1 of 2+) requesting feedback on the contract comparison presentation with the Loop link included.
+
+> **📸 Screenshot placeholder:** Capture the first Copilot-generated email draft in its formal tone.  
+> Suggested filename: `M05-Lab11-Step03-Draft1FormalTone.png`
 
 ---
 
@@ -123,6 +139,9 @@ After reviewing Draft 1, you decide that a more conversational approach might re
 
 > ✅ **Expected Outcome:** A second draft (Draft 2 of 2) with a more conversational tone, emphasizing collaboration benefits and explaining the importance of feedback in more detail.
 
+> **📸 Screenshot placeholder:** Capture the second Copilot-generated email draft with the more conversational tone.  
+> Suggested filename: `M05-Lab11-Step04-Draft2ConversationalTone.png`
+
 ---
 
 ### Step 4: Restructure to Bullet Format with Deadline Emphasis (Draft 3)
@@ -138,6 +157,9 @@ You like the content of Draft 2, but you feel that a more structured format woul
 - Assess whether the bullet format and deadline emphasis make the email more immediately actionable.
 
 > ✅ **Expected Outcome:** A third draft (Draft 3 of 3) that opens with the feedback deadline and organizes key review points in a scannable bullet list.
+
+> **📸 Screenshot placeholder:** Capture the third draft showing the bullet-based structure and deadline emphasis.  
+> Suggested filename: `M05-Lab11-Step05-Draft3BulletFormat.png`
 
 ---
 
@@ -155,6 +177,9 @@ The structure of Draft 3 is strong, but you want to end the email on a motivatin
 
 > ✅ **Expected Outcome:** The email now ends with a closing paragraph that motivates collaboration and acknowledges the value of the team's feedback.
 
+> **📸 Screenshot placeholder:** Capture the fourth draft after the motivating closing paragraph has been added.  
+> Suggested filename: `M05-Lab11-Step06-Draft4MotivatingClose.png`
+
 ---
 
 ### Step 6: Adjust the Tone
@@ -162,6 +187,9 @@ The structure of Draft 3 is strong, but you want to end the email on a motivatin
 After rereading the latest draft, you want to fine-tune the overall tone one more time before finalizing.
 
 1. In the Copilot menu, scroll down and select **Change Tone**.
+
+> **📸 Screenshot placeholder:** Capture the Copilot **Change Tone** menu with the available tone options visible.  
+> Suggested filename: `M05-Lab11-Step07-ToneChangeMenu.png`
 
 2. Select one of the available tone options from the menu to see how Copilot adjusts the email.
 
@@ -193,6 +221,9 @@ After rereading the latest draft, you want to fine-tune the overall tone one mor
    - The email reads professionally and conveys the right tone and urgency.
 
 > ✅ **Expected Outcome:** A finalized, professional email sent (or ready to send) to Finance colleagues, requesting timely feedback on the contract comparison presentation with a working Loop collaboration link.
+
+> **📸 Screenshot placeholder:** Capture the final email after selecting **Keep it**, with the subject, recipients, body, and Loop link ready to send.  
+> Suggested filename: `M05-Lab11-Step08-FinalEmailReady.png`
 
 ---
 

@@ -2,15 +2,15 @@
 
 ## Overview
 
-Relecloud is preparing to launch WorkSmart 360 in the commercial office market. It’s critical that Relecloud’s Marketing department understand the competitive landscape, customer preferences, and emerging trends to inform the campaign. Your first step is to build a Market Research Agent that can aggregate this information from web sources, social media, and research reports.
+Relecloud is preparing to launch WorkSmart 360 in the commercial office market. Relecloud’s Marketing department must understand the competitive landscape, customer preferences, and emerging trends to inform the campaign. Your first step is to build a Market Research Agent that can aggregate this information from web sources, social media, and research reports.
 
 This agent should be product agnostic. Relecloud recently implemented Microsoft 365 Copilot, so you plan to use it for researching WorkSmart 360. But moving forward, the Marketing team plans to use it for any number of the company’s products.
 
-> **Note:** In this exercise, you use the Copilot Studio lite experience to create the Market Research Agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
+> **Note:** In this exercise, you use the Copilot Studio Lite experience to create the Market Research Agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
 
 Perform the following steps to complete this task:
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** using the below URL: 
+1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** using the URL below: 
 
     ```
     https://www.microsoft365.com
@@ -27,7 +27,7 @@ Perform the following steps to complete this task:
     ```
     ![Create Agent Prompt](../media/module-4/E1T1S3-0206.png)
 
-4.  After you selected the forward arrow, the **Agent Builder** form opens on the right side for your new agent. At the top of the form is a **Configure** tab and a **Try it** tab.
+4.  After you select the forward arrow, the **Agent Builder** form opens on the right side for your new agent. At the top of the form is a **Configure** tab and a **Try it** tab.
 
     - The **Configure** tab enables you to define the detailed settings that drive the agent.
 
@@ -41,7 +41,7 @@ Perform the following steps to complete this task:
 
     > **Important:** The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
-7.  If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field, or you can ask Copilot to update the instructions for you.  
+7.  If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field or you can ask Copilot to update the instructions for you.  
 
 1. After reviewing the **Instructions**, you wonder if they could be improved upon. You aren't sure how to improve them, so you decide to ask Copilot what it thinks. To do so, you can use the Agent builder chat interface, which should be on the left side of the screen. In the chat interface, ask Copilot if it has any recommendations for improving the instructions.
 

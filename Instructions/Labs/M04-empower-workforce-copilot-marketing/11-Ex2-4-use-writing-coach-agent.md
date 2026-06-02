@@ -4,13 +4,13 @@
 
 In the prior task, you selected a campaign idea for Mystic Spice Premium Chai Tea. You then had the Idea Coach agent help expand on this idea with suggestions for key messages, taglines, and promotional activities, which you saved in the **Mystic Spice Premium Chai Tea campaign concepts** document.
 
-It’s now time to bring your campaign to life! Your goal is to create a short, engaging promotional announcements for a digital ad or social media post announcing the campaign launch. The announcement should be based in part on the campaign concepts captured in the **Mystic Spice Premium Chai Tea campaign concepts** document.
+It’s now time to bring your campaign to life! Your goal is to create a short, engaging promotional announcement for a digital ad or social media post announcing the campaign launch. The announcement should be based in part on the campaign concepts captured in the **Mystic Spice Premium Chai Tea campaign concepts** document.
 
 You plan to use Copilot’s Writing Coach agent to draft this promotional announcement. It should capture the public’s attention, reflect the campaign’s theme and concepts, and encourage audience participation. You want to keep the tone warm, inviting, and aligned with Mystic Spice’s comforting identity. Ensure the message is concise and optimized for digital platforms.
 
 Perform the following steps to complete this task:
 
-1. Navigate back to the browser tab where you have Microsoft 365 Copilot open and under **Agents** section select **All agents (1)**.
+1. Navigate back to the browser tab where you have Microsoft 365 Copilot open and under the **Agents** section, select **All agents (1)**.
 
 1.  In the **Agent Store**, under the **Built by Microsoft** section, select **See more**. In the expanded list of **Built by Microsoft**, select **Writing Coach (2)**.
 
@@ -63,7 +63,7 @@ Perform the following steps to complete this task:
     Use the following prompt:
 
     ```
-    These look good. Write full captions for each slide and optimize the captions for Instagram and Facebook?
+    These look good. Write full captions for each slide and optimize the captions for Instagram and Facebook.
     ```
 
 8.  Review the results. Ask the agent to design the visual layout ideas for each slide, including color palette, imagery, and typography suggestions.
@@ -82,8 +82,10 @@ Perform the following steps to complete this task:
     Suggest animation ideas for a dynamic carousel experience.
     ```
 
-1. Point to be noted here is the agent will not actually create the carousel or the animations for you, but it will provide you with detailed descriptions of what these should look like, which you can then share with your design team to bring to life.
+1. Point to be noted here is that the agent will not actually create the carousel or the animations for you, but it will provide you with detailed descriptions of what these should look like, which you can then share with your design team to bring to life.
 
 ## Summary
 
 In this task, you used the Writing Coach agent to draft and refine promotional messages for the Mystic Spice Premium Chai Tea campaign. You started with a basic message and iteratively improved it with the agent's suggestions, making it more emotionally resonant and aligned with the brand voice. You then expanded the message into three distinct themes and developed a carousel concept for social media, complete with captions, visual layout ideas, and animation suggestions. This process demonstrates how Copilot can assist in creating engaging marketing content that resonates with the target audience.
+
+### 🎉 You have successfully completed the Module!

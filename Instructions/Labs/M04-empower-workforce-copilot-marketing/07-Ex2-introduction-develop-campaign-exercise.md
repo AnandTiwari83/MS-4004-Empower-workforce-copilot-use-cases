@@ -12,7 +12,7 @@ Beyond the core Microsoft 365 experience in Office apps that most marketers are 
 
 - **Copilot Writing Coach** guides you through the editing process, helping you fine-tune language, structure, and tone for maximum clarity and effect.
 
-From Copilot in Office apps through prebuilt and custom-built agents, these AI assistants empower marketing professionals to move seamlessly from data to decisions to delivery, enhancing productivity, creativity, and collaboration every step of the way. This training exercise shows you how Microsoft 365 Copilot can elevate your marketing workflow—from analyzing market performance and identifying growth opportunities to generating and refining compelling campaign content that’s ready for launch.
+From Copilot in Office apps through prebuilt and custom-built agents, these AI assistants help marketing professionals move from data to decisions to delivery, boosting productivity, creativity, and collaboration at every step. This training exercise shows you how Microsoft 365 Copilot can elevate your marketing workflow—from analyzing market performance and identifying growth opportunities to generating and refining compelling campaign content that’s ready for launch.
 
 You plan to use Microsoft 365 Copilot across several apps to help you move from insight to execution:
 
@@ -28,7 +28,7 @@ By the end of this exercise, you should experience how Copilot can help marketin
 
 > **`TIP:`** The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
 
-### Scenario
+## Scenario
 
 You’re the Latin America (LATAM) Marketing Director for Contoso Beverage, a division of Contoso, Ltd. Contoso achieved strong results across its North America markets with the sale of Mystic Spice Premium Chai Tea, a specialty beverage that blends rich spices, natural sweetness, and a sense of everyday indulgence. However, for the past year, the company struggled to achieve similar success across its LATAM markets. To address this issue, the company wants to launch a new promotional campaign aimed at reinvigorating sales and bringing Mystic Spice to new markets across Latin America.
 

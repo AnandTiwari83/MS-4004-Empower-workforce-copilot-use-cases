@@ -2,7 +2,7 @@
 
 ## Overview
 
-Now that you completed your marketing research and analysis, you’re ready to launch Relecloud’s WorkSpace 360 smart workplace solution in the commercial office market. To do so, you must begin by creating a fully integrated launch campaign plan that brings the marketing strategies to life and drives measurable results.
+Now that you have completed your marketing research and analysis, you’re ready to launch Relecloud’s WorkSpace 360 smart workplace solution in the commercial office market. To do so, you must begin by creating a fully integrated launch campaign plan that brings the marketing strategies to life and drives measurable results.
 
 Your campaign must:
 
@@ -12,11 +12,11 @@ Your campaign must:
 
 - Be multi-channel, data-driven, and actionable.
 
-As you considered this task, you weren’t sure whether Microsoft Loop or Planner would be the best app for this project. After doing some research, you learned that Loop would work best for structuring the campaign plan, brainstorming messaging, and outlining KPIs. Planner, on the other hand, was more appropriate for converting the phases and deliverables into tasks with owners and due dates once the plan was approved. So for this task, you plan to use Copilot in Loop to create the WorkSpace 360 launch campaign plan.
+As you considered this task, you weren’t sure whether Microsoft Loop or Planner would be the best app for this project. After doing some research, you learned that Loop would work best for structuring the campaign plan, brainstorming messaging, and outlining KPIs. Planner, on the other hand, was more appropriate for converting the phases and deliverables into tasks with owners and due dates once the plan was approved. So for this task, you plan to use Copilot in Loop to create the Workspace 360 launch campaign plan.
 
 Perform the following steps to complete this task:
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, click on the **App launcher** icon in the upper left corner, and select **More apps**, and select **Loop** from the list of apps to open it in a new browser tab.
+1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, click on the **App launcher** icon in the upper left corner, select **More apps**, and select **Loop** from the list of apps to open it in a new browser tab.
 
 2.  In **Loop for the web**, click on **+** and select **New workspace**. Name the workspace **WorkSmart 360 launch campaign** and click on **Create**.
 
@@ -44,12 +44,12 @@ Perform the following steps to complete this task:
 5.  Ask Copilot to review the attached **Market Insights Report – Smart Workspaces.docx** file using the following prompt:
 
     ```
-    Review the attached Market Insights Report – Smart Workspaces.docx file and identify the primary goals for this campaign (for example, awareness, engagement, lead generation). Translate these goals into SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound). For example, “Increase LinkedIn engagement by 30% in 90 days.”
+    Review the attached Market Insights Report – Smart Workspaces.docx and identify the primary goals for this campaign (e.g., awareness, engagement, lead generation). Translate these goals into SMART objectives (Specific, Measurable, Achievable, Relevant, Time-bound). For example, “Increase LinkedIn engagement by 30% in 90 days.”
     ``` 
 
 6.  Review the results and then select the **Copy** icon that appears below the content. Paste the copied results into your Loop page. Delete any extraneous text that was copied and pasted along with the results (see the start and end of the content).
 
-1. Click on Create new page button at the bottom of the left navigation pane to create a new page for the next section of the campaign plan. 
+1. Click on the Create new page button at the bottom of the left navigation pane to create a new page for the next section of the campaign plan. 
 
     ![Create new page](../media/module-4/E1T4S6-0206.png)
 
@@ -85,9 +85,9 @@ Perform the following steps to complete this task:
     | Timeline and phases              | Build a timeline that includes the following phases: Phase 1 (Awareness): Influencer videos + LinkedIn thought leadership; Phase 2 (Consideration): ROI-focused micro-learning content; Phase 3 (Conversion): Email campaigns + retargeting ads. Assign start and end dates and responsible roles to each phase.           |
     | KPIs and measurement plan        | For each phase in the timeline, define KPIs and a measurement plan. Phase 1 (Awareness): Impressions, engagement rate; Phase 2 (Consideration): Click-through rate, time on page; Phase 3 (Conversion): Leads generated, cost per acquisition. Include recommended tracking tools, such as Google Analytics and LinkedIn Insights.|
     | Budget allocation                | Estimate the spend per channel and asset. Prioritize high-impact channels based on insights, such as video-first and influencer-driven.                                   |
-    | Risk assessment and mitigation   | Identify potential risks, such as influencer credibility and budget overruns. Suggest mitigation strategies, such as vet influencers and set contingency budget.                              |
+    | Risk assessment and mitigation   | Identify potential risks, such as influencer credibility and budget overruns. Suggest mitigation strategies, such as vet influencers and set a contingency budget.                              |
 
-1. After the content is generated for each page, you should have a these sections filled out in your Loop workspace:
+1. After the content is generated for each page, you should have these sections filled out in your Loop workspace:
 
     ![Example prompts](../media/module-4/E1T4S10-0206.png)
 

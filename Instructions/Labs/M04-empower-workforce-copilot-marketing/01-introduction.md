@@ -1,4 +1,4 @@
-# Module 44: Empower workforce with Microsoft 365 Copilot for Marketing
+# Module 04: Empower workforce with Microsoft 365 Copilot for Marketing
 
 ### Overall Estimated Duration: 8 Hours
 

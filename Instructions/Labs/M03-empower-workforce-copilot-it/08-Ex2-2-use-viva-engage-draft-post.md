@@ -1,19 +1,10 @@
----
-lab:
-  title: 'Exercise 2, Task 2: Use Copilot in Viva Engage to draft a post about upcoming features'
-  description: <br/<br/ However, if a Select a community or storyline option appears at the bottom of the Viva Engage post instead, then select it and select the Copilot testing community from the menu that appears.
-  duration: 34 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 2: Use Copilot in Viva Engage to draft a post about upcoming features
----
+
+## Estimated duration: 34 minutes
+
 The CIO wants to generate excitement about the new features you identified in the prior task. Because VanArsdel uses Viva Engage to announce company plans, updates, and any other employee-related initiatives, you decide to use Copilot in Viva Engage to create an announcement of the new feature rollout. You want the post to highlight the top three upcoming features. Its tone should be engaging and approachable, and it must avoid being overly technical. You also want the post to invite employees to share their feedback or attend a demo. 
 
 You then plan to post the announcement on a new community in Viva Engage. A community in Viva Engage is a dedicated space for people with shared interests, roles, or goals to connect, collaborate, and engage. It acts as a hub where members can share knowledge and updates, foster connection and belonging, collaborate on projects or topics, and access shared resources. 
-
-Perform the following steps to complete this task:
 
 1.  In the **Microsoft 365 Copilot Chat** window, select the **Apps** icon in the navigation pane. In the **Apps** menu that appears, select **All apps**. Under the top section of apps in the **Apps** window, select **All apps→**. In the **All apps** window, scroll down and select **Viva**.
 
@@ -23,8 +14,7 @@ Perform the following steps to complete this task:
 
 4.  In the **Create a new community** window, enter **Copilot testing** in the **Name** field.
 
-   > [!IMPORTANT]
-   > Because you’re using your own Microsoft 365 tenant for this training exercise, any Viva Engage community you create is visible to other users in your tenant. To avoid confusion, use **Copilot testing** as the Community name instead of something like **Microsoft 365 feature rollout**, which could make it appear to be part of an actual initiative at your company.
+    > **NOTE:** Because you’re using your own Microsoft 365 tenant for this training exercise, any Viva Engage community you create is visible to other users in your tenant. To avoid confusion, use **Copilot testing** as the Community name instead of something like **Microsoft 365 feature rollout**, which could make it appear to be part of an actual initiative at your company.
 
 5.  Enter **This community is used for testing Copilot training content** in the **Description** field. Select the **Create** button.
 
@@ -37,9 +27,22 @@ Perform the following steps to complete this task:
 9.  Review the generated content and select the **+Add to post** option that appears at the end of the results in the Copilot pane. Delete any extraneous Copilot chat text that appears in the post (usually at the start and end, such as “You asked for a…”).
 
 10.  Before you can post this announcement, you must first select a community or storyline. However, because you created the **Copilot testing** community at the start of this task, and since that community was displayed in Viva Engage when you created this post, the announcement should appear at the bottom of the post window, above the menu bar. If this situation is what you see, then proceed to the next step.
-    <br/><br/> However, if a **Select a community or storyline** option appears at the bottom of the Viva Engage post instead, then select it and select the **Copilot testing** community from the menu that appears.
+
+     <br/><br/> However, if a **Select a community or storyline** option appears at the bottom of the Viva Engage post instead, then select it and select the **Copilot testing** community from the menu that appears.
 
 11.  Select the **Post** button.
 
 12.  In the **Copilot testing** community, you should see the post that Copilot just created for you.
 
+## Summary
+
+In this task, you have completed:
+
+- Created a fabric workspace and link with Fabric Copilot-enabled capacity
+- Deployed Azure infrastructure via the provided Bicep templates
+- Set Up Authentication in Azure App Service
+- Tested the application
+
+## You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
+
+![](../media/Module3/Next.png)

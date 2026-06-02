@@ -1,17 +1,9 @@
----
-lab:
-  title: 'Exercise 2: Transform feature launches and adoption using Microsoft 365 Copilot'
-  description: In this exercise, you create a complete, data-informed feature adoption campaign—from planning and communication to feedback and analytics—all powered by Microsoft 365 Copilot. You experience firsthand how Copilot can help IT professionals transform complex rollout processes into clear, engaging, and measurable success stories.
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Exercise 2: Transform feature launches and adoption using Microsoft 365 Copilot
----
+
+## Estimated duration: 12 minutes
+
+### Overview
+
 Microsoft 365 Copilot is transforming how IT professionals plan, communicate, and measure technology adoption across their organizations. For IT teams, successful adoption isn’t just about deploying new tools—it’s about ensuring employees understand, embrace, and actively use them. Copilot can streamline every step of that process by helping IT professionals quickly discover upcoming Microsoft 365 features, create clear and engaging communications for end users, and develop practical resources such as announcements, best-practice guides, and training materials.
 
 > [!TIP]
@@ -39,4 +31,15 @@ Throughout this exercise, you plan to use the following Microsoft 365 Copilot fe
 
 
 In this exercise, you create a complete, data-informed feature adoption campaign—from planning and communication to feedback and analytics—all powered by Microsoft 365 Copilot. You experience firsthand how Copilot can help IT professionals transform complex rollout processes into clear, engaging, and measurable success stories.
+
+## Lab Objectives
+
+In this exercise, you will complete the following tasks:
+
+  - **Exercise 2 - Task 1**: Use Microsoft 365 Copilot Chat to identify upcoming Microsoft 365 features.
+  - **Exercise 2 - Task 2**: Use Copilot in Viva Engage to draft a post about upcoming features.
+  - **Exercise 2 - Task 3**: Use Microsoft 365 Copilot Chat to create best practice tips.
+  - **Exercise 2 - Task 4**: Use the Surveys agent to create a feedback survey
+  - **Exercise 2 - Task 5**: Use the Analyst agent to analyze survey results.
+
 

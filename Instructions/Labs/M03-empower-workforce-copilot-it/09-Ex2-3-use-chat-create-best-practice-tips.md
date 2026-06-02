@@ -1,23 +1,10 @@
----
-lab:
-  title: 'Exercise 2, Task 3: Use Microsoft 365 Copilot Chat to create best practice tips'
-  description: Rather than starting from scratch, you plan to ask Copilot Chat to generate these practical, easy-to-read tips based on the same features you researched earlier. Your goal is to produce 10 short, actionable best-practice tips that help employees start using the new Microsoft 365 features with confidence.
-  duration: 20 minutes
-  level: 100
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
-    - Microsoft 365 Copilot Chat
----
-
 # Exercise 2, Task 3: Use Microsoft 365 Copilot Chat to create best practice tips
----
+
+## Estimated duration: 20 minutes
+
 Now that the announcement post is ready, you want to help users smoothly adopt these features. To do so, you want to create a cheat sheet that VanArsdel's end users can share during training sessions. You also want to include this cheat sheet with all onboarding materials.
 
 Rather than starting from scratch, you plan to ask Copilot Chat to generate these practical, easy-to-read tips based on the same features you researched earlier. Your goal is to produce 10 short, actionable best-practice tips that help employees start using the new Microsoft 365 features with confidence.
-
-Perform the following steps to complete this task:
 
 1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page. Since the scenario involves implementing future features that are published by Microsoft and not stored in VanArsdel’s tenant, select the **Web** option rather than the **Work** option. Leave the response mode selector set to **Auto**.
 
@@ -26,8 +13,11 @@ Perform the following steps to complete this task:
 3.  Review the cheat sheet that Copilot generated. Submit any suggested Copilot prompts that interest you. For example, you might want to ask Copilot to add a poster-style visual. 
 
 4.  Ask Copilot to output the tips into the following formats:
+
+    ```
     - Convert the list into a one-page cheat sheet (Word document) and a PDF.
     - Convert the list into a version for email (include a short subject line + 5 bullets).
+    ```
 
 5.  Download the Word document and the PDF that Copilot generated. Open each file to review its contents.
 
@@ -35,3 +25,15 @@ Perform the following steps to complete this task:
 
 7.	Download each of the PDFs and review them. Note the differences between each persona’s document. 
 
+## Summary
+
+In this task, you have completed:
+
+- Created a fabric workspace and link with Fabric Copilot-enabled capacity
+- Deployed Azure infrastructure via the provided Bicep templates
+- Set Up Authentication in Azure App Service
+- Tested the application
+
+## You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
+
+![](../media/Module3/Next.png)

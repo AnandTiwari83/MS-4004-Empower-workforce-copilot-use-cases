@@ -8,7 +8,7 @@ You decide to use Copilot in Word to combine the reports into a single LATAM Mar
 
 ### Using Copilot in Word
 
-Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
 
 When **Edit with Copilot** is enabled, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
 
@@ -25,11 +25,11 @@ Perform the following steps to complete this task:
 
       > **Note:** To copy the links, right-click on each link and select "Copy link address," then paste the link into a new browser tab inside your Lab VM.
 
-      > **Note:** If the links do not download automatically, it would open Word document, and click on Download button in the Word online to download the file.
+      > **Note:** If the links do not download automatically, it will open a Word document, and click on the Download button in the Word online to download the file.
 
 2.  Once the downloads are complete, store the files in your OneDrive folder.
 
-3.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page using the below URL:
+3.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page using the URL below:
 
     ```
     https://www.microsoft365.com
@@ -53,7 +53,7 @@ Perform the following steps to complete this task:
 
 8.  Reviewing the LATAM Market Analysis report that Copilot created. After scanning through it, you recognize that it's missing some critical information. You would like to see it include a section that analyzes competitor products. Before you ask Copilot to add the section, place your cursor in the report at the location where you want the section to appear. For this report, place your cursor at the end of the report.
 
-9. Ask Copilot to add a section to the report titled Competitive Analysis with the following details in prompt:
+9. Ask Copilot to add a section to the report titled Competitive Analysis with the following details in the prompt:
 
     ```
     Please add a new section to the report titled Competitive Analysis. In this section, analyze the current competition in the Latin American Chai Tea market. This section should compare key players in the industry, such as established brands and emerging startups. 
@@ -61,7 +61,7 @@ Perform the following steps to complete this task:
 
 10.  Review the new Competitive Analysis section. After doing so, you realize this new section is missing some key information about your competitors. 
 
-1. Ask Copilot to update the Competitive Analysis section to ensure that it includes each competitors’ market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Ask it to include any other information related to these competitors, such as trends or shifts in consumer preferences that could affect the competitive landscape with the following prompt:
+1. Ask Copilot to update the Competitive Analysis section to ensure that it includes each competitor’s market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Ask it to include any other information related to these competitors, such as trends or shifts in consumer preferences that could affect the competitive landscape, with the following prompt:
 
     ```
     Update the Competitive Analysis section to include the following information for each competitor: market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Additionally, include any relevant trends or shifts in consumer preferences that could impact the competitive landscape.
@@ -77,7 +77,7 @@ Perform the following steps to complete this task:
 
 13.  Review the new Distribution Channel section. If you want to make any manual changes, you can do so now. Also, review Copilot’s suggested prompts at the end of the Copilot pane. Feel free to implement any of Copilot’s suggestions if you want. 
 
-1. Click on **Done** in the word document to save the changes that Copilot made to the document.
+1. Click on **Done** in the Word document to save the changes that Copilot made to the document.
 
 14. Once you're satisfied with the document, save it to your OneDrive folder as **LATAM Market Analysis report** and then close the report.
 

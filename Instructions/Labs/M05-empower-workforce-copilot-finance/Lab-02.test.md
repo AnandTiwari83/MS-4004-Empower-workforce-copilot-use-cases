@@ -40,6 +40,9 @@ Exercise 1 consists of **four tasks**, each using a different Microsoft 365 appl
 
 Each task builds upon the last, simulating a realistic end-to-end workflow for a financial analyst at Fabrikam, Inc.
 
+> **📸 Screenshot placeholder:** Capture the Exercise 1 table so learners can reference the four labs, tasks, and applications at a glance.  
+> Suggested filename: `M05-Lab02-Step01-Exercise1Overview.png`
+
 ---
 
 ## Scenario
@@ -109,6 +112,21 @@ scenarios in Excel             perspective in Copilot Chat
 ```
 
 This sequence mirrors how a financial analyst would actually approach these two initiatives in a single workday — moving from data validation to meeting follow-up, then from acquisition analysis to scenario modeling.
+
+> **📸 Screenshot placeholder:** Capture the scenario workflow diagram that shows how Labs 03-06 connect across the exercise.  
+> Suggested filename: `M05-Lab02-Step02-WorkflowDiagram.png`
+
+> **Downstream dependency note:** Lab-03 assumes that the files uploaded in **Lab-01** are already available in **OneDrive** and that you understand the EcoSmart product launch context introduced in this orientation lab. The workbook outputs you create in Lab-03 will support the later meeting, acquisition, and scenario-modeling activities in Labs 04-06.
+
+## Before You Start Lab-03
+
+Before opening **Lab-03**, confirm the following:
+
+- [ ] I completed **Lab-01** and can access the Module 5 files in **OneDrive**.
+- [ ] I understand that **Task 1** focuses on analyzing **EcoSmart COGS** data in **Excel**.
+- [ ] I can explain Fabrikam's two major initiatives: the **EcoSmart** launch and the possible **Relecloud** acquisition.
+- [ ] I know that **Robin Kline** expects clear, data-driven outputs that can be shared with leadership.
+- [ ] I am ready to write prompts using **Goal**, **Context**, **Sources**, and **Expectations**.
 
 ---
 

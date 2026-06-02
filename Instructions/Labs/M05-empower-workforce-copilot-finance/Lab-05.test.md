@@ -95,9 +95,25 @@ Copilot Chat has two operating modes:
 
 1. In Microsoft Edge, navigate to the **Microsoft 365 home page**: `https://www.microsoft365.com`
 
-2. On the Microsoft 365 home page, ensure you have selected the **Work** option in Copilot Chat. This mode is required for analyzing files stored in OneDrive.
+2. Open **Copilot Chat** from the Microsoft 365 experience.
+   - Exact path: **Microsoft 365 home** → **Copilot**.
+   - If **Copilot** is not pinned in the navigation, select **Apps** → search for **Copilot** → open **Copilot**.
+
+3. On the Microsoft 365 home page, ensure you have selected the **Work** option in Copilot Chat. This mode is required for analyzing files stored in OneDrive.
+   - Use the mode selector in the Copilot pane and choose **Work** rather than **Web**.
+
+> **📸 Screenshot placeholder:** Capture Copilot Chat with the mode selector set to **Work**.
+> Suggested filename: `M05-Lab05-Step01-CopilotChatWorkMode.png`
 
 > ✅ **Checkpoint:** You are in **Work** mode, which is optimized for internal document analysis.
+
+> ✅ **Validation checkpoint:** Confirm the Copilot chat experience is open and the mode selector shows **Work** before you attach the document.
+
+> **🔧 Troubleshooting:**
+> - If Copilot searches the web instead of your file, confirm you are in **Work** mode (not Web mode). The mode selector appears at the top or bottom of the Copilot Chat pane.
+> - If the Relecloud document is not found, open it once from OneDrive in Word, then return to Copilot Chat and try attaching it again.
+> - If the "Download" option does not appear after the response, ask Copilot in a follow-up prompt: "Please compile this analysis into a downloadable Word document."
+> - If Copilot returns a very short response, your prompt may have been truncated — try splitting it into two prompts.
 
 ---
 
@@ -106,6 +122,10 @@ Copilot Chat has two operating modes:
 In the Copilot prompt field:
 
 1. Attach the **Relecloud Business Perspective.docx** file.
+
+> **📸 Screenshot placeholder:** Capture the Copilot prompt field with **Relecloud Business Perspective.docx** attached.
+> Suggested filename: `M05-Lab05-Step02-RelecloudDocAttached.png`
+
 2. Write and submit a prompt based on Robin's request: ask Copilot to review the attached document and create a **business perspective summary** with three sections:
    - Relecloud's financial data
    - Operations analysis of Relecloud
@@ -115,9 +135,25 @@ In the Copilot prompt field:
 - Read the summary carefully.
 - Note what is included and, more importantly, **what is missing**.
 
+> **📸 Screenshot placeholder:** Capture the first Copilot response produced from your high-level prompt.
+> Suggested filename: `M05-Lab05-Step03-HighLevelPromptResponse.png`
+
+> ✅ **Validation checkpoint:** Confirm the response includes all three requested sections—financial data, operations analysis, and integration plan—even if the content is still fairly general.
+
 > 💡 **Reflection:** Does Copilot's summary go into the level of detail you would need to present to Finance leadership? If it feels shallow, that is intentional — high-level prompts produce high-level results. You'll improve this in the next step.
 
 > ✅ **Expected Outcome:** A three-section summary that provides a general overview of Relecloud's finances, operations, and integration planning, but may lack specific data points, visuals, or analytical depth.
+
+> **📊 Prompt Comparison:** Use the table below to compare what the two prompt styles are designed to produce.
+
+| Aspect | Draft 1: High-level prompt | Draft 2: Detailed prompt |
+|--------|----------------------------|--------------------------|
+| Scope | General summary of the three requested sections | Expanded report with detailed subsections and requested visuals |
+| Financial detail | Broad statements about performance | Ratios, valuation, ARR dynamics, cash flow, and concentration analysis |
+| Operations detail | High-level overview of capability and efficiency | Cost structure, SWOT, benchmarking, and scalability analysis |
+| Integration output | Simple integration summary | Post-merger integration plan, risks, synergies, leadership review, and timeline |
+| Visuals | Often none or only light descriptions | Explicit charts, matrices, and timeline visuals requested in the prompt |
+| Leadership readiness | Good for a quick draft | Better suited for decision support and presentation-ready analysis |
 
 ---
 
@@ -152,6 +188,11 @@ Now you will improve your output by writing a much more detailed prompt. This ti
   - The visual elements Copilot attempted to generate or describe.
   - How the extra prompt detail produced a significantly more comprehensive analysis.
 
+> **📸 Screenshot placeholder:** Capture the second Copilot response created from your detailed prompt.
+> Suggested filename: `M05-Lab05-Step04-DetailedPromptResponse.png`
+
+> ✅ **Validation checkpoint:** Confirm the second draft is meaningfully richer than Draft 1 by including added subsections, more data points, and at least some reference to the requested visuals or timelines.
+
 > ✅ **Expected Outcome:** A detailed, multi-section analysis with financial ratios, valuation details, SWOT analysis, and integration timeline — substantially more comprehensive than the first attempt.
 
 ---
@@ -163,8 +204,14 @@ Now you will improve your output by writing a much more detailed prompt. This ti
 2. When you are satisfied with the analysis, ask Copilot to **compile all the information into a single downloadable document**.
 
 3. **Download the generated file** and save it to your **OneDrive** account.
+   - If the download control is not immediately visible, open the response actions menu (**...**) and select **Download**.
+
+> **📸 Screenshot placeholder:** Capture the Copilot response area showing the **Download** option for the generated document.
+> Suggested filename: `M05-Lab05-Step05-DownloadDocumentOption.png`
 
 > ⚠️ **Important:** Save this document to OneDrive. You will use it in **Lab-06** (Excel what-if scenario modeling) as the source for the acquisition financial analysis.
+
+> ✅ **Validation checkpoint:** Confirm the downloaded file opens successfully and is saved to OneDrive where you can retrieve it again in Lab-06.
 
 > ✅ **Expected Outcome:** A downloadable Word document containing the complete, expanded Relecloud acquisition analysis, saved to your OneDrive.
 

@@ -79,12 +79,28 @@ Unfortunately, you did not have time to take detailed notes during the meeting. 
 1. In Microsoft Edge, navigate to the **Microsoft 365 home page**: `https://www.microsoft365.com`
 
 2. Select **Apps** in the left navigation pane, then select **Teams**.
+   - Exact path: **Microsoft 365 home** → **Apps** → **Teams**.
 
 3. In Teams for the web, select **Copilot** in the left navigation pane.
+   - If **Copilot** is not visible, select **More apps** (**···**) in the Teams app rail, then choose **Copilot**.
+
+> **📸 Screenshot placeholder:** Capture Teams for the web with the left navigation visible and **Copilot** clearly available or selected.
+> Suggested filename: `M05-Lab04-Step01-TeamsCopilotNav.png`
 
 4. The **Welcome to Copilot Chat** page will open.
 
+> **📸 Screenshot placeholder:** Capture the **Welcome to Copilot Chat** page before entering your first prompt.
+> Suggested filename: `M05-Lab04-Step02-CopilotChatWelcome.png`
+
 > ✅ **Checkpoint:** You should see the Copilot Chat interface with a prompt field ready for input.
+
+> ✅ **Validation checkpoint:** Confirm you are on the Copilot Chat landing page—not in a Teams channel, chat, or meeting window—and that the prompt field is ready for a new request.
+
+> **🔧 Troubleshooting:**
+> - If you cannot find **Copilot** in the Teams left navigation, look for the sparkle/Copilot icon, or select **More apps** (···) and search for Copilot.
+> - If the file attachment does not appear in the Copilot prompt field, try selecting the paperclip icon or the (+) button to attach files.
+> - If Copilot says it cannot access the file, ensure the .txt file is saved in OneDrive, not on your local desktop.
+> - If Teams does not load, navigate directly to https://teams.microsoft.com in Microsoft Edge.
 
 ---
 
@@ -96,10 +112,18 @@ Your first goal is to get a high-level summary of the meeting that covers what w
 - Summarize the **key decisions**, **updates**, and **action items** in the attached **Fabrikam Finance meeting notes.txt** file.
 - Attach the file to your prompt.
 
+> **📸 Screenshot placeholder:** Capture the Copilot prompt field with **Fabrikam Finance meeting notes.txt** attached and visible before you submit the prompt.
+> Suggested filename: `M05-Lab04-Step03-MeetingNotesAttached.png`
+
 > 💡 **Guidance:** Use the four-element framework (Goal, Context, Sources, Expectations) when writing your prompt. Your goal is a meeting summary; your source is the .txt file you just uploaded; your expectation might be bullet-point format organized by category.
 
 **After Copilot responds:**
 - Review the summary to verify it covers decisions, next steps, and individual responsibilities.
+
+> **📸 Screenshot placeholder:** Capture the Copilot response showing the meeting summary.
+> Suggested filename: `M05-Lab04-Step04-MeetingSummaryResponse.png`
+
+> ✅ **Validation checkpoint:** Confirm the response includes clear meeting decisions, identifies responsible participants by name, and lists actionable next steps drawn from the notes.
 
 > ✅ **Expected Outcome:** A structured summary showing key meeting decisions, updates, and action items organized by topic or participant.
 
@@ -114,7 +138,10 @@ You need to distribute this summary to the meeting participants.
 
 **After Copilot responds:**
 - Select the download option to save the generated document.
+  - If the download control is not immediately visible, open the response actions menu (**...**) and select **Download**.
 - Review the downloaded file to confirm it is suitable for distribution.
+
+> ✅ **Validation checkpoint:** Confirm the downloaded file opens successfully and contains the same meeting summary content you reviewed in Copilot.
 
 > ✅ **Expected Outcome:** A downloadable document file (e.g., Word or PDF format) containing the meeting summary.
 
@@ -133,6 +160,11 @@ Your Finance Manager expects clear accountability for each action item that came
 **After Copilot responds:**
 - Review the task list to verify that each participant has been assigned relevant tasks with clear priorities.
 
+> **📸 Screenshot placeholder:** Capture the task list output showing participant names, assigned tasks, and priority levels.
+> Suggested filename: `M05-Lab04-Step05-TaskListWithPriorities.png`
+
+> ✅ **Validation checkpoint:** Confirm every major action item from the meeting has an owner and that each task includes a priority, deadline, or both.
+
 > ✅ **Expected Outcome:** A structured task list showing each meeting participant's responsibilities, with priority levels and suggested deadlines.
 
 ---
@@ -149,6 +181,8 @@ Once you have the task list, you need to communicate it to the team.
 - Review the draft email.
 - Note: In a real-world scenario, you would copy and paste this into an Outlook email. For now, simply review the draft and proceed.
 
+> ✅ **Validation checkpoint:** Confirm the draft includes a clear subject line, a concise meeting recap, and the task list in the body of the message.
+
 > ✅ **Expected Outcome:** A well-structured draft email ready for distribution to the Finance team, with the task list embedded in the body.
 
 ---
@@ -162,6 +196,11 @@ With multiple action items, deadlines, and reporting requirements coming out of 
 
 **After Copilot responds:**
 - Review the timeline to confirm it reflects the major deliverables and reporting dates from the meeting.
+
+> **📸 Screenshot placeholder:** Capture the timeline or milestone output generated from the meeting notes.
+> Suggested filename: `M05-Lab04-Step06-MilestonesTimeline.png`
+
+> ✅ **Validation checkpoint:** Confirm the timeline is chronological and includes milestone dates, dependencies, or sequencing information—not just a repeated task list.
 
 > ✅ **Expected Outcome:** A chronological timeline showing key milestones, deadlines, and dependencies discussed in the Finance meeting.
 
@@ -181,6 +220,8 @@ The Finance team agreed to reconvene to review progress. Use Copilot to draft a 
 - If Copilot asks for a date, provide one in a follow-up prompt.
 - In a real-world scenario, you would send this invite directly from Copilot. For this exercise, review the draft and proceed to the next step.
 
+> ✅ **Validation checkpoint:** Confirm the draft includes a meeting subject, attendees, purpose, and either a proposed date/time or a clear request for scheduling input.
+
 > ✅ **Expected Outcome:** A draft calendar invitation with a meeting subject, attendees, agenda summary, and proposed date/time.
 
 ---
@@ -196,6 +237,11 @@ During the meeting, the team discussed a specific process for handling overrides
 
 **After Copilot responds:**
 - Review the policy brief to confirm it captures the workflow accurately and is suitable for use as a team reference document.
+
+> **📸 Screenshot placeholder:** Capture the policy brief output describing the override approval workflow.
+> Suggested filename: `M05-Lab04-Step07-PolicyBriefOutput.png`
+
+> ✅ **Validation checkpoint:** Confirm the brief identifies the workflow steps, the approver or decision point at each stage, and the escalation path for exceptions.
 
 > ✅ **Expected Outcome:** A concise policy brief (1–2 pages equivalent) describing the override approval process, including steps, approvers, and escalation paths.
 

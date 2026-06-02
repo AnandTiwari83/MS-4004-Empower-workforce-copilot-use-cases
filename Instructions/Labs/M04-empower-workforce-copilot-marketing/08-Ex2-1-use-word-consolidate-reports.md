@@ -1,19 +1,12 @@
----
-lab:
-  title: 'Exercise 2, Task 1: Use Copilot in Word to consolidate multiple market reports'
-  description: You decide to use Copilot in Word to combine the reports into a single LATAM Market Analysis report for Mystic Spice Premium Chai Tea. Once Copilot creates this report, you want to review it and possibly update it with other information that Copilot can find on the Chai Tea market in Latin America.
-  duration: 30 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 1: Use Copilot in Word to consolidate multiple market reports
----
+
+## Overview
+
 Contoso's Latin America (LATAM) product manager provided you with three market reports involving the company's Mystic Spice Premium Chai Tea beverage. However, you’re finding it difficult to analyze the information, since you’re constantly jumping back and forth between documents.
 
 You decide to use Copilot in Word to combine the reports into a single LATAM Market Analysis report for Mystic Spice Premium Chai Tea. Once Copilot creates this report, you want to review it and possibly update it with other information that Copilot can find on the Chai Tea market in Latin America.
 
-#### Using Copilot in Word
+### Using Copilot in Word
 
 Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
 
@@ -30,34 +23,64 @@ Perform the following steps to complete this task:
     - [**Contoso Chai Tea market trends.docx**](https://go.microsoft.com/fwlink/?linkid=2269122)
     - [**Promotion Plan for Chai Tea in Latin America.docx**](https://go.microsoft.com/fwlink/?linkid=2269126)
 
+      > **Note:** To copy the links, right-click on each link and select "Copy link address," then paste the link into a new browser tab inside your Lab VM.
+
+      > **Note:** If the links do not download automatically, it would open Word document, and click on Download button in the Word online to download the file.
+
 2.  Once the downloads are complete, store the files in your OneDrive folder.
 
-3.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)**, select **Apps** in the navigation pane, and then select **Word** from the **Apps** menu.
+3.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page using the below URL:
 
-4.  In **Word for the web**, open a blank document. 
+    ```
+    https://www.microsoft365.com
+    ```
 
-5.	On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, verify the **Edit with Copilot** icon appears next to the plus (+) sign in the prompt field. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field. 
+1. Select **App launcher** in the navigation pane, and then select **Word** from the **Apps** menu.
 
-6.	In the Copilot prompt field, select the plus (+) sign, and then select **Add work content** in the drop-down menu. Attach the three market report documents that you downloaded in Step 1.
+4.  In **Word for the web**, click on Create a blank document. 
+
+5. On the **Describe what you'd like to draft with Copilot** option, select the **+** icon to **Add content**. Add the three documents you downloaded from the links above as content sources. 
 
 7.  Ask Copilot to combine the attached files to create a single report that describes the product, analyzes the market trend for it, and includes a promotion plan for Latin America. To do so, submit the following prompt:
-  
-   > [!NOTE]
-   > For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
 
-   **I’m the Latin America Marketing Director for Contoso Beverage, working on a new promotional campaign for our company’s Mystic Spice Premium Chai Tea beverage. I’ve received three separate market reports for this product, but I need a single, cohesive analysis to guide our marketing strategy. Please combine the attached reports into one unified LATAM Market Analysis report for Mystic Spice Premium Chai Tea. Use the content from the three attached market reports as your main sources. You may also supplement with relevant, credible insights you can find about the Chai Tea market in Latin America, including consumer preferences and emerging trends. Create a professional, well-organized report that includes the following sections: 1) Product Overview – Describe Mystic Spice Premium Chai Tea and its unique qualities. 2) Market Analysis – Summarize key insights and trends for the Chai Tea market in Latin America. 3) Promotion Plan – Recommend strategies or promotional ideas tailored to the region. Format the report with clear headings, concise paragraphs, and a brief executive summary at the beginning.**
+    ```
+    I’m the Latin America Marketing Director for Contoso Beverage, working on a new promotional campaign for our company’s Mystic Spice Premium Chai Tea beverage. I’ve received three separate market reports for this product, but I need a single, cohesive analysis to guide our marketing strategy. Please combine the attached reports into one unified LATAM Market Analysis report for Mystic Spice Premium Chai Tea. Use the content from the three attached market reports as your main sources. You may also supplement with relevant, credible insights you can find about the Chai Tea market in Latin America, including consumer preferences and emerging trends. Create a professional, well-organized report that includes the following sections: 1) Product Overview – Describe Mystic Spice Premium Chai Tea and its unique qualities. 2) Market Analysis – Summarize key insights and trends for the Chai Tea market in Latin America. 3) Promotion Plan – Recommend strategies or promotional ideas tailored to the region. Format the report with clear headings, concise paragraphs, and a brief executive summary at the beginning.
+    ```
+
+    ![Prompt Example](../media/module-4/E2T1S7-0206.png)
+
+    > **Note:** For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
 
 8.  Reviewing the LATAM Market Analysis report that Copilot created. After scanning through it, you recognize that it's missing some critical information. You would like to see it include a section that analyzes competitor products. Before you ask Copilot to add the section, place your cursor in the report at the location where you want the section to appear. For this report, place your cursor at the end of the report.
 
-9. Ask Copilot to add a section to the report titled Competitive Analysis, which should analyze the current competition in the Latin American Chai Tea market. This section should compare key players in the industry, such as established brands and emerging startups. 
+9. Ask Copilot to add a section to the report titled Competitive Analysis with the following details in prompt:
 
-10.  Review the new Competitive Analysis section. After doing so, you realize this new section is missing some key information about your competitors. Ask Copilot to update the Competitive Analysis section to ensure that it includes each competitors’ market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Ask it to include any other information related to these competitors, such as trends or shifts in consumer preferences that could affect the competitive landscape. 
+    ```
+    Please add a new section to the report titled Competitive Analysis. In this section, analyze the current competition in the Latin American Chai Tea market. This section should compare key players in the industry, such as established brands and emerging startups. 
+    ```
+
+10.  Review the new Competitive Analysis section. After doing so, you realize this new section is missing some key information about your competitors. 
+
+1. Ask Copilot to update the Competitive Analysis section to ensure that it includes each competitors’ market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Ask it to include any other information related to these competitors, such as trends or shifts in consumer preferences that could affect the competitive landscape with the following prompt:
+
+    ```
+    Update the Competitive Analysis section to include the following information for each competitor: market share, product offerings, pricing strategies, distribution channels, and any key differentiators. Additionally, include any relevant trends or shifts in consumer preferences that could impact the competitive landscape.
+    ``` 
 
 11.  Review the results of your request. Upon doing so, it dawns on you that the report is missing a key piece of information – Distribution Channels. Before you ask Copilot to add the section, place your cursor in the report at the location where you want the section to appear. 
 
-12. Ask Copilot to add a section titled Distribution Channels. This section should analyze the retailers, wholesalers, and distributors used to sell Chai Tea in Latin America. 
+12. Ask Copilot to add a section titled Distribution Channels. This section should analyze the retailers, wholesalers, and distributors used to sell Chai Tea in Latin America with the following prompt:
+
+    ```
+    Add a new section to the report titled Distribution Channels. In this section, analyze the retailers, wholesalers, and distributors used to sell Chai Tea in Latin America. Include information on the most popular distribution channels, such as supermarkets, specialty stores, online platforms, and direct-to-consumer models. Additionally, provide insights into emerging distribution trends in the region, such as the rise of e-commerce or subscription services.
+    ``` 
 
 13.  Review the new Distribution Channel section. If you want to make any manual changes, you can do so now. Also, review Copilot’s suggested prompts at the end of the Copilot pane. Feel free to implement any of Copilot’s suggestions if you want. 
 
+1. Click on **Done** in the word document to save the changes that Copilot made to the document.
+
 14. Once you're satisfied with the document, save it to your OneDrive folder as **LATAM Market Analysis report** and then close the report.
 
+## Summary
+
+In this task, you used Copilot in Word to consolidate information from three separate market reports into a single, cohesive LATAM Market Analysis report for Mystic Spice Premium Chai Tea. You then reviewed the report and asked Copilot to add new sections and update existing sections to ensure the report included all the necessary information to guide your marketing strategy. 

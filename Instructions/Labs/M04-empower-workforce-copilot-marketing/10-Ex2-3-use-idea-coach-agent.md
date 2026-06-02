@@ -16,13 +16,13 @@ Perform the following steps to complete this task:
 
 2.  In the **Idea Coach** agent, attach the **Mystic Spice Premium Chai Tea product description.docx** file that you downloaded in Task 1 and stored in your OneDrive. Then ask the Idea Coach agent to review the attached product description file and generate 3–5 marketing campaign ideas that align with the warm, comforting identity of Mystic Spice Premium Chai Tea.
 
-    Use the folloring prompt: 
+    Use the following prompt: 
 
     ```
     Review the attached Mystic Spice Premium Chai Tea product description.docx file. Based on the product description, generate 3–5 creative marketing campaign ideas that align with the warm, comforting identity of Mystic Spice Premium Chai Tea.
     ```
 
-3.  Review the campaign ideas and then select one that appeals to you. You will use this campaign idea through the rest of this task and in the next one.
+3.  Review the campaign ideas and then select one that appeals to you. You will use this campaign idea throughout the rest of this task and in the next one.
 
 4.  Once you select a campaign idea, ask the Idea Coach agent to expand on this campaign idea with suggestions for key messages, taglines, and promotional activities (for example, influencer collaborations, social media themes, in-store experiences).
 
@@ -58,7 +58,7 @@ Perform the following steps to complete this task:
     
     Add this response to the **Pages** form, just as you did with the prior response.
 
-11.  You’re now ready to save this Pages content to a Word document. On the **Pages** pane, select the **Create** button that appears at the top of the pane. In the menu that appears, select **Document**. This option instructs the agent to generate a draft of the content for Microsoft Word.
+11.  You’re now ready to save this page's content to a Word document. On the **Pages** pane, select the **Create** button that appears at the top of the pane. In the menu that appears, select **Document**. This option instructs the agent to generate a draft of the content for Microsoft Word.
 
 12.  Once the agent finishes generating the draft, select the **Open Word** button that appears. Doing so opens a new browser tab that contains a document in **Word for the web**. The content from the **Pages** form should appear in the Word document. 
 

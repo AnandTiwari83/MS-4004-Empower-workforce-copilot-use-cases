@@ -2,7 +2,7 @@
 
 ## Overview
 
-Marketing today requires not just creativity, but speed, insight, and data-driven decision-making. Microsoft 365 Copilot empowers Marketing professionals to meet these demands by serving as a trusted partner across their daily workflow: from gathering and synthesizing market intelligence, to analyzing trends, generating strategic recommendations, drafting marketing briefs, and building actionable campaign plans.
+Marketing today requires not just creativity, but speed, insight, and data-driven decision-making. Microsoft 365 Copilot empowers Marketing professionals to meet these demands by serving as a trusted partner across their daily workflow: from gathering and synthesizing market intelligence to analyzing trends, generating strategic recommendations, drafting marketing briefs, and building actionable campaign plans.
 
 In this hands-on experience, you step into the role of a Marketing professional at Relecloud, a global innovator in smart workspace technology. Relecloud is preparing to launch WorkSmart 360, a next-generation platform that uses AI and IoT technology to optimize office environments for energy efficiency and employee productivity. To ensure a successful launch, the Marketing team must quickly understand the market landscape, identify key trends, and translate insights into a compelling campaign strategy.
 

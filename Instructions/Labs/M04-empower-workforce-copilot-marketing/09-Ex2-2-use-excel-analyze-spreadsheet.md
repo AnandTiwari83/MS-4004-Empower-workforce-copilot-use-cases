@@ -6,12 +6,12 @@ One of Contoso’s marketing analysts provided you with a monthly performance tr
 
 ### Using Copilot in Excel
 
-Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in place changes to worksheets, tables, and formulas. 
+Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in-place changes to worksheets, tables, and formulas. 
 
-- You should use Copilot’s standard prompts in Excel for quick questions, simple summaries, or one off insights about the data you’re already viewing. 
-- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in place changes. 
+- You should use Copilot’s standard prompts in Excel for quick questions, simple summaries, or one-off insights about the data you’re already viewing. 
+- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in-place changes. 
 
-**Edit with Copilot** is designed for hands on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do. In summary, use chat style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
+**Edit with Copilot** is designed for hands-on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do. In summary, use chat style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands-on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
 
 This task uses the **Edit with Copilot** functionality.
 
@@ -29,7 +29,7 @@ Perform the following steps to complete this task:
 
       > **Note:** To copy the links, right-click on each link and select "Copy link address," then paste the link into a new browser tab inside your Lab VM.
 
-      > **Note:** If the links do not download automatically, it would open Excel file, and click on Download button in the Word online to download the file.
+      > **Note:** If the links do not download automatically, it will open an Excel file, and click on the Download button in the Word online to download the file.
 
 2.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **Excel** from the **Apps** menu.
 
@@ -47,7 +47,7 @@ Perform the following steps to complete this task:
 
 6.  Review the results. At the end of the Copilot pane, if Copilot offers any suggested prompts to add more visualizations, feel free to submit any of them if they interest you.
 
-7.  Select **Sheet 1** to return to the dataset. In looking at the data in the spreadsheet, you notice there are some spikes and anomalies in the data. Rather than just reporting numbers, you want to look for connections between marketing activities (like social media campaigns or search trends) and sales outcomes. To do so, ask Copilot to identify the top three sales months for Total Chai Sales and flag any other months with anomalies or data quality issues. Also ask it to analyze what possibly influenced those sales and anomalies by looking at the other data in the spreadsheet during those months. Use the following prompt:
+7.  Select **Sheet 1** to return to the dataset. In looking at the data in the spreadsheet, you notice there are some spikes and anomalies in the data. Rather than just reporting numbers, you want to look for connections between marketing activities (like social media campaigns or search trends) and sales outcomes. To do so, ask Copilot to identify the top three sales months for Total Chai Sales and flag any other months with anomalies or data quality issues. Also, ask it to analyze what possibly influenced those sales and anomalies by looking at the other data in the spreadsheet during those months. Use the following prompt:
 
     ```
     Analyze the data in this spreadsheet to identify the top three sales months for Total Chai Sales. Flag any other months that show anomalies or potential data quality issues. For the top sales months and any anomalous months, analyze the other data in the spreadsheet (such as Social Media Engagement and Online Searches for Chai) during those months to identify possible factors that influenced those sales outcomes or anomalies.
@@ -85,7 +85,7 @@ Perform the following steps to complete this task:
         Add sparklines to this spreadsheet to visually represent the monthly trends for Total Chai Sales, Social Media Engagement, and Online Searches for Chai. Place the sparklines in new columns next to each respective metric so that I can easily compare the trends across these three key indicators.
         ```
 
-12.  Review the results. In our testing, Copilot added the sparklines to the Correlation Analysis sheet that it created earlier. Visually compare each sparkline to see if their spikes occur in the same months. When you're done, return to **Sheet 1**.
+12.  Review the results. In our testing, Copilot added the sparklines to the Correlation Analysis sheet that it created earlier. Visually compare each sparkline to see if its spikes occur in the same months. When you're done, return to **Sheet 1**.
 
 13.  You now want Copilot to analyze your data and suggest a possible formula or calculation that could be useful for your dataset. Doing so is especially helpful in the context of columns that require formulas to provide more insights or automate calculations. Ask Copilot to analyze the data and suggest ways to automate or enhance future work with formulas to make the data analysis faster and more efficient. 
 

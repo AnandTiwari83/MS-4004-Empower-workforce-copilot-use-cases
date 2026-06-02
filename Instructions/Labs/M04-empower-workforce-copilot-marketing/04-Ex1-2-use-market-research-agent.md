@@ -4,7 +4,7 @@
 
 Relecloud is gearing up to launch its flagship solution, WorkSmart 360, designed for the commercial office market. This all-in-one platform optimizes workspace efficiency by monitoring space utilization, dynamically adjusting lighting and temperature, and delivering actionable analytics. In a crowded and competitive market, the challenge is to craft a campaign that not only showcases the platform’s comprehensive capabilities but also positions Relecloud as the leader in smart workplace innovation.
 
-In this task, you continue in your role as a Senior Marketing Strategist for Relecloud. Now that you created the Market Research Agent in Microsoft 365 Copilot, you want to use it to collect and synthesize comprehensive market insights for smart workspace products in the commercial office market. Once you gather and synthesize this market intelligence, you then plan to use Copilot’s prebuilt Analyst agent to interpret the data and generate strategic Marketing recommendations in Task 3.
+In this task, you continue in your role as a Senior Marketing Strategist for Relecloud. Now that you have created the Market Research Agent in Microsoft 365 Copilot, you want to use it to collect and synthesize comprehensive market insights for smart workspace products in the commercial office market. Once you gather and synthesize this market intelligence, you then plan to use Copilot’s prebuilt Analyst agent to interpret the data and generate strategic Marketing recommendations in Task 3.
 
 Perform the following steps to complete this task:
 
@@ -24,9 +24,9 @@ Perform the following steps to complete this task:
 
 4.  Review the report. 
 
-5.  Scroll to the end of the report, where the agent should display several suggested prompts. These prompts typically suggest more content that it can add to the report to enhance it even further. Select one of the prompts that interests you or enter your own custom prompt.
+5.  Scroll to the end of the report, where the agent should display several suggested prompts. These prompts typically suggest more content that can be added to the report to enhance it even further. Select one of the prompts that interests you or enter your own custom prompt.
 
-6.  Review the results. Verify the content that you requested appears in the report. Also note the updated list of suggested prompts. Continue updating the report using any of the suggested prompts (or enter your own custom prompts) until you’re satisfied with the report.
+6.  Review the results. Verify that the content you requested appears in the report. Also note the updated list of suggested prompts. Continue updating the report using any of the suggested prompts (or enter your own custom prompts) until you’re satisfied with the report.
 
 7.  Once you feel the report is complete, you should copy and paste the content of the report into a Word document and save it as **Market Insights Report – Smart Workspaces.docx** to your OneDrive so that you can access it in the next task. 
 
@@ -36,13 +36,13 @@ Perform the following steps to complete this task:
 
       ![Open Word](../media/module-4/E1T2S7-0206.png)
 
-    - Click on **Create blank document**. If prompted to Sign in, sign in with your lab credentials.  
+    - Click on **Create blank document**. If prompted to sign in, sign in with your lab credentials.  
 
-    - Select the **Copy response** icon that appears below your final report update. Then paste it in the Blanck word document. 
+    - Select the **Copy response** icon that appears below your final report update. Then paste it in the blank Word document. 
 
       ![Copy response](../media/module-4/E1T2S7a-0206.png)
     
-    - Click on File > Create a copy > Create a copy online. Give the name as **Market Insights Report – Smart Workspaces** and save it to your OneDrive.
+    - Click on **File > Create a copy > Create a copy online**. Give the name as **Market Insights Report – Smart Workspaces** and save it to your OneDrive.
 
 
 ## Summary

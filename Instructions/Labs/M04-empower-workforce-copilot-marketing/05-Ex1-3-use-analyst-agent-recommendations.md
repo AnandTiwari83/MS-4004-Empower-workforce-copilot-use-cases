@@ -18,7 +18,7 @@ In this task, you plan to use Copilot’s Analyst agent to interpret the finding
 
 Perform the following steps to complete this task:
 
-1.  Open Microsoft 365 in a new browser tab using the below URL. 
+1.  Open Microsoft 365 in a new browser tab using the URL below. 
 
     ```
     https://www.microsoft365.com
@@ -89,13 +89,13 @@ Perform the following steps to complete this task:
     - Influencer and partnership strategies to amplify reach and credibility.
     - Risk considerations and mitigation tactics.
 
-20. Review the results. Give another prompt asking agent to turn these recommendations into a strategic playbook PowerPoint presentation.
+20. Review the results. Give another prompt asking the agent to turn these recommendations into a strategic playbook PowerPoint presentation.
 
     ```
-    Turn these recommendations into a strategic playbook PowerPoint presentation and give it name as Smart Workspace marketing recommendations.pptx.
+    Turn these recommendations into a strategic playbook PowerPoint presentation and give it the name as Smart Workspace marketing recommendations.pptx.
     ```
 
-1. Once the PPT is created, click on it to Download the file which will save it in your OneDrive
+1. Once the PPT is created, click on it to download the file, which will save it in your OneDrive
 
 ## Summary
 

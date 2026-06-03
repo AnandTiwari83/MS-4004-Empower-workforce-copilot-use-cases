@@ -1,5 +1,5 @@
 # Exercise 2: Manage a facility expansion project with Microsoft 365 Copilot
----
+
 In today’s fast-paced business environment, Operations teams are at the heart of organizational success. Whether coordinating complex projects, managing facility upgrades, or ensuring seamless day-to-day processes, Operations professionals must juggle multiple priorities, collaborate across departments, and adapt quickly to changing demands.
 
 Microsoft 365 Copilot is a transformative tool that empowers Operations teams to work smarter, not harder. It harnesses the power of AI to streamline routine tasks, automate communications, and provide actionable insights. In doing so, it frees up time for strategic decision-making and problem-solving.

@@ -1,6 +1,6 @@
 # Exercise 1, Task 1: Use the Researcher agent to analyze your competitors and identify industry trends
 
-## Overview
+## Scenario
 
 Fabrikam’s Sales leadership identified the hospitality industry as a key growth opportunity for EcoSense 360, the company’s smart energy management solution. Before the Sales team dives into broader market research, leadership requested that you provide a structured, data-driven analysis of the competitive landscape and industry trends—information that can be referenced in strategy discussions and sales planning.
 
@@ -8,7 +8,13 @@ To accomplish this goal, you turn to Microsoft 365 Copilot’s Researcher agent,
 
 By starting with the Researcher agent, you ensure that you have accurate, repeatable insights about the competitive environment before exploring broader market trends with Copilot Chat.
 
-Perform the following steps to complete this task:
+## Lab Overview
+
+In this hands-on lab, you will use Microsoft 365 Copilot Researcher to analyze leading hotel energy management systems and identify key industry trends. You will generate a structured competitive analysis report, review market insights, and compare Researcher findings with existing EcoSense360 research. The resulting analysis will provide valuable intelligence to support sales planning, proposal development, and strategic decision-making.
+
+## Task 1: Use the Researcher agent to analyze your competitors and identify industry trends
+
+In this task, you will use Microsoft 365 Copilot Researcher to analyze leading hotel energy management systems and identify key industry trends. You will compare the Researcher-generated findings with existing EcoSense360 market research to uncover insights that support sales and market planning.
 
 1. In your Microsoft Edge browser, sign in to the **Microsoft 365** using the URL below: 
 
@@ -43,7 +49,7 @@ Perform the following steps to complete this task:
 
    ![](../media/lab2-06-t5.png)
 
-5. In the Copilot pane in Microsoft Word, verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If it doesn’t appear, select the plus sign, and then in the drop-down menu, select **Edit with Copilot**. 
+5. In the Copilot pane in Microsoft Word, verify the **Allow editing** icon appears in the prompt field next to the plus (+) sign.
 
 1. Select **Add (1)**, and then choose **Attach cloud files (2)**.
 
@@ -65,4 +71,6 @@ Perform the following steps to complete this task:
 
    ![](../media/lab2-06-t9.png)
 
-At this point, you can proceed to Task 3.
+## Summary
+
+In this task, you used Microsoft 365 Copilot Researcher to perform a competitive analysis of hotel energy management systems and explore current industry trends. You converted the research into a Word document and compared the findings with existing EcoSense360 market research using Copilot. The comparison highlighted key similarities, differences, and unique insights, providing a well-rounded understanding of the market landscape to support future sales and business strategy decisions.

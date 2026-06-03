@@ -1,50 +1,183 @@
-# Exercise 1, Task 2: Use Copilot in Word to compare operational reports
----
-As the Operations Manager at Adatum Corporation, you discovered the current boiler system that heats the company's 50-year-old office building needs significant repair, if not outright replacement. You feel that this situation might be the opportune time to convert your heating system from the existing boiler system to a more energy-efficient furnace system. However, you aren’t familiar with the differences between the two types of heating systems. As such, you want to investigate the situation and create a report that you can present to management.
+# Exercise 1, Task 2: Use Copilot in Word to Compare Operational Reports
 
-Since you want to create a report using public web data (in this case, related to heating systems), you naturally think of using Microsoft 365 Word. You heard that Copilot in Word can generate reports for you, so you want to take this opportunity to not only create your report, but also investigate Copilot's reporting features. 
+## Scenario
 
-#### Using Copilot in Word  
+As the Operations Manager at Adatum Corporation, you discovered that the current boiler system used to heat the company’s 50-year-old office building requires significant repair and may need to be replaced entirely. Given the age of the building and the potential investment involved, you want to evaluate whether transitioning from the existing boiler system to a more energy-efficient furnace system would be beneficial.
 
-Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+To support your recommendation to management, you need to create a report that compares boiler and furnace systems using publicly available information. Rather than manually researching and drafting the report, you will use Microsoft 365 Copilot in Word to generate, refine, and summarize the information.
 
-When **Edit with Copilot** is enabled, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
+This exercise also demonstrates the difference between using **Edit with Copilot** and using Copilot in chat mode, helping you understand when Copilot can directly modify a document and when it acts as a research assistant.
 
-When **Edit with Copilot** is disabled, Copilot behaves more like Copilot Chat. It can still research topics, summarize information, and draft text, but it doesn’t automatically modify the document. Instead, responses appear in the Copilot pane, and you decide what—if anything—gets added to the document. This approach is useful when you want Copilot to act as a research assistant or idea generator while maintaining full control over what content is inserted.
+## Lab Overview
 
-In this lab, you use both approaches to see how Copilot’s behavior changes. You learn when it makes sense to let Copilot write and edit directly in your document, and when it’s better to use Copilot for research and drafting without automatic changes.
+In this hands-on lab, you will use Microsoft 365 Copilot in Word to generate a report comparing commercial boiler and furnace systems. You will explore how Copilot can create a document from a prompt, revise content for a specific audience, summarize key findings, and export responses to a Word document.
 
-Perform the following steps to complete this task:
+By the end of this exercise, you will understand how to use both document-editing and chat-based Copilot experiences within Word.
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Word** from the **Apps** menu.
+## Prerequisites
 
-2.  In **Word for the web**, create a blank document.
+Before starting this exercise, ensure that:
 
-3.  On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+* You have access to Microsoft 365.
+* A Microsoft 365 Copilot license is assigned to your account.
+* Copilot is enabled in Microsoft Word.
+* You can access Word for the web.
+* You are signed in using the provided Microsoft 365 lab credentials.
+* Internet connectivity is available for retrieving public web information.
 
-4.  In the prompt field, tell Copilot that you’re the Operations Manager for Adatum Corporation, and that you’re thinking about possibly replacing your building's current boiler system with a furnace system. Ask it to generate a report based on publicly available information that describes what type of boiler systems are used in most commercial buildings. The report should also include:
+## Task 2: Use Copilot in Word to Compare Boiler and Furnace Systems
 
-    - An overview of each system, including energy efficiency considerations, maintenance requirements, and a high-level cost comparison.
+In this task, you will create a report using Copilot in Word, revise the report for an executive audience, and compare the behavior of Copilot when Edit with Copilot is enabled and disabled.
 
-    - Considerations when changing from an existing boiler system to a furnace system.
+### Steps
 
-    - The average cost of transitioning from a boiler system to a furnace system in a commercial two-story building built in the 1970s.
+1. Open **Microsoft Edge** and navigate to:
 
-    - Whether changing from a boiler system to a furnace system can affect the current air conditioning system.
+   ```text
+   https://www.microsoft365.com
+   ```
 
-    - The average defect rates for boiler systems versus furnace systems.  
-        
-5.  Review the report that Copilot generated. Note the level of detail in each area of interest.
+2. Sign in using your Microsoft 365 credentials.
 
-6.  Now let’s use **Edit in Copilot** to update the document. In the prompt field, ask Copilot to revise the report to make it more suitable for a C-suite executive audience.
+3. In the left navigation pane, select **Apps**.
 
-7.  Review the results. Note how Copilot applied the revisions directly to the document. You don't have to manually copy and paste the results because Copilot behaves like an in-document editor and writer when **Edit in Copilot** is enabled.
+4. Select **Word** from the available applications.
 
-8.  Now let’s disable **Edit in Copilot** to see how Copilot’s behavior changes. In the prompt field, select the **Edit in Copilot** icon to disable it. The icon should disappear from the prompt field.
+5. In **Word for the web**, select **Blank document**.
 
-9.  In the prompt field, ask Copilot to summarize the key differences between boiler systems and furnace systems for commercial buildings. Focus on efficiency, maintenance, lifespan, and typical use cases.
+6. Once the document opens, select the **Home** tab if it is not already selected.
 
-10. Note the difference in Copilot’s response. With **Edit in Copilot** disabled, Copilot operates in chat mode and doesn’t automatically update the document. Instead, it displays the results in the Copilot pane and provides you with suggestions on what you might want it to do next. Copilot also provides several icons that you can choose from, such as **Add to doc** and **Copy response**. The **Add to doc** icon lets you preview the results and then decide whether you want to insert the content into the open document. 
-<br/><br/>For this example, select the ellipsis (**More actions**) icon, which is the final icon in the list. Then select the **Export to Word** option that appears in the drop-down menu.  
+7. Select **Copilot** on the ribbon.
 
-11.  When Copilot Chat exports its results to Word, it opens **Word for the web** in another browser tab, and it copies in the content from the Copilot pane. Keep in mind, however, that it also includes the extraneous text that appears at the start and end of your chat session for this prompt. You should remove this extraneous text before saving the document.
+8. Verify that the **Copilot pane** opens on the right side of the document.
+
+9. In the prompt area, verify that the **Edit with Copilot** icon appears next to the plus (**+**) icon.
+
+10. If the icon is not visible:
+
+    * Select the **+** icon.
+
+    * Select **Edit with Copilot**.
+
+    * Confirm that the icon now appears in the prompt field.
+
+    > **Note:** When Edit with Copilot is enabled, Copilot can directly create and modify content within the document.
+
+11. In the Copilot prompt field, enter the following prompt:
+
+    ```text
+    I'm the Operations Manager for Adatum Corporation and I'm evaluating whether to replace our existing boiler system with a furnace system. Generate a report based on publicly available information describing the types of heating systems commonly used in commercial buildings.
+
+    Include:
+    - An overview of boiler and furnace systems
+    - Energy efficiency considerations
+    - Maintenance requirements
+    - High-level cost comparisons
+    - Considerations when transitioning from a boiler system to a furnace system
+    - Average transition costs for a commercial two-story building built in the 1970s
+    - Whether replacing a boiler system can impact the existing air conditioning system
+    - Average defect rates and reliability considerations for boiler systems versus furnace systems
+    ```
+
+12. Submit the prompt.
+
+13. Wait while Copilot generates the report.
+
+14. Review the generated content.
+
+15. Evaluate the report and identify information related to:
+
+    * Heating system types
+    * Efficiency considerations
+    * Maintenance requirements
+    * Cost comparisons
+    * System conversion considerations
+    * HVAC dependencies
+    * Reliability and defect information
+
+16. Observe how Copilot inserted the generated report directly into the document.
+
+17. In the Copilot prompt field, enter the following prompt:
+
+    ```text
+    Revise this report to make it suitable for a C-suite executive audience.
+    ```
+
+18. Submit the prompt.
+
+19. Review the updated report.
+
+20. Observe how Copilot revised the document directly without requiring any manual copy-and-paste operations.
+
+21. Note the differences between the original and revised versions, such as:
+
+    * Executive-focused language
+    * Simplified technical details
+    * Strategic recommendations
+    * Business-oriented summaries
+
+22. Next, disable **Edit with Copilot**.
+
+23. Select the **Edit with Copilot** icon in the prompt field.
+
+24. Verify that the icon disappears from the prompt field.
+
+    > **Note:** When Edit with Copilot is disabled, Copilot functions more like Copilot Chat and no longer updates the document automatically.
+
+25. In the Copilot prompt field, enter the following prompt:
+
+    ```text
+    Summarize the key differences between boiler systems and furnace systems for commercial buildings. Focus on efficiency, maintenance, lifespan, and typical use cases.
+    ```
+
+26. Submit the prompt.
+
+27. Review the response generated in the Copilot pane.
+
+28. Observe that the document itself remains unchanged.
+
+29. Notice the actions available for the response, which may include:
+
+    * Add to doc
+    * Copy response
+    * More actions (...)
+
+30. Select the **More actions (...)** menu.
+
+31. Select **Export to Word**.
+
+32. Observe that Word for the web opens a new document in a separate browser tab.
+
+33. Review the exported content.
+
+34. Notice that the exported document may include additional Copilot conversation text before or after the generated summary.
+
+35. Remove any unnecessary text that is not part of the report content.
+
+36. Review the cleaned-up document.
+
+37. Compare the exported summary with the original report generated using Edit with Copilot.
+
+### Expected Outcome
+
+You successfully used Microsoft 365 Copilot in Word to:
+
+* Generate a report using public web information.
+* Create content directly within a Word document using Edit with Copilot.
+* Revise content for an executive audience.
+* Compare document-editing and chat-based Copilot experiences.
+* Generate and review summarized information.
+* Export Copilot responses to a new Word document.
+* Understand when to use Copilot as an in-document editor versus a research assistant.
+
+## Key Takeaways
+
+By completing this exercise, you learned how to:
+
+* Use Microsoft 365 Copilot in Word to create reports from prompts.
+* Generate content based on publicly available information.
+* Revise documents for different audiences.
+* Use Edit with Copilot to directly modify document content.
+* Use Copilot in chat mode for research and summarization.
+* Export Copilot responses into Word documents.
+* Improve report creation and analysis workflows using AI-assisted authoring.

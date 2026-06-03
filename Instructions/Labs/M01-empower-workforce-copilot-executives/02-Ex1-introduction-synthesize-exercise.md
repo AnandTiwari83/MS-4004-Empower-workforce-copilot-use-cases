@@ -1,28 +1,62 @@
----
-lab:
-  title: 'Exercise 1: Synthesize communication insights across Microsoft Team'
-  description: For executives, their time is their most valuable asset. They’re responsible for steering critical initiatives, making informed decisions, and maintaining visibility across multiple workstreams. As part of this exercise, you use both Copilot features in Microsoft Teams to quickly synthesize the emails, meetings, and chats related to a key project that you’re currently working on—just as an executive would when preparing for a board update or strategic review.
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft Teams
----
+# Exercise 1: Synthesize Communication Insights Across Microsoft Teams
 
-# Exercise 1: Synthesize communication insights across Microsoft Team
----
-In today's dynamic business landscape, effective communication is key to staying ahead. As executives navigate the vast ocean of information, Microsoft Teams emerges as a powerful tool they can use to streamline their communication experience. Within Teams, Copilot empowers you with a quick and efficient overview of key discussions, ensuring that you stay informed without being overwhelmed.
+## Lab Overview
 
-When you think of Microsoft Teams, you typically think of Teams' chat. However, when you use Microsoft 365 Copilot, the Copilot experience in Teams can focus not only on your chat experience, but also on your email and meeting data from Outlook. It does so through two Copilot features that are available in Teams:
+In this exercise, you will use Microsoft 365 Copilot in Microsoft Teams to analyze and synthesize information across chats, meetings, and project discussions. You will learn how to use both Copilot Chat and Copilot in Teams to quickly gather project updates, identify action items, compare project progress, and create executive-ready communications.
 
-- **Copilot in Teams**. Embedded directly in the Teams interface, Copilot in Teams helps you in the moment during meetings and chats. It can take notes, summarize ongoing conversations, and suggest follow-up actions. While its focus is real-time, it can also reference recent context within the same meeting or chat. To enhance responses, it uses Microsoft Graph to pull relevant files, emails, or calendar events—but only as needed for the immediate task. Because it’s built into the meeting and chat experience, you don’t need to launch it separately.
+As an executive, you are responsible for monitoring multiple initiatives and making informed decisions based on information distributed across conversations, meetings, and collaboration tools. Using Copilot in Teams, you can reduce the time spent searching for information and instead focus on understanding key insights, risks, and opportunities.
 
-- **Copilot Chat within Teams**. Copilot Chat is a conversational assistant accessible through the Copilot button in Teams. It delivers a broader, cross-app experience across Microsoft 365, helping you with retrospective and enterprise-wide queries. It can summarize your meetings for the week, compile project updates, or answer complex questions by pulling from emails, chats, files, and calendars. Think of Copilot Chat as your enterprise-wide AI assistant, available across Microsoft 365—not just Teams.
+By the end of this exercise, you will be able to:
 
-### Scenario
-For executives, their time is their most valuable asset. They’re responsible for steering critical initiatives, making informed decisions, and maintaining visibility across multiple workstreams. As part of this exercise, you use both Copilot features in Microsoft Teams to quickly synthesize the emails, meetings, and chats related to a key project that you’re currently working on—just as an executive would when preparing for a board update or strategic review.
+- Use Copilot Chat in Teams to summarize project-related communications.
+- Analyze project discussions and identify action items.
+- Compare multiple projects and identify common trends and risks.
+- Generate executive summaries and stakeholder communications.
+- Transform project insights into leadership-ready content.
 
->[!NOTE]
-> This course doesn’t include a Microsoft 365 lab tenant with fictitious data. Instead, you must complete this training exercise using your own personal data.
+## Background
+
+Microsoft Teams provides two distinct Copilot experiences that help users work more efficiently:
+
+### Copilot in Teams
+
+Embedded directly within Teams meetings and chats, Copilot in Teams helps users stay informed during active conversations. It can:
+
+- Summarize chat discussions.
+- Identify decisions and action items.
+- Answer questions about conversations.
+- Provide meeting insights and follow-up recommendations.
+
+### Copilot Chat in Teams
+
+Copilot Chat provides a broader Microsoft 365 experience by helping users analyze information across their Microsoft 365 data sources. It can:
+
+- Summarize project communications.
+- Compare information across projects.
+- Generate reports and summaries.
+- Draft announcements and stakeholder communications.
+- Identify risks, trends, and dependencies.
+
+## Scenario
+
+As an executive, your time is one of your most valuable resources. You are responsible for overseeing multiple strategic initiatives and ensuring that key projects remain on track.
+
+In this exercise, you will use Microsoft 365 Copilot in Teams to analyze communications related to two business initiatives:
+
+- **Project Nexus** – AI Assistant Pilot Program
+- **Project Phoenix** – Azure Migration Initiative
+
+Using Copilot, you will gather project insights, identify risks and action items, compare project progress, and prepare executive-ready communications for leadership review.
+
+> **Note:** For this lab, pre-created Teams group chats named **Project Nexus** and **Project Phoenix** are available and contain project-related discussions that will be used throughout the exercises.
 
 
+## Learning Objectives
+
+After completing this exercise, you should be able to:
+
+- Summarize project communications using Copilot Chat.
+- Analyze Teams chat conversations using Copilot in Teams.
+- Compare multiple projects and identify organizational risks.
+- Generate executive summaries and leadership briefings.
+- Create audience-specific communications from project insights.

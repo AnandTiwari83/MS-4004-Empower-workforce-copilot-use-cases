@@ -63,146 +63,87 @@ We've prepared a seamless environment for you to explore and learn about executi
 
 This module provides hands-on experience using Copilot across multiple Microsoft 365 applications to support leadership, planning, communication, and business analysis scenarios.
 
----
+## Getting Started with the lab
+
+We've prepared a seamless environment for you to explore and learn about **Module 04 - Empower workforce with Microsoft 365 Copilot for Marketing**. Let's begin by making the most of this experience!
 
 ## Accessing Your Lab Environment
-
-Once the lab environment is ready, the virtual machine displayed on the left serves as your primary workspace for completing the exercises, while the **Guide** on the right provides detailed instructions for each task.
+ 
+Once the lab environment is ready, the virtual machine displayed on the left will be your primary workspace for completing the exercises, while the **Guide** on the right side provides step-by-step instructions for each task.
 
 ## Exploring Your Lab Resources
-
-To review your assigned resources and credentials, navigate to the **Environment** tab within the lab interface.
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
+ 
+![](../media/module-4/env-0206.png)
 
 ## Utilizing the Split Window Feature
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** option from the upper-right corner of the lab interface.
+![](../media/module-4/split-0206.png)
 
 ## Managing Your Virtual Machine
+ 
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-You can start, stop, or restart your virtual machine at any time using the **Resources** tab.
+![](../media/module-4/res-0206.png)
 
-# Lab Setup
+## Lab Setup
 
-In this module, you'll create prompts that reference business documents, spreadsheets, and reports stored in Microsoft 365. Before beginning the exercises, upload all required files to OneDrive so they're accessible to Microsoft 365 Copilot.
+In this module, we'll create prompts for Microsoft 365 Copilot that reference files. First, let’s upload all required files to OneDrive to ensure they're accessible throughout the lab.
 
-## Uploading Files to OneDrive
+### Uploading Files to OneDrive
 
-Perform the following steps to upload the required lab files:
+Follow the steps below to upload all files needed to **OneDrive**:
 
-1. In the LabVM, open **Microsoft Edge** from the desktop.
+1. In the LabVM, open the **Microsoft Edge** browser from the from Desktop.
 
-2. Navigate to:
+    ![Open Edge](../media/module-4/prereq-1.png)
 
-   ```text
-   https://www.microsoft365.com
-   ```
+1. In the address bar, enter the following URL to navigate to Microsoft 365:
 
-3. Sign in using the Microsoft 365 credentials provided by your tenant provider.
+    ```
+    https://www.microsoft365.com
+    ```
+1. Enter the following credentials to sign in to Microsoft 365:
 
-4. If prompted to stay signed in, select **Don't show this again** and then select **Yes**.
+    - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
-5. From the Microsoft 365 home page, select the **App launcher**, and then select **OneDrive**.
+    - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-6. In OneDrive, select **+ Create or upload** > **Files upload**.
+1. If prompted to **Stay signed in**, select **Don't show this again** and then **Yes**.
 
-7. Browse to:
+1. In the Microsoft 365 portal, click on the **App launcher  (1)**button and select **OneDrive (2)**.
 
-   ```text
-   C:\LabFiles\ResourceFiles
-   ```
+    ![](../media/module-4/prereq-2.png)
 
-8. Select all files within the **ResourceFiles** folder and upload them to OneDrive.
+1. In **OneDrive**, in the top-left corner, select **+ Create or upload (1)** > **Files upload (2)**.
 
-9. Wait for the upload process to complete successfully.
+    ![](../media/module-4/prereq-3.png)
 
-10. Verify that all files appear within your **My files** folder in OneDrive.
+1. In **File Explorer**, navigate to **`C:\LabFiles\MS-4004-Empower-workforce-copilot-use-cases\ResourceFiles`**location and select all the files from the ResourceFiles folder and click **Open**.
 
-11. Leave Microsoft Edge open and proceed to the first exercise.
+1. When the upload is complete, you should see **Uploaded 92 items to My files** in the bottom center of the screen.
 
-> **Note:** Depending on network conditions and tenant performance, file uploads may take several minutes to complete.
+1. Leave **Edge** open and move on to the next task.
 
-## Referencing Files in Copilot
+### Referencing Files in Copilot
 
-Some Copilot experiences search the **Most Recently Used (MRU)** file list, while others allow you to browse OneDrive directly.
+When using Copilot, you may find that some files aren’t immediately available in the suggestions. This occurs because certain Copilot experiences only reference files from the **Most Recently Used (MRU)** list, while others let you browse **OneDrive** directly. To ensure a file appears in the **MRU** list, simply open it in the relevant Microsoft 365 app, and it will be added automatically.
 
-If a file doesn't appear when searching for it:
-
-1. Open the file from OneDrive.
-2. Wait for the file to load.
-3. Close the file.
-4. Return to Copilot and search again.
-
-Opening a file automatically adds it to the MRU list, making it easier to locate within Copilot experiences.
-
-> **Important:** Microsoft 365 Copilot can only access files stored in OneDrive or supported Microsoft 365 storage locations. Files stored locally on the virtual machine must be uploaded before Copilot can use them.
-
-# Introduction
-
-In today's fast-paced business environment, executives are expected to make strategic decisions quickly while managing increasing volumes of information. Business data is often spread across emails, meetings, reports, spreadsheets, projects, and various collaboration tools, making it difficult to maintain a clear operational picture.
-
-Microsoft 365 Copilot helps leaders address these challenges by acting as an AI-powered assistant that works directly within familiar Microsoft 365 applications.
-
-Using Copilot, executives can:
-
-### Accelerate Decision-Making
-
-Copilot transforms complex business information into actionable insights by:
-
-- Summarizing large volumes of information.
-- Identifying trends and opportunities.
-- Highlighting risks and dependencies.
-- Supporting strategic planning activities.
-
-### Streamline Communication
-
-Copilot helps leaders stay informed by:
-
-- Summarizing Teams conversations.
-- Synthesizing emails and meetings.
-- Identifying action items and follow-ups.
-- Drafting executive communications.
-
-### Automate Routine Work
-
-Copilot reduces administrative effort by helping generate:
-
-- Executive reports.
-- Budget analyses.
-- Project plans.
-- Status updates.
-- Leadership briefings.
-
-### Enhance Strategic Visibility
-
-Copilot and Copilot Agents provide continuous access to business insights by:
-
-- Monitoring business performance.
-- Surfacing emerging trends.
-- Identifying operational risks.
-- Delivering proactive recommendations.
-
-## Copilot Agents
-
-A Copilot Agent is a specialized AI assistant configured to answer questions using approved organizational knowledge sources.
-
-For executives, agents provide:
-
-- On-demand business intelligence.
-- Real-time access to critical information.
-- Consistent answers based on approved documents.
-- Faster insight generation across multiple business areas.
-
-Throughout this module, you'll use Microsoft 365 Copilot to simulate common executive responsibilities, including communication analysis, business reporting, forecasting, project management, and AI-powered business intelligence.
-
-By the end of this module, you'll understand how Copilot can help leaders transform information into insight, improve organizational alignment, and drive better business outcomes.
+> **`Important:`** Microsoft 365 Copilot can only work with files saved to **OneDrive**. Files stored locally on your PC will need to be moved to **OneDrive** for Copilot to access them.
 
 ## Support Contact
+ 
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+ 
+Learner Support Contacts:
+ 
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
+ 
+Click **Next** from the bottom right corner to embark on your Lab journey!
 
-The CloudLabs support team is available 24/7, 365 days a year through email and live chat to provide assistance whenever needed.
+  ![](../media/module-4/next-0206.png)
 
-### Learner Support Contacts
-
-- **Email Support:** cloudlabs-support@spektrasystems.com
-- **Live Chat Support:** https://cloudlabs.ai/labs-support
-
-Select **Next** at the bottom-right corner of the lab guide to begin the exercises.

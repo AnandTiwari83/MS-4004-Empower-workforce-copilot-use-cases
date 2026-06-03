@@ -1,110 +1,224 @@
----
-lab:
-  title: 'Exercise 2, Task 5: Use the Northwind Business Insights Agent to answer executive questions'
-  description: 'Perform the following steps to complete this task:'
-  duration: 16 minutes
-  level: 200
-  islab: true
----
+# Exercise 2: Use Copilot to Generate Executive Business Insights
 
-# Exercise 2, Task 5: Use the Northwind Business Insights Agent to answer executive questions
----
-Now that you created and configured the Northwind Business Insights Agent, your next step is to practice using it to answer executive-level business questions. In this task, you plan to interact with the agent by asking questions based on the company’s Q3 sales data and Q4 budget forecast. By doing so, you can verify the agent is correctly sourcing information from the knowledge source documents and delivering actionable insights.
+## Task 5: Use the Northwind Business Insights Agent to Answer Executive Questions
 
-Perform the following steps to complete this task:
+In this task, you will interact with the Northwind Business Insights Agent that you created in the previous task. Using executive-level business questions, you will validate that the agent can accurately retrieve information from its assigned knowledge sources and provide meaningful business insights.
 
-1.  The **Northwind Business Insights** **Agent** should still be open in your Microsoft Edge browser after you completed the prior task.
+This exercise demonstrates how a custom Copilot agent can help executives quickly analyze business performance, evaluate forecasts, identify risks, and support data-driven decision-making.
 
-2.  Using the agent, ask various questions about Northwind Traders’ performance, forecasts, and risks. Use any of the following questions as a starting point, and feel free to create your own. While individual responses might vary, sample answers are provided to help you verify the agent’s accuracy.
+### Scenario
 
-   > [!NOTE]
-   > Business insights provided by the agent may vary. The examples provided here are representative of the types of insights you should expect to see.
-    
-   - **Q4 Budget Forecast questions and answers**
-        - What is the projected revenue and profit margin for Beverages in North America for December, and what insights can you draw from this information? 
-            - Answer:
-                - Projected Revenue: 101,996 USD
-                - Profit Margin: 0.16 (16%)
-                - Key insights:
-                    - A 16% margin indicates steady profitability, but it’s lower than some other categories projected for Q4 (for example, Condiments reaching up to 29%). This situation suggests Beverages might have higher cost components or competitive pricing pressures.
-                    - December typically sees strong beverage demand due to holidays, so the revenue projection aligns with seasonal trends. However, the margin suggests that promotional discounts or increased logistics costs might be impacting profitability.
-                    - While Beverages show stable performance, any supply chain disruptions or cost escalations could quickly erode margins given the relatively modest buffer compared to high-margin categories.
-                    - Executives could explore premium product positioning or cost optimization to push margins closer to 20% without sacrificing volume.  
-                    
-       - Provide a list of the top three product categories and regions that have the highest projected risk factor in Q4? How can Northwind Traders mitigate these risks? 
-            - Answer:
-                - Condiments, North America (0.29, Supply Chain Fluctuation)
-                - Condiments, Asia (0.29, Stable)
-                - Dairy, Europe (0.28, Demand Variability)
-                - Risk mitigation:
-                    - **Supply Chain Fluctuation (Condiments – Asia & North America)**
-                        - **Diversify suppliers:** Secure multiple sourcing options to reduce dependency on single suppliers.
-                        - **Increase safety stock:** Build buffer inventory for high-demand periods to absorb disruptions.
-                        - **Leverage local procurement:** Reduce reliance on international shipping by sourcing regionally where possible.
-                    - **Demand Variability (Dairy – Europe)**
-                        - **Dynamic pricing strategies:** Implement flexible pricing to stimulate demand during slow periods.
-                        - **Promotional campaigns:** Target seasonal promotions to stabilize sales and maintain margins.
-                        - **Forecast accuracy:** Use advanced analytics to refine demand predictions and adjust production accordingly.
-                    - **Cross-Category Risk Management**
-                        - **Scenario planning:** Model the financial effect of cost surges or demand drops to prepare contingency actions.
-                        - **Cost optimization:** Review logistics, labor, and marketing spend to maintain profitability under stress.
-                        - **Risk monitoring:** Establish real-time dashboards for supply chain and demand signals to act quickly.  
-                    - **Executive Action Points**
-                        - Prioritize Condiments for supply chain resilience measures.
-                        - Implement demand stimulation strategies for Dairy in Europe.
-                        - Conduct stress tests for Q4 scenarios (for example, +10% cost increase, -15% demand drop).
-    
-   - **Q3 Sales Data questions and answers**
-        - What was the total revenue and profit for Snacks in North America in Q3? Provide a breakdown by month and overall totals. 
-            - Answer:
-                - July: Revenue 51,551 USD, Profit 5,670.61 USD
-                - August: Revenue 23,890 USD, Profit 3,344.60 USD
-                - September: Revenue 30,627 USD, Profit 10,413.18 USD
-                - Total Q3 Revenue: 106,068 USD
-                - Total Q3 Profit: 19,428.39 USD
-        
-        - How did profit margins for Dairy in Asia change from July through September? What might explain this change? 
-            - Answer:
-                - July: 0.15 (15%)
-                - August: 0.22 (22%)
-                - September: 0.27 (27%)
-                - Change: Profit margin increased steadily from July to September. Causes of change include:
-                    - **Improved supply chain stability.** Early Q3 likely saw higher logistics costs or delays, reducing margins. By August and September, stabilization likely lowered costs, boosting profitability.
-                    - **Seasonal demand surge.** Dairy products often see increased consumption toward late summer and early fall in Asia, driving higher sales volumes and better economies of scale.
-                    - **Pricing adjustments.** Strategic price increases or reduced discounting in August and September could explain the margin growth without impacting demand.
-                    - **Cost optimization initiatives.** Mid-quarter improvements in margins could reflect operational efficiencies, such as renegotiated supplier contracts or reduced wastage.  
-                    
-   - **Cross-document questions and answers**
-        - How do the projected profit margins for Q4 compare to actual margins in Q3 for Condiments in North America? Provide key insight analysis. 
-            - Answer:
-                - Q3 Actual Margins (from Q3 sales data):
-                    - July: 0.15
-                    - August: 0.20
-                    - September: 0.12
-                - Q4 Projected Margins (from Q4 forecast):
-                    - October: 0.26
-                    - November: 0.29
-                    - December: 0.17
-                - **Significant improvement in Q4.** Margins are projected to rise sharply in October and November compared to Q3, peaking at 29% in November. This forecast is nine percentage points higher than the best month in Q3 (August at 20%).
-                - **December drop.** December’s margin falls to 17%, still above September’s 12%, but notably lower than October and November. This situation suggests potential seasonal cost pressures or promotional discounts impacting profitability.
-                - **Overall trend.** Q4 projections indicate a strong recovery and growth in profitability, likely driven by improved supply chain stability and optimized pricing strategies. However, the December dip signals the need for cost control and margin protection measures during year-end operations.
-    
-       - What “what-if” scenarios should executives be most concerned about, given recent sales and forecasted risks?
-            - Answer:
-                - From Q4 forecast “What-If Scenarios”:
-                    - Increase Supply Chain Cost (+10%)
-                    - Decrease Demand (-15%)
-                    - Increase Marketing Spend (+8%)
-                    - Labor Cost Surge (+12%)
-                - Given recent declines in some categories and regions, “Decrease Demand” and “Labor Cost Surge” are particularly concerning, as they could further reduce profitability in already struggling segments.
-                - While marketing can boost demand, categories with thin margins (for example, Snacks in Asia, which saw a 41% profit decline YoY) might not absorb extra costs effectively, risking negative return on investment.
-                - Labor-intensive categories like Dairy in Asia and Europe, which are projected to have strong Q4 margins, could see profitability squeezed if labor costs rise unexpectedly.
-    
+As a member of Northwind Traders' executive leadership team, you need timely answers to questions related to sales performance, budget forecasts, operational risks, and business trends. Rather than manually reviewing reports and spreadsheets, you will use the Northwind Business Insights Agent to retrieve insights from the approved knowledge sources.
 
-3.  In addition to the previous questions, submit one or two of your own custom queries if you wish. Review the agent’s responses. For each answer, verify that it references the correct data source and provides clear, actionable insights.
+During this exercise, you will test the agent's ability to answer questions based on:
 
+- Q3 Sales Performance
+- Q4 Budget Forecasts
+- Risk Analysis
+- Cross-document Business Insights
 
+## Task 5.1: Open the Northwind Business Insights Agent
 
+### Steps
 
+1. Verify that the **Northwind Business Insights Agent** is open.
 
+   > **Note:** If the agent is no longer open, navigate to **Microsoft 365**, locate the **Northwind Business Insights Agent**, and open it.
 
+2. Review the suggested prompts displayed by the agent.
+
+3. Confirm that the agent is ready to accept questions.
+
+### Expected Outcome
+
+The Northwind Business Insights Agent is available and ready to answer business-related questions using the configured knowledge sources.
+
+## Task 5.2: Analyze Q4 Budget Forecast Data
+
+### Steps
+
+1. Submit the following question:
+
+   ```text
+   What is the projected revenue and profit margin for Beverages in North America for December, and what insights can you draw from this information?
+   ```
+
+2. Review the response generated by the agent.
+
+3. Verify that the response includes:
+
+   - Revenue projections
+   - Profit margin information
+   - Business insights and recommendations
+
+4. Submit the following question:
+
+   ```text
+   Provide a list of the top three product categories and regions that have the highest projected risk factor in Q4. How can Northwind Traders mitigate these risks?
+   ```
+
+5. Review the response.
+
+6. Verify that the response includes:
+
+   - Risk rankings
+   - Risk descriptions
+   - Recommended mitigation strategies
+   - Executive action items
+
+### Expected Outcome
+
+The agent provides forecast-based insights and identifies business risks along with actionable recommendations.
+
+## Task 5.3: Analyze Q3 Sales Performance
+
+### Steps
+
+1. Submit the following question:
+
+   ```text
+   What was the total revenue and profit for Snacks in North America in Q3? Provide a breakdown by month and overall totals.
+   ```
+
+2. Review the response.
+
+3. Verify that the response includes:
+
+   - Monthly revenue figures
+   - Monthly profit figures
+   - Total revenue
+   - Total profit
+
+4. Submit the following question:
+
+   ```text
+   How did profit margins for Dairy in Asia change from July through September? What might explain this change?
+   ```
+
+5. Review the response.
+
+6. Verify that the response includes:
+
+   - Month-by-month margin changes
+   - Trend analysis
+   - Possible business explanations
+
+### Expected Outcome
+
+The agent successfully analyzes historical sales data and provides contextual business insights.
+
+## Task 5.4: Analyze Information Across Multiple Knowledge Sources
+
+### Steps
+
+1. Submit the following question:
+
+   ```text
+   How do the projected profit margins for Q4 compare to actual margins in Q3 for Condiments in North America? Provide key insight analysis.
+   ```
+
+2. Review the response.
+
+3. Verify that the response combines information from both:
+
+   - Q3 Executive Briefing
+   - Q4 Budget Forecast
+
+4. Submit the following question:
+
+   ```text
+   What what-if scenarios should executives be most concerned about, given recent sales and forecasted risks?
+   ```
+
+5. Review the response.
+
+6. Verify that the response includes:
+
+   - Forecast risks
+   - Scenario analysis
+   - Potential business impacts
+   - Recommendations for leadership
+
+### Expected Outcome
+
+The agent combines information from multiple knowledge sources and generates consolidated business insights.
+
+## Task 5.5: Explore Additional Business Questions
+
+### Steps
+
+1. Submit one or more custom questions of your own.
+
+### Sample Questions
+
+```text
+Which product categories are expected to contribute the most profit in Q4?
+```
+
+```text
+What risks pose the greatest threat to achieving our revenue targets?
+```
+
+```text
+What operational improvements could have the greatest impact on profitability?
+```
+
+```text
+Which regions appear to have the strongest growth opportunities?
+```
+
+```text
+What trends should leadership monitor during the next quarter?
+```
+
+2. Review the responses generated by the agent.
+
+3. Verify that the responses:
+
+   - Use information from the uploaded knowledge sources.
+   - Stay within the Northwind Traders business context.
+   - Provide actionable recommendations where appropriate.
+
+### Expected Outcome
+
+The agent successfully answers executive-level business questions using the approved business documents.
+
+## Task 5.6: Validate Agent Responses
+
+### Steps
+
+1. Review several responses generated during this exercise.
+
+2. Confirm that the agent:
+
+   - References information from the uploaded knowledge sources.
+   - Avoids using unsupported information.
+   - Identifies missing information when necessary.
+   - Provides relevant business recommendations.
+
+3. Evaluate whether the responses would be useful for executive decision-making.
+
+### Expected Outcome
+
+The agent consistently delivers accurate, relevant, and business-focused insights.
+
+## Knowledge Check
+
+After completing this task, consider the following questions:
+
+- How effectively did the agent use the uploaded knowledge sources?
+- Were the recommendations actionable and relevant?
+- How did cross-document analysis improve the quality of responses?
+- What additional knowledge sources could further improve the agent?
+- How could this agent support executive decision-making on an ongoing basis?
+
+## Key Takeaways
+
+By completing this task, you learned how to:
+
+- Interact with a custom Copilot agent.
+- Ask executive-level business questions.
+- Validate responses against approved knowledge sources.
+- Analyze historical and forecasted business performance.
+- Generate risk assessments and strategic recommendations.
+- Leverage AI-powered business insights to support informed decision-making.

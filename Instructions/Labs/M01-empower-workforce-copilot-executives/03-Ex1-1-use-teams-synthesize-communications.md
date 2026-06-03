@@ -66,7 +66,7 @@ In this task, you will use Copilot Chat to identify pending tasks and responsibi
 3. If no suitable suggestion is available, enter a prompt similar to the following:
 
    ```text
-   List all open action items related to {topic of your choice}
+   List all open action items related to Project Nexus
    ```
 
 4. Submit the prompt.
@@ -93,7 +93,7 @@ In this task, you will use Copilot Chat to create a project status announcement 
 1. In the Copilot Chat window, enter a prompt similar to the following:
 
    ```text
-   Draft an announcement to stakeholders summarizing the recent activity and progress related to {topic of your choice}
+   Draft an announcement to stakeholders summarizing the recent activity and progress related to Project Nexus
    ```
 
 2. Submit the prompt.

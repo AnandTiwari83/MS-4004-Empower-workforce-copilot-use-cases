@@ -6,25 +6,17 @@ In this task, you use Copilot in Excel to analyze newsletter open rates and clic
 
 ### Task 3.1: Open the newsletter engagement workbook
 
-1. Download the **Boulder Q4 Newsletter Click Rates.xlsx** file and save it to your **OneDrive**.
+1. In Microsoft 365, select **Apps** from the navigation pane and then select **OneDrive**.
 
-2. In Microsoft Edge, navigate to **[https://www.microsoft365.com](https://www.microsoft365.com)**.
+2. Navigate to **My files** section and open the **Boulder Q4 Newsletter Click Rates.xlsx** workbook.
 
-3. In Microsoft 365, select **Apps** from the navigation pane and then select **Excel**.
+3. On the **Home** tab, select **Copilot**.
 
-4. In **Excel for the web**, select **Upload a file**.
-
-5. Browse to your OneDrive location and open the **Boulder Q4 Newsletter Click Rates.xlsx** workbook.
-
-6. On the **Home** tab, select **Copilot**.
-
-7. Verify that:
+4. Verify that:
 
    * The response mode selector is set to **Auto**.
 
-   * The **Edit with Copilot** icon appears in the prompt field.
-
-   > **Note:** If the **Edit with Copilot** icon isn't displayed, select the **plus (+)** icon and then select **Edit with Copilot**.
+   * The **Allow editing** icon appears in the prompt field.
 
 ### Task 3.2: Analyze newsletter engagement trends
 

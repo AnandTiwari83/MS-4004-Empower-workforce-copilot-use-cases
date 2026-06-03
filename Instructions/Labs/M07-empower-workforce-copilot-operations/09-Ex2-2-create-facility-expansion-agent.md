@@ -1,5 +1,3 @@
-Yes. Below is a GitHub-ready Markdown version that follows the same style as the previous labs, includes prerequisites, expected outcomes, notes, tips, and detailed instructions while keeping the Microsoft Learn flow intact.
-
 # Exercise 2: Manage Facility Expansion Operations with Microsoft 365 Copilot
 
 ## Task 2: Use Copilot Studio to Build a Facility Expansion FAQ Agent

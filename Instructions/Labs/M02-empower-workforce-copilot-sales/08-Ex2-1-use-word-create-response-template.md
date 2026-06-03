@@ -1,22 +1,22 @@
 # Exercise 2, Task 1: Use Copilot in Word to generate a standard RFP response template
 
+## Scenario
+
 Before you begin building the EcoSense 360 Request for Proposal (RFP) Response Agent, it’s essential to have a standard RFP response template in place. This template can serve as the foundation for both manual responses and for the agent’s automated answers, ensuring consistency and professionalism across all submissions.
 
 Your goal in this task is to use Copilot in Word to generate a customizable RFP response template for EcoSense 360, targeted at hotels and resorts. By creating the template first, you provide the agent with a structured document it can reference when responding to client inquiries. This approach allows you to test the agent’s capabilities using realistic, branded content and ensures that every automated response aligns with Fabrikam’s standards.
 
 To create this template, you plan to define its purpose, specify required sections (such as company overview, technical specifications, integration options, sustainability highlights, and pricing), and format it for easy customization. Once the template is ready, you plan to use it as a knowledge source when building and testing your EcoSense 360 RFP Response Agent in Copilot Studio.
 
-### Using Copilot in Word
+## Lab Overview
 
-Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+In this hands-on lab, you will use Copilot in Word to create a standardized RFP response template for EcoSense 360 that can be used by both sales teams and an AI-powered RFP Response Agent. You will define key proposal sections, enhance the template with ROI and deployment planning content, and prepare it as a reusable knowledge source. The completed template will help ensure consistent, professional, and scalable responses to customer RFPs.
 
-When **Edit with Copilot** is enabled, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
+## Task 1: Use Copilot in Word to generate a standard RFP response template
 
-When **Edit with Copilot** is disabled, Copilot behaves more like Copilot Chat. It can still research topics, summarize information, and draft text, but it doesn’t automatically modify the document. Instead, responses appear in the Copilot pane, and you decide what—if anything—gets added to the document. This approach is useful when you want Copilot to act as a research assistant or idea generator while maintaining full control over what content is inserted.
+In this task, you will use Copilot in Word to generate and refine a customizable RFP response template for hospitality customers. You will add essential business and technical sections, then save the document as a reusable template for future sales engagements and agent-based responses.
 
-This task uses the **Edit with Copilot** functionality. Perform the following steps to complete this task:
-
-1. In OneDrive, click on **+ Create or upload (1)**, then click **Folder (2)**.
+1. Navigate to OneDrive, click on **+ Create or upload (1)** and then select **Folder (2)**.
 
    ![](../media/lab2-06-31.png) 
 
@@ -28,12 +28,9 @@ This task uses the **Edit with Copilot** functionality. Perform the following st
 
 3. In **Word for the web**, create a blank document.
 
-4. On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+4. On the word document, select **Copilot** icon located at the bottom-right corner of the screen to open the Copilot pane. In the Copilot pane, verify the **Allow editing** icon appears in the prompt field next to the plus (+) sign.
 
 5. In the prompt field that appears in the Copilot pane, ask Copilot to create a standard RFP response template.
-
-   > [!NOTE]
-   > For this first Copilot Chat prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate._
 
    ```
    Fabrikam’s sales team frequently responds to RFPs from hospitality clients seeking smart energy management solutions. Consistency and completeness are critical for successful submissions. Reference the product’s technical specifications, integration capabilities, sustainability certifications, and pricing information. Ensure the template aligns with Fabrikam’s branding and includes sections for company overview, product overview, technical specifications, integration options, energy savings, sustainability certifications, pricing, and contact information. Include clear headings for each section and placeholder text for client-specific details. The template should be easy to customize for different clients and ready for use by both the sales team and the EcoSense 360 RFP Response Agent.
@@ -41,7 +38,7 @@ This task uses the **Edit with Copilot** functionality. Perform the following st
 
    ![](../media/lab2-06-33.png) 
 
-6. Review the generated template. You notice that the template doesn’t include a section for a Return on Investment (ROI) case study. After reviewing the content, select **Done** and Ask Copilot.
+1. After reviewing the generated template, select **Done**, and then enter the provided prompt to add a **Return on Investment (ROI) case study** section.
 
    ![](../media/lab2-06-34.png) 
 
@@ -49,7 +46,7 @@ This task uses the **Edit with Copilot** functionality. Perform the following st
    Add a section for a Return on Investment (ROI) case study.
    ```
 
-7. Review the results. There’s one final request that you have. You want the RFP response template to include a sample deployment timeline. After reviewing the content, select **Done** and Ask Copilot:
+1. Review the updated template. To include a sample deployment timeline, select **Done**, and then enter the provided prompt in the **Copilot** prompt box.
 
    ![](../media/lab2-06-35.png) 
 
@@ -67,6 +64,10 @@ This task uses the **Edit with Copilot** functionality. Perform the following st
 
     If you need Copilot’s help at this point, request your changes in the Copilot pane.
 
-9. Once you’ve finished making changes, you must save the document as a **Word template (.dotx)** named **EcoSense_360_RFP_Template.dotx** (don’t save it as a .docx file). Save the template file in the **EcoSense360-RFP-Documents** folder that you created in your OneDrive at the start of this task. Doing so makes it available to the EcoSense 360 RFP Response agent that you create in Task 3.
+9. Once you’ve finished making changes, save the document as a **Word template (.dotx)** named **EcoSense_360_RFP_Template.dotx** (don’t save it as a .docx file). Save the template file in the **EcoSense360-RFP-Documents** folder that you created in your OneDrive at the start of this task. Doing so makes it available to the EcoSense 360 RFP Response agent that you create in Task 3.
 
    ![](../media/lab2-06-37.png) 
+
+## Summary
+
+In this exercise, you used Copilot in Word to create a comprehensive RFP response template for EcoSense 360. You enhanced the template by adding ROI case study and deployment timeline sections, refined the content for customer-facing use, and prepared it as a reusable Word template. The completed template serves as a standardized foundation for both manual RFP responses and automated responses generated by the EcoSense 360 RFP Response Agent.

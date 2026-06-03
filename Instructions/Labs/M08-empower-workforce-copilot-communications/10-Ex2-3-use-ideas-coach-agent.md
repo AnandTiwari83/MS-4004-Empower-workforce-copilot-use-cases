@@ -1,69 +1,236 @@
----
-lab:
-  title: 'Exercise 2, Task 3: Use the Ideas Coach agent to generate campaign ideas and a channel map'
-  description: <br/So ask the Idea Coach agent to create two different versions of your message for Teams and Viva Engage. Change the tone, wording, or call-to-action of each so that you can see which one gets more engagement.
-  duration: 32 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 3: Use the Ideas Coach agent to generate campaign ideas and a channel map
----
+
 Now that TR-Pulse is launched and the town hall content is taking shape, Trey Research needs a coordinated communication strategy to keep employees engaged before, during, and after each quarterly event. Different employee groups—clinical staff, research teams, corporate teams, and remote workers—consume information differently and require messaging that reflects their unique roles, schedules, and communication preferences.
 
-As the company’s Communications Manager, you must design a campaign framework that ensures messaging around TR-Pulse is consistent yet adaptable across channels. This process should include defining messaging pillars, planning delivery cadence, and ensuring tone and content resonate with each audience segment.
+As the company's Communications Manager, you must design a campaign framework that ensures messaging around TR-Pulse is consistent yet adaptable across channels. This process includes defining messaging pillars, planning delivery cadence, and ensuring content resonates with each audience segment.
 
-To support this work, you plan to use Copilot’s Ideas Coach agent to brainstorm campaign ideas, refine messaging approaches, and map communication channels to specific audiences. This agent can help you move quickly from abstract ideas to concrete campaign plans, giving you a repeatable structure that can be reused for future TR-Pulse cycles.
+In this task, you'll use Copilot's **Idea Coach** agent to brainstorm campaign concepts, create messaging strategies, map communication channels to audiences, and develop measurement plans that can be reused for future TR-Pulse communication cycles.
+
+### Task Objectives
+
+In this task, you will:
+
+* Generate audience-specific campaign ideas.
+* Develop a multi-channel communication strategy.
+* Create a practical communication schedule.
+* Explore creative concepts and mood board recommendations.
+* Design A/B message variations for engagement testing.
+* Define success metrics and feedback mechanisms.
+
+### Using the Idea Coach Agent
+
+The Idea Coach agent helps Communications professionals transform high-level objectives into actionable campaign plans. It excels at brainstorming, refining messaging strategies, identifying risks, and generating structured communication frameworks.
 
 Perform the following steps to complete this task:
 
-1.  On the **Microsoft 365** home page, under the **Agents** section in the navigation pane, select **All agents**. In the **Agent Store**, under the **Your agents** section, select **See more**. In the expanded list of **Your agents**, select **Idea Coach**.
+1. On the **Microsoft 365** home page, under the **Agents** section in the navigation pane, select **All agents**.
 
-2.  In the **Idea Coach** agent, tell the agent that Trey Research is launching TR-Pulse, a new quarterly communication experience focused on transparency, leadership connection, and employee engagement. TR-Pulse enhances company communication by introducing virtual town halls, recognition spotlights, progress updates, and an always‑available employee FAQ resource. Its goal is to reinforce a culture of openness where employees feel heard, informed, and valued—no matter their role or schedule. As Trey Research’s Communication Manager, you would like Copilot to create four campaign ideas with sample messages tailored to Clinical staff (on-shift; limited time), R&D labs (compliance-minded; detail-oriented), Remote staff (home-based; asynchronous). Each campaign idea should include a key promise, tone, and compliance considerations.
+2. In the **Agent Store**, Search and Select **Idea coach**
 
-3.  Review the results. You feel these ideas are a good starting point, so ask the agent to take the campaign ideas and turn them into a practical two-week schedule. The goal is to make the ideas actionable by mapping them into a real calendar that shows timing, responsibilities, and content types. Show what happens each day (Monday–Sunday) and include:
-    - Channel: Where the message appears (Teams, SharePoint, Digital Signage, Viva Engage).
-    - Content Type: What kind of asset you plan to create (post, article, graphic, etc.).
-    - Owner: The person responsible for creating or posting the message.
+3. Click on **Add**
 
-4.  While all this planning looks good, you would like to spice it up a bit. Ask the Idea Coach agent to create a visual concept for each idea.
+4. Enter the following prompt:
 
-5.  These concepts intrigue you, so ask the agent to create a mood board for each concept with fonts, imagery, and icon suggestions.
+   ```text
+   Trey Research is launching TR-Pulse, a new quarterly communication experience focused on transparency, leadership connection, and employee engagement.
 
-6.  Note the agent’s response. It can’t generate actual image files, but it can create detailed mood board descriptions with fonts, imagery styles, and color palettes so your design team can easily bring them to life.
+   TR-Pulse includes:
+   - Virtual town halls
+   - Recognition spotlights
+   - Progress updates
+   - An always-available employee FAQ resource
 
-7.  At this point, you’re not sure about the mood boards. They don’t really match the vibe you’re feeling, so you decide to return your focus to the campaign ideas themselves. You feel these campaign ideas look promising, so you want to include A/B message variants for two channels. In A/B testing, you create two different versions of the same message for each channel so you can test which one performs better. The idea is to experiment with tone, phrasing, or call-to-action to see which version gets more engagement (clicks, comments, likes).  
-    <br/>So ask the Idea Coach agent to create two different versions of your message for Teams and Viva Engage. Change the tone, wording, or call-to-action of each so that you can see which one gets more engagement.
+   Its goal is to reinforce a culture of openness where employees feel heard, informed, and valued regardless of their role or schedule.
 
-8.  Review the results. You’re now wondering how you can refine and measure these ideas. Ask the agent to recommend three engagement metrics that you can track for your A/B messages and describe how you would gather feedback using Viva Engage or Microsoft Forms.
+   As Trey Research's Communications Manager, create four communication campaign ideas with sample messages tailored to:
 
-9.  There are so many other ways in which you can use the Idea Coach agent to improve these campaign ideas. Select one or two of the following ideas to see what the agent does:
-    - **Deepen ideation and strategy development**. Use Idea Coach to go beyond the initial brainstorm.
-        - **Prompt for audience insights**. “What are the top three motivators or barriers for engagement among remote employees, and how could our messaging address them?”
-        - **Ask for risk analysis or pitfalls**. “What communication missteps should we avoid when messaging to compliance-minded R&D teams?”
+   - Clinical staff (on-shift with limited time)
+   - R&D teams (compliance-minded and detail-oriented)
+   - Remote employees (home-based and asynchronous)
 
-    - **Strengthen planning and execution skills**. Expand the calendar and workflow planning you already have.
-        - **Multi-channel sequencing**. Build an integrated four-week rollout that links channels (for example, how a SharePoint article triggers follow-up Teams posts).
-        - **Asset creation guidance**. Ask for content outlines or creative briefs for one or two deliverables (for example, “Draft a creative brief for the Viva Engage post on Week 1, Day 3”).
+   For each campaign idea include:
+   - Campaign name
+   - Key promise
+   - Recommended tone
+   - Sample message
+   - Compliance considerations
+   ```
 
-    - **Emphasize measurement and optimization**. Encourage evidence-based thinking.
-        - **Ask Idea Coach for key performance indicators (KPIs)**. “Suggest measurable goals and KPIs to evaluate the campaign’s success on each channel.”
-        - **Simulate insights**. “Based on typical Viva Engage metrics, estimate what engagement might look like for A/B message A vs. B.”
+5. Review the campaign ideas generated by the agent.
 
-    - **Focus on message crafting and tone refinement**. Explore writing and creative variation.
-        - **Ask for message rewrites**. Request specific tones, such as “friendly but authoritative,” “inclusive and inspiring,” and “concise and data-driven.”
-        - **Cross-culture check**. “Adapt the message for a global workforce with varied time zones and cultural norms.”
+6. To make the ideas more actionable, enter the following prompt:
 
-    - **Collaboration and alignment.** Copilot can support teamwork.
-        - **Create a communication alignment guide**. “Draft a one-page style and tone guide that all content creators can follow for TR-Pulse.”
-        - **Brainstorm engagement activities**.“Suggest interactive elements to include in the town hall (polls, recognition moments, open Q&A prompts).”
+   ```text
+   Convert these campaign ideas into a practical two-week communication schedule.
 
-    - **Creative extension or future planning**. Encourage broader thinking.
-        - **Spin-off campaign**. “Based on TR-Pulse, propose a related initiative focused on employee recognition or innovation stories.”
-        - **Scenario pivot**. “If the company shifted to a hybrid-first model, how should the messaging and cadence adapt?”
+   Create a Monday through Sunday schedule and include:
 
-10. Finally, ask the Idea Coach if it can consolidate all the ideas that it generated thus far into a downloadable document.
+   - Channel (Teams, SharePoint, Digital Signage, Viva Engage)
+   - Content Type
+   - Owner
+   - Audience
+   - Purpose of the communication
 
-11. Note the agent’s response. While it couldn’t generate the document, it did consolidate all of its ideas together in its response. If you want to save the results, you can select the **Copy response** icon at the end of the response and then paste the copied text into a blank Word document. Or, you can select the **Edit in Pages** icon at the end of the response and then create a Word document (or a PDF or PowerPoint presentation) from Pages.
+   Present the schedule in a clear table format.
+   ```
 
+7. Review the communication schedule.
 
+8. To explore creative concepts for the campaigns, enter the following prompt:
+
+   ```text
+   Create a visual concept for each campaign idea.
+
+   Describe:
+   - Theme
+   - Visual style
+   - Suggested imagery
+   - Color direction
+   - Communication objective
+   ```
+
+9. Review the generated visual concepts.
+
+10. To further develop the creative direction, enter the following prompt:
+
+    ```text
+    Create a mood board recommendation for each campaign concept.
+
+    Include:
+    - Font suggestions
+    - Imagery styles
+    - Icon recommendations
+    - Color palettes
+    - Overall visual mood
+    ```
+
+11. Review the mood board recommendations.
+
+    > **Note:** Idea Coach can generate detailed creative descriptions and recommendations, but it can't create actual image files or graphic assets.
+
+12. Next, create A/B message variations by entering the following prompt:
+
+    ```text
+    Create A/B message variants for both Microsoft Teams and Viva Engage.
+
+    For each channel:
+    - Create Version A
+    - Create Version B
+
+    Vary the tone, wording, and call-to-action so we can compare engagement performance.
+    ```
+
+13. Review the message variations.
+
+14. To identify how campaign success can be measured, enter the following prompt:
+
+    ```text
+    Recommend three engagement metrics for evaluating the A/B message variants.
+
+    For each metric:
+    - Explain why it matters
+    - Describe how it can be measured
+
+    Also explain how feedback can be gathered using:
+    - Viva Engage
+    - Microsoft Forms
+    ```
+
+15. Review the suggested metrics and feedback approaches.
+
+16. To further expand the campaign strategy, choose one or more of the following prompts:
+
+### Audience Insights
+
+```text
+What are the top three motivators and barriers for engagement among remote employees, and how should our messaging address them?
+```
+
+### Risk Analysis
+
+```text
+What communication mistakes should we avoid when communicating with compliance-minded R&D teams?
+```
+
+### Multi-Channel Rollout
+
+```text
+Create a four-week integrated communication rollout that connects SharePoint articles, Teams posts, Viva Engage discussions, and Digital Signage messaging.
+```
+
+### Creative Brief
+
+```text
+Create a creative brief for a Viva Engage campaign promoting TR-Pulse participation.
+```
+
+### KPI Recommendations
+
+```text
+Suggest measurable goals and KPIs for evaluating campaign success across all communication channels.
+```
+
+### Engagement Forecasting
+
+```text
+Based on typical Viva Engage engagement patterns, estimate how Version A and Version B might perform and explain why.
+```
+
+### Tone Refinement
+
+```text
+Rewrite the campaign messaging using:
+- Friendly but authoritative
+- Inclusive and inspiring
+- Concise and data-driven
+
+communication styles.
+```
+
+### Global Workforce Adaptation
+
+```text
+Adapt the campaign messaging for a global workforce operating across multiple time zones and cultures.
+```
+
+### Style Guide
+
+```text
+Create a one-page style and tone guide for all TR-Pulse communication contributors.
+```
+
+### Town Hall Engagement Ideas
+
+```text
+Suggest interactive activities, polls, recognition moments, and Q&A prompts that can be incorporated into future TR-Pulse town halls.
+```
+
+### Future Campaign Extension
+
+```text
+Propose a follow-up communication initiative focused on employee recognition and innovation stories.
+```
+
+### Hybrid Work Scenario
+
+```text
+If Trey Research adopts a hybrid-first work model, how should the TR-Pulse communication strategy evolve?
+```
+
+17. Review any additional recommendations generated by the agent.
+
+18. When you finish exploring the campaign ideas, enter the following prompt:
+
+    ```text
+    Consolidate all campaign concepts, schedules, messaging recommendations, creative guidance, metrics, and strategic recommendations into a single document.
+    ```
+
+19. Review the consolidated response.
+
+20. If the agent cannot directly generate a downloadable document, select the **Copy response** option and paste the content into a new Word document.
+
+21. Alternatively, select **Edit in Pages** to create a Word document, PDF, or PowerPoint presentation from the generated content.
+
+### Outcome
+
+In this task, you used the Idea Coach agent to transform communication goals into a structured campaign framework. You developed audience-specific messaging, created a communication calendar, explored creative concepts, designed engagement experiments, and identified measurement strategies. These outputs provide a repeatable communication model that Trey Research can use to support future TR-Pulse communication cycles and improve employee engagement across diverse audiences.

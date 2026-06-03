@@ -1,71 +1,227 @@
----
-lab:
-  title: 'Exercise 2, Task 2: Use Copilot in Excel to perform budget forecast analysis'
-  description: 'As of this writing, you currently have two options when working with Copilot in Excel - Copilot Chat and App Skills (soon to be replaced with Agent Mode). Use the following guidance when determining which option to use:'
-  duration: 30 minutes
-  level: 100
-  islab: true
----
+# Exercise 2: Use Copilot to Generate Executive Business Insights
 
-# Exercise 2, Task 2: Use Copilot in Excel to perform budget forecast analysis
----
-As Northwind Traders’ COO, you now want to complete a budget forecast analysis. With Q4 approaching, you need to forecast Northwind Traders’ financial performance and identify areas where operational costs could be optimized. Executives must anticipate risks such as supply chain fluctuations and market shifts that could affect profitability. In this task, you plan to use Copilot in Excel to analyze budget data, project revenues and expenses, and simulate what-if scenarios. This exercise demonstrates how Copilot can help executives make informed financial decisions by revealing trends and cost-saving opportunities before they affect the bottom line.
+## Task 2: Use Copilot in Excel to Perform Budget Forecast Analysis
 
-#### Using Copilot in Excel
+In this task, you will use Microsoft 365 Copilot in Excel to analyze Northwind Traders' Q4 budget forecast data. You will use Copilot to forecast revenue and expenses, identify financial risks, perform advanced analysis, generate what-if scenarios, and create executive-ready visualizations.
 
-Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in‑place changes to worksheets, tables, and formulas.
+This exercise demonstrates how Copilot can help business leaders uncover trends, evaluate financial scenarios, and identify cost optimization opportunities before they impact business performance.
 
-- You should use Copilot’s standard prompts in Excel for quick questions, simple summaries, or one‑off insights about the data you’re already viewing.
+### Scenario
 
-- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in‑place changes.
+As the COO of Northwind Traders, you are preparing for Q4 planning and need a better understanding of projected financial performance. You want to forecast revenues and expenses, identify areas of potential overspending, and evaluate how changing business conditions could affect profitability.
 
-**Edit with Copilot** is designed for hands‑on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do. In summary, use chat‑style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands‑on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
+Using Copilot in Excel, you will analyze budget data, generate forecasts, explore advanced analytical insights, and create visualizations that support executive decision-making.
 
-This task uses the **Edit with Copilot** functionality.
+## Task 2.1: Generate a Budget Forecast Analysis
 
-In addition, Copilot for Excel provides a response control selector that lets you choose which AI model Copilot uses to work with your workbook. You can leave this set to **Auto** (the default option) and let Copilot select a model for you, or choose a specific model when you want to influence how Copilot approaches the task.
+### Steps
 
-If you've used Copilot Chat, you know that it also includes a response control selector. However, its options are different from the Excel selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might appear to be similar, they control different aspects of Copilot and aren't the same setting.
+1. Open **Microsoft 365** in your browser.
 
-This task uses the default **Auto** selector mode.
+2. Select **Apps**, and then select **Excel**.
 
-Perform the following steps to complete this task:
+3. In **Excel for the web**, select **Upload a file** and open the **Northwind Traders Q4 budget forecast.xlsx** workbook.
 
-1.  Select the following link to download the [**Northwind Traders Q4 budget forecast.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347811) file. Store the file in your OneDrive account for use by Copilot in your tenant.
+4. On the **Home** tab, select **Copilot**.
 
-2.  In your Microsoft Edge browser, go to the **Microsoft 365** tab, select **Apps** in the navigation pane, and then select **Excel** from the **Apps** menu.
+5. Verify that the response mode selector is set to **Auto**.
 
-3.  In **Excel for the web**, select **Upload a file** and then open the **Northwind Traders Q4 budget forecast.xlsx** file.
+6. Confirm that **Allow editing** is enabled.
 
-4.  On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears next to the plus (+) sign in the prompt field. If you don't see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field. 
+   > **Note:** If the **Allow editing** icon is not displayed, select the **+** button and then select **Edit with Copilot**.
 
-5.  In the Copilot prompt field, ask Copilot to analyze the active workbook and forecast expected revenue and expenses for the next quarter. Ask it to highlight potential overspending areas, suggest cost-saving opportunities, and generate charts and tables summarizing key financial metrics.
+7. In the Copilot prompt box, enter the following prompt:
 
-6.  Review the analysis that Copilot generated in the Copilot pane. While the analysis is fine, it’s not as detailed as you were hoping for. In this step, you’re going to ask Copilot to switch into a special analysis workflow known as **Advanced analysis mode**. This mode tells Copilot to take a deeper, calculation-based look at the spreadsheet—examining the data, running comparisons, and identifying trends—rather than just summarizing what’s visible. It generates Python code behind the scenes that performs multi-step statistical or exploratory analysis. It’s designed for advanced data science analysis, not just “thinking harder.” 
+   ```text
+   Analyze this workbook and forecast expected revenue and expenses for the next quarter. Highlight potential overspending areas, suggest cost-saving opportunities, and generate charts and tables summarizing key financial metrics.
+   ```
 
-    Advanced analysis mode isn’t a separate setting that users can manually turn on; it must be requested through a prompt. While a simple prompt such as “Use advanced analysis mode to provide deeper results” is enough to initiate it, you can also request specific feedback depending on the type of data you’re dealing with. Since this task deals with financial analysis and budget forecasting, let’s enter the following prompt:
+8. Submit the prompt.
 
-    **Use advanced analysis mode to provide deeper results. Identify key trends, outliers, and drivers, and explain what they mean. Explore patterns in this data and forecast potential outcomes.**
+9. Review the analysis generated by Copilot.
 
-   > [!IMPORTANT]
-   > Advanced analysis mode is different from selecting an AI model that may offer deeper reasoning. These features aren’t equivalent, and they operate at different layers of Copilot in Excel. Choosing an AI model affects how Copilot interprets prompts and explains results within the standard Excel Copilot experience. Advanced analysis mode, on the other hand, changes how the work is performed by enabling deeper, computation‑driven analysis—such as multi‑step reasoning, Python-based calculations, and more rigorous data analysis. Selecting an AI model doesn’t automatically trigger advanced analysis or guarantee deeper computation. In short, AI model selection influences how Copilot thinks and responds, while advanced analysis mode determines how the data is analyzed.
+### Expected Outcome
 
-7.  Review the results of the advanced analysis that Copilot performed. At the end of the results, select the **Add to new sheet** icon. It might take a minute or two for Copilot to add its deep analysis into a new sheet. Once Copilot finishes copying its data to the sheet, analyze the data and then rename the sheet to **Analysis**.
+Copilot analyzes the workbook and generates forecasts, financial observations, and recommendations for managing expenses and improving profitability.
 
-8.  Return to the **Q4_Forecast** sheet and then ask Copilot to create a “What-if Scenario” for a 10% drop in sales and display the impact on cash flow.
+## Task 2.2: Perform Advanced Analysis
 
-9.  Once Copilot creates the “What-if Scenario” content, select the **Add to new sheet** icon. It might take a minute or two for Copilot to add this what-if scenario into a new sheet. Once Copilot finishes copying its data to the sheet, analyze the data and then rename the sheet to **Sales decline**.
+### Steps
 
-10. Return to the **Q4_Forecast** sheet. Upon further review of the material that Copilot generated, you feel that it’s missing some common charts and graphs that executives typically find valuable. To address this shortcoming, ask Copilot to generate the following visualizations (feel free to generate all these charts, or just a select few if you have time constraints):
+1. In the Copilot pane, enter the following prompt:
 
-    - **Revenue vs. Expenses by Month**. Generate a clustered column chart that compares projected revenue and expenses for Q4. It should show seasonal trends and months with tighter margins.
+   ```text
+   Use advanced analysis mode to provide deeper results. Identify key trends, outliers, and drivers, and explain what they mean. Explore patterns in this data and forecast potential outcomes.
+   ```
 
-    - **Profit Margin by Category**. Create a bar chart that highlights which product categories (Beverages, Snacks, Condiments, and so on) have the highest and lowest margins. It should help prioritize high-margin categories for Q4 focus.
+2. Submit the prompt.
 
-    - **Regional Performance Overview**. Generate a stacked column chart that displays revenue contribution by region (North America, Europe, Asia) across Q4 months. It reveals geographic strengths and weaknesses.
+3. Review the detailed analysis generated by Copilot.
 
-    - **Operational Cost Breakdown**. Create a pie chart that shows the proportion of Supply Chain, Marketing, and Labor costs within total expenses. It should identify major cost drivers for optimization.
+4. Select the **Add to new sheet** option.
 
-11. If necessary, return to the **Q4_Forecast** sheet. Scroll to the bottom of the Copilot pane and review the suggested prompts that Copilot offers. Feel free to select any of these prompts for more in-depth analysis. This is a good opportunity to explore the breadth of analysis that Copilot in Excel offers. Feel free to add any results to a new sheet if you wish.
+5. Wait for Copilot to create a new worksheet containing the analysis results.
 
-12. Save the **Northwind Traders Q4 budget forecast.xlsx** file that contains the budget forecast analysis. You plan to use this file as a knowledge source for the Business Insights agent that you create in Task 4.
+6. Rename the new worksheet:
+
+   ```text
+   Analysis
+   ```
+
+7. Review the generated findings, charts, and calculations.
+
+### Expected Outcome
+
+Copilot performs deeper statistical and trend analysis and creates a dedicated worksheet containing detailed analytical findings.
+
+## Task 2.3: Create a What-If Scenario
+
+### Steps
+
+1. Return to the **Q4_Forecast** worksheet.
+
+2. In the Copilot prompt box, enter the following prompt:
+
+   ```text
+   Create a what-if scenario showing the impact of a 10% drop in sales and display the resulting impact on revenue, expenses, and cash flow.
+   ```
+
+3. Submit the prompt.
+
+4. Review the scenario generated by Copilot.
+
+5. Select **Add to new sheet**.
+
+6. Wait for Copilot to create the worksheet.
+
+7. Rename the new worksheet:
+
+   ```text
+   Sales decline
+   ```
+
+8. Review the results and identify the financial impact of reduced sales.
+
+### Expected Outcome
+
+Copilot generates a what-if analysis that illustrates how declining sales could affect financial performance and cash flow.
+## Task 2.4: Generate Executive Visualizations
+
+### Steps
+
+1. Return to the **Q4_Forecast** worksheet.
+
+2. In the Copilot pane, generate the following visualizations.
+
+### Revenue vs. Expenses by Month
+
+Enter the following prompt:
+
+```text
+Create a clustered column chart comparing projected revenue and expenses by month for Q4.
+```
+
+### Profit Margin by Category
+
+Enter the following prompt:
+
+```text
+Create a bar chart showing profit margin by product category and identify the highest and lowest performing categories.
+```
+
+### Regional Performance Overview
+
+Enter the following prompt:
+
+```text
+Create a stacked column chart showing revenue contribution by region across Q4 months.
+```
+
+### Operational Cost Breakdown
+
+Enter the following prompt:
+
+```text
+Create a pie chart showing the proportion of Supply Chain, Marketing, and Labor costs within total operating expenses.
+```
+
+3. Review each visualization generated by Copilot.
+
+4. If prompted, allow Copilot to insert the charts into the workbook.
+
+### Expected Outcome
+
+Copilot generates visualizations that help executives quickly understand financial performance, profitability, regional trends, and cost drivers.
+
+## Task 2.5: Explore Additional Insights
+
+### Steps
+
+1. Review the suggested prompts displayed by Copilot.
+
+2. Select one of the suggested prompts or enter your own follow-up prompt.
+
+### Suggested Follow-Up Prompts
+
+```text
+Which business area presents the highest financial risk?
+```
+
+```text
+What operational costs should be prioritized for reduction?
+```
+
+```text
+Which product categories are expected to generate the highest profitability?
+```
+
+```text
+What actions could improve cash flow during Q4?
+```
+
+```text
+Identify the top three financial trends that executives should monitor.
+```
+
+3. Review the results generated by Copilot.
+
+4. If desired, select **Add to new sheet** to preserve any additional analyses.
+
+### Expected Outcome
+
+Copilot provides additional financial insights that can support executive planning and decision-making.
+
+## Task 2.6: Save the Workbook
+
+### Steps
+
+1. Review the workbook and verify that the analysis worksheets and visualizations have been created.
+
+2. Save the workbook.
+
+   > **Note:** This workbook will be used later as a knowledge source for the Business Insights agent.
+
+### Expected Outcome
+
+The workbook is saved with all generated analyses, scenarios, and visualizations.
+
+## Knowledge Check
+
+After completing this task, consider the following questions:
+
+- What trends did Copilot identify in the forecast data?
+- Which expenses represented the greatest financial risk?
+- How did the what-if scenario change projected cash flow?
+- Which visualizations would be most valuable during an executive review meeting?
+- How could advanced analysis improve financial planning decisions?
+
+## Key Takeaways
+
+By completing this task, you learned how to:
+
+- Use Copilot in Excel to analyze financial data.
+- Generate revenue and expense forecasts.
+- Perform advanced analytical reviews using Copilot.
+- Create what-if scenarios for business planning.
+- Generate executive-ready charts and visualizations.
+- Identify financial risks and optimization opportunities before they affect business performance.

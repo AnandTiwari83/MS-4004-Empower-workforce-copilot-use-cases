@@ -8,7 +8,7 @@ To make this guide collaborative, flexible, and always up to date, you plan to u
 
 Perform the following steps to complete this task:
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** using the below URL:
+1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** using the URL below:
 
     ```
     https://www.microsoft365.com
@@ -42,12 +42,12 @@ Perform the following steps to complete this task:
 
 6.  Review the list of items that Copilot generated. You want the items broken down by step.
 
-    - If Copilot broke down the items by step, then select the **Copy** icon that appears at the end of Copilot’s response, then select into the Loop page and paste in the content **(Ctrl+V)**. Delete any extraneous content from the conversation that was copy and pasted along with the content (typically at the beginning and end of the content).
+    - If Copilot broke down the items by step, then select the **Copy** icon that appears at the end of Copilot’s response, then select into the Loop page and paste in the content **(Ctrl+V)**. Delete any extraneous content from the conversation that was copied and pasted along with the content (typically at the beginning and end of the content).
 
-    - If Copilot didn’t break the troubleshooting process into clear steps, then ask it to do so. Copy its response, paste it into the Loop page, and delete any extraneous text that appears at the start and end of the content. Use below prompt to do so.
+    - If Copilot didn’t break the troubleshooting process into clear steps, then ask it to do so. Copy its response, paste it into the Loop page, and delete any extraneous text that appears at the start and end of the content. Use the prompt below to do so.
 
       ```
-      Reorganize this troubleshooting guide into a step-by-step process. For each step, provide clear objectives, actions to perform, expected outcomes, and decision points that support representatives should follow.
+      Reorganize this troubleshooting guide into a step-by-step process. For each step, provide clear objectives, actions to perform, expected outcomes, and decision points that representatives should follow.
       ```
 
 7.  Review Copilot’s response in the Copilot pane. While you feel like you’re off to a good start, you want to get a little more detailed in the tasks associated with each step. As such, tell Copilot that what it produced is a good start, but some of the tasks are too high-level. Ask it to get more detailed on the tasks that it identified in each step.

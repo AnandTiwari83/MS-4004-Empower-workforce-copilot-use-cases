@@ -8,8 +8,6 @@ You didn't have time to take detailed notes, so you turn to Copilot for help. In
 
 ## Steps
 
-1. Select the following link to download the [**Fabrikam Finance meeting notes.txt**](https://go.microsoft.com/fwlink/?linkid=2347810) file. Store the file in your **OneDrive** account for use by Copilot in your tenant.
-
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
     ```
@@ -24,41 +22,67 @@ You didn't have time to take detailed notes, so you turn to Copilot for help. In
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Teams (2)**.
 
-    ![](../media/task-2/app-launcher-teams.png)
+    ![](./media/app-launcher-teams.png)
 
 1. In **Teams for the web**, select **Copilot** in the left navigation pane.
 
-    ![](../media/task-2/teams-copilot-nav.png)
+    ![](./media/teams-copilot-nav.png)
 
 1. On the **Welcome to Copilot Chat** page, enter a prompt asking Copilot to summarize the key decisions, updates, and action items in the meeting notes. Attach the **Fabrikam Finance meeting notes.txt** file to the prompt by selecting the **attachment** icon before submitting.
 
-    ![](../media/task-2/attach-file.png)
+    ![](./media/attach-file.png)
+
+    ![](./media/attach-filea.png)
 
 1. Review the summary to ensure it includes decisions, next steps, and responsibilities. Then ask Copilot to generate a downloadable file of the summary for distribution to the meeting participants. Download the document that Copilot generates.
 
-    ![](../media/task-2/download-summary.png)
+    ```
+    Create a meeting summary that includes key decisions, action items, next steps, and assigned responsibilities. Generate the summary as a downloadable document
+    ```
 
-1. After reviewing the next steps in the report summary, enter a prompt asking Copilot to generate a detailed **task list for each participant** based on the action items in the notes. Ask Copilot to assign deadlines or priorities to each task — for example, *"high priority for compliance checks"*.
+    ![](./media/download-summary.png)
 
-    ![](../media/task-2/task-list.png)
+1. After reviewing the next steps in the report summary, enter a prompt asking Copilot to generate a detailed **task list for each participant** based on the action items in the notes. Ask Copilot to assign deadlines or priorities to each task - for example, *"high priority for compliance checks"*.
+
+    ```
+    Based on the meeting notes, create a detailed task list for each participant. Assign priorities and suggested deadlines for every action item.
+    ```
+
+    ![](./media/task-list.png)
 
 1. Once Copilot generates the task list for each meeting participant, ask it to **draft an email to the team** that includes these tasks. In a real-world scenario, you would copy and paste the draft into Outlook to send it. For this exercise, review the draft and then proceed to the next step.
 
-    ![](../media/task-2/email-draft.png)
+    ```
+    Draft an email to the team summarizing the meeting outcomes, assigned tasks, priorities, and next steps.
+    ```
+
+    ![](./media/email-draft.png)
 
 1. Ask Copilot to generate a **timeline of key milestones** discussed in the meeting.
 
-    ![](../media/task-2/milestones-timeline.png)
+    ```
+    Create a timeline of the key milestones and deliverables discussed during the meeting.
+    ```
+
+    ![](./media/milestones-timeline.png)
 
 1. As a follow-up to the timeline, ask Copilot to **draft a calendar invite** for the team to reconvene.
 
-    > **`Note:`** In testing, Copilot may produce one of two results — it may offer several date options for the team's next meeting, or it may display a draft invitation message and ask you to provide a date. If you experience the latter, you would normally respond with a preferred date, but you don't need to do that for this exercise. In a real-world scenario, you would use the Copilot option to send the meeting request. Since this exercise involves a fictitious company, proceed to the next step.
+    ```
+    Draft a calendar invitation for a follow-up team meeting based on the timeline and action items discussed.
+    ```
 
-    ![](../media/task-2/calendar-invite.png)
+    > **`Note:`** In testing, Copilot may produce one of two results - it may offer several date options for the team's next meeting, or it may display a draft invitation message and ask you to provide a date. If you experience the latter, you would normally respond with a preferred date, but you don't need to do that for this exercise. In a real-world scenario, you would use the Copilot option to send the meeting request. Since this exercise involves a fictitious company, proceed to the next step.
+
+    ![](./media/calendar-invite.png)
 
 1. Finally, after reviewing the meeting notes, ask Copilot to **draft a short policy brief** explaining the override approval workflow that was discussed during the meeting. You plan to use this brief as an authoritative guide when handling exceptions, overrides, or compliance-related tasks. This ensures that all team members follow the same process, reducing ambiguity and risk.
 
-    ![](../media/task-2/policy-brief.png)
+    ```
+    Create a policy brief that explains the override approval workflow discussed during the meeting, including approval requirements, responsibilities, compliance considerations, and exception-handling procedures.
+    ```
+
+    ![](./media/policy-brief.png)
 
 1. Review the policy brief generated by Copilot. You have now completed **Task 2**.
 
@@ -74,7 +98,7 @@ In this task, you used **Copilot in Microsoft Teams** to process and act on the 
 - Drafted a calendar invite for the team to reconvene.
 - Produced a policy brief outlining the override approval workflow for compliance guidance.
 
-These outputs demonstrate how Copilot in Teams can transform unstructured meeting notes into actionable, shareable deliverables — saving time and improving team alignment.
+These outputs demonstrate how Copilot in Teams can transform unstructured meeting notes into actionable, shareable deliverables - saving time and improving team alignment.
 
 ## Support Contact
 
@@ -87,4 +111,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-2/next-button.png)
+![](./media/next-button.png)

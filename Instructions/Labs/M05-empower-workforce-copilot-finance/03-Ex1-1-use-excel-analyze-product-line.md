@@ -12,7 +12,7 @@ Excel provides two ways to use Copilot: standard Copilot prompts for asking ques
 
 - You should use Copilot's **standard prompts** in Excel for quick questions, simple summaries, or one-off insights about the data you're already viewing. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the workbook.
 
-- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in-place changes. **Edit with Copilot** is designed for hands-on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do.
+- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet-such as cleaning data, adding formulas, restructuring tables, or making iterative, in-place changes. **Edit with Copilot** is designed for hands-on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do.
 
 In summary, use chat-style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands-on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste.
 
@@ -40,49 +40,67 @@ This task uses the default **Auto** selector mode.
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Excel (2)**.
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **OneDrive (2)**.
 
-    ![](../media/task-1/app-launcher-excel.png)
+    ![](./media/app-launcher-excel.png)
 
-1. In **Excel for the web**, select the **Upload a file** button, navigate to your **OneDrive**, and then select the **EcoSmart COGS Estimates** spreadsheet.
+1. In **OneDrive for the web**, select the **MyFiles (1)** from left menu, navigate to your **EcoSmart COGS Estimates**, and then select the **EcoSmart COGS Estimates.xlsx (2)** spreadsheet.
 
-    ![](../media/task-1/upload-file.png)
+    ![](./media/upload-file.png)
 
-1. On the **Home** tab ribbon, select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus **(+)** sign.
+1. Select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Allow editing** icon appears in the prompt field above to the plus **input** section.
 
-    ![](../media/task-1/copilot-pane.png)
+    ![](./media/copilot-pane.png)
 
-    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
-
-    ![](../media/task-1/edit-with-copilot.png)
+    ![](./media/edit-with-copilot.png)
 
 1. In the Copilot pane, submit the following prompt to analyze the dataset:
 
-    > **`Note:`** For this first prompt, the text has been provided so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit — **Goal**, **Context**, **Sources**, and **Expectations**. You must write all remaining prompts in this exercise, but you can use this prompt as a model to emulate.
+    > **`Note:`** For this first prompt, the text has been provided so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit - **Goal**, **Context**, **Sources**, and **Expectations**. You must write all remaining prompts in this exercise, but you can use this prompt as a model to emulate.
 
     ```
     I'm a financial analyst for Fabrikam. I was asked to analyze the EcoSmart COGS Estimates spreadsheet for Fabrikam's new EcoSmart product line. Can you please review the dataset in this spreadsheet and provide two things in a new sheet: (1) a clear description of each key column and its purpose, and (2) a list of any missing or inconsistent data points that could affect accuracy. Present your findings in a concise, structured format in a new sheet.
     ```
 
+    ![](./media/edit-with-copilot.png)
+
 1. Review the results in the new sheet, then select **Sheet1** to return to the dataset.
 
-    ![](../media/task-1/review-sheet.png)
+    ![](./media/edit-with-copilota.png)
 
 1. Your next task is to identify cost trends. In the Copilot pane, enter a prompt that asks Copilot to find patterns in the data and summarize which product features or components have the highest average COGS. Ask it to return the results in a new sheet.
 
+    ```
+    Analyze the dataset and identify patterns in Cost of Goods Sold (COGS). Determine which product features or components have the highest average COGS and return the analysis in a new worksheet.
+    ```
+
+    ![](./media/edit-with-copilotb.png)
+
 1. Review the results in the new sheet containing the COGS pattern analysis. Stay in this sheet for the next request. Enter a prompt asking Copilot to look for any **outliers or anomalies** in the COGS data that could indicate data errors or unusually high material costs. Ask it to return the results in a new sheet.
 
-    ![](../media/task-1/outlier-analysis.png)
+    ```
+    Analyze the COGS data and identify any outliers or anomalies that may indicate unusually high material costs or potential data quality issues. Return the results in a new worksheet.
+    ```
+
+    ![](./media/outlier-analysis.png)
 
 1. Review the results in the new sheet containing the outlier analysis, then select **Sheet1** to return to the dataset. Enter a prompt asking Copilot to generate a brief **summary report** of the top three cost drivers and any opportunities to reduce costs. Ask it to return the results in a new sheet.
 
-1. Review the results in the new sheet containing the cost driver summary, then select **Sheet1** to return to the dataset.
+    ```
+    Create a summary report that identifies the top three cost drivers in the dataset and recommend opportunities to reduce costs. Return the report in a new worksheet.
+    ```
 
-    ![](../media/task-1/cost-driver-summary.png)
+    ![](./media/outlier-analysisa.png)
+
+1. Review the results in the new sheet containing the cost driver summary, then select **Sheet1** to return to the dataset.
 
 1. Finally, enter a prompt asking Copilot to create a **bar chart** that shows the top five product features by average COGS. Ask it to return the results in a new sheet.
 
-    ![](../media/task-1/bar-chart.png)
+    ```
+    Create a bar chart showing the top five product features or components with the highest average COGS. Return the chart in a new worksheet.
+    ```
+
+    ![](./media/bar-chart.png)
 
 1. Review the chart generated by Copilot. You plan to reference these findings in a future meeting with your Finance Manager to discuss next steps.
 
@@ -111,4 +129,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-1/next-button.png)
+![](./media/next-button.png)

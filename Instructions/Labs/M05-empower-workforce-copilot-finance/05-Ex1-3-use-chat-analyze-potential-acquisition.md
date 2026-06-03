@@ -22,8 +22,6 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
 
 ## Steps
 
-1. Select the following link to download the [**Relecloud Business Perspective.docx**](https://go.microsoft.com/fwlink/?linkid=2347813) file. Store the file in your **OneDrive** account for use by Copilot in your tenant.
-
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
     ```
@@ -38,17 +36,17 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Copilot (2)**.
 
-    ![](../media/task-3/app-launcher-copilot.png)
+    ![](./media/app-launcher-copilot.png)
 
 1. In Copilot Chat, select the **Work** option.
 
     > **`Note:`** Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs.
 
-    ![](../media/task-3/copilot-work-mode.png)
+    ![](./media/copilot-work-mode.png)
 
 1. In the Copilot prompt field, select the **attachment** icon and attach the **Relecloud Business Perspective.docx** file that you downloaded in Step 1.
 
-    ![](../media/task-3/attach-file.png)
+    ![](./media/attach-file4.png)
 
 1. Based on Robin Kline's request, enter a prompt asking Copilot to review the attached document and create a business perspective summary that contains the following three sections:
 
@@ -56,7 +54,7 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
     - Operations analysis of Relecloud
     - Integration plan for the acquisition
 
-    ![](../media/task-3/first-summary.png)
+    ![](./media/first-summary.png)
 
 1. Review the results. Note that Copilot's summary is a good start, but it may not include the level of detail necessary for a comprehensive acquisition analysis. The previous prompt asked for a summary with three sections but didn't specify the details to include in each section. When those decisions are left to Copilot, results may not always meet expectations.
 
@@ -84,15 +82,15 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
         - The following visual:
             - **Integration Timeline (Gantt Chart):** Visualizes the phases and milestones of the post-merger integration plan
 
-    ![](../media/task-3/expanded-summary.png)
+    ![](./media/expanded-summary.png)
 
-1. Review the expanded results. Note the difference between the first summary report — based on a high-level prompt — and this second report — based on a much more detailed request. This comparison highlights the importance of crafting detailed prompts that incorporate all four key elements: **Goal**, **Context**, **Sources**, and **Expectations**.
+1. Review the expanded results. Note the difference between the first summary report - based on a high-level prompt - and this second report - based on a much more detailed request. This comparison highlights the importance of crafting detailed prompts that incorporate all four key elements: **Goal**, **Context**, **Sources**, and **Expectations**.
 
-    ![](../media/task-3/compare-results.png)
+    ![](./media/compare-results.png)
 
 1. Feel free to select any of Copilot's suggested follow-up prompts if you want to refine or expand the summary further. When you're ready, ask Copilot to **compile this information into a single downloadable document**. Download the file once it's generated and save it to your **OneDrive** account.
 
-    ![](../media/task-3/download-document.png)
+    ![](./media/download-document.png)
 
 1. You have now completed **Task 3**.
 
@@ -106,7 +104,7 @@ In this task, you used **Copilot Chat** in Work mode to analyze the Relecloud Bu
 - Compared the two outputs to understand how prompt quality directly affects the depth and usefulness of Copilot's response.
 - Compiled the final expanded report into a downloadable document saved to OneDrive.
 
-This task demonstrates that the more precise and structured your prompt — incorporating Goal, Context, Sources, and Expectations — the more actionable and comprehensive Copilot's output will be.
+This task demonstrates that the more precise and structured your prompt - incorporating Goal, Context, Sources, and Expectations - the more actionable and comprehensive Copilot's output will be.
 
 ## Support Contact
 
@@ -119,4 +117,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-3/next-button.png)
+![](./media/next-button.png)

@@ -28,9 +28,9 @@ One of the primary keys to effectively using Copilot is the quality of your Copi
 
 - **Sources**. Specify where Copilot should look for information (documents, emails, Teams chats, and so on). For example: "Focus on emails and Teams chats since June."
 
-- **Expectations**. Define how you want the response delivered—tone, style, or level of detail. For example: "Use simple language so I can get up to speed quickly" or "Explain it as if I were a pirate."
+- **Expectations**. Define how you want the response delivered-tone, style, or level of detail. For example: "Use simple language so I can get up to speed quickly" or "Explain it as if I were a pirate."
 
-Keep these four elements front and center as you practice creating prompts—they're the foundation for getting clear, accurate, and useful results from Copilot. Implementing these elements as you write prompts in these exercises can build real-world skills, so writing effective prompts becomes second nature.
+Keep these four elements front and center as you practice creating prompts-they're the foundation for getting clear, accurate, and useful results from Copilot. Implementing these elements as you write prompts in these exercises can build real-world skills, so writing effective prompts becomes second nature.
 
 ## Prerequisites
 
@@ -51,19 +51,19 @@ Once the lab environment is ready, the virtual machine displayed on the left wil
 
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
-![](../media/env-tab.png)
+![](./media/env-0206.png)
 
 ## Utilizing the Split Window Feature
 
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
 
-![](../media/split-window.png)
+![](./media/split-0206.png)
 
 ## Managing Your Virtual Machine
 
 Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-![](../media/resources-tab.png)
+![](./media/res-0206.png)
 
 ## Lab Setup
 
@@ -75,7 +75,7 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
 1. In the LabVM, open the **Microsoft Edge** browser from the Desktop.
 
-    ![Open Edge](../media/open-edge.png)
+    ![Open Edge](./media/prereq-1.png)
 
 1. In the address bar, enter the following URL to navigate to Microsoft 365:
 
@@ -93,11 +93,11 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **OneDrive (2)**.
 
-    ![](../media/app-launcher-onedrive.png)
+    ![](./media/prereq-2.png)
 
 1. In **OneDrive**, in the top-left corner, select **+ Create or upload (1)** > **Files upload (2)**.
 
-    ![](../media/onedrive-upload.png)
+    ![](./media/prereq-3.png)
 
 1. In **File Explorer**, navigate to **`C:\LabFiles\ResourceFiles`** location and select all the files from the **ResourceFiles** folder, then click **Open**.
 
@@ -122,4 +122,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to embark on your Lab journey!
 
-![](../media/next-button.png)
+![](./media/next-0206.png)

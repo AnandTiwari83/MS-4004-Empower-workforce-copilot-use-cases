@@ -1,6 +1,6 @@
 # Exercise 2, Task 3: Use Copilot in Loop to turn insights into actionable content
 
-Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint to Finance leadership, you want to gather diverse perspectives from the Finance team — especially from those members with procurement and legal experience. You plan to use Copilot in Microsoft Loop to review your draft presentation and turn its insights involving negotiation strategy, risk mitigation ideas, and communication framing into actionable, collaborative content.
+Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint to Finance leadership, you want to gather diverse perspectives from the Finance team - especially from those members with procurement and legal experience. You plan to use Copilot in Microsoft Loop to review your draft presentation and turn its insights involving negotiation strategy, risk mitigation ideas, and communication framing into actionable, collaborative content.
 
 ## Steps
 
@@ -18,7 +18,7 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Loop (2)**.
 
-    ![](../media/task-3/app-launcher-loop.png)
+    ![](./media/app-launcher-loop.png)
 
 1. In **Loop for the web**, create a new workspace titled:
 
@@ -26,29 +26,29 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
     Adatum/Contoso contract comparison
     ```
 
-    ![](../media/task-3/new-workspace.png)
+    ![](./media/new-workspace.png)
 
-1. You will create three pages under this workspace — one for negotiation strategy, one for risk mitigation ideas, and one for communication framing. To begin, change the title of the first page from **Untitled** to:
+1. You will create three pages under this workspace - one for negotiation strategy, one for risk mitigation ideas, and one for communication framing. To begin, change the title of the first page from **Untitled** to:
 
     ```
     Negotiation Strategy
     ```
 
-    ![](../media/task-3/negotiation-page.png)
+    ![](./media/negotiation-page.png)
 
 ### Page 1: Negotiation Strategy
 
 1. Open the **Copilot** pane on the **Negotiation Strategy** page.
 
-    ![](../media/task-3/copilot-pane.png)
+    ![](./media/copilot-pane.png)
 
 1. Ask Copilot to review the **Smart Sensor contract comparison – Finance.pptx** file and turn its negotiation recommendations into a structured Loop table with the following columns: **Action**, **Priority**, **Owner**, and **Deadline**. Attach the file by entering a forward slash **(/)** in the prompt field and then selecting the **Smart Sensor contract comparison – Finance.pptx** file from the **Files** tab.
 
-    ![](../media/task-3/attach-file.png)
+    ![](./media/attach-file.png)
 
 1. Review the table results. Select the **Copy** icon that appears below the table, then paste the copied content into your **Negotiation Strategy** Loop page. Delete any extraneous text that was pasted along with the table.
 
-    ![](../media/task-3/paste-table.png)
+    ![](./media/paste-table.png)
 
 ### Page 2: Risk Mitigation Ideas
 
@@ -58,15 +58,15 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
     Risk mitigation ideas
     ```
 
-    ![](../media/task-3/risk-page.png)
+    ![](./media/risk-page.png)
 
-1. Open the **Copilot** pane on the **Risk mitigation ideas** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and turn the risk mitigation ideas into a **checklist with status fields** for tracking. Attach the file the same way as before — enter a forward slash **(/)** and select the file from the **Files** tab.
+1. Open the **Copilot** pane on the **Risk mitigation ideas** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and turn the risk mitigation ideas into a **checklist with status fields** for tracking. Attach the file the same way as before - enter a forward slash **(/)** and select the file from the **Files** tab.
 
-    ![](../media/task-3/risk-checklist.png)
+    ![](./media/risk-checklist.png)
 
 1. Review the results. Select the **Copy** icon, then paste the content into your **Risk mitigation ideas** Loop page. Delete any extraneous text that was pasted along with the checklist.
 
-    ![](../media/task-3/paste-checklist.png)
+    ![](./media/paste-checklist.png)
 
 ### Page 3: Communication Plan
 
@@ -76,21 +76,21 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
     Communication plan
     ```
 
-    ![](../media/task-3/communication-page.png)
+    ![](./media/communication-page.png)
 
-1. Open the **Copilot** pane on the **Communication plan** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and draft a **communication plan** for sharing its recommendations with stakeholders, including a timeline and recommended channels. Attach the file the same way as before — enter a forward slash **(/)** and select the file from the **Files** tab.
+1. Open the **Copilot** pane on the **Communication plan** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and draft a **communication plan** for sharing its recommendations with stakeholders, including a timeline and recommended channels. Attach the file the same way as before - enter a forward slash **(/)** and select the file from the **Files** tab.
 
-    ![](../media/task-3/communication-plan.png)
+    ![](./media/communication-plan.png)
 
 1. Review the results. Select the **Copy** icon, then paste the content into your **Communication plan** Loop page. Delete any extraneous text that was pasted along with the communication plan.
 
-    ![](../media/task-3/paste-communication-plan.png)
+    ![](./media/paste-communication-plan.png)
 
-1. Your **Adatum/Contoso contract comparison** workspace now contains three completed pages — **Negotiation Strategy**, **Risk mitigation ideas**, and **Communication plan**.
+1. Your **Adatum/Contoso contract comparison** workspace now contains three completed pages - **Negotiation Strategy**, **Risk mitigation ideas**, and **Communication plan**.
 
-    > **`Note:`** Keep the Loop workspace open. In the next task, you will create an email for your Finance colleagues that includes a link to this workspace — you will need to copy its URL.
+    > **`Note:`** Keep the Loop workspace open. In the next task, you will create an email for your Finance colleagues that includes a link to this workspace - you will need to copy its URL.
 
-    ![](../media/task-3/workspace-complete.png)
+    ![](./media/workspace-complete.png)
 
 1. You have now completed **Task 3**.
 
@@ -116,4 +116,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-3/next-button.png)
+![](./media/next-button.png)

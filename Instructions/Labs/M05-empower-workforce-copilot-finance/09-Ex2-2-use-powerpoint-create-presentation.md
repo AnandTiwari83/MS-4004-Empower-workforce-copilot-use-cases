@@ -8,7 +8,7 @@ PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickl
 
 - You should use Copilot's **standard prompts** in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat-style mode that generates suggestions or content separately, rather than making direct, in-place changes to the presentation.
 
-- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation—such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Edit with Copilot** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than just suggesting content in a separate response.
+- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation-such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Edit with Copilot** is optimized for in-place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than just suggesting content in a separate response.
 
 In summary, use chat-style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands-on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
 
@@ -30,27 +30,27 @@ This task uses the **Edit with Copilot** functionality.
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **PowerPoint (2)**.
 
-    ![](../media/task-2/app-launcher-powerpoint.png)
+    ![](./media/app-launcher-powerpoint.png)
 
 1. In **PowerPoint for the web**, create a **blank presentation**.
 
-    ![](../media/task-2/blank-presentation.png)
+    ![](./media/blank-presentation.png)
 
 1. Select the **Home** tab if the ribbon isn't already visible. Then select **Copilot** at the end of the **Home** tab ribbon to open the Copilot pane.
 
-    ![](../media/task-2/copilot-ribbon.png)
+    ![](./media/copilot-ribbon.png)
 
 1. In the Copilot pane, select the **plus (+)** sign in the prompt field and then select **Add work content** in the drop-down menu. Attach the **Smart Sensor contract comparison** file that you created in the previous task.
 
-    ![](../media/task-2/add-work-content.png)
+    ![](./media/add-work-content.png)
 
 1. Verify the **Edit with Copilot** icon appears next to the **plus (+)** sign in the prompt field.
 
     > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
 
-    ![](../media/task-2/edit-with-copilot.png)
+    ![](./media/edit-with-copilot.png)
 
-1. In the Copilot prompt field, enter a prompt asking Copilot to create a slide presentation based on the attached **Smart Sensor contract comparison** file. Remember to address the four key elements of an effective prompt — **Goal**, **Context**, **Sources**, and **Expectations**. Your prompt should include the following requirements:
+1. In the Copilot prompt field, enter a prompt asking Copilot to create a slide presentation based on the attached **Smart Sensor contract comparison** file. Remember to address the four key elements of an effective prompt - **Goal**, **Context**, **Sources**, and **Expectations**. Your prompt should include the following requirements:
 
     - The presentation is targeted at the **Finance leadership team**
     - Include a **separate slide for each key finding topic area**, such as Pricing, Delivery Timelines and Terms, Warranties and Support, and so on
@@ -58,33 +58,33 @@ This task uses the **Edit with Copilot** functionality.
     - Use **visuals** to keep the presentation engaging
     - Use **bullet points** on slides for clarity
 
-    ![](../media/task-2/initial-prompt.png)
+    ![](./media/initial-prompt.png)
 
 1. If Copilot asks a series of questions related to the presentation, select the answers you want it to apply and then select **Confirm**. It may ask a second series of questions, including a request to select a slide template.
 
     > **`Note:`** If you don't select a template, Copilot presents text on plain white slides. Select the answers you want applied, or select **Skip all** to let Copilot use its best judgment.
 
-    ![](../media/task-2/copilot-questions.png)
+    ![](./media/copilot-questions.png)
 
-1. Wait for Copilot to generate the slides — this may take several minutes.
+1. Wait for Copilot to generate the slides - this may take several minutes.
 
     > **`Note:`** During testing, Copilot sometimes generated slides automatically with no further confirmation needed. Other times, it provided an outline in the Copilot chat pane and suggested options for how to proceed. If you experience the latter, tell Copilot to **proceed with the outline**.
 
-    ![](../media/task-2/generated-slides.png)
+    ![](./media/generated-slides.png)
 
 1. Review the slides that Copilot generated. You want to add a **Risk Mitigation** slide, which isn't currently in the presentation. Review the slides and identify where this topic best fits. In the slide pane on the left, select the location where you want Copilot to insert the new slide. Then enter a prompt asking Copilot to add a slide containing the top recommendations for mitigating risks. Ask that the slide include **visual emphasis**, such as callouts or highlights, for critical points.
 
-    ![](../media/task-2/risk-mitigation-slide.png)
+    ![](./media/risk-mitigation-slide.png)
 
-    > **`Note:`** Copilot may ask another series of questions — including a request to reselect a slide template — even though you specified one earlier. It may take several minutes to generate the new slide. If Copilot provides an outline rather than adding the slide directly, tell it to **add the planned slide to the presentation**.
+    > **`Note:`** Copilot may ask another series of questions - including a request to reselect a slide template - even though you specified one earlier. It may take several minutes to generate the new slide. If Copilot provides an outline rather than adding the slide directly, tell it to **add the planned slide to the presentation**.
 
 1. Review the risk mitigation slide that Copilot added. Next, you want to add a **Vendor Advantage Summary** slide at the end of the deck. Place your cursor after the last slide in the deck, then ask Copilot to add a Vendor Advantage Summary slide that indicates which vendor offers better terms for each topic covered in the presentation.
 
-    ![](../media/task-2/vendor-summary-slide.png)
+    ![](./media/vendor-summary-slide.png)
 
 1. Review the Vendor Advantage Summary slide. Finally, you want Copilot to add an **Action Plan** slide as the last slide in the deck. Place your cursor after the final slide, then ask Copilot to add an Action Plan slide that identifies the next steps for negotiations and risk mitigation. Ask that the slide include a **timeline** and **responsible roles**.
 
-    ![](../media/task-2/action-plan-slide.png)
+    ![](./media/action-plan-slide.png)
 
     > **`Note:`** During testing, Copilot sometimes omitted the timeline from the Action Plan slide. If that happens, ask Copilot to create a separate **Next Steps timeline** slide. Once generated, you can leave it as a standalone slide or manually copy the timeline into the original Action Plan slide.
 
@@ -94,7 +94,7 @@ This task uses the **Edit with Copilot** functionality.
     Smart Sensor contract comparison - Finance
     ```
 
-    ![](../media/task-2/save-presentation.png)
+    ![](./media/save-presentation.png)
 
 1. You have now completed **Task 2**.
 
@@ -121,4 +121,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-2/next-button.png)
+![](./media/next-button.png)

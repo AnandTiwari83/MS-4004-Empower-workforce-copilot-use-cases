@@ -1,4 +1,4 @@
-# Exercise 1, Task 1: Use Copilot in Whiteboard to brainstorm project plan ideas
+# Exercise 1 Task 1: Use Copilot in Whiteboard to brainstorm project plan ideas
 
 As the Operations Manager at Adatum Corporation, you're planning to install a new boiler into your building's heating system. However, before you begin the installation process, you want to use Copilot in Whiteboard to suggest potential steps that companies typically complete when installing a new boiler system.
 

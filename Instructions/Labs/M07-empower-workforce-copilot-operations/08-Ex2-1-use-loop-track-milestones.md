@@ -1,14 +1,5 @@
----
-lab:
-  title: 'Exercise 2, Task 1: Use Copilot in Loop to track construction milestones'
-  description: A typical construction project of this nature would have many other tasks that you could track in Loop, such as a safety training rollout plan, inventory move wave plan, stakeholder communication plan, go-live runbook, and so on. However, for the sake of time, this task only creates the four pages listed above.
-  duration: 46 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 1: Use Copilot in Loop to track construction milestones
----
+
 As the Operations Lead for Contoso’s regional distribution center expansion, you’re responsible for keeping the project on schedule and ensuring all teams are aligned. The expansion involves multiple phases—site preparation, construction, inspections, equipment installation, and final handover—each with its own set of dependencies and deadlines.
 
 With so many moving parts and stakeholders (construction crews, logistics, safety, IT, and leadership), it’s critical to have a clear, visual way to track progress and assign responsibilities. Microsoft Loop, enhanced by Copilot, is your central hub for organizing and monitoring every milestone. Within your Loop workspace for your project plan, you plan to create the following pages:

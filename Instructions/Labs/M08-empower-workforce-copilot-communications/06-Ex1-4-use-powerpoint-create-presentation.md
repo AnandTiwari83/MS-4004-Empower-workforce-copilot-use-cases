@@ -1,63 +1,129 @@
----
-lab:
-  title: 'Exercise 1, Task 4: Use Copilot in PowerPoint to create an executive presentation'
-  description: Rather than building the presentation slide‑by‑slide from scratch, you use Copilot in PowerPoint to accelerate the process. Copilot helps transform your written brief and research findings into a cohesive, leadership‑ready slide deck—organizing content logically, suggesting clear headlines, and keeping visuals focused on strategic takeaways.
-  duration: 5 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 1, Task 4: Use Copilot in PowerPoint to create an executive presentation
----
-With the strategic communication brief complete and external research in hand, Boulder Innovations’ executive leadership team now needs a clear, visual summary of the AuroraHub initiative. Executives possess limited time and expect succinct, decision-oriented content that highlights priorities, impacts, and next steps, rather than long-form documentation.
 
-As the Communications Manager, you’re tasked with creating an executive presentation that brings together the work you completed thus far. This deck must clearly articulate:
+With the strategic communication brief complete and external research findings documented, Boulder Innovations’ executive leadership team now requires a concise, visual presentation that summarizes the AuroraHub initiative. Executive audiences typically prefer decision-oriented presentations that focus on strategic priorities, business value, supporting evidence, and next steps rather than detailed reports.
 
-- Why AuroraHub is being introduced now
-- How it supports Boulder Innovations’ strategic goals
-- What data and external trends support the initiative
-- How the company plans to manage adoption and measure success
+In this task, you'll use Microsoft 365 Copilot in PowerPoint to transform your communication brief and research findings into an executive-ready presentation. Copilot helps accelerate slide creation, organize content into a logical flow, and generate visuals that support key messages and recommendations.
 
-Rather than building the presentation slide‑by‑slide from scratch, you use Copilot in PowerPoint to accelerate the process. Copilot helps transform your written brief and research findings into a cohesive, leadership‑ready slide deck—organizing content logically, suggesting clear headlines, and keeping visuals focused on strategic takeaways.
+### Task 4.1: Create a new presentation
 
-This task demonstrates how Communications professionals can use Copilot not just to draft content, but to package and elevate that content into formats executives rely on for decision‑making. By the end of this task, you should have a polished presentation that leadership can use to align stakeholders, secure buy‑in, and move forward confidently with the AuroraHub launch.
+1. In Microsoft Edge, navigate to **[https://www.microsoft365.com](https://www.microsoft365.com)**.
 
-#### Using Copilot in PowerPoint
+2. Select **Apps** from the navigation pane and then select **PowerPoint**.
 
-PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Edit with Copilot** in the Copilot pane for making direct, in‑place edits to slides, layouts, and presentation structure.
+3. In **PowerPoint for the web**, select **Blank presentation**.
 
-- You should use Copilot’s standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the structure of the deck. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat‑style mode that generates suggestions or content separately, rather than making direct, in‑place changes to the presentation.  
-    
-- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation—such as reorganizing slides, refining slide text, improving layouts, or making iterative edits across multiple slides. **Edit with Copilot** is optimized for in‑place presentation work, so it understands slide structure and can apply changes directly to the deck, rather than just suggesting content in a separate response.
+4. On the **Home** tab, select **Copilot**.
 
-In summary, use chat‑style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands‑on editing inside the file. Copilot typically previews slide or layout changes and, once you confirm, it applies those changes directly to the slide deck rather than expecting the user to explicitly apply them through copy and paste.
+### Task 4.2: Attach supporting documents
 
-This task uses the **Edit with Copilot** functionality.
+1. In the Copilot pane, select the **plus (+)** icon.
 
-Perform the following steps to complete this task:
+2. Select **Add work content**.
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **PowerPoint** from the **Apps** menu.
+3. Attach the following files from your OneDrive:
 
-2.  In **PowerPoint for the web**, create a blank presentation.
+   * The **AuroraHub Strategic Communication Brief** created in Task 1.
+   * The **Trend Synthesis PDF Summary** created in Task 2.
 
-3.  Select the **Home** tab if the **Home** tab ribbon doesn’t appear. Then select **Copilot** at the end of the **Home** tab ribbon.
+4. Verify that the **Edit with Copilot** icon appears in the prompt field.
 
-4.  In the Copilot pane, select the plus (+) sign in the prompt field and then select **Add work content** in the drop-down menu. Attach the AuroraHub strategic communication brief that you created in Task 1 and the PDF summary (trend synthesis) that you created in Task 2, both of which were stored in your OneDrive.
+   > **Note:** If the **Edit with Copilot** icon isn't displayed, select the **plus (+)** icon and choose **Edit with Copilot**.
 
-5.  Verify the **Edit with Copilot** icon appears next to the plus (+) sign in the prompt field. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+### Task 4.3: Generate the executive presentation
 
-6.  In the Copilot prompt, ask Copilot to generate an executive leadership slide presentation based on the two attached files. The presentation should cover the following topics: Title + AuroraHub purpose, External trends and implications, Internal engagement insights (summaries only; no raw charts), Launch plan and change management pillars, Safety messaging and mobile access, and Call to action for VPs and site leads.
+1. In the Copilot prompt box, enter a prompt requesting an executive-level presentation based on the attached files.
 
-7.  If Copilot asks a series of questions related to the presentation, select the answers that you want it to apply. Select the **Confirm** button once you finish answering the questions. It might also ask a second series of questions, one of which might be to select a slide template. Keep in mind that if you don’t select a template, Copilot simply presents text on plain white slides. Again, select the answers that you want it to apply, or select **Skip all** if you want Copilot to use its best judgment.
+   Example prompt:
 
-8.  Copilot in PowerPoint uses this information to generate a list of slides, which might take a few minutes.
+   ```text
+   Create an executive leadership presentation based on the attached communication brief and trend synthesis report. Include slides covering:
 
-9.  During our testing, we experienced different results regarding slide generation. Copilot sometimes generated the slides automatically, with no further confirmation needed. Other times, it provided an outline of the slides in the Copilot chat pane, and it suggested several options as to how it could proceed. If you experience the latter scenario, tell it to create the slides based on the outline. In either case, it typically took several minutes for Copilot to generate the slides.
+   - AuroraHub overview and purpose
+   - External communication and workforce trends
+   - Internal engagement insights (summary only)
+   - Launch plan and change management strategy
+   - Safety communications and mobile workforce considerations
+   - Success metrics and adoption measurement
+   - Call to action for executive sponsors, VPs, and site leaders
 
-10. Review the list of slides. You feel that the slide covering internal engagement insights could use a better graphic than the one that Copilot initially included on the slide. Select this slide and then in the Copilot pane, ask Copilot to create a visual for this slide that shows how AuroraHub connects leadership, frontline employees, and engagement data.
+   Use a professional executive style with concise content and clear strategic messaging.
+   ```
 
-11. Review the result. You also feel that the slide covering the launch plan could use a better diagram. Select this slide and then ask Copilot to create an adoption timeline or phased rollout diagram and then replace the existing diagram on this slide with the new one that it creates.
+2. If Copilot asks follow-up questions regarding:
 
-12. Review the result. Now select the slide regarding unifying internal communications. In the Copilot prompt, tell it that this slide is too text heavy for an executive level presentation. Ask it to rewrite the slide content.
+   * Presentation style
+   * Audience
+   * Visual theme
+   * Slide template
 
-13. Review the rewritten text. If Copilot offers any suggestions, review them and submit any that are of interest to you.
+   Select the options that best fit an executive leadership audience and then select **Confirm**.
+
+3. Wait while Copilot generates the presentation.
+
+   > **Note:** Depending on your environment, Copilot may either create the slides automatically or generate a slide outline first. If an outline is provided, instruct Copilot to create the presentation from the proposed outline.
+
+### Task 4.4: Improve the engagement insights slide
+
+1. Review the generated presentation.
+
+2. Locate the slide covering **Internal Engagement Insights**.
+
+3. Select the slide.
+
+4. In the Copilot pane, enter a prompt requesting a more effective executive-level visual.
+
+   Example prompt:
+
+   ```text
+   Create a visual that demonstrates how AuroraHub connects leadership communications, frontline employees, and employee engagement data. Replace the existing visual on this slide with the new graphic.
+   ```
+
+5. Review the updated visual and confirm that it clearly communicates the relationship between leadership messaging, employee engagement, and communication effectiveness.
+
+### Task 4.5: Improve the launch plan slide
+
+1. Locate the slide covering the AuroraHub launch plan.
+
+2. Select the slide.
+
+3. Ask Copilot to create a rollout timeline.
+
+   Example prompt:
+
+   ```text
+   Create a phased adoption timeline that illustrates the AuroraHub rollout strategy, including awareness, onboarding, adoption, and optimization phases. Replace the existing diagram on this slide.
+   ```
+
+4. Review the updated diagram.
+
+5. Verify that the rollout phases are presented clearly and support the overall adoption strategy.
+
+### Task 4.6: Refine executive messaging
+
+1. Locate the slide discussing communication unification or organizational alignment.
+
+2. Review the slide content.
+
+3. If the slide appears overly detailed, ask Copilot to simplify the messaging.
+
+   Example prompt:
+
+   ```text
+   Rewrite this slide for an executive audience. Reduce the amount of text, focus on strategic outcomes, and emphasize the business value of unified communications.
+   ```
+
+4. Review the revised content.
+
+5. If Copilot provides additional improvement suggestions, review them and apply any changes that strengthen the presentation.
+
+### Summary
+
+In this task, you used Microsoft 365 Copilot in PowerPoint to:
+
+* Create an executive-ready presentation from existing communication assets.
+* Transform written reports into concise leadership-focused slides.
+* Generate visuals and diagrams that improve storytelling.
+* Refine messaging for executive audiences.
+* Present AuroraHub's strategic value, supporting evidence, and adoption approach in a format suitable for leadership decision-making.
+
+You can now save the presentation and proceed to the next task.

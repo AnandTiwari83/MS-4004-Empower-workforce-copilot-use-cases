@@ -76,7 +76,7 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
 1. In the LabVM, open the **Microsoft Edge** browser from the from Desktop.
 
-    ![Open Edge](../media/module-4/prereq-1.png)
+    ![Open Edge](../media/prereq-10.png)
 
 1. In the address bar, enter the following URL to navigate to Microsoft 365:
 

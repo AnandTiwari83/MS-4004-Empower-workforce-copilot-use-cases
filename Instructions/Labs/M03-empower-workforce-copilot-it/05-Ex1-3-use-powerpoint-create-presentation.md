@@ -1,4 +1,4 @@
-# Exercise 1, Task 3: Use Copilot in PowerPoint to create an executive presentation
+# Exercise 1 - Task 3: Use Copilot in PowerPoint to create an executive presentation
 
 ## Estimated duration: 5 minutes
 
@@ -18,21 +18,33 @@ This task uses the **Edit with Copilot** functionality.
 
 Perform the following steps to complete this task:
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **PowerPoint** from the **Apps** menu.
+1.  Navigate back to your **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **PowerPoint** from the **Apps** menu.
 
-2.  In **PowerPoint for the web**, create a blank presentation.
+    ![](../media/Module3/E1T3S1.png)
 
-3.	Select the **Home** tab if the **Home** tab ribbon doesn’t appear. Then select **Copilot** at the end of the **Home** tab ribbon. 
+2.  In **PowerPoint for the web** window, click on **+ Create a blank presentation**.
 
-4.	In the Copilot pane, select the plus (+) sign in the prompt field and then select **Add work content** in the drop-down menu. Attach the Word files that you created in tasks 1 and 2. 
+    ![](../media/Module3/E1T3S2.png)
 
-5.	Verify the **Edit with Copilot** icon appears next to the plus (+) sign in the prompt field. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field. 
+    >**NOTE:** If prompted for login, click on the already signed account.
 
-6. Ask Copilot to create an executive presentation for the Network Modernization project. The presentation should summarize the key information from the two attached files. 
+3.	 On the **Powerpoint** home page, click on **Copilot** which is in the bottom right corner.
 
-7.	If Copilot asks a series of questions related to the presentation, select the answers that you want it to apply. Select the **Confirm** button once you finish answering the questions. It might also ask a second series of questions, one of which might be to select a slide template. Keep in mind that if you don’t select a template, Copilot simply presents text on plain white slides. Again, select the answers that you want it to apply, or select **Skip all** if you want Copilot to use its best judgment.
+     ![](../media/Module3/E1T3S3.png)
+
+4.	On the **Lets edit your document** Copilot Chat wizard, select the plus (+) sign in the prompt field and then select **Add work content** in the drop-down menu. Attach the Word files that you created in tasks 1 and 2. 
+
+    ![](../media/Module3/E1T3S4.png)
+
+    ![](../media/Module3/E1T3S4i.png)
+
+5. Ask Copilot to create an executive presentation for the Network Modernization project. The presentation should summarize the key information from the two attached files. 
+
+6.	If Copilot asks a series of questions related to the presentation, select the answers that you want it to apply. Select the **Confirm** button once you finish answering the questions. It might also ask a second series of questions, one of which might be to select a slide template. Keep in mind that if you don’t select a template, Copilot simply presents text on plain white slides. Again, select the answers that you want it to apply, or select **Skip all** if you want Copilot to use its best judgment.
 
 8.	Copilot in PowerPoint uses this information to generate a list of slides, which might take a few minutes.
+
+    ![](../media/Module3/E1T3S7.png)
 
 9.  After reviewing the slides, you decide to add three discussion slides. You want to add a discussion slide for each of the following topics (these are the top three executive and CIO concerns for infrastructure and modernization projects):
 
@@ -64,15 +76,6 @@ Perform the following steps to complete this task:
 12.  Review the three slides to verify that Copilot made the changes as requested. Also review any of Copilot’s suggestions at the end of the chat. Feel free to ask it to make any of the suggested changes that are of interest to you. 
 
 13. Once you're satisfied with the PowerPoint file, save it to your OneDrive account.
-
-## Summary
-
-In this task, you have completed:
-
-- Created a fabric workspace and link with Fabric Copilot-enabled capacity
-- Deployed Azure infrastructure via the provided Bicep templates
-- Set Up Authentication in Azure App Service
-- Tested the application
 
 ## You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
 

@@ -56,7 +56,7 @@ To complete this task, you plan to use Microsoft 365 Copilot Chat to gather and 
 
 1. Open the file in Word and review it. Verify that it contains all the requested information.
 
-1.  On the **Word** page, click on **Copilot** which is in the bottom right corner.
+1.  On the **Word** home page, click on **Copilot** which is in the bottom right corner.
 
       ![](../media/Module3/E1T1S11.png)
 
@@ -83,15 +83,6 @@ To complete this task, you plan to use Microsoft 365 Copilot Chat to gather and 
    ![](../media/Module3/E1T1S17.png)
 
 1. You plan to use this document in Task 3 as the basis for an executive presentation, so make note of the file name in your OneDrive.
-
-## Summary
-
-In this task, you have completed:
-
-- Created a fabric workspace and link with Fabric Copilot-enabled capacity
-- Deployed Azure infrastructure via the provided Bicep templates
-- Set Up Authentication in Azure App Service
-- Tested the application
 
 ## You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
 

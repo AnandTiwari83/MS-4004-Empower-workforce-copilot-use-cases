@@ -1,4 +1,4 @@
-# Exercise 1, Task 2: Use Copilot in Whiteboard to identify potential risks
+# Exercise 1 - Task 2: Use Copilot in Whiteboard to identify potential risks
 
 ## Estimated duration: 54 minutes
 
@@ -53,9 +53,13 @@ Generate at least **18 risks**, if not more, and then insert them on to your Whi
 
 9.  In the **Suggest content with Copilot** window that appears, ask Copilot to suggest any risks associated with system downtime.
 
-10. Insert the six risk mitigation ideas associated with system downtime. Note how the block of six notes is highlighted with a line around the block. This block of notes is known as a note grid. You can move or resize a note grid just like any other element on your whiteboard. As you resize a note grid, the sizes of all the sticky notes inside it adjust accordingly. If the block of six notes overlays on top of one of the existing blocks of notes, select one of the outside lines around the note grid and drag the entire block of six notes to the side so that it doesn't overlay any of the previous notes. If you run out of space on the screen and part of the block falls off the screen, select the **Fit to Screen** icon on the bottom-right corner of the page to display all the notes on the screen (the **Fit to screen** icon appears when a block is partially off the screen). You might need to select the icon more than once to fit the content onto the screen.
+10. Insert the six risk mitigation ideas associated with system downtime. Note how the block of six notes is highlighted with a line around the block. This block of notes is known as a note grid. You can move or resize a note grid just like any other element on your whiteboard. As you resize a note grid, the sizes of all the sticky notes inside it adjust accordingly. If the block of six notes overlays on top of one of the existing blocks of notes, select one of the outside lines around the note grid and drag the entire block of six notes to the side so that it doesn't overlay any of the previous notes. If you run out of space on the screen and part of the block falls off the screen, select the **Fit to Screen (1)** icon on the bottom-right corner of the page to display all the notes on the screen (the **Fit to screen** icon appears when a block is partially off the screen). You might need to select the icon more than once to fit the content onto the screen.
+
+   ![](../media/Module3/E1T2S12.png)
 
 11. After making one last review of your Whiteboard, you identified a note that you want to remove. Select a note that you no longer want, and then in the icon tray that appears, select the ellipsis icon and then select the **Delete** option.
+
+   ![](../media/Module3/E1T2S13.png)
 
 12. At this point, you should be done editing the notes. You now want Copilot to organize them by category. When you categorize notes, Copilot determines the names of the categories and organizes the notes accordingly.
 
@@ -67,37 +71,31 @@ Generate at least **18 risks**, if not more, and then insert them on to your Whi
     
         - **Select everything explicitly using a keyboard command**. Press **Ctrl+A** to select all objects on the canvas, including sticky notes that aren’t in view. Select one of the edges of the border and drag the entire selection of notes into the view on the canvas so that you can see all the notes.
       
-        For the purpose of this task, select **Ctrl+A** to select all the notes.
+1. For the purpose of this task, press **Ctrl+A** to select all the sticky notes on the whiteboard. With all notes selected, choose **Categorize** from the menu. 
 
-14.  Note how Copilot selected all the sticky notes, even ones that weren’t currently in view on the canvas. If some of the notes aren’t fully in view on the canvas, select one of the edges of the border and drag the entire selection into the canvas so that all the notes are visible.
+   ![](../media/Module3/E1T2S14.png)
 
-15.  With all the notes now appearing within view on the canvas, select the **Copilot** icon on the bottom of the window and select the **Categorize** option in the menu. Doing so displays a **Categorize selected notes** window. Select the **Categorize** button that appears in this window.
+1. Review the results. Copilot analyzes the notes, groups them into categories, and assigns a different color to each category for easier identification.
 
-16.  Note what happened. Copilot generated a set of categories and reorganized the notes accordingly. It also assigned each category a different color to help identify the differences between categories. Sometimes the rectangle containing the notes is small and hard to read. If this situation occurs, select the **Fit to Screen** icon on the bottom-right corner of the page. You can select this icon multiple times until the image is large enough to read, but not too large that it exceeds the size of the screen.
+1. Notice the action bar that appears below the categorized notes. It provides the following options:
 
-17.  Note the icon tray that appears below the organized group of notes. If you aren’t satisfied with the categories, select the **Regenerate** button on the icon tray that appears.
+   - Keep it: Saves the categories generated by Copilot.
+   - Revert: Returns the whiteboard to the original set of yellow sticky notes.
+   - Regenerate: Generates a new categorization of the selected notes.
 
-      > **NOTE:** You can select the **Regenerate** button as many times as needed until you're satisfied with the categories that Copilot provides. Select this button several times and note the changes that Copilot makes each time. Besides changing category names and relocating notes, Copilot may add or reduce the number of categories with each regeneration.
+      > **NOTE:** You can select Regenerate as many times as needed until you're satisfied with the results. Each regeneration may rename categories, move notes between categories, or increase or decrease the number of categories.
 
-18.  After regenerating the categories several times, you’re not sure which iteration you liked best. While Copilot doesn’t currently support going back to a previous categorization, it does allow you to start over. Select the **Revert** button to return to the starting list of yellow sticky notes.
+1. When you're satisfied with the categorization, select **Keep it**.
 
-19.  To categorize the sticky notes once again, select the **Copilot** icon at the bottom of the page and then select **Categorize** from the menu. In the **Categorize selected notes?** window, select the **Categorize** button.
+   ![](../media/Module3/E1T2S17.png)
 
-20.  Now that you know how the **Regenerate** button works, for the sake of time, select it once or twice if necessary until you’re satisfied with the category results.
+1. To generate a summary of the brainstorming session, select the **Copilot** icon and then choose **Summarize**.
 
-21.  At this point, you realize that you would like a short summary of the brainstorming session added to your whiteboard content. To do so, select the **Copilot** icon and then select the **Summarize** option.
+   ![](../media/Module3/E1T2S18.png)
 
-22.  You now want to save this summarization to a Word document so that you can include it as a resource in the PowerPoint presentation you create in the next task. In the **Summary** window that Copilot creates in your Whiteboard, highlight the text and then copy it to your clipboard **(Ctrl+C)**. Open a blank Word document, paste in the Summary notes, and then save the file to your **OneDrive**. When you’re done, return to your Whiteboard.
+22.  You now want to save this summarization to a Word document so that you can include it as a resource in the PowerPoint presentation you create in the next task. In the **Summary** window that Copilot creates in your Whiteboard, highlight the text and then copy it to your clipboard **(Ctrl+C)**. 
 
-
-## Summary
-
-In this task, you have completed:
-
-- Created a fabric workspace and link with Fabric Copilot-enabled capacity
-- Deployed Azure infrastructure via the provided Bicep templates
-- Set Up Authentication in Azure App Service
-- Tested the application
+1. Open a blank **Word** document from M365 portal apps section, paste in the Summary notes, and then save the file to your **OneDrive**. When you’re done, return to your Whiteboard.
 
 ## You have successfully completed the exercise. Click on Next >> to proceed with the next exercise.
 

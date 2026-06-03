@@ -6,8 +6,7 @@
 
 Microsoft 365 Copilot is transforming how IT professionals plan, communicate, and measure technology adoption across their organizations. For IT teams, successful adoption isn’t just about deploying new tools—it’s about ensuring employees understand, embrace, and actively use them. Copilot can streamline every step of that process by helping IT professionals quickly discover upcoming Microsoft 365 features, create clear and engaging communications for end users, and develop practical resources such as announcements, best-practice guides, and training materials.
 
-> [!TIP]
-> The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
+> **NOTE:** The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
 
 ### Scenario
 

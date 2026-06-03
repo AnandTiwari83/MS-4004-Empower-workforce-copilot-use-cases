@@ -1,5 +1,5 @@
 # Exercise 1: Streamline operational initiatives using Microsoft 365 Copilot
----
+
 In today’s fast-paced business environment, Operations teams are expected to drive efficiency, adapt quickly, and deliver results across a wide range of initiatives. Microsoft 365 Copilot empowers Operational personnel to meet these demands by seamlessly integrating intelligent automation into everyday workflows.
 
 With Copilot, Operations professionals can:

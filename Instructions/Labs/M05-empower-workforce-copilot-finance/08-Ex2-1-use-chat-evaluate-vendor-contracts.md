@@ -1,77 +1,135 @@
----
-lab:
-  title: 'Exercise 2, Task 1: Use Microsoft 365 Copilot Chat to evaluate vendor contracts'
-  description: 'Perform the following steps to complete this task:'
-  duration: 38 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
-    - Microsoft 365 Copilot Chat
----
-
 # Exercise 2, Task 1: Use Microsoft 365 Copilot Chat to evaluate vendor contracts
----
-Fabrikam's Finance Manager shared two vendor contracts with you, one from Adatum Corporation and another from Contoso, Ltd. Each contract contains clauses related to pricing, delivery schedules, warranty terms, and penalties for nonperformance. You need to understand how these contracts differ and which poses greater financial or operational risk to Fabrikam. You plan to use Microsoft 365 Copilot Chat to compare both contracts side by side and identify key differences, highlight risk areas, and summarize potential negotiation points, all of which you plan to store in a Word document for later use.
 
-#### Using Copilot Chat
+Fabrikam's Finance Manager shared two vendor contracts with you — one from **Adatum Corporation** and another from **Contoso, Ltd.** Each contract contains clauses related to pricing, delivery schedules, warranty terms, and penalties for nonperformance. You need to understand how these contracts differ and which poses greater financial or operational risk to Fabrikam. You plan to use Microsoft 365 Copilot Chat to compare both contracts side by side and identify key differences, highlight risk areas, and summarize potential negotiation points — all of which you plan to store in a Word document for later use.
 
-In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in depth response style depending on the task.
+## Using Copilot Chat
 
-When Copilot Chat opens in **Work** mode, the response mode selector isn’t shown. In **Work** mode, Copilot is optimized for secure, work context queries, so it automatically manages response depth for you. When you switch to **Web** mode, the response mode selector appears, allowing you to choose between faster responses or deeper reasoning. Once the selector is enabled, it remains visible as you switch between **Work** and **Web** modes.
+In Copilot Chat on the web, the **response mode selector** lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in-depth response style depending on the task.
 
-If you’ve used **Copilot in Excel**, you know that it also includes a response control selector. However, its options are different from the Chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might look similar, they control different aspects of Copilot and aren't the same setting.
+When Copilot Chat opens in **Work** mode, the response mode selector isn't shown. In **Work** mode, Copilot is optimized for secure, work-context queries, so it automatically manages response depth for you. When you switch to **Web** mode, the response mode selector appears, allowing you to choose between faster responses or deeper reasoning. Once the selector is enabled, it remains visible as you switch between **Work** and **Web** modes.
+
+If you've used **Copilot in Excel**, you know that it also includes a response control selector. However, its options are different from the Chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors may look similar, they control different aspects of Copilot and aren't the same setting.
 
 This task uses the default **Auto** selector mode.
 
-Perform the following steps to complete this task:
+## Steps
 
-1.  Select the following links to download the two vendor contracts and then store the files in your OneDrive account for use by Copilot in your tenant:
+1. Select the following links to download the two vendor contracts and store the files in your **OneDrive** account for use by Copilot in your tenant:
+
     - [**Adatum Corp smart sensor contract.docx**](https://go.microsoft.com/fwlink/?linkid=2347801)
     - [**Contoso Ltd smart sensor contract.docx**](https://go.microsoft.com/fwlink/?linkid=2347516)
 
-2.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)** if necessary.  
-    
-3.  **Select the Work option, which is used** for searching and analyzing internal organizational content (OneDrive, SharePoint, Teams, Outlook). In the prompt field, attach each of the vendor contracts that you downloaded in step 1.
+1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
-4.  Ask Copilot to compare the two contracts by submitting the following prompt:
+    ```
+    https://www.microsoft365.com
+    ```
 
-   > [!NOTE]
-   > For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate._
+1. Enter the following credentials to sign in to Microsoft 365:
 
-   **I’m a Financial Analyst at Fabrikam, Inc., evaluating two vendor contracts as part of a Cost Optimization and Risk Reduction initiative. The contracts are for components supporting our new smart sensor product line. Can you please compare the contracts from Adatum Corporation and Contoso, Ltd. to identify key differences that could affect Fabrikam’s costs, supplier risk, and long-term financial performance. Use the two attached vendor contracts as reference materials. Focus on clauses related to pricing**, **delivery timelines**, **warranties, and liability or penalty terms. Provide a clear, bulleted summary that highlights major differences between the two contracts, identifies which contract poses higher financial and operational risk to Fabrikam, and suggests two or three negotiation points Fabrikam could raise to improve terms.**
+    - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
-5.  Review the comparison generated by Copilot. At the end of the response, select the **Edit in Pages** icon.
+    - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-6.  When editing in **Pages**, note how Copilot displays the Copilot chat pane along with the Pages form. In the **Pages** form, select the **Create** button and then select **Document** in the drop-down menu. In the dialog box that appears, select **Open Word**, which opens the document in **Word for the web**.
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Copilot (2)**.
 
-7.  In **Word for the web**, Copilot copies its entire response into a document, including the extraneous chat content that appeared at the beginning and end of the chat. Delete any extraneous text that was pasted in as well.Select into the file name that appears above the menu bar and change the file name to **Smart Sensor contract comparison**. Leave the document open as you plan to add additional information to it in the remaining steps.
+    ![](../media/task-1/app-launcher-copilot.png)
 
-8.  In the Word document, select the **Copilot** option on the **Home** tab ribbon. Verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+1. In Copilot Chat, select the **Work** option. Then select the **attachment** icon in the prompt field and attach both vendor contracts that you downloaded in Step 1.
 
-9.  You now want to ask Copilot to add an Executive Summary section to the document that compares the two contracts. However, before doing so, you must place your cursor in the document where you want the new section to appear. You want this Executive Summary to appear at the start of the document, so insert a blank line above the first section and place your cursor in this line.
+    > **`Note:`** Select the **Work** option since this task involves searching and analyzing internal organizational content stored in OneDrive, SharePoint, Teams, and Outlook.
 
-10.  Now ask Copilot to add an Executive Summary section to the document that provides a summarized analysis of the two vendor contracts. The section should indicate which contract has more favorable terms for Fabrikam, and why. The section should also indicate where Fabrikam should focus its negotiation efforts.
+    ![](../media/task-1/copilot-work-attach.png)
 
-11.  Review the section that Copilot added to the document. While this is a good starting point, you feel that it can be improved. When financial analysts review supplier contracts in the real world, there are numerous areas they may consider including in their analysis. Typical areas include:
+1. With both files attached, submit the following prompt to compare the two contracts:
 
-        - **Termination and exit clauses**. Companies typically focus on notice periods and conditions for early termination, penalties or costs associated with contract termination, and how outstanding obligations such as inventory and payments are handled upon termination.
+    > **`Note:`** For this first prompt, the text has been provided so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit — **Goal**, **Context**, **Sources**, and **Expectations**. You must write all remaining prompts in this exercise, but you can use this prompt as a model to emulate.
 
-        - **Volume flexibility and scalability**. Contracts commonly include provisions for increasing or decreasing order volumes without penalty, how price breaks or discounts scale with higher volumes, and whether there’s an option to adjust minimum order quantities as demand changes.
+    ```
+    I'm a Financial Analyst at Fabrikam, Inc., evaluating two vendor contracts as part of a Cost Optimization and Risk Reduction initiative. The contracts are for components supporting our new smart sensor product line. Can you please compare the contracts from Adatum Corporation and Contoso, Ltd. to identify key differences that could affect Fabrikam's costs, supplier risk, and long-term financial performance. Use the two attached vendor contracts as reference materials. Focus on clauses related to pricing, delivery timelines, warranties, and liability or penalty terms. Provide a clear, bulleted summary that highlights major differences between the two contracts, identifies which contract poses higher financial and operational risk to Fabrikam, and suggests two or three negotiation points Fabrikam could raise to improve terms.
+    ```
 
-        - **Change management and amendments**. Analysts usually want to know how contract amendments or changes to specifications are handled, and whether there’s a formal process for managing changes in technology or regulatory requirements.
+1. Review the comparison generated by Copilot. At the end of the response, select the **Edit in Pages** icon.
 
-        - **Supplier performance and monitoring**. Companies usually push to define key performance indicators (KPIs) or service level agreements (SLAs) within supplier contracts, what the remedies are if the supplier consistently underperforms, and whether there’s a process for regular performance reviews or audits.
+    ![](../media/task-1/edit-in-pages.png)
 
-        - **Compliance and regulatory requireme**nts. Analysts usually want to know if a contract requires compliance with specific industry standards or regulation, and whether there are audit rights for them to verify compliance.
+1. When editing in **Pages**, note how Copilot displays the Copilot chat pane alongside the Pages form. In the **Pages** form, select the **Create** button and then select **Document** in the drop-down menu. In the dialog box that appears, select **Open Word** to open the document in **Word for the web**.
 
-        - **Dispute resolution**. Companies usually want contracts to identify what mechanisms are in place for resolving disputes; for example, arbitration, mediation, or jurisdiction.
+    ![](../media/task-1/open-in-word.png)
 
-        - **Financial health and stability of the supplier**. Depending on the supplier, a company might want the contract to include clauses requiring the supplier to maintain certain financial ratios or insurance levels, and identify what happens if the supplier is acquired or undergoes significant financial distress.
+1. In **Word for the web**, Copilot copies its entire response into the document, including any extraneous chat content that appeared at the beginning and end of the chat. Delete any extraneous text that was pasted in. Then select the file name above the menu bar and rename the file to:
 
-        Instead of asking Copilot to compare the contracts across several areas at once, select just one of these areas that’s of interest to you. You want Copilot to add a section that analyzes your selected topic. Before you make your request, place your cursor in the document where you want the new section to appear. Then ask Copilot to add a new section to the document that compares the contracts specifically on that point. Focusing on a single aspect can often yield more thorough and precise results than overloading Copilot with multiple requests in a single prompt.
+    ```
+    Smart Sensor contract comparison
+    ```
 
-12.  Review the new section that Copilot just added to the document. You now want Copilot to add another section that analyzes a second topic. Before you make your request, place your cursor in the document where you want the new section to appear. Ask Copilot to add another section to the document that compares the contracts for this second topic that’s of interest to you.
+    Leave the document open — you will add additional content to it in the remaining steps.
 
-13.  Review the new section that Copilot just added to the document. You plan to create a PowerPoint presentation based on this document in the next task, so feel free to add any extra enhancements that you want. For example, if time permits, you can add a section that compares another topic from the earlier list. Or, you can review Copilot’s suggested prompts at the end of the Copilot pane and submit any requests that are of interest to you.
+    ![](../media/task-1/rename-document.png)
+
+1. In the Word document, select **Copilot** on the **Home** tab ribbon. Verify the **Edit with Copilot** icon appears in the prompt field next to the plus **(+)** sign.
+
+    ![](../media/task-1/word-copilot-pane.png)
+
+    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+
+    ![](../media/task-1/edit-with-copilot.png)
+
+1. Before adding an Executive Summary, place your cursor on a blank line **above the first section** of the document — this is where the new section will appear. Then enter a prompt asking Copilot to add an **Executive Summary** section that provides a summarized analysis of the two vendor contracts. The section should indicate which contract has more favorable terms for Fabrikam and why, and where Fabrikam should focus its negotiation efforts.
+
+    ![](../media/task-1/executive-summary.png)
+
+1. Review the Executive Summary section Copilot added. While this is a good starting point, consider that real-world contract analysis often covers additional areas. The following topics are commonly reviewed by financial analysts when evaluating supplier contracts:
+
+    - **Termination and exit clauses** — notice periods, early termination conditions, penalties, and handling of outstanding obligations such as inventory and payments upon termination.
+
+    - **Volume flexibility and scalability** — provisions for adjusting order volumes without penalty, price breaks or discounts at higher volumes, and options to change minimum order quantities as demand shifts.
+
+    - **Change management and amendments** — how contract amendments and specification changes are handled, and whether a formal process exists for managing technology or regulatory changes.
+
+    - **Supplier performance and monitoring** — KPIs or SLAs defined within the contract, remedies for consistent underperformance, and processes for regular performance reviews or audits.
+
+    - **Compliance and regulatory requirements** — whether the contract mandates compliance with specific industry standards or regulations, and whether audit rights are included to verify compliance.
+
+    - **Dispute resolution** — mechanisms in place for resolving disputes, such as arbitration, mediation, or jurisdiction clauses.
+
+    - **Financial health and stability of the supplier** — clauses requiring the supplier to maintain certain financial ratios or insurance levels, and what happens if the supplier is acquired or experiences significant financial distress.
+
+    Select **one topic** from the list above that interests you. Place your cursor in the document where you want the new section to appear, then ask Copilot to add a section comparing both contracts specifically on that topic.
+
+    > **`Note:`** Focusing on a single topic at a time often yields more thorough and precise results than submitting multiple requests in one prompt.
+
+    ![](../media/task-1/first-topic-section.png)
+
+1. Review the new section Copilot added. Now select a **second topic** from the list above. Place your cursor where you want the new section to appear, then ask Copilot to add another section comparing both contracts on this second topic.
+
+    ![](../media/task-1/second-topic-section.png)
+
+1. Review the new section Copilot added. You will use this document as the basis for a PowerPoint presentation in the next task. Feel free to make any additional enhancements before proceeding — for example, adding a third topic comparison from the list above, or exploring any of Copilot's suggested follow-up prompts in the Copilot pane.
+
+1. You have now completed **Task 1**.
+
+## Summary
+
+In this task, you used **Microsoft 365 Copilot Chat** and **Copilot in Word** to evaluate two vendor contracts on behalf of Fabrikam's Finance team. You:
+
+- Compared the Adatum Corporation and Contoso, Ltd. contracts across pricing, delivery timelines, warranties, and liability terms.
+- Identified which contract poses higher financial and operational risk to Fabrikam, along with key negotiation points.
+- Exported Copilot's analysis to a Word document titled **Smart Sensor contract comparison**.
+- Added an Executive Summary section highlighting favorable terms and negotiation focus areas.
+- Enriched the document with additional contract analysis sections covering topics such as termination clauses, volume flexibility, supplier performance, and more.
+
+This document will serve as the foundation for the executive presentation you will create in the next task.
+
+## Support Contact
+
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the bottom right corner to proceed to the next task!
+
+![](../media/task-1/next-button.png)

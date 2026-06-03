@@ -1,155 +1,65 @@
-# Lab-07: Exercise 2 Overview — Streamline Contract Analysis and Negotiation
+# Exercise 2: Streamline contract analysis and negotiation using Microsoft 365 Copilot
 
-## Lab Overview
+In today's fast-paced business environment, Finance teams play a pivotal role in safeguarding organizational value by managing costs, reducing risks, and negotiating smarter contracts. Contract analysis and negotiation are complex, time-consuming processes. They require financial analysts to synthesize large volumes of information—pricing models, liability clauses, service levels, and performance metrics—all while ensuring compliance and protecting profitability. This challenge is where Microsoft 365 Copilot becomes a key strategic partner.
 
-This lab introduces **Exercise 2** of Module 5, which spans four tasks (covered in Labs 08–11). Before you begin the hands-on tasks, this lab establishes the new scenario context, introduces the **Cost Optimization and Risk Reduction initiative** at Fabrikam, and explains how Microsoft 365 Copilot will be used across Copilot Chat, PowerPoint, Loop, and Outlook to streamline contract analysis and stakeholder communication.
+Copilot transforms the way Finance departments manage contracts by combining the power of generative AI with the context of your organization's data. In Microsoft 365 Copilot Chat, analysts can instantly compare multiple contracts side by side, pinpointing differences in terms, costs, and risk exposure. Copilot can surface hidden clauses, highlight potential negotiation leverage, and even summarize key risks and opportunities in plain language. This capability enables Finance professionals to move beyond manual document review and focus instead on strategy and decision-making.
 
-**Estimated Duration:** 12 minutes (reading and orientation)  
-**Difficulty Level:** 200 (Intermediate)
+With Microsoft 365 Copilot as a daily partner, Finance teams can streamline the contract lifecycle—from analysis to decision-making—while driving better business outcomes. The result is a smarter, faster, and more confident approach to contract negotiation that empowers Fabrikam's Finance department to protect the bottom line and position the company for long-term success.
 
----
-
-## Learning Objectives
-
-By the end of this lab, you will be able to:
-
-- Describe the new Fabrikam scenario for Exercise 2: the smart sensor product line and vendor contract evaluation.
-- Identify the two vendor contracts you will analyze: **Adatum Corporation** and **Contoso, Ltd.**
-- Explain how Microsoft 365 Copilot supports contract analysis, presentation, collaboration, and stakeholder communication.
-- Understand how the four tasks in Exercise 2 build upon one another in a realistic end-to-end Finance workflow.
-
----
-
-## Prerequisites
-
-- Completion of **Lab-01** (resource files uploaded to OneDrive).
-- Completion of Labs 02–06 (Exercise 1) is recommended for building familiarity with Copilot, but not required to start Exercise 2.
-
----
-
-## Exercise Overview
-
-Exercise 2 consists of **four tasks**, each using a different Microsoft 365 application:
-
-| Lab | Task | Application | Duration |
-|-----|------|-------------|----------|
-| Lab-08 | Task 1: Evaluate vendor contracts | Microsoft 365 Copilot Chat | ~20 min |
-| Lab-09 | Task 2: Create executive presentation | Microsoft Copilot in PowerPoint | ~15 min |
-| Lab-10 | Task 3: Turn insights into collaborative content | Microsoft Copilot in Loop | ~15 min |
-| Lab-11 | Task 4: Draft feedback email | Microsoft Copilot in Outlook | ~10 min |
-
-> **📸 Screenshot placeholder:** Capture the Exercise 2 overview table showing all four labs, tasks, applications, and durations.  
-> Suggested filename: `M05-Lab07-Step01-Exercise2Overview.png`
-
-Each task builds on the output of the previous one, forming a complete contract review and communication workflow.
-
----
+> **`Tip:`** The Introduction unit in this module reminded you of the four key elements of an effective prompt: **Goal**, **Context**, **Sources**, and **Expectations**. Keep these elements in mind as you create prompts in this exercise.
 
 ## Scenario
 
-### Your Role
+You're a **Financial Analyst at Fabrikam, Inc.** Your division is a global manufacturer of smart building systems and automation technologies. Your Finance department plays a critical role in controlling costs, managing supplier risk, and ensuring contracts are strategically aligned with the company's financial goals.
 
-You remain a **Financial Analyst at Fabrikam, Inc.**, but in this exercise your division is focused on **smart building systems and automation technologies**. Your Finance department plays a critical role in controlling costs, managing supplier risk, and ensuring contracts are strategically aligned with Fabrikam's financial goals.
+Recently, Fabrikam's leadership team initiated a **Cost Optimization and Risk Reduction** initiative focused on improving supplier contracts. As part of that project, you were tasked with evaluating two proposed vendor contracts that support the company's new smart sensor line. These contracts—one from **Adatum Corporation** and another from **Contoso, Ltd.**—cover key components for manufacturing and long-term supply.
 
-### The Business Initiative
+Your job is to analyze the terms, identify potential risks, and prepare a concise presentation and email update for the Finance leadership team. You plan to use Microsoft 365 Copilot to streamline your workflow—saving time, uncovering insights, and improving collaboration with colleagues.
 
-Fabrikam's leadership team has recently launched a **Cost Optimization and Risk Reduction initiative** focused on improving supplier contracts. As part of this initiative, you have been assigned to evaluate **two proposed vendor contracts** for components that support Fabrikam's new **smart sensor product line**:
+## Tasks Overview
 
-| Vendor | Contract Focus |
-|--------|---------------|
-| **Adatum Corporation** | Key manufacturing components for the smart sensor line |
-| **Contoso, Ltd.** | Long-term supply agreement for smart sensor components |
+| Task | Application | Description |
+|------|-------------|-------------|
+| Task 1 | Copilot Chat | Compare and analyze the Adatum and Contoso vendor contracts |
+| Task 2 | Microsoft Word | Draft a contract risk summary report for Finance leadership |
+| Task 3 | Microsoft PowerPoint | Create an executive presentation summarizing contract findings |
+| Task 4 | Microsoft Outlook | Draft an email update to the Finance leadership team |
 
-Each contract contains clauses related to:
-- Pricing and payment terms
-- Delivery schedules
-- Warranty and support terms
-- Liability and penalty clauses for nonperformance
+## Getting Started with the lab
 
-### Your Deliverables
+We've prepared a seamless environment for you to explore and learn about **Exercise 2 - Streamline contract analysis and negotiation using Microsoft 365 Copilot**. Let's begin by making the most of this experience!
 
-Your Finance Manager expects you to:
-1. **Analyze both contracts** side-by-side to identify key differences, risk areas, and negotiation opportunities.
-2. **Prepare a presentation** for the Finance leadership meeting summarizing your findings.
-3. **Collaborate with the Finance team** to gather diverse perspectives on negotiation strategy and risk mitigation.
-4. **Communicate with Finance colleagues** via email to solicit feedback on your draft presentation.
+## Accessing Your Lab Environment
 
----
+Once the lab environment is ready, the virtual machine displayed on the left will be your primary workspace for completing the exercises, while the **Guide** on the right side provides step-by-step instructions for each task.
 
-## How Copilot Supports This Exercise
+## Exploring Your Lab Resources
 
-| Business Need | Copilot Capability | Application |
-|---------------|-------------------|-------------|
-| Compare two complex contracts and identify risks | Side-by-side comparison, risk flagging, negotiation point identification | Copilot Chat (Task 1) |
-| Prepare a visual leadership presentation | Generate slides from a Word document | PowerPoint (Task 2) |
-| Organize insights for team collaboration | Transform presentation data into structured Loop tables and checklists | Loop (Task 3) |
-| Request team feedback efficiently | Draft professional, engaging emails with multiple tone options | Outlook (Task 4) |
+To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
 
----
+![](../media/exercise-2/env-tab.png)
 
-## The Exercise 2 Workflow
+## Utilizing the Split Window Feature
 
-The four tasks in Exercise 2 follow a natural progression that mirrors how a real Finance team would manage a contract review project:
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
 
-```
-Task 1 (Lab-08)                   Task 2 (Lab-09)
-Analyze vendor contracts      →   Create PowerPoint presentation
-using Copilot Chat                from the contract comparison document
-        ↓                                   ↓
-Task 4 (Lab-11)                   Task 3 (Lab-10)
-Draft email to Finance team   ←   Use Loop to organize insights
-soliciting feedback               for team collaboration
-```
+![](../media/exercise-2/split-window.png)
 
-> **📸 Screenshot placeholder:** Capture the task workflow diagram that shows how outputs move from Copilot Chat to PowerPoint to Loop to Outlook.  
-> Suggested filename: `M05-Lab07-Step02-WorkflowDiagram.png`
+## Managing Your Virtual Machine
 
-**Key continuity across tasks:**
-- The **Word document** created in Task 1 (Smart Sensor contract comparison) becomes the source for the **PowerPoint presentation** in Task 2.
-- The **PowerPoint file** saved in Task 2 becomes the source for the **Loop workspace** in Task 3.
-- The **Loop workspace link** is embedded in the **Outlook email** drafted in Task 4.
+Feel free to **Start, Stop, or Restart (2)** your virtual machine as needed from the **Resources (1)** tab. Your experience is in your hands!
 
-> ⚠️ **Important:** Save your outputs from each task to OneDrive. Each subsequent task depends on the file created in the previous one.
+![](../media/exercise-2/resources-tab.png)
 
-> ⚠️ **Outputs to Save Across Exercise 2 Labs:**
-> | Lab | File to Save | Used In |
-> |-----|-------------|---------|
-> | Lab-08 | Smart Sensor contract comparison.docx | Lab-09 (PowerPoint source) |
-> | Lab-09 | Smart Sensor contract comparison - Finance.pptx | Lab-10 (Loop source) |
-> | Lab-10 | Loop workspace URL (from browser) | Lab-11 (email link) |
+## Support Contact
 
----
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
 
-## Prompting Reminder
+Learner Support Contacts:
 
-> 💡 **Tip:** The Introduction unit in this module reminded you of the four key elements of an effective prompt: **Goal**, **Context**, **Sources**, and **Expectations**. Keep these elements in mind as you create prompts in every task of this exercise.
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
 
-In Exercise 2, the prompts become progressively more sophisticated. You will also explore how asking one focused question at a time often produces better results than overloading Copilot with multiple requests in a single prompt.
+Click **Next** from the bottom right corner to embark on your Lab journey!
 
----
-
-## Exercise Summary
-
-This orientation lab has introduced you to:
-
-- ✅ **The new Fabrikam scenario** for Exercise 2: smart sensor product line and vendor contract evaluation.
-- ✅ **The two vendor contracts** you will analyze: Adatum Corporation and Contoso, Ltd.
-- ✅ **Your four deliverables**: contract analysis document, leadership presentation, Loop collaboration workspace, and stakeholder email.
-- ✅ **How each task's output feeds into the next**, creating a complete end-to-end Finance workflow.
-
-### Before You Start Lab-08
-
-Before you continue, confirm the following:
-
-- [ ] I understand that **Lab-08** begins in **Microsoft 365 Copilot Chat** and that I must switch to **Work** mode.
-- [ ] I know I must compare **both** vendor contracts: **Adatum Corporation** and **Contoso, Ltd.**
-- [ ] I am prepared to save every Exercise 2 output to **OneDrive** using the specified file names.
-- [ ] I understand that the Word document created in Lab-08 becomes the source file for Lab-09.
-- [ ] I am ready to continue through Labs 08–11 without deleting or renaming required files.
-
-You are now ready to begin the hands-on work. Proceed to **Lab-08** to start Task 1: Evaluating vendor contracts using Microsoft 365 Copilot Chat.
-
----
-
-*Previous Lab: [Lab-06 — Exercise 1, Task 4: Excel What-If Scenarios](./Lab-06.test.md)*  
-*Next Lab: [Lab-08 — Task 1: Use Copilot Chat to Evaluate Vendor Contracts](./Lab-08.test.md)*
+![](../media/exercise-2/next-button.png)

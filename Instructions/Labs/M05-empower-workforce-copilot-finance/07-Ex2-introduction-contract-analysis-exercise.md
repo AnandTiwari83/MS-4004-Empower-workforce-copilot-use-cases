@@ -1,17 +1,5 @@
----
-lab:
-  title: 'Exercise 2: Streamline contract analysis and negotiation using Microsoft 365 Copilot'
-  description: Your job is to analyze the terms, identify potential risks, and prepare a concise presentation and email update for the Finance leadership team. You plan to use Microsoft 365 Copilot to streamline your workflow—saving time, uncovering insights, and improving collaboration with colleagues.
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Exercise 2: Streamline contract analysis and negotiation using Microsoft 365 Copilot
----
+
 In today’s fast-paced business environment, Finance teams play a pivotal role in safeguarding organizational value by managing costs, reducing risks, and negotiating smarter contracts. Contract analysis and negotiation are complex, time-consuming processes. They require financial analysts to synthesize large volumes of information—pricing models, liability clauses, service levels, and performance metrics—all while ensuring compliance and protecting profitability. This challenge is where Microsoft 365 Copilot becomes a key strategic partner.
 
 Copilot transforms the way Finance departments manage contracts by combining the power of generative AI with the context of your organization’s data. In Microsoft 365 Copilot Chat, analysts can instantly compare multiple contracts side by side, pinpointing differences in terms, costs, and risk exposure. Copilot can surface hidden clauses, highlight potential negotiation leverage, and even summarize key risks and opportunities in plain language. This capability enables Finance professionals to move beyond manual document review and focus instead on strategy and decision-making.

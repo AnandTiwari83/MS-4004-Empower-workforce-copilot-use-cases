@@ -1,53 +1,110 @@
----
-lab:
-  title: 'Exercise 1, Task 4: Use Copilot in Excel to model What-If scenarios'
-  description: Let's begin by requesting the what-if scenario. Ask Copilot to update the Relecloud acquisition financials to reflect a 1x increase in the earnings before interest, taxes, depreciation, and amortization (EBITDA) multiple and a 20% increase in synergy savings.
-  duration: 42 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 1, Task 4: Use Copilot in Excel to model What-If scenarios
----
-Robin Kline, Fabrikam’s Finance Manager, asked you to update the Relecloud acquisition financials to reflect new assumptions, such as adjusted valuation multiples and projected synergy savings. Robin wants you to:
+
+Robin Kline, Fabrikam's Finance Manager, asked you to update the Relecloud acquisition financials to reflect new assumptions, such as adjusted valuation multiples and projected synergy savings. Robin wants you to:
 
 - Update the Relecloud acquisition numbers based on a series of what-if scenarios.
 - Create charts that visualize the effect of these changes.
 
-This task showcases Copilot’s ability to perform dynamic modeling and visualization, which are essential tools for any financial analyst preparing data-driven recommendations.
+This task showcases Copilot's ability to perform dynamic modeling and visualization, which are essential tools for any financial analyst preparing data-driven recommendations.
 
-Perform the following steps to complete this task:
+## Steps
 
-1.  Select the following link to download the [**Relecloud Acquisition Financials.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347812) file. Store the file in your OneDrive account for use by Copilot in your tenant.
+1. Select the following link to download the [**Relecloud Acquisition Financials.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347812) file. Store the file in your **OneDrive** account for use by Copilot in your tenant.
 
-2.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Excel** from the **Apps** menu.
+1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
-3.  In **Excel for the web**, select the **Upload a file** button, navigate to your OneDrive, and then select the **Relecloud Acquisition Financials** spreadsheet that you downloaded in step 1.
+    ```
+    https://www.microsoft365.com
+    ```
 
-4.  On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+1. Enter the following credentials to sign in to Microsoft 365:
 
-5.  Let’s begin by updating the Relecloud acquisition numbers based on a series of what-if scenarios. Verify you’re in the **Financial Analysis** sheet. In the Copilot prompt field, ask Copilot to perform a what-if scenario by updating the Relecloud acquisition financials to reflect a 1x increase in the earnings before interest, taxes, depreciation, and amortization (EBITDA) multiple and a 20% increase in synergy savings. Ask it to return the results in a new sheet. 
+    - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
-6.  Review the results. Remain in this new what-if sheet and then ask Copilot to perform an EBITDA what-if scenario in which it generates the following charts in a new sheet to make it easy to visualize the magnitude and timing of improvements:
+    - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-    - Column Chart comparing original vs. updated EBITDA and total synergy savings over time.  
-        
-    - Line Chart showing EBITDA trend before and after the change.  
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Excel (2)**.
 
-7.  Review the results. Select the **Financial Analysis** sheet and then ask Copilot to perform another what-if scenario in which it updates the acquisition financial model based on the following what-if scenario: Model the impact if synergy savings are delayed by 12 months and only 75% are realized. Ask Copilot to return the results in a new sheet.
+    ![](../media/task-4/app-launcher-excel.png)
 
-8.  Review the results. Remain in this new what-if sheet and then ask Copilot to generate the following charts in a new sheet that show both the timing and reduction in benefits, highlighting the impact on cash flow and ROI:
+1. In **Excel for the web**, select the **Upload a file** button, navigate to your **OneDrive**, and then select the **Relecloud Acquisition Financials** spreadsheet that you downloaded in Step 1.
 
-    - Stacked Column Chart showing annual synergy savings (original vs. delayed/reduced).  
-        
-    - Line Chart for cumulative synergy savings over time.
+    ![](../media/task-4/upload-file.png)
 
-9.  Review the results. Select the **Financial Analysis** sheet and then ask Copilot to perform a what-if scenario that updates the financial model based on operating expenses that are 10% higher due to integration challenges. Ask Copilot to return the results in a new sheet.
+1. On the **Home** tab ribbon, select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus **(+)** sign.
 
-10. Review the results. Remain in this new what-if sheet and then ask Copilot to generate the following charts in a new sheet that highlight the effect on profitability and expense trends:
+    ![](../media/task-4/copilot-pane.png)
 
-    - Line Chart for operating expenses and EBITDA over time (original vs. scenario).  
-        
-    - Column Chart comparing net income before and after the change.
+    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
 
-11. Review the results. Feel free to select any of Copilot’s suggested prompts if you want to update the spreadsheet even further. 
+    ![](../media/task-4/edit-with-copilot.png)
+
+### What-If Scenario 1: EBITDA Multiple and Synergy Savings
+
+1. Verify you're in the **Financial Analysis** sheet. In the Copilot prompt field, enter a prompt asking Copilot to perform a what-if scenario by updating the Relecloud acquisition financials to reflect a **1x increase in the EBITDA (earnings before interest, taxes, depreciation, and amortization) multiple** and a **20% increase in synergy savings**. Ask it to return the results in a new sheet.
+
+    ![](../media/task-4/scenario-1-results.png)
+
+1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet to make it easy to visualize the magnitude and timing of improvements:
+
+    - **Column Chart** comparing original vs. updated EBITDA and total synergy savings over time
+    - **Line Chart** showing EBITDA trend before and after the change
+
+    ![](../media/task-4/scenario-1-charts.png)
+
+1. Review the charts generated by Copilot.
+
+### What-If Scenario 2: Delayed and Reduced Synergy Savings
+
+1. Select the **Financial Analysis** sheet to return to the base dataset. Enter a prompt asking Copilot to perform a what-if scenario that updates the acquisition financial model based on the following assumption: **synergy savings are delayed by 12 months and only 75% are realized**. Ask it to return the results in a new sheet.
+
+    ![](../media/task-4/scenario-2-results.png)
+
+1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet that show both the timing and reduction in benefits, highlighting the impact on cash flow and ROI:
+
+    - **Stacked Column Chart** showing annual synergy savings (original vs. delayed/reduced)
+    - **Line Chart** for cumulative synergy savings over time
+
+    ![](../media/task-4/scenario-2-charts.png)
+
+1. Review the charts generated by Copilot.
+
+### What-If Scenario 3: Higher Operating Expenses Due to Integration Challenges
+
+1. Select the **Financial Analysis** sheet to return to the base dataset. Enter a prompt asking Copilot to perform a what-if scenario that updates the financial model based on **operating expenses that are 10% higher due to integration challenges**. Ask it to return the results in a new sheet.
+
+    ![](../media/task-4/scenario-3-results.png)
+
+1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet that highlight the effect on profitability and expense trends:
+
+    - **Line Chart** for operating expenses and EBITDA over time (original vs. scenario)
+    - **Column Chart** comparing net income before and after the change
+
+    ![](../media/task-4/scenario-3-charts.png)
+
+1. Review the charts generated by Copilot. Feel free to select any of Copilot's suggested follow-up prompts if you want to update the spreadsheet even further.
+
+1. You have now completed **Task 4**.
+
+## Summary
+
+In this task, you used **Copilot in Excel** with the **Edit with Copilot** functionality to model three what-if scenarios against the Relecloud acquisition financials. You:
+
+- Modeled the impact of a **1x EBITDA multiple increase and 20% synergy savings increase**, with supporting column and line charts.
+- Modeled the effect of **synergy savings delayed by 12 months and reduced to 75% realization**, with stacked column and cumulative line charts.
+- Modeled the consequence of **operating expenses rising 10% due to integration challenges**, with profitability and expense trend charts.
+
+These scenarios demonstrate how Copilot in Excel enables financial analysts to rapidly test assumptions, visualize outcomes, and prepare data-driven recommendations for leadership — without manually rebuilding financial models from scratch.
+
+## Support Contact
+
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the bottom right corner to proceed to the next task!
+
+![](../media/task-4/next-button.png)

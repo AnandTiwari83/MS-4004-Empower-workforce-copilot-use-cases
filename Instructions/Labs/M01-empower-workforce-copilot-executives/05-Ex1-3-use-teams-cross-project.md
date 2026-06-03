@@ -1,4 +1,4 @@
-# Exercise 1, Task 3: Use Copilot Chat in Teams to collect cross-project insights
+# Exercise 1: Synthesize communication insights across Microsoft Team
 
 ## Task 1: Use Copilot Chat in Teams to Collect Cross-Project Insights
 

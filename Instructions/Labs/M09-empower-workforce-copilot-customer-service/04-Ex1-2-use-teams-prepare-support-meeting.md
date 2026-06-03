@@ -17,13 +17,13 @@ In a real-world setting, you would rely on historical emails, chats, support tic
 
 - **TreyResearch_EmailThread.docx**. A short email chain between clinic staff and Lamna support.
 
-- **TreyResearch_MeetingNotes.docx**. Notes from an internal support-team discussion on recent Trey Research escalations.
+- **TreyResearch_MeetingNotes.docx**. Notes from an internal support team discussion on recent Trey Research escalations.
 
 - **TreyResearch_TicketSummary.xlsx**. A small dataset of support tickets with issue types and resolution times.
 
 - **TreyResearch_ChatLog.txt**. A faux chat-log summary of internal troubleshooting discussion.
 
-When you upload these files into your OneDrive, Copilot can analyze them as if they were part of your organization’s data. This alternative lets you learn how a Customer Service Manager can prepare for a meeting using Copilot, without requiring any real tenant messages or personal inbox data.
+When you upload these files to your OneDrive, Copilot can analyze them as if they were part of your organization’s data. This alternative lets you learn how a Customer Service Manager can prepare for a meeting using Copilot, without requiring any real tenant messages or personal inbox data.
 
 Perform the following steps to complete this task:
 
@@ -37,11 +37,11 @@ Perform the following steps to complete this task:
 
     > **Note:** To copy the links, right-click on each link and select "Copy link address," then paste the link into a new browser tab inside your Lab VM.
 
-    > **Note:** If the links do not download automatically, it will open the document in browser, click on the Download button in the browser to download the file.
+    > **Note:** If the links do not download automatically, it will open the document in the browser, click on the Download button in the browser to download the file.
 
     Store these files in your OneDrive folder.
 
-2.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, selecy the **App launcher (1)** and select **Teams (2)**.
+2.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select the **App launcher (1)** and select **Teams (2)**.
 
     ![](../media/module-9/E1T2S2-0306.png) 
 
@@ -83,11 +83,11 @@ Perform the following steps to complete this task:
     Create a concise executive-level meeting agenda for a support leadership sync focused on addressing Trey Research's recurring issues, reviewing current actions, discussing unresolved concerns, and planning next steps.
     ```
 
-10.  Copy the final summary, action items, and agenda into a Word planning document and save it to your OneDrive and give it a name as `TreyResearch_LeadershipSync_Preparation.docx`.
+10.  Copy the final summary, action items, and agenda into a Word planning document and save it to your OneDrive, and give it a name as `TreyResearch_LeadershipSync_Preparation.docx`.
 
       > **Note:** You can open Word for Web from the Microsoft 365 portal Apps section and save it in your OneDrive. 
 
-      > **Note:** To save the word file, in the Word for Web after pasting the content, clikc on **File > Create a Copy > Create a copy online**, and save it to your OneDrive. 
+      > **Note:** To save the Word file, in Word for Web, after pasting the content, click on **File > Create a Copy > Create a copy online**, and save it to your OneDrive. 
 
 ## Summary
 

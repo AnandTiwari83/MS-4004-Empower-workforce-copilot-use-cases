@@ -1,4 +1,4 @@
-# Exercise 2: Use Copilot in Word to Create Executive Business Content
+# Exercise 2: Drive business outcomes using Microsoft 365 Copilot
 
 ## Task 1: Use Copilot in Word to Create an Executive Briefing Report
 

@@ -1,7 +1,5 @@
 # Exercise 2, Task 1: Use Viva Engage to create a company-wide announcement
 
----
-
 Trey Research is preparing to launch **TR-Pulse**, a new quarterly communication program focused on transparency, leadership connection, and employee engagement. Leadership has selected **Viva Engage** as the primary channel for announcing the initiative because it encourages open discussion, employee participation, and two-way communication across the organization.
 
 As the Communications Manager, your goal is to create and publish a compelling announcement that introduces TR-Pulse, explains its purpose, and encourages employees to actively participate in the program.
@@ -14,9 +12,7 @@ As the Communications Manager, your goal is to create and publish a compelling a
 
 3. Select **All apps**.
 
-4. In the **All apps** page, scroll down and select **Viva**.
-
-5. On the Viva home page, select **Engage** from the navigation pane.
+4. In the **All apps** page, scroll down and select **Engage**.
 
 ### Task 1.2: Create a test community
 

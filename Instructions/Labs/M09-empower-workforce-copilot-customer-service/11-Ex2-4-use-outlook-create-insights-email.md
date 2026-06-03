@@ -29,7 +29,7 @@ Perform the following steps to complete this task:
 
     > Note: To copy the link, right-click on the link and select **Copy link address**, then paste the link into a new browser tab inside your Lab VM.
 
-    > Note: If the links do not download automatically, it will open an Excel file, and click on the Download button in the Word online to download the file.
+    > Note: If the links do not download automatically, it will open an Excel file, and click on the Download button in Word online to download the file.
 
 2. In your Microsoft Edge browser, navigate to the Microsoft 365 home page and select **New chat**.
 
@@ -51,19 +51,19 @@ Perform the following steps to complete this task:
 
     ![](../media/module-9/E2T4S4-0306.png)    
 
-5.  Copilot will draft an email in the chat. Review the email. Notice an **Edit in Outlook** button in the end of the response, click on it and it will open the draft in the Outlook mail.
+5.  Copilot will draft an email in the chat. Review the email. Notice an **Edit in Outlook** button in the end of the response, click on it, and it will open the draft in Outlook mail.
 
     ![](../media/module-9/E2T4S5-0306.png)  
 
 6.  At this point, you should now be in **Outlook on the web**. It should be displaying the email that Copilot Chat generated. 
 
-    > **Note:** In Copilot Chat created the email and opened it in Outlook, Copilot doesn’t open the email in draft mode. Instead, it displays its response directly within the body of the email. After that, you must highlight the specific text you want Copilot to modify, whether that’s a sentence, a paragraph, or the entire email.
+    > **Note:** In Copilot Chat, created the email and opened it in Outlook, Copilot doesn’t open the email in draft mode. Instead, it displays its response directly within the body of the email. After that, you must highlight the specific text you want Copilot to modify, whether that’s a sentence, a paragraph, or the entire email.
 
 7.  After reviewing the email, you feel the first paragraph could be improved upon. To do so, highlight the first paragraph of the email (drag your cursor so that the entire opening paragraph is highlighted). Notice the **Open Copilot** (pencil) icon that appears. Select the icon to open the Copilot window.
 
     ![](../media/module-9/E2T4S7-0306.png) 
 
-8.  The Copilot window includes a prompt field and a menu of editing options. Since you highlighted the opening paragraph, select the **Auto Rewrite** option. Notice how Copilot doesn’t insert the revision directly into the email. Instead, it displays a Copilot refinement window containing a draft of the revised content. Also notice the menu options that now appear below the refinement window. 
+8.  The Copilot window includes a prompt field and a menu of editing options. Since you highlighted the opening paragraph, select the **Auto Rewrite** option. Notice how Copilot doesn’t insert the revision directly into the email. Instead, it displays a Copilot refinement window containing a draft of the revised content. Also, notice the menu options that now appear below the refinement window. 
 
     ![](../media/module-9/E2T4S8-0306.png)     
 
@@ -87,9 +87,9 @@ Perform the following steps to complete this task:
         ```
         ![](../media/module-9/E2T4S10-0306.png)
 
-11. Review what happened. Copilot generated the new section and displayed it within the body of the email starting at the location that you placed your cursor. You’re satisfied with the new content, so in the Copilot window, select **Replace**. 
+11. Review what happened. Copilot generated the new section and displayed it within the body of the email, starting at the location that you placed your cursor. You’re satisfied with the new content, so in the Copilot window, select **Replace**. 
 
-12.  Finally, let’s see what happens when you ask it to change the tone of the email. Select in the body of the email to highlight the entire email, then select the **Open Copilot** icon. In the Copilot window, one of the menu choices is **Change Tone**, which provides four options: **Direct**, **Casua**l, **Formal**, and **Like a poem**. In this case, instead of selecting one of these options, you want to submit a prompt request asking for something different. In the prompt field, ask Copilot to make the tone of the email more executive-friendly.
+12.  Finally, let’s see what happens when you ask it to change the tone of the email. Select in the body of the email to highlight the entire email, then select the **Open Copilot** icon. In the Copilot window, one of the menu choices is **Change Tone**, which provides four options: **Direct**, **Casual**, **Formal**, and **Like a poem**. In this case, instead of selecting one of these options, you want to submit a prompt request asking for something different. In the prompt field, ask Copilot to make the tone of the email more executive-friendly.
 
         ![](../media/module-9/E2T4S12-0306.png)
 

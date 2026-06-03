@@ -1,4 +1,4 @@
-# Exercise 1: Use Copilot in Teams to Analyze Project Communications
+# Exercise 1: Synthesize communication insights across Microsoft Team
 
 ## Task 1: Use Copilot in a Teams Chat Session to Summarize a Project Discussion
 

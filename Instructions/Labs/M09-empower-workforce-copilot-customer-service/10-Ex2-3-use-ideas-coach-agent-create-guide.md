@@ -14,11 +14,11 @@ Leadership wants a standardized, step‑by‑step troubleshooting guide that can
 
 Instead of manually designing this guide from scratch, you plan to use Copilot’s Ideas Coach agent to generate the structure, breakdowns, and troubleshooting steps. Ideas Coach excels at turning vague concepts into organized, actionable frameworks—perfect for a troubleshooting guide.
 
-You then plant to save and refine the output into a reusable Word document (or any format you choose). Doing so should help ensure Tailwind’s dealers receive clear, professional, and consistent troubleshooting instructions, improving their ability to resolve issues efficiently, and reducing follow‑up workload for your support reps.
+You then plan to save and refine the output into a reusable Word document (or any format you choose). Doing so should help ensure Tailwind’s dealers receive clear, professional, and consistent troubleshooting instructions, improving their ability to resolve issues efficiently and reducing follow‑up workload for your support reps.
 
 Perform the following steps to complete this task:
 
-1. Navigate back to the browser tab where you have Microsoft 365 Copilot open and under **Agents** section select **All agents (1)**. 
+1. Navigate back to the browser tab where you have Microsoft 365 Copilot open and under the **Agents** section select **All agents (1)**. 
 
 2. In the **Agent Store**, under the **Built by Microsoft** section, select **See more**. In the expanded list of **Built by Microsoft**, select **Idea Coach (2)**.
 
@@ -49,7 +49,7 @@ Perform the following steps to complete this task:
     - Safety concerns
     - Usability and setup problems
 
-    For each path, suggest key decision points and examples of if/then logic dealers could follow.
+    For each path, suggest key decision points and examples of if/then logic that dealers could follow.
     ```
 
 7.  Successful troubleshooting depends on collecting the right information from dealers. Ask Idea Coach to identify what evidence and supporting information dealers should provide before troubleshooting begins.
@@ -61,7 +61,7 @@ Perform the following steps to complete this task:
 8.  Once you understand what information is needed, you want to identify quick diagnostic activities that dealers can perform themselves before contacting support. Ask Idea Coach to brainstorm practical tests for different categories of issues.
 
     ```
-    Suggest quick diagnostic tests dealers could perform before escalating an issue. Provide ideas for:
+    Suggest quick diagnostic tests that dealers could perform before escalating an issue. Provide ideas for:
     - Performance issues
     - Quality concerns
     - Safety-related issues
@@ -119,13 +119,13 @@ Perform the following steps to complete this task:
 
 16. Once you're satisfied with the final outline, select the **Edit in Pages** icon at the end of the response. From within Pages, select **Create**, and then select **Document**. Doing so generates a document in Word for the web that contains the framework and ideas generated during your brainstorming session. 
 
-    Click on **Open word** to open the document.
+    Click on **Open Word** to open the document.
 
     ![](../media/module-9/E2T3S16-0306.png)
 
     ![](../media/module-9/E2T3S16a-0306.png)
 
-18. In a real-world scenario, you could now use Copilot in Word or the Writing Coach agent to transform this framework into a polished dealer-facing troubleshooting guide. Since you already worked with Writing Coach in the previous task, we'll stop at the ideation and framework-building stage.
+18. In a real-world scenario, you could now use Copilot in Word or the Writing Coach agent to transform this framework into a polished dealer-facing troubleshooting guide. Since you already worked with the Writing Coach in the previous task, we'll stop at the ideation and framework-building stage.
 
 ## Summary
 

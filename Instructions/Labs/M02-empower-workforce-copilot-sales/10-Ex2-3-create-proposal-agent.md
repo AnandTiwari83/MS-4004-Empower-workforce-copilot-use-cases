@@ -1,29 +1,28 @@
 # Exercise 2, Task 3: Use Copilot Studio to build an RFP response agent
 
-## Overview
+## Scenario
 
 While Fabrikam’s sales success with EcoSense 360 generated strong interest from hotels and resorts, it also created a new challenge. The Sales team is spending hours each week responding to early-stage RFPs that ask similar questions about integrations, energy savings, and product capabilities. To address this bottleneck, Fabrikam's VP of Sales tasked you with developing a Copilot agent that can automatically handle these initial inquiries. 
 
 You plan to use Copilot Studio to build an agent that performs two functions: first, it provides preliminary answers drawn from existing EcoSense 360 product materials, and second, it generates a response for a submitted RFP. This agent should reduce response times, free the Sales team to focus on higher-value opportunities, and give prospective clients a faster, more engaging experience.
 
-> [!NOTE]
-> In this exercise, you use the Copilot Studio lite experience to create the EcoSense 360 RFP Response Agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
+>**Note:** In this exercise, you use the Copilot Studio lite experience to create the EcoSense 360 RFP Response Agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. Select the following links to download all the documents that will provide knowledge source content for the new EcoSense 360 RFP Response Agent:
+In this hands-on lab, you will use Copilot Studio to build an AI-powered RFP Response Agent for EcoSense 360. You will configure the agent with instructions, knowledge sources, and suggested prompts, enabling it to answer product-related questions and generate customer-ready RFP responses. The completed agent will help streamline sales activities and improve response consistency across hospitality opportunities.
 
-    - [**EcoSense_360_Compliance_Certification_Summary**](https://go.microsoft.com/fwlink/?linkid=2347612)
+## Task 3: Use Copilot Studio to build an RFP response agent
 
-    - [**EcoSense_360_Customer_Case_Study**](https://go.microsoft.com/fwlink/?linkid=2347522)
+In this task, you will use Copilot Studio Agent Builder to create and configure an RFP Response Agent for EcoSense 360. You will define agent behavior, attach knowledge sources, create suggested prompts, and test the agent’s ability to generate accurate RFP responses.
 
-    - [**EcoSense_360_Integration_Compatibility_Guide**](https://go.microsoft.com/fwlink/?linkid=2347523)
+1. Upload the below documents in **EcoSense360-RFP-Documents** folder that you created in your OneDrive in Task 1. These documents provide the knowledge sources for the EcoSense 360 RFP Response Agent.
 
-    - [**EcoSense_360_Sample_Pricing_Sheet**](https://go.microsoft.com/fwlink/?linkid=2347613)
-
-    - [**EcoSense_360_Technical_Specifications**](https://go.microsoft.com/fwlink/?linkid=2347614)
-
-1. Store these files in the **EcoSense360-RFP-Documents** folder that you created in your OneDrive in Task 1. These documents provide the knowledge sources for the EcoSense 360 RFP Response Agent.
+    * EcoSense_360_Compliance_Certification_Summary
+    * EcoSense_360_Customer_Case_Study
+    * EcoSense_360_Integration_Compatibility_Guide
+    * EcoSense_360_Sample_Pricing_Sheet
+    * EcoSense_360_Technical_Specifications
 
 3. Open a new tab in your Microsoft Edge browser and then open Microsoft 365.
 
@@ -32,6 +31,7 @@ Perform the following steps to complete this task:
     ![](../media/lab2-06-42.png) 
 
 5. On the **New Agent** page, you want to ask Copilot to create an agent. In the prompt, you should enter the agent’s name and a general description of what the agent is about, who its target audience is, and what you want it to do. 
+    
     - For this agent, enter the following prompt and then select the forward arrow (Send) icon to submit the prompt:  
     
     ```
@@ -40,24 +40,24 @@ Perform the following steps to complete this task:
 
     ![](../media/lab2-06-43.png) 
 
-6. After you selected the forward arrow, the **Agent Builder** form appeared for your new agent. At the top of the form is a **Describe** tab and a **Configure** tab.
+6. After you selected the forward arrow, the **Agent Builder** form appeared for your new agent. At the top of the form is a **Configure** tab and a **Try it** tab.
     
-    - The **Describe** tab enables you to carry on a conversation with Copilot. This tab is displayed by default.
-    - The **Configure** tab enables you to define the detailed settings that drive the agent.
+    - The **Configure** tab enables you to define the detailed settings that drive the agent..
+    - The **Try it** tab enables you to test the agent by entering prompts and receiving responses based on the agent’s instructions and knowledge sources.
 
     Wait a minute or two for Copilot to create the agent, at which time it displays the agent’s name and description in the **Agent preview** pane.
 
     ![](../media/lab2-06-44.png) 
 
-7. Select the **Configure** tab at the top of the form. Let’s see what Copilot did based on the prompt that you entered.
+7. Let’s see what Copilot did based on the prompt that you entered.
 
 8. On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that you entered. Scroll down to the **Instructions** field. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed level of instructions that Copilot generated.
 
-    > [!IMPORTANT]
-    > The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
+    > **!IMPORTANT:** The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
 9. If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field, or you can ask Copilot to update the instructions for you. 
-    <br/>After reviewing the **Instructions**, you decide that you want to have Copilot add a couple of other items to the instruction set. To do so, select the **Describe** tab and then enter the following prompt:
+
+1. After reviewing the instructions, enter the provided prompt in the prompt box.
 
     ```
     Update the Instructions to include the following items:
@@ -70,25 +70,23 @@ Perform the following steps to complete this task:
 
     ![](../media/lab2-06-45.png) 
     
-10. Review Copilot’s response after updating the instructions. To verify the changes that Copilot made, select the **Configure** tab and then scroll down to the **Instructions** field. Verify that Copilot added the new instructions that you requested.
+10. Review Copilot’s response after updating the instructions. To verify the changes that Copilot made, in the **Configure** tab scroll down to the **Instructions** field. Verify that Copilot added the new instructions that you requested.
 
-11. While the current instructions look good, you wonder if they could be improved upon. You aren't sure how to improve them, so you decide to ask Copilot what it thinks. 
-    - To do so, select the **Describe** tab. This time, enter a prompt that asks Copilot.
+11. To identify additional improvements, enter the provided prompt in the prompt box.
 
      ```
      What additional instructions would you recommend to improve this agent's ability to generate high-quality RFP responses for hospitality customers?
      ```
 
-12. Review Copilot’s recommendations. You’re pleased with its suggestions, so ask Copilot to add them all to the agent’s instructions.
+1. To identify additional improvements, enter the provided prompt in the prompt box.
 
      ```
      Add all of the recommended improvements to the agent instructions.
      ```
 
-13. Once Copilot responds that it updated the instructions, select the **Configure** tab and scroll through the **Instructions**. Note the new items that Copilot added.
+13. Once Copilot responds that it updated the instructions, in the **Configure** tab scroll through the **Instructions**. Note the new items that Copilot added.
 
-14. Now that you’re satisfied with the instructions, you’re ready to configure the agent’s knowledge sources and starter prompts. 
-    <br/>In the **Configure** tab, scroll down to the **Knowledge** section and verify the **Search all websites** toggle switch is **disabled**. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to only use the files stored in the EcoSense360-RFP-Documents folder. If the toggle switch is enabled, then disable it now.
+14. In the **Configure** tab, scroll down to the **Knowledge** section and verify the **Search all websites** toggle switch is **disabled**. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to only use the files stored in the EcoSense360-RFP-Documents folder. If the toggle switch is enabled, then disable it now.
 
     ![](../media/lab2-06-49.png) 
 
@@ -103,7 +101,7 @@ Perform the following steps to complete this task:
     ![](../media/lab2-06-53.png) 
 
 17. For **Suggested prompts**, you can have Copilot generate prompts for you, or you can manually create your own prompts. Let’s try both methods. 
-    - To have Copilot generate suggested prompts, select the **Describe** tab and then ask Copilot.
+    - To have Copilot generate suggested prompts, in the **Describe** tab enter the below prompt .
 
     ```
     Generate three suggested prompts for this agent.
@@ -111,9 +109,11 @@ Perform the following steps to complete this task:
 
     ![](../media/lab2-06-54.png) 
 
-18. You now want to enter several of your own prompts. Select the **Configure** tab and scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent. 
-    <br/>For each prompt that you want to manually add, select the **Add a suggested prompt** option that appears below the prompts. 
-    <br/>Six suggested prompts are displayed below that ask questions about the EcoSense 360 energy management solution. Review these prompts, select two or three that you like, and then add them to the agent.
+18. To enter several of your own prompts. in the **Configure** tab scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent. 
+    
+    - For each prompt that you want to manually add, select the **Add a suggested prompt** option that appears below the prompts. 
+    
+    - Six suggested prompts are displayed below that ask questions about the EcoSense 360 energy management solution. Review these prompts, select two or three that you like, and then add them to the agent.
     
     - **Title:** Product overview and benefits
         - **Message:** Provide a product overview and list of benefits.
@@ -137,10 +137,7 @@ Perform the following steps to complete this task:
 
 19. Test several of the suggested prompts. Verify the agent is correctly pulling in data from the knowledge source documents.
 
-20. You now want to add a final suggested prompt that asks the agent to generate an RFP document based on an attached sales proposal file.
-
-    > [!NOTE]
-    > We held off on having you enter this suggested prompt until after you finished testing some of the prompts in the prior step. We did so because the Test pane in Copilot Studio currently doesn’t let you attach files in its prompt field. As such, we wanted to avoid any confusion when you tested the prompts in the prior step.
+20. Add a final suggested prompt that asks the agent to generate an RFP document based on an attached sales proposal file.
 
     Add the following suggested prompt (which you test in later steps):  
     
@@ -158,10 +155,11 @@ Perform the following steps to complete this task:
     > [!NOTE]
     > At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn’t required since you’re working within your own tenant.
 
-23. You now want to test the final suggested prompt that you added earlier, which creates an RFP response to a sales proposal. 
-    <br/><br/>In the **EcoSense 360 RFP Response Agent** window, select the **Generate an RFP response** suggested prompt (**Create an RFP response for the attached RFP**). Attach the **VanArsdel_RFP.docx** file from your OneDrive account and then submit the prompt.
+23. To test the final suggested prompt that you added earlier, which creates an RFP response to a sales proposal. 
+    
+    - In the **EcoSense 360 RFP Response Agent** window, select the **Generate an RFP response** suggested prompt (**Create an RFP response for the attached RFP**). Attach the **VanArsdel_RFP.docx** file from your OneDrive account and then submit the prompt.
 
-     ![](../media/lab2-06-58.png) 
+      ![](../media/lab2-06-58.png) 
 
 24. Review the results. One of two results might occur:
 
@@ -175,11 +173,15 @@ Perform the following steps to complete this task:
        > Before creating the Word document or downloading the generated document (if it’s able to do so), review the suggested prompts at the end of the results. Feel free to submit any of these prompts if you want the agent to update the results. For example, it might ask whether you want to include a cover page and table of contents. Or, it might ask if you want it to make more updates, such as expanding the compliance matrix with more requirements. Now is your opportunity to have the agent customize the RFP response with any extra features.
 
 25. Review the RFP response in the Word document. Remember, the agent used the predefined template file titled **EcoSense_360_RFP_Template.dotx** as the basis for its response. If it didn’t fill out any of the fields in the template, then you must manually update them yourself (or remove or replace them). 
-    <br/>At this point, you can still use the agent to help you. If you want, you can optionally submit a prompt to the agent that contains your query and then copy and paste the result into the RFP response file where appropriate.
+    
+    - At this point, you can still use the agent to help you. If you want, you can optionally submit a prompt to the agent that contains your query and then copy and paste the result into the RFP response file where appropriate.
 
-    ![](../media/lab2-06-62.png)
+      ![](../media/lab2-06-62.png)
 
 26. Leave the **VanArsdel-RFP-Proposal.docx** open as it’s used in the final task in this exercise.
 
+## Summary
+
+In this exercise, you used Copilot Studio to create an RFP Response Agent that leverages product documentation, templates, and supporting materials to answer customer inquiries and generate proposal responses. You enhanced the agent with detailed instructions, curated knowledge sources, and custom prompts to improve response quality and consistency. The completed agent provides a scalable solution that helps reduce manual effort while delivering professional and accurate RFP responses.
 
 

@@ -1,21 +1,26 @@
 # Exercise 2, Task 5: Use Copilot Studio to update the instructions for the RFP response agent
 
-## Overview
+## Scenario
 
 In the previous task, you used Copilot in Teams to analyze the transcript from a cross-functional meeting involving colleagues from Sales, Product Management, and Engineering. The discussion focused on identifying actionable enhancements to the EcoSense 360 RFP Response Agent, with the goal of improving the quality and effectiveness of its RFP responses to increase proposal win rates. Copilot then synthesized the top five recommended improvements, which you captured for reference.
 
 You’re now ready to use Copilot Studio to update the agent’s instructions, ensuring these new recommendations are incorporated to further strengthen the agent’s capabilities. Once you apply the update to the agent’s instructions, you plan to test the revised agent by having it generate a new response to the VanArsdel RFP. In doing so, you can compare this new response to the original RFP response that was generated in Task 3 to determine whether the agent applied the updated instructions.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. In your Microsoft Edge browser, select a new tab and open Microsoft 365.
+In this hands-on lab, you will use Copilot Studio to enhance the EcoSense 360 RFP Response Agent by incorporating recommendations gathered from stakeholder feedback. You will update the agent’s instructions, test the revised behavior, and evaluate how the changes improve the quality and completeness of generated RFP responses. This process helps ensure the agent continues to evolve and better supports sales success.
+
+## Task 5: Use Copilot Studio to update the instructions for the RFP response agent
+
+In this task, you will update the EcoSense 360 RFP Response Agent with new instructions derived from meeting feedback. You will then test the updated agent and compare its latest RFP response against a previous version to assess the impact of the improvements.
+
+1. In Microsoft Edge browser, select a new tab and open Microsoft 365.
 
 2. In the Microsoft 365 navigation pane, under the **Agents** section, select the **ellipsis (...) (1)** icon that appears to the right of the **EcoSense 360 RFP Response Agent**. In the menu that appears, select **Edit (2)**.
 
    ![](../media/lab2-06-70.png) 
 
-   > [!TIP]
-   > The **Agents** section in the navigation pane only displays the most recently used agents. Since space is limited in the navigation pane, you might not see all your agents in this list. In the real world, if you need to access or edit an agent that doesn’t appear in this list of agents, then select **All agents** in the navigation pane. The **Agent Store** window that appears displays all your agents. If you want to use an agent, then select it in the **Your agents** section. If you want to edit it, then select the ellipsis icon that appears next to the agent, and then select **Edit** from the drop-down menu.
+   >**TIP:** The **Agents** section in the navigation pane only displays the most recently used agents. Since space is limited in the navigation pane, you might not see all your agents in this list. In the real world, if you need to access or edit an agent that doesn’t appear in this list of agents, then select **All agents** in the navigation pane. The **Agent Store** window that appears displays all your agents. If you want to use an agent, then select it in the **Your agents** section. If you want to edit it, then select the ellipsis icon that appears next to the agent, and then select **Edit** from the drop-down menu.
 
 3. In the **EcoSense 360 RFP Response Agent**, Copilot Studio should display the **Configure** tab for the agent. In the **Configure** tab, scroll down to the **Instructions** field. 
 
@@ -29,7 +34,7 @@ Perform the following steps to complete this task:
 
 7. In the **Your agent was updated successfully** dialog box that appears, select the **Go to agent** button. The agent is now ready to apply these top five improvements the next time it’s used.
 
-8. With the updated instructions now in place, you want to test them out. On the **EcoSense 360 RFP Response Agent** window, select the **Generate an RFP response** suggested prompt (**Create an RFP response for the attached RFP**). Attach the **VanArsdel_RFP.docx** file from your OneDrive account and then submit the prompt.
+8. With the updated instructions now in place, to test them out. On the **EcoSense 360 RFP Response Agent** window, select the **Generate an RFP response** suggested prompt (**Create an RFP response for the attached RFP**). Attach the **VanArsdel_RFP.docx** file from your OneDrive account and then submit the prompt.
 
    ![](../media/lab2-06-58.png) 
 
@@ -56,3 +61,6 @@ Perform the following steps to complete this task:
     - Deviations from policy were tagged as “Requires Commercial and Legal Review.”
 
 
+## Summary
+
+In this exercise, you used Copilot Studio to refine the EcoSense 360 RFP Response Agent by incorporating stakeholder-driven recommendations into its instruction set. You tested the updated agent by generating a new RFP response and comparing it with an earlier version to evaluate the enhancements. The updated agent demonstrated improved response quality, stronger compliance and technical coverage, and more detailed customer-facing content, helping increase the effectiveness of future RFP submissions.

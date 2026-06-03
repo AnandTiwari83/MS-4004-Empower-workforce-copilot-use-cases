@@ -1,29 +1,82 @@
----
-lab:
-  title: 'Exercise 2: Drive business outcomes using Microsoft 365 Copilot'
-  description: In this exercise, you step into the role of a Northwind Traders executive who plans to use Microsoft 365 Copilot to complete a series of high-impact tasks. Through these activities, you can see firsthand how Copilot and AI-powered assistants can elevate strategic thinking, improve organizational alignment, and help you deliver measurable results—faster and with greater confidence.
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
+# Exercise 2: Drive Business Outcomes Using Microsoft 365 Copilot
 
-# Exercise 2: Drive business outcomes using Microsoft 365 Copilot
----
-In today’s fast-paced business environment, executives are expected to make faster, smarter, and more strategic decisions, often with limited time and complex data. Microsoft 365 Copilot is designed to help leaders meet this challenge head-on. By combining the power of artificial intelligence with the familiarity of Microsoft 365 apps, Copilot enables executives to transform information into insight, streamline strategic planning, and focus their attention where it matters most: driving business outcomes.
+## Lab Overview
 
-For executives, Copilot serves as an intelligent partner that enhances decision-making, accelerates analysis, and automates routine work. Whether it’s summarizing market data in Word, forecasting financial trends in Excel, managing strategic initiatives in Planner, or communicating with clarity in Outlook, Copilot ensures leaders spend less time gathering information and more time acting on it.
+In this exercise, you will use Microsoft 365 Copilot across multiple Microsoft 365 applications to analyze business data, generate executive reports, manage projects, and create AI-powered business solutions. You will experience how Copilot can help leaders transform information into actionable insights, improve decision-making, and accelerate strategic execution.
 
-In this exercise, you step into the role of a Northwind Traders executive who plans to use Microsoft 365 Copilot to complete a series of high-impact tasks. Through these activities, you can see firsthand how Copilot and AI-powered assistants can elevate strategic thinking, improve organizational alignment, and help you deliver measurable results—faster and with greater confidence.
+As a business executive, you are often required to analyze large volumes of information, evaluate risks, coordinate initiatives, and communicate recommendations to stakeholders. Microsoft 365 Copilot helps streamline these activities by combining artificial intelligence with familiar Microsoft 365 applications such as Word, Excel, Teams, Planner, and Copilot Agents.
 
-> [!TIP]
-> The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
+Throughout this exercise, you will perform a series of executive-focused tasks that demonstrate how Copilot can support strategic planning, operational analysis, project management, and business intelligence.
 
-### Scenario
+By the end of this exercise, you will be able to:
 
-You're the Chief Operating Officer (COO) of Northwind Traders, a mid-sized company specializing in specialty foods and beverages. Your role is to oversee operations, optimize cross-departmental projects, and provide strategic insights to the executive team. Today, you face a series of challenges that require rapid decision-making and strategic planning. Using Microsoft 365 Copilot, you plan to analyze data, create executive communications, manage projects, and gain insights to drive business outcomes.
+- Generate executive briefing reports from business data using Copilot in Word.
+- Analyze budget forecasts and perform advanced financial analysis using Copilot in Excel.
+- Create and manage project plans using Copilot in Planner.
+- Build a custom Copilot agent using organizational knowledge sources.
+- Use a Copilot agent to answer executive-level business questions.
+- Transform business information into actionable insights and recommendations.
 
-Your goal is to complete these critical tasks efficiently using Microsoft 365 Copilot in Office apps and agents. Each task simulates a real executive responsibility.
+## Background
 
+Microsoft 365 Copilot enhances productivity by integrating AI-powered assistance directly into the applications executives use every day.
+
+### Copilot in Word
+
+Copilot in Word helps users create, summarize, rewrite, and enhance business documents. It can transform structured data into executive-ready reports, generate recommendations, and assist with strategic communications.
+
+### Copilot in Excel
+
+Copilot in Excel enables users to analyze business data, identify trends, create forecasts, perform advanced calculations, generate visualizations, and evaluate business scenarios.
+
+### Copilot in Planner
+
+Copilot in Planner assists with project planning by generating tasks, milestones, goals, timelines, dependencies, and stakeholder updates based on business requirements.
+
+### Copilot Agents
+
+Copilot Agents allow organizations to create specialized AI assistants that answer questions using approved business knowledge sources. These agents can provide targeted insights while remaining within defined business contexts.
+
+## Scenario
+
+You are the Chief Operating Officer (COO) of Northwind Traders, a mid-sized organization specializing in specialty foods and beverages.
+
+As COO, you are responsible for:
+
+- Monitoring company performance.
+- Driving operational efficiency.
+- Managing strategic initiatives.
+- Supporting executive decision-making.
+- Communicating business insights to leadership.
+
+To support these responsibilities, you will use Microsoft 365 Copilot to complete several business-critical activities that simulate real-world executive scenarios.
+
+During this exercise, you will:
+
+- Analyze Q3 sales performance and create an executive briefing report.
+- Forecast Q4 financial performance and evaluate business risks.
+- Build and manage a strategic product launch plan.
+- Create a business insights Copilot agent.
+- Use the agent to answer executive-level business questions and generate recommendations.
+
+These activities demonstrate how Copilot can help executives spend less time gathering information and more time making informed decisions that drive business outcomes.
+
+> **Tip:** As you create prompts throughout this exercise, remember the four key elements of an effective prompt:
+>
+> - **Goal** – What you want Copilot to accomplish.
+> - **Context** – Relevant business background and requirements.
+> - **Sources** – The information Copilot should use.
+> - **Expectations** – The desired format and output.
+
+## Learning Objectives
+
+After completing this exercise, you should be able to:
+
+- Use Copilot in Word to transform business data into executive reports.
+- Use Copilot in Excel to perform forecasting and advanced financial analysis.
+- Generate business visualizations and what-if scenarios using Copilot.
+- Create project plans and stakeholder communications using Copilot in Planner.
+- Build and configure a custom Copilot agent.
+- Use knowledge sources to improve agent accuracy and relevance.
+- Generate executive insights and recommendations using AI-powered business tools.
+- Apply Copilot capabilities to support strategic planning and operational excellence.

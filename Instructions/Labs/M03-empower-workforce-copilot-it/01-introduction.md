@@ -43,7 +43,20 @@ Keep these four elements front and center as you practice creating prompts—the
 
 ## Lab Objectives
 
+In this lab, you will explore how **Microsoft 365 Copilot** can help IT professionals streamline project planning, improve collaboration, support technology adoption initiatives, and generate actionable insights. You will use a variety of Copilot experiences and agents to create project deliverables, identify risks, develop user communications, collect feedback, and analyze adoption data, demonstrating how AI-assisted workflows can enhance productivity and decision-making across common IT scenarios.
+
 ## Prerequisites
+
+Before starting this lab, here are the prerequisites you will have in the environment:
+
+- A basic understanding of Microsoft 365 and prompt-writing concepts.
+- A **Microsoft 365 Copilot** license assigned to your account.
+- Access to** Microsoft 365 Copilot Chat** and the **Microsoft 365 applications** used in this lab.
+- Permission to access and create content in Microsoft Whiteboard, PowerPoint, Viva Engage, and OneDrive.
+- Access to **Microsoft 365 Copilot agents**, including Analyst and Surveys.
+- A supported web browser and a stable internet connection.
+
+
 
 ## Getting Started with the lab
 We've prepared a seamless environment for you to explore and learn about **Module 03 - Empower Workforce Copilot - IT**. Let's begin by making the most of this experience!
@@ -53,7 +66,6 @@ We've prepared a seamless environment for you to explore and learn about **Modul
 Once the lab environment is ready, the virtual machine displayed on the left will be your primary workspace for completing the exercises, while the **Guide** on the right side provides step-by-step instructions for each task.
 
 ![](../media/Module3/march-update-lab1-1.png)
-
 
 ##  Lab Guide Zoom In/Zoom Out
 

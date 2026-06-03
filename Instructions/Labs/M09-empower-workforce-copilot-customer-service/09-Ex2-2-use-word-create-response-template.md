@@ -1,4 +1,4 @@
-# Exercise 2, Task 2: Use Copilot in Word and Writing Coach to create a dealer facing response template
+# Exercise 2, Task 2: Use Copilot in Word and Writing Coach to create a dealer-facing response template
 
 ## Overview
 
@@ -8,14 +8,14 @@ As Tailwind’s Customer Service Manager, you're tasked with improving the overa
 
 - Reflect Tailwind’s confident and trusted brand voice
 - Capture all the information needed to properly evaluate a product-quality concern
-- Clearly outline the actions Tailwind took, and next steps the dealer must follow
+- Clearly outline the actions Tailwind took, and the next steps the dealer must follow
 - Work well as a repeatable, clean format for email, Word attachments, or internal documentation
 
 Since Copilot in Word specializes in generating and transforming content, you plan to use it to create a reusable communication template. Because you want to create a polished document, you then plan to use Copilot’s Writing Coach agent, which specializes in coaching and improving your writing. You want to use Writing Coach to strengthen tone, improve clarity, refine grammar and structure, and ensure the template is dealer‑appropriate and ready for real‑world use. You can then share this new resource across support, operations, and product teams, ultimately improving the quality and speed of Tailwind’s customer resolutions.
 
 ### Using Copilot in Word  
 
-Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important, because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
+Copilot in Word can behave in two different ways, depending on whether **Edit with Copilot** is enabled. Understanding this distinction is important because it affects whether Copilot can automatically apply changes to your document or just provide suggestions for you to use.
 
 When **Edit with Copilot** is enabled, Copilot acts as an in-document author and editor. You can ask Copilot to create a document from scratch, rewrite sections, add summaries, or refine language—and it can apply those changes directly to the document, typically with your confirmation. In this experience, Copilot behaves like a collaborative writing partner that can both generate and revise content without requiring manual copy and paste. This is commonly the experience when prompting Copilot from within a Word document, such as using the drafting prompt above a blank document or the prompt field in the Copilot pane.
 
@@ -29,11 +29,11 @@ Perform the following steps to complete this task:
 
       ![](../media/module-9/E2T2S1-0306.png)
 
-      > **Note:** If prompted, click on SIgn in and use the lab credentials.
+      > **Note:** If prompted, click on Sign in and use the lab credentials.
 
 2.  In **Word for web**, click on Create a blank document.
 
-3.  On the Word document on the top section of the page you would see a option to **Describe what you'd like to draft with Copilot**, where we will enter our prompt.
+3.  On the Word document, in the top section of the page, you would see an option to **Describe what you'd like to draft with Copilot**, where we will enter our prompt.
 
       ![](../media/module-9/E2T2S3-0306.png)
 
@@ -44,10 +44,10 @@ Perform the following steps to complete this task:
     
     - Reflect Tailwind’s confident and trusted brand voice.
     - Capture all the information needed to properly evaluate a product-quality concern.
-    - Clearly outline the actions Tailwind took, as well as next steps the dealer must follow.
+    - Clearly outline the actions Tailwind took, as well as the next steps the dealer must follow.
     - Work well as a repeatable, clean format for email, Word attachments, or internal documentation.
         
-    The template should include the following sections: Issue Summary, Product Details, Troubleshooting Actions Taken, Required Dealer Follow‑Up, Expected Timeline.
+    The template should include the following sections: Issue Summary, Product Details, Troubleshooting Actions Taken, Required Dealer Follow‑Up, and Expected Timeline.
     ```
       ![](../media/module-9/E2T2S4-0306.png)
 
@@ -122,7 +122,7 @@ Perform the following steps to complete this task:
     Format the table so it is easy for support representatives to complete during case investigations.
     ```
 
-7.  Review the updated draft to ensure the table is correct. If there’s any issues with it, ask Copilot to make the necessary corrections.
+7.  Review the updated draft to ensure the table is correct. If there are any issues with it, ask Copilot to make the necessary corrections.
 
     Sample prompt:
 

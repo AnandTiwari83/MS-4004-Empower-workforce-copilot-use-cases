@@ -1,4 +1,4 @@
-# Exercise 2: Use Copilot to Generate Executive Business Insights
+# Exercise 2: Drive business outcomes using Microsoft 365 Copilot
 
 ## Task 4: Create a Northwind Business Insights Agent
 

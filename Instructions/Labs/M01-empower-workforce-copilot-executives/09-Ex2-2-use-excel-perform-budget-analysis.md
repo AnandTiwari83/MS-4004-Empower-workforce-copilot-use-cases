@@ -1,4 +1,4 @@
-# Exercise 2: Use Copilot to Generate Executive Business Insights
+# Exercise 2: Drive business outcomes using Microsoft 365 Copilot
 
 ## Task 2: Use Copilot in Excel to Perform Budget Forecast Analysis
 

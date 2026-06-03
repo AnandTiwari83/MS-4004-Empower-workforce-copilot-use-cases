@@ -1,81 +1,141 @@
----
-lab:
-  title: 'Exercise 2, Task 1: Use Viva Engage to create a company-wide announcement'
-  description: In the next task, you build on this initial engagement by preparing leadership discussion topics for the company’s first TR‑Pulse town hall. You use Copilot to synthesize project updates and employee sentiment into transparent, employee‑centered talking points that help leadership follow through on the commitments introduced in this announcement.
-  duration: 44 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 1: Use Viva Engage to create a company-wide announcement
+
 ---
-Trey Research is preparing to formally introduce TR-Pulse, a new quarterly communication experience focused on transparency, leadership connection, and employee engagement. Leadership chose Viva Engage as the primary channel for the announcement to encourage two‑way communication, conversation, and visibility rather than a traditional one‑way email blast.
 
-As the company’s Communications Manager, you’re responsible for crafting and publishing the launch announcement in Viva Engage. This message must do more than simply share information—it must set the tone for TR-Pulse as an ongoing, open dialogue between leadership and employees. The announcement should explain the purpose of the program, what employees can expect, and how they can participate, while also inviting early engagement through reactions and comments.
+Trey Research is preparing to launch **TR-Pulse**, a new quarterly communication program focused on transparency, leadership connection, and employee engagement. Leadership has selected **Viva Engage** as the primary channel for announcing the initiative because it encourages open discussion, employee participation, and two-way communication across the organization.
 
-Perform the following steps to complete this task:
+As the Communications Manager, your goal is to create and publish a compelling announcement that introduces TR-Pulse, explains its purpose, and encourages employees to actively participate in the program.
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)** and select **Apps** in the navigation pane. In the **Apps** menu that appears, select **All apps**. Under the top section of apps in the **Apps** window, select **All apps→**. In the **All apps** window, scroll down and select **Viva.**
+### Task 1.1: Open Viva Engage
 
-2.  On the **Viva** home page, select **Engage** in the navigation pane.
+1. In Microsoft Edge, navigate to **[https://www.microsoft365.com](https://www.microsoft365.com)** and sign in using your Microsoft 365 account.
 
-3.  In **Viva Engage**, you should begin by creating a new community for testing the Viva Engage announcement that you create later in this task. To do so, select **+Create new** at the top of the **Viva Engage** navigation pane, and then select **Community** in the drop-down menu that appears.
+2. In the navigation pane, select **Apps**.
 
-4.  In the **Create a new community** window, enter **TR-Pulse testing** in the **Name** field, and enter **This community is used for testing the Viva Engage announcement for TR-Pulse** in the **Description** field. Select the **Create** button.
+3. Select **All apps**.
 
-5.  In **Viva Engage**, select **+Create new** at the top of the navigation pane, and then select **Post** in the drop-down menu that appears.
+4. In the **All apps** page, scroll down and select **Viva**.
 
-6.  In the **Post** window, select the **Copilot** icon to open the Copilot pane.
+5. On the Viva home page, select **Engage** from the navigation pane.
 
-7.  Copy and paste the following prompt that asks Copilot to draft a Viva Engage announcement highlighting the rollout of TR-Pulse:
+### Task 1.2: Create a test community
 
-   > [!NOTE]
-   > For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
+1. In Viva Engage, select **+ Create new** at the top of the navigation pane.
 
-   **As the Communications Manager at Trey Research, I’ve been tasked with creating a company-wide launch announcement for an employee community post. Trey Research is introducing TR‑Pulse, a new quarterly communication experience focused on transparency, leadership connection, and employee engagement. I plan to publish the announcement in Viva Engage to encourage conversation and visibility across distributed teams. Please draft this announcement for me.**
-    
-   **It should be a clear, engaging Viva Engage post that explains the purpose of TR‑Pulse and why it matters now. It should:**
-   - **Describe what employees can expect in each quarterly cycle (for example, town hall, recognition stories, metrics highlights)**
-   - **Provide simple steps on how employees can participate (join the community, attend, submit questions, share stories)**
-   - **Invite early engagement through reactions and comments, and encourage employees to tag colleagues or leadership**
-    
-   **The announcement should include the following expectations and constraints:**
-   - **Audience: all employees (on-site, remote, and hybrid) across functions**
-   - **Tone: friendly, transparent, inclusive, and leadership-aligned**
-   - **Style: short paragraphs; scannable subheads; 1–2 links/placeholders to resources; a clear call to action**
-   - **Add 3–4 relevant hashtags (for example, #TRPulse #LeadershipConnect #EmployeeVoice) and mention the Leadership community**
-   - **Avoid jargon; prioritize clarity and accessibility**
-    
-   **We plan to kick off this program with our first TR‑Pulse town hall, where company leaders address your questions and share progress updates.**
+2. Select **Community**.
 
-9.  Review the generated announcement. In Viva Engage, Copilot is strongest before and during composition (drafting, rewriting, tone/length coaching, conversation starters, and so on) and around the post (suggesting where/what to post, summarizing context, prompting engagement). 
-<br/><br/>After you publish an announcement, Copilot can’t directly edit the live post that’s in place. Instead, you must make changes by manually editing the post yourself. Copilot can still help by suggesting improved wording or generating assets that you can then copy and paste or insert into the post. In the next steps, you edit the announcement before posting it.
+3. In the **Create a new community** window, enter the following information:
 
-10.  In the Copilot pane, review the opening sentences of the announcement. Copilot often starts with something generic like _“We’re excited to announce…”_. While that type of opening is fine, Viva Engage is most effective when posts open with a clear, human explanation of why something matters to employees. Ask Copilot to reword the first 1–2 sentences to address employees directly, emphasize why the issue matters to them, and set a conversational tone. Shift the message from a corporate announcement to a personal invitation.
+   * **Name:** `TR-Pulse testing`
+   * **Description:** `This community is used for testing the Viva Engage announcement for TR-Pulse`
 
-11.  Review the revised opening. You like what Copilot did, but you want one other change. You want to improve the call-to-action in the announcement. Ask Copilot to improve the call-to-action (CTA) by including specific things employees can do. Ensure the CTA feels low-effort and welcoming.
+4. Select **Create**.
 
-12.  Review the CTA change. This version looks better, so ask Copilot to rewrite the entire announcement by using the revised opening sentences and CTA that it created.
+5. Wait for the new community to be created.
 
-13.  Review the results. In our testing, Copilot rewrote the announcement, but it didn’t use the revised opening or CTA; instead, it rewrote them again to something different. This version isn’t what we wanted, so we asked Copilot to rewrite the announcement, and this time we specifically asked it to use the revisions to the opening and the CTA that it originally proposed. In our testing, Copilot applied its original revisions.  
-    <br/>Check your results. Did Copilot do the same as it did in our testing, or did it apply its original revisions? If it rewrote everything over again, then ask it to rewrite the post using its original revisions.
+### Task 1.3: Create a new announcement draft
 
-14.  Once you’re satisfied with the announcement, select the **+Add to post** option that appears at the end of the results in the Copilot pane.
+1. In Viva Engage, select **+ Create new**.
 
-15.  Review the announcement that appears in the post window. Delete any of the extraneous Copilot text that appears at the start and end of the post, such as “You asked for a…”).
+2. Select **Post**.
 
-16.  Before you can post this announcement, you must first select a community or storyline. However, because you created the **TR-Pulse testing** community at the start of this task, and since that community was displayed in Viva Engage when you created this post, the announcement should appear at the bottom of the post window, above the menu bar. If a **Select a community or storyline** option appears at the bottom of the Viva Engage post instead, then select it and select the **TR-Pulse testing** community from the menu that appears.
+3. In the post creation window, select the **Copilot** icon to open the Copilot pane.
 
-17.  Select the **Post** button.
+### Task 1.4: Generate the announcement using Copilot
 
-18. In the **TR-Pulse testing** community, you should see the post that Copilot just created for you.
+1. In the Copilot pane, enter a prompt requesting a company-wide announcement for the TR-Pulse launch.
 
-After posting the TR‑Pulse launch announcement in Viva Engage, take a moment to step back and consider what you accomplished in this task. This announcement isn’t the finish line—it’s the opening invitation to an ongoing conversation. One of the core elements of TR‑Pulse is direct leadership connection, beginning with a quarterly town hall where employees can hear openly from executives about progress, priorities, and how their feedback is shaping decisions. The questions, reactions, and comments that emerge from this announcement should help inform what leaders address next—especially where employees want more clarity or accountability.
+   Example prompt:
 
-In the next task, you build on this initial engagement by preparing leadership discussion topics for the company’s first TR‑Pulse town hall. You use Copilot to synthesize project updates and employee sentiment into transparent, employee‑centered talking points that help leadership follow through on the commitments introduced in this announcement.
+   ```text
+   As the Communications Manager at Trey Research, I’ve been tasked with creating a company-wide launch announcement for an employee community post. Trey Research is introducing TR-Pulse, a new quarterly communication experience focused on transparency, leadership connection, and employee engagement. I plan to publish the announcement in Viva Engage to encourage conversation and visibility across distributed teams.
 
-As you move forward, keep in mind that employee‑centered communication isn’t just about launching a message—it’s about sustaining trust by closing the loop.
+   Please draft an engaging Viva Engage announcement that:
 
+   - Explains the purpose of TR-Pulse
+   - Describes what employees can expect in each quarterly cycle
+   - Explains how employees can participate
+   - Encourages reactions, comments, and discussion
+   - Includes a clear call to action
 
+   Audience: All employees
+   Tone: Friendly, transparent, inclusive, and leadership-aligned
+   Style: Short paragraphs with clear headings
+   Include relevant hashtags and reference the Leadership community.
+   ```
 
+2. Review the announcement generated by Copilot.
 
+### Task 1.5: Improve the opening message
+
+1. Review the opening paragraph of the announcement.
+
+2. Ask Copilot to rewrite the introduction so that it feels more personal and employee-focused.
+
+   Example prompt:
+
+   ```text
+   Rewrite the opening paragraph to speak directly to employees, explain why this initiative matters to them, and create a more conversational tone.
+   ```
+
+3. Review the revised introduction.
+
+### Task 1.6: Improve the call to action
+
+1. Ask Copilot to strengthen the call to action.
+
+   Example prompt:
+
+   ```text
+   Improve the call to action by including specific, low-effort ways employees can participate, such as joining the community, attending events, asking questions, reacting to posts, and sharing feedback.
+   ```
+
+2. Review the updated call to action.
+
+### Task 1.7: Incorporate the revisions
+
+1. Ask Copilot to rewrite the full announcement using the revised introduction and call to action.
+
+   Example prompt:
+
+   ```text
+   Rewrite the entire announcement using the revised opening paragraph and revised call to action while keeping the existing structure and messaging.
+   ```
+
+2. Review the updated announcement.
+
+3. If Copilot creates new versions of the opening or call to action instead of using the previously approved versions, ask it to specifically reuse its earlier revisions.
+
+4. Continue refining the announcement until you are satisfied with the content.
+
+### Task 1.8: Add the announcement to the post
+
+1. When the announcement is finalized, select **+ Add to post** in the Copilot pane.
+
+2. Review the content inserted into the post editor.
+
+3. Remove any extra Copilot-generated text that isn't part of the announcement (for example, explanatory text or prompt references).
+
+### Task 1.9: Publish the announcement
+
+1. Verify that the **TR-Pulse testing** community is selected as the destination.
+
+   > **Note:** If the community isn't selected automatically, choose **Select a community or storyline** and then select **TR-Pulse testing**.
+
+2. Select **Post**.
+
+3. Wait for the post to be published.
+
+4. Verify that the announcement appears in the **TR-Pulse testing** community feed.
+
+### Summary
+
+In this task, you used Microsoft 365 Copilot in Viva Engage to:
+
+* Draft a company-wide communication announcement.
+* Refine messaging for employee engagement and participation.
+* Improve the opening message and call to action.
+* Create a more conversational and inclusive communication style.
+* Publish the announcement in a Viva Engage community.
+
+The TR-Pulse announcement serves as the starting point for an ongoing conversation between leadership and employees. In the next task, you'll build on this engagement by using Copilot to help prepare leadership discussion topics for the first TR-Pulse town hall.

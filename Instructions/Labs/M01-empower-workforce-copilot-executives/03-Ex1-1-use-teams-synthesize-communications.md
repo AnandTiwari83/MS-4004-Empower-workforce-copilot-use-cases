@@ -1,5 +1,4 @@
-# Exercise 1: Use Copilot Chat in Teams to Synthesize Communications for a Project
-
+# Exercise 1: Synthesize communication insights across Microsoft Team
 ## Scenario
 
 You are managing a significant project and need a comprehensive understanding of all communications related to that initiative over the last 30 days. Rather than manually reviewing emails, meeting notes, and chat conversations, you will use Microsoft 365 Copilot Chat in Teams to gather, summarize, and analyze the information. You will then use Copilot to identify action items and draft a stakeholder announcement based on the project's recent activity.

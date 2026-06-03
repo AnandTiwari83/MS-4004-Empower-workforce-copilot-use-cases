@@ -12,7 +12,7 @@ Perform the following steps to complete this task:
 
     > **Note:** To copy the link, right-click on the link and select "Copy link address," then paste the link into a new browser tab inside your Lab VM.
 
-    > **Note:** If the link do not download automatically, it will open the document in browser, click on the Download button in the browser to download the file. 
+    > **Note:** If the link does not download automatically, it will open the document in the browser; click on the Download button in the browser to download the file. 
     
 3.  In your Microsoft Edge browser, go to the **Microsoft 365** home page and select the **Analyst** agent in the navigation pane.
 

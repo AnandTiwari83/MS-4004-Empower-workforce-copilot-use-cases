@@ -1,4 +1,4 @@
-# Exercise 2: Use Copilot to Generate Executive Business Insights
+# Exercise 2: Drive business outcomes using Microsoft 365 Copilot
 
 ## Task 3: Use the Copilot in Planner to Create a New Project Plan
 

@@ -14,11 +14,6 @@ This task uses the default **Auto** selector mode.
 
 ## Steps
 
-1. Select the following links to download the two vendor contracts and store the files in your **OneDrive** account for use by Copilot in your tenant:
-
-    - [**Adatum Corp smart sensor contract.docx**](https://go.microsoft.com/fwlink/?linkid=2347801)
-    - [**Contoso Ltd smart sensor contract.docx**](https://go.microsoft.com/fwlink/?linkid=2347516)
-
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
     ```
@@ -35,9 +30,16 @@ This task uses the default **Auto** selector mode.
 
     ![](./media/app-launcher-copilot.png)
 
-1. In Copilot Chat, select the **Work** option. Then select the **attachment** icon in the prompt field and attach both vendor contracts that you downloaded in Step 1.
 
-    > **`Note:`** Select the **Work** option since this task involves searching and analyzing internal organizational content stored in OneDrive, SharePoint, Teams, and Outlook.
+1. In Copilot Chat, select the **Work** option.
+
+    > **`Note:`** Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs.
+
+    ![](./media/copilot-work-mode.png)
+
+1. In the Copilot prompt field, select the **attachment** icon and attach the **Adatum Corp smart sensor contract.docx** and **Contoso Ltd smart sensor contract.docx** file.
+
+    ![](./media/attach-file.png)
 
     ![](./media/copilot-work-attach.png)
 
@@ -53,9 +55,13 @@ This task uses the default **Auto** selector mode.
 
     ![](./media/edit-in-pages.png)
 
-1. When editing in **Pages**, note how Copilot displays the Copilot chat pane alongside the Pages form. In the **Pages** form, select the **Create** button and then select **Document** in the drop-down menu. In the dialog box that appears, select **Open Word** to open the document in **Word for the web**.
+1. When editing in **Pages**, note how Copilot displays the Copilot chat pane alongside the Pages form. In the **Pages** form, select the **Create (1)** button and then select **Document (2)** in the drop-down menu.
 
     ![](./media/open-in-word.png)
+
+1. In the dialog box that appears, select **Open Word** to open the document in **Word for the web**.
+
+    ![](./media/open-in-worda.png)
 
 1. In **Word for the web**, Copilot copies its entire response into the document, including any extraneous chat content that appeared at the beginning and end of the chat. Delete any extraneous text that was pasted in. Then select the file name above the menu bar and rename the file to:
 
@@ -67,15 +73,15 @@ This task uses the default **Auto** selector mode.
 
     ![](./media/rename-document.png)
 
-1. In the Word document, select **Copilot** on the **Home** tab ribbon. Verify the **Edit with Copilot** icon appears in the prompt field next to the plus **(+)** sign.
+1. Select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Allow editing** icon appears in the prompt field above to the plus **input** section.
 
-    ![](./media/word-copilot-pane.png)
-
-    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
-
-    ![](./media/edit-with-copilot.png)
+    ![](./media/copilot-panew.png)
 
 1. Before adding an Executive Summary, place your cursor on a blank line **above the first section** of the document - this is where the new section will appear. Then enter a prompt asking Copilot to add an **Executive Summary** section that provides a summarized analysis of the two vendor contracts. The section should indicate which contract has more favorable terms for Fabrikam and why, and where Fabrikam should focus its negotiation efforts.
+
+    ```
+    Add an Executive Summary section at the beginning of this document. Summarize the analysis of both vendor contracts, identify which contract offers more favorable terms for Fabrikam and explain why. Include key risks, advantages, and recommended negotiation priorities.
+    ```
 
     ![](./media/executive-summary.png)
 
@@ -96,6 +102,23 @@ This task uses the default **Auto** selector mode.
     - **Financial health and stability of the supplier** - clauses requiring the supplier to maintain certain financial ratios or insurance levels, and what happens if the supplier is acquired or experiences significant financial distress.
 
     Select **one topic** from the list above that interests you. Place your cursor in the document where you want the new section to appear, then ask Copilot to add a section comparing both contracts specifically on that topic.
+
+    ```
+    Add a new section titled "Termination and Exit Clauses Comparison."
+
+    Compare both vendor contracts regarding:
+
+    * Notice periods
+    * Termination for convenience
+    * Termination for cause
+    * Early termination penalties
+    * Treatment of outstanding orders and payments
+    * Inventory disposition requirements
+    * Transition assistance obligations
+
+    Identify which contract provides greater flexibility and protection for Fabrikam and explain the financial and operational implications of the differences.
+
+    ```
 
     > **`Note:`** Focusing on a single topic at a time often yields more thorough and precise results than submitting multiple requests in one prompt.
 

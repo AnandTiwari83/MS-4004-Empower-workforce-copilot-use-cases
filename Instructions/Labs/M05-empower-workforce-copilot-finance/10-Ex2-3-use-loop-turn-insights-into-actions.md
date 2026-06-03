@@ -16,9 +16,15 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Loop (2)**.
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **More apps (2)**.
 
     ![](./media/app-launcher-loop.png)
+
+1. Now click on the **All apps** adn select **Loop**.
+
+    ![](./media/app-launcher-loopa.png)
+
+    ![](./media/app-launcher-loopb.png)
 
 1. In **Loop for the web**, create a new workspace titled:
 
@@ -34,17 +40,31 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
     Negotiation Strategy
     ```
 
+    ![](./media/new-workspace1.png)
+
+    ![](./media/new-workspace2.png)
+
     ![](./media/negotiation-page.png)
 
 ### Page 1: Negotiation Strategy
 
 1. Open the **Copilot** pane on the **Negotiation Strategy** page.
 
-    ![](./media/copilot-pane.png)
-
 1. Ask Copilot to review the **Smart Sensor contract comparison – Finance.pptx** file and turn its negotiation recommendations into a structured Loop table with the following columns: **Action**, **Priority**, **Owner**, and **Deadline**. Attach the file by entering a forward slash **(/)** in the prompt field and then selecting the **Smart Sensor contract comparison – Finance.pptx** file from the **Files** tab.
 
-    ![](./media/attach-file.png)
+    ```
+    Review the attached "Smart Sensor contract comparison – Finance.pptx" presentation and convert all negotiation recommendations into a structured Loop table.
+
+    Create the table with the following columns:
+
+    * Action
+    * Priority
+    * Owner
+    * Deadline
+
+    Include all recommended negotiation activities identified in the presentation. Assign appropriate owners based on the recommendation (Finance, Procurement, Legal, Operations, or Executive Sponsor) and suggest realistic deadlines. Prioritize actions as High, Medium, or Low.
+
+    ```
 
 1. Review the table results. Select the **Copy** icon that appears below the table, then paste the copied content into your **Negotiation Strategy** Loop page. Delete any extraneous text that was pasted along with the table.
 
@@ -62,7 +82,19 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
 
 1. Open the **Copilot** pane on the **Risk mitigation ideas** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and turn the risk mitigation ideas into a **checklist with status fields** for tracking. Attach the file the same way as before - enter a forward slash **(/)** and select the file from the **Files** tab.
 
-    ![](./media/risk-checklist.png)
+    ```
+    Review the attached "Smart Sensor contract comparison – Finance.pptx" presentation and create a risk mitigation checklist with status tracking.
+
+    Include:
+
+    * Risk Description
+    * Mitigation Action
+    * Owner
+    * Status
+    * Target Completion Date
+
+    Format the output as a checklist suitable for a Microsoft Loop page. Include all major financial, contractual, operational, compliance, and supplier risks identified in the presentation. Set the initial status of all items to "Not Started."
+    ```
 
 1. Review the results. Select the **Copy** icon, then paste the content into your **Risk mitigation ideas** Loop page. Delete any extraneous text that was pasted along with the checklist.
 
@@ -80,11 +112,24 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
 
 1. Open the **Copilot** pane on the **Communication plan** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and draft a **communication plan** for sharing its recommendations with stakeholders, including a timeline and recommended channels. Attach the file the same way as before - enter a forward slash **(/)** and select the file from the **Files** tab.
 
-    ![](./media/communication-plan.png)
+    ```
+    Review the attached "Smart Sensor contract comparison – Finance.pptx" presentation and create a communication plan for sharing the findings and recommendations with stakeholders.
+
+    Include:
+
+    * Audience/Stakeholder Group
+    * Key Message
+    * Communication Channel
+    * Owner
+    * Timeline
+
+    The plan should cover Finance Leadership, Procurement, Legal, Operations, Executive Sponsors, and Vendor Representatives. Include recommended communication methods such as meetings, email updates, presentations, and workshops. Present the output in a structured format suitable for a Microsoft Loop page.
+
+    ```
 
 1. Review the results. Select the **Copy** icon, then paste the content into your **Communication plan** Loop page. Delete any extraneous text that was pasted along with the communication plan.
 
-    ![](./media/paste-communication-plan.png)
+    ![](./media/communication-plan.png)
 
 1. Your **Adatum/Contoso contract comparison** workspace now contains three completed pages - **Negotiation Strategy**, **Risk mitigation ideas**, and **Communication plan**.
 

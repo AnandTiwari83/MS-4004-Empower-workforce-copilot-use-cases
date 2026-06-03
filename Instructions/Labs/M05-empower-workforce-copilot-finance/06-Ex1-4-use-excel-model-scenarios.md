@@ -40,6 +40,7 @@ This task showcases Copilot's ability to perform dynamic modeling and visualizat
     ```
     Perform a what-if analysis on the Relecloud acquisition financial model by increasing the EBITDA multiple by 1x and increasing synergy savings by 20%. Update all affected financial metrics and assumptions, and return the results in a new worksheet.
     ```
+    
     ![](./media/scenario-1-results.png)
 
 1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet to make it easy to visualize the magnitude and timing of improvements:

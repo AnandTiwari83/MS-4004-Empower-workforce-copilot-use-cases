@@ -32,23 +32,13 @@ This task uses the **Edit with Copilot** functionality.
 
     ![](./media/app-launcher-powerpoint.png)
 
-1. In **PowerPoint for the web**, create a **blank presentation**.
+1. In **PowerPoint for the web**, click on  **create a blank presentation**.
 
     ![](./media/blank-presentation.png)
 
-1. Select the **Home** tab if the ribbon isn't already visible. Then select **Copilot** at the end of the **Home** tab ribbon to open the Copilot pane.
+1. Select **Copilot** at the right bottom of the page and tap to open the Copilot pane.
 
     ![](./media/copilot-ribbon.png)
-
-1. In the Copilot pane, select the **plus (+)** sign in the prompt field and then select **Add work content** in the drop-down menu. Attach the **Smart Sensor contract comparison** file that you created in the previous task.
-
-    ![](./media/add-work-content.png)
-
-1. Verify the **Edit with Copilot** icon appears next to the **plus (+)** sign in the prompt field.
-
-    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
-
-    ![](./media/edit-with-copilot.png)
 
 1. In the Copilot prompt field, enter a prompt asking Copilot to create a slide presentation based on the attached **Smart Sensor contract comparison** file. Remember to address the four key elements of an effective prompt - **Goal**, **Context**, **Sources**, and **Expectations**. Your prompt should include the following requirements:
 
@@ -57,6 +47,40 @@ This task uses the **Edit with Copilot** functionality.
     - Each slide should **compare Adatum Corporation and Contoso, Ltd.** for the selected topic area
     - Use **visuals** to keep the presentation engaging
     - Use **bullet points** on slides for clarity
+
+    ```
+    Create a professional PowerPoint presentation based on the attached "Smart Sensor Contract Comparison" document.
+
+    Goal:
+    Prepare an executive-level presentation for the Finance Leadership Team that evaluates and compares the vendor contracts from Adatum Corporation and Contoso, Ltd.
+
+    Context:
+    The presentation should help finance leaders understand the key contractual differences, financial implications, risks, and negotiation opportunities associated with each vendor.
+
+    Source:
+    Use the attached Smart Sensor Contract Comparison document as the primary source.
+
+    Expectations:
+
+    * Create a professional presentation suitable for executive review.
+    * Include an Executive Summary slide.
+    * Create a separate slide for each key topic area, including:
+
+      * Pricing and Cost Structure
+      * Delivery Timelines and Terms
+      * Warranties and Support
+      * Payment Terms
+      * Service Levels and Performance Commitments
+      * Risk and Compliance Considerations
+      * Contract Flexibility and Change Management
+    * On each topic slide, compare Adatum Corporation and Contoso, Ltd. side-by-side.
+    * Use concise bullet points rather than paragraphs.
+    * Include charts, icons, SmartArt, tables, or other visuals to improve engagement and readability.
+    * Highlight key advantages, risks, and financial impacts.
+    * Include a final Recommendations slide summarizing negotiation priorities for Fabrikam.
+    * Use a consistent professional design appropriate for senior finance executives.
+
+    ```
 
     ![](./media/initial-prompt.png)
 
@@ -74,15 +98,60 @@ This task uses the **Edit with Copilot** functionality.
 
 1. Review the slides that Copilot generated. You want to add a **Risk Mitigation** slide, which isn't currently in the presentation. Review the slides and identify where this topic best fits. In the slide pane on the left, select the location where you want Copilot to insert the new slide. Then enter a prompt asking Copilot to add a slide containing the top recommendations for mitigating risks. Ask that the slide include **visual emphasis**, such as callouts or highlights, for critical points.
 
+    ```
+    Add a new slide titled "Risk Mitigation Recommendations."
+
+    Based on the contract comparison, identify the top contractual, financial, operational, and compliance risks associated with both vendors.
+
+    Include:
+
+    * Key risk areas
+    * Recommended mitigation actions
+    * Expected business impact
+    * Priority level (High, Medium, Low)
+
+    Use strong visual emphasis such as callouts, icons, highlights, or color-coded indicators to draw attention to the most critical risks and recommendations.
+    ```
+
     ![](./media/risk-mitigation-slide.png)
 
     > **`Note:`** Copilot may ask another series of questions - including a request to reselect a slide template - even though you specified one earlier. It may take several minutes to generate the new slide. If Copilot provides an outline rather than adding the slide directly, tell it to **add the planned slide to the presentation**.
 
 1. Review the risk mitigation slide that Copilot added. Next, you want to add a **Vendor Advantage Summary** slide at the end of the deck. Place your cursor after the last slide in the deck, then ask Copilot to add a Vendor Advantage Summary slide that indicates which vendor offers better terms for each topic covered in the presentation.
 
+    ```
+    Add a slide titled "Vendor Advantage Summary."
+
+    Create a summary table that compares Adatum Corporation and Contoso, Ltd. across every topic covered in the presentation.
+
+    For each category, indicate:
+
+    * Which vendor offers the stronger terms
+    * Why that vendor has the advantage
+    * Any notable trade-offs
+
+    Conclude with an overall recommendation identifying which vendor provides the best overall value and contractual position for Fabrikam.
+    ```
+
     ![](./media/vendor-summary-slide.png)
 
 1. Review the Vendor Advantage Summary slide. Finally, you want Copilot to add an **Action Plan** slide as the last slide in the deck. Place your cursor after the final slide, then ask Copilot to add an Action Plan slide that identifies the next steps for negotiations and risk mitigation. Ask that the slide include a **timeline** and **responsible roles**.
+
+    ```
+    Add a slide titled "Action Plan."
+
+    Based on the contract comparison and identified risks, create a structured action plan for Fabrikam.
+
+    Include:
+
+    Recommended negotiation activities
+    Risk mitigation actions
+    Responsible roles (Finance, Procurement, Legal, Operations, Executive Sponsor)
+    Expected outcomes
+    A timeline covering Immediate (0–30 days), Short Term (30–60 days), and Long Term (60–90 days) activities
+
+    Present the information using a timeline graphic, roadmap, or SmartArt visual and include clear ownership for each action item.
+    ```
 
     ![](./media/action-plan-slide.png)
 

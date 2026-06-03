@@ -1,4 +1,4 @@
-# Module: Empower workforce with Microsoft 365 Copilot for Finance
+# Module: 5 Empower workforce with Microsoft 365 Copilot for Finance
 
 ### Overall Estimated Duration:  Minutes
 

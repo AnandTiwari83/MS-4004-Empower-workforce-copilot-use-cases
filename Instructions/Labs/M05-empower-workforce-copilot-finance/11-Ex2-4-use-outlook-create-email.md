@@ -24,17 +24,27 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
 
 1. In **Outlook on the web**, select **New mail** to create a new email.
 
-    ![](./media/new-email.png)
-
 1. In the body of the new email, select the **Open Copilot** icon to open the Copilot draft window.
-
-    ![](./media/open-copilot.png)
 
 1. In the Copilot prompt field, enter a prompt asking Copilot to write a short, direct email to your Finance team colleagues requesting feedback on your draft contract comparison presentation. Include the following in your prompt:
 
     - Paste in the **link to your Loop workspace** from the previous task for collaboration purposes
     - Ask Copilot to include the link so colleagues can access the Loop workspace
     - Use a **professional, formal tone** and convey **urgency**
+
+    ```
+    Write a short, direct email to my Finance team colleagues requesting feedback on my draft contract comparison presentation.
+
+    Requirements:
+
+    * Use a professional and formal tone.
+    * Convey a sense of urgency.
+    * Include the following Loop workspace link so colleagues can review supporting materials and collaborate:
+      <LOOP_WORKSPACE_LINK>
+    * Ask colleagues to review the presentation and provide feedback as soon as possible.
+    * Clearly explain that the Loop workspace contains the supporting analysis, recommendations, and discussion items.
+    * Keep the email concise and action-oriented.
+    ```
 
     ![](./media/first-draft.png)
 
@@ -44,11 +54,30 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
     - Explain in greater detail **why feedback is important**
     - Outline the **next steps**
 
+    ```
+    Revise the email to:
+
+    * Start by highlighting the benefits of using the Loop workspace for real-time collaboration.
+    * Explain in greater detail why stakeholder feedback is important.
+    * Include a brief outline of the next steps after feedback is collected.
+    * Maintain a professional tone and sense of urgency.
+
+    ```
+
     ![](./media/second-draft.png)
 
 1. Review the updated email. Notice that Copilot generated a new version - **draft 2 of 2**. You can select the **back arrow** to view draft 1, which was the original version. Select the **forward arrow** to return to draft 2 and continue working with the latest version.
 
     > **`Note:`** For each request you make, Copilot generates a new draft of the email. You can navigate to a prior draft and keep it, or ask Copilot to modify that draft instead of the latest one. By default, each new request is applied to the draft you're currently viewing.
+
+    ```
+    Rewrite the email so that:
+
+    * It opens by stressing the deadline for feedback.
+    * The key items requiring review are presented as bullet points.
+    * The overall structure is easy to scan and action-oriented.
+    * The professional tone is maintained.
+    ```
 
     ![](./media/draft-navigation.png)
 
@@ -62,6 +91,16 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
 1. Review the updated email - this is now **draft 3 of 3**. You decide to add one final paragraph. Ask Copilot to add a single paragraph at the end of the email that explains how your colleagues' input will improve the final deliverable. Include a motivating phrase such as:
 
     ```
+    Rewrite the email so that:
+
+    * It opens by stressing the deadline for feedback.
+    * The key items requiring review are presented as bullet points.
+    * The overall structure is easy to scan and action-oriented.
+    * The professional tone is maintained.
+
+    ```
+
+    ```
     Your insights will make a big impact.
     ```
 
@@ -73,15 +112,19 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
 
 1. Review the new draft. You're still not completely satisfied, so enter a prompt directly asking Copilot to adjust the tone to sound **friendly and confident but still professional**.
 
+    ```
+    Add a single paragraph at the end of the email explaining how colleagues' feedback will strengthen the final presentation and recommendations. Include the phrase: "Your insights will make a big impact."
+    ```
+
     ![](./media/tone-adjustment.png)
 
 1. Review the final result. Once you're satisfied with the email, select **Keep it** in the Copilot window. This takes you out of Copilot draft mode and into the actual email.
 
+    ```
+    Rewrite the email so it sounds friendly and confident while remaining professional. Keep the message concise, collaborative, and focused on obtaining timely feedback from the Finance team.
+    ```
+
     ![](./media/keep-it.png)
-
-1. Optionally, send the email to your personal email address to verify that it was received correctly and that the **link to the Loop workspace** opens as expected.
-
-    ![](./media/send-email.png)
 
 1. You have now completed **Task 4** and **Exercise 2**.
 

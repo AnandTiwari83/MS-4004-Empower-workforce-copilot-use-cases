@@ -1,6 +1,6 @@
 # Module: Empower workforce with Microsoft 365 Copilot for Finance
 
-### Overall Estimated Duration: 44 Minutes
+### Overall Estimated Duration:  Minutes
 
 ## Lab Overview
 

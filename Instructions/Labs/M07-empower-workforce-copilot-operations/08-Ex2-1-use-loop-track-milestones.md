@@ -1,61 +1,290 @@
-# Exercise 2, Task 1: Use Copilot in Loop to track construction milestones
+Below is a GitHub-ready lab guide that follows the same structure and style as the previous exercises while keeping the content aligned with the Microsoft learning path.
 
-As the Operations Lead for Contoso’s regional distribution center expansion, you’re responsible for keeping the project on schedule and ensuring all teams are aligned. The expansion involves multiple phases—site preparation, construction, inspections, equipment installation, and final handover—each with its own set of dependencies and deadlines.
+# Exercise 2, Task 1: Use Copilot in Loop to Track Construction Milestones
 
-With so many moving parts and stakeholders (construction crews, logistics, safety, IT, and leadership), it’s critical to have a clear, visual way to track progress and assign responsibilities. Microsoft Loop, enhanced by Copilot, is your central hub for organizing and monitoring every milestone. Within your Loop workspace for your project plan, you plan to create the following pages:
+## Scenario
 
-- 1-Milestones and Timeline
-- 2-RAID Log (Risks, Assumptions, Issues, Dependencies)
-- 3-RACI Matrix (Roles and Responsibilities)
-- 4-Decision Log and Change Log
+As the Operations Lead for Contoso’s regional distribution center expansion project, you are responsible for coordinating multiple teams, managing project dependencies, and ensuring the project remains on schedule.
 
-A typical construction project of this nature would have many other tasks that you could track in Loop, such as a safety training rollout plan, inventory move wave plan, stakeholder communication plan, go-live runbook, and so on. However, for the sake of time, this task only creates the four pages listed above.
+The expansion project includes several phases, including site preparation, construction, inspections, equipment installation, and final handover. Because numerous stakeholders are involved—including construction crews, logistics teams, safety personnel, IT staff, vendors, and leadership—you need a centralized location to organize project information and track progress.
 
-Perform the following steps to complete this task:
+Microsoft Loop provides a collaborative workspace where project plans, risks, responsibilities, decisions, and changes can be documented and maintained. Using Copilot in Loop, you will create and populate several project management pages to help coordinate the expansion effort.
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)**, select **Apps** in the navigation pane, and then select **Loop** from the **Apps** menu.
+For this exercise, you will create the following pages within a Loop workspace:
 
-2.  In **Loop for the web,** create a new workspace titled **Distribution Center Expansion – Project Plan**.
+* 1-Milestones and Timeline
+* 2-RAID Log (Risk/Assumption/Issue/Dependency)
+* 3-RACI Matrix (Roles and Responsibilities)
+* 4-Decision Log and Change Log
 
-3.  You plan to create three new pages under this Loop workspace – one for negotiation strategy, another for risk mitigation ideas, and a third for communication framing. Change the current title of the first page from **Untitled** to **1-Milestones and Timeline**.
+## Lab Overview
 
-4.  Open the Copilot pane. Ask Copilot to generate a table of key milestones and associated timelines for the distribution center expansion by submitting the following prompt:
+In this hands-on lab, you will use Microsoft 365 Copilot in Loop to generate project management artifacts for a distribution center expansion project. You will create milestone plans, risk tracking logs, responsibility matrices, and decision/change tracking documentation.
 
-   > [!NOTE]
-   > For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
-    
-   **I’m the Operations Lead overseeing Contoso’s distribution center expansion project in Fargo, ND. This project involves multiple construction phases, safety updates, vendor coordination, and inventory transitions. Please build a detailed project plan that outlines all major milestones for this expansion. Organize the plan into a table with columns for: Task Name, Bucket/Phase, Start Date, Due Date, Dependencies, Owner (role), and Checklist Items. Use logical buckets such as Site Prep, Construction, Facility Systems, Inspections, and Go-Live Readiness. Assume the project begins next Monday and spans 24 weeks. Return the plan as a Loop table I can edit.**
+By the end of this exercise, you will have a structured Loop workspace containing key project governance artifacts that can be shared with stakeholders and updated throughout the project lifecycle.
 
-5.  Review the table results. Loop might ask if you want it to insert the table directly into your Loop page. During testing, Copilot didn’t display either a button or a suggested prompt directing it to insert the table into the Loop page. When we entered a prompt asking it to do that, it regenerated the same table, but it didn’t insert it. Since Copilot in Loop is still a work in progress, the easiest way to insert the table into the Loop page is to select the **Copy** icon that appears below the table. Paste the copied results into your **1-Milestones and Timeline** page. Delete any extraneous text from the conversation in the Copilot pane that was copied and pasted along with the table (typically at the beginning and end of the pasted content).
+## Prerequisites
 
-6.  Scroll horizontally to view all the table columns. In a real-world situation, the Operation Lead would exercise operational reasoning by editing the dates and owner roles, add/remove checklist items, and reorder tasks as needed. For this exercise, you can leave the table results as is.
+Before starting this exercise, ensure that:
 
-7.  Next, add a new page under your **Distribution Center Expansion – Project Plan** workspace. Change the title of the page from **Untitled** to **2-RAID Log (Risk/Assumption/Issue/Dependency)**.
+* You have access to Microsoft 365.
+* A Microsoft 365 Copilot license is assigned to your account.
+* Microsoft Loop is enabled for your organization.
+* You are signed in using the provided Microsoft 365 lab credentials.
+* Internet connectivity is available.
+* Microsoft 365 Copilot is enabled in Loop.
 
-8.  Open the Copilot pane. To facilitate coordination between construction, safety, inventory moves, and vendors with tight dates, ask Copilot to create a RAID log table capturing top items for the next 24 weeks, including impact/probability scoring and mitigation owners aligned to Operations roles. This Loop table should include the following columns: Type, Title, Description, Impact (High/Medium/Low), Probability (High/Medium/Low), Owner (role), Target Date, Mitigation/Action, and Status. Define critical path risks in a short paragraph below the table.
+## Task 1: Create and Populate a Project Management Workspace Using Copilot in Loop
 
-9.  Review the table results and the paragraph that identifies critical path risks that Copilot generated. If everything looks fine, copy and paste the content into the **2-RAID Log** page and delete an extraneous text.
+In this task, you will create a Loop workspace and use Copilot to generate project planning content across four pages.
 
-10.  Next, add a third page under your **Distribution Center Expansion – Project Plan** workspace. Change the title of the page from **Untitled** to **3-RACI Matrix (Roles and Responsibilities)**.
+### Steps
 
-11.  Open the Copilot pane. To help the Operations team assign task owners and clarify communication flows, ask Copilot to build a RACI matrix for the following milestones: site prep, foundation, framing, electrical, sprinkler testing, dock upgrades, inspection, equipment install, and go-live readiness. To do so, create a Loop table with rows = milestones and columns = roles (Operations Lead, Construction Lead, Safety Manager, Logistics Coordinator, Finance, IT, Vendor PM) and values = R/A/C/I.
+#### Create the Loop Workspace
 
-12.  Review the table results. If everything looks fine, copy and paste the table into the **3-RACI Matrix** page and delete an extraneous text.
+1. Open **Microsoft Edge** and navigate to:
 
-13.  Add a final page under your **Distribution Center Expansion – Project Plan** workspace. Change the title of the page from **Untitled** to **4-Decision Log and Change Log**.
+   ```text
+   https://www.microsoft365.com
+   ```
 
-14.  Open the Copilot pane. This page includes two tables – a Decision Log and a Change Log. Rather than have Copilot generate both tables at one time, you plan to submit each prompt request separately. To help the Operation Leader track upcoming approvals for weekend shifts, vendor hours, and PPE budget, ask Copilot to create a Decision Log table that includes the following columns: Decision, Requested By, Due Date, Options Considered, Final Decision, Rationale, Owner, and Follow-up Tasks.
+2. Sign in using your Microsoft 365 credentials.
 
-15.  Review the table results. If everything looks fine, copy and paste the Decision Log table into the **4-Decision Log and Change Log** page and delete an extraneous text.
+3. In the left navigation pane, select **Apps**.
 
-16.  Next, ask Copilot to create a Change Log table for tracking potential shifts in inspection dates, routing, and go-live readiness. The table should include the following columns: Change Request, Category (Schedule/Scope/Cost/Quality), Description, Impact Summary, Approval Needed, Status, Owner, Effective Date.
+4. Select **Loop** from the available applications.
 
-17.  Review the table results. If everything looks fine, copy and paste the Change Log table into the **4-Decision Log and Change Log** page and delete an extraneous text.
+5. In **Loop for the web**, create a new workspace.
 
-18.  In a later task, you create an email for your Operations colleagues that includes a link to the Loop workspace that you created in this task. Keep the **Distribution Center Expansion – Project Plan** workspace open so that you can copy its link.
+6. Name the workspace:
 
+   ```text
+   Distribution Center Expansion – Project Plan
+   ```
 
+7. Verify that the new workspace opens successfully.
 
+---
 
+#### Create the Milestones and Timeline Page
 
+8. Locate the default page that is created within the workspace.
 
+9. Change the page title from **Untitled** to:
+
+   ```text
+   1-Milestones and Timeline
+   ```
+
+10. Open the **Copilot** pane.
+
+11. Enter the following prompt:
+
+```text
+I’m the Operations Lead overseeing Contoso’s distribution center expansion project in Fargo, ND. This project involves multiple construction phases, safety updates, vendor coordination, and inventory transitions. Please build a detailed project plan that outlines all major milestones for this expansion. Organize the plan into a table with columns for: Task Name, Bucket/Phase, Start Date, Due Date, Dependencies, Owner (role), and Checklist Items. Use logical buckets such as Site Prep, Construction, Facility Systems, Inspections, and Go-Live Readiness. Assume the project begins next Monday and spans 24 weeks. Return the plan as a Loop table I can edit.
+```
+
+12. Submit the prompt.
+
+13. Review the generated project plan table.
+
+14. Verify that the table includes:
+
+    * Task Name
+    * Bucket/Phase
+    * Start Date
+    * Due Date
+    * Dependencies
+    * Owner (role)
+    * Checklist Items
+
+15. During testing, Copilot may not directly insert the table into the Loop page.
+
+16. Select the **Copy** icon below the generated table.
+
+17. Return to the page and paste the copied content into the **1-Milestones and Timeline** page.
+
+18. Remove any extraneous text that may have been copied along with the table.
+
+19. Scroll horizontally to review all columns.
+
+20. Leave the generated content unchanged for this exercise.
+
+---
+
+#### Create the RAID Log Page
+
+21. Create a new page within the workspace.
+
+22. Rename the page:
+
+```text
+2-RAID Log (Risk/Assumption/Issue/Dependency)
+```
+
+23. Open the Copilot pane.
+
+24. Enter a prompt similar to:
+
+```text
+Create a RAID log table for a 24-week distribution center expansion project. Include top risks, assumptions, issues, and dependencies related to construction, safety, inventory movement, vendor coordination, and facility readiness. Include columns for Type, Title, Description, Impact, Probability, Owner, Target Date, Mitigation/Action, and Status. Include a short paragraph identifying critical path risks below the table.
+```
+
+25. Submit the prompt.
+
+26. Review the generated RAID log.
+
+27. Verify that the table includes:
+
+    * Type
+    * Title
+    * Description
+    * Impact
+    * Probability
+    * Owner
+    * Target Date
+    * Mitigation/Action
+    * Status
+
+28. Verify that a summary of critical path risks is included below the table.
+
+29. Select the **Copy** icon.
+
+30. Paste the content into the **2-RAID Log (Risk/Assumption/Issue/Dependency)** page.
+
+31. Remove any unnecessary copied conversation text.
+
+---
+
+#### Create the RACI Matrix Page
+
+32. Create another page within the workspace.
+
+33. Rename the page:
+
+```text
+3-RACI Matrix (Roles and Responsibilities)
+```
+
+34. Open the Copilot pane.
+
+35. Enter a prompt similar to:
+
+```text
+Build a RACI matrix for the following milestones: site preparation, foundation, framing, electrical, sprinkler testing, dock upgrades, inspection, equipment installation, and go-live readiness. Create a table where rows represent milestones and columns represent the following roles: Operations Lead, Construction Lead, Safety Manager, Logistics Coordinator, Finance, IT, and Vendor PM. Populate the matrix using R, A, C, and I values.
+```
+
+36. Submit the prompt.
+
+37. Review the generated matrix.
+
+38. Verify that:
+
+    * Rows represent milestones.
+    * Columns represent project roles.
+    * Each cell contains a RACI designation.
+
+39. Select the **Copy** icon.
+
+40. Paste the content into the **3-RACI Matrix (Roles and Responsibilities)** page.
+
+41. Remove any unnecessary copied text.
+
+---
+
+#### Create the Decision Log and Change Log Page
+
+42. Create a final page within the workspace.
+
+43. Rename the page:
+
+```text
+4-Decision Log and Change Log
+```
+
+44. Open the Copilot pane.
+
+45. Enter a prompt similar to:
+
+```text
+Create a Decision Log table for a distribution center expansion project. Include columns for Decision, Requested By, Due Date, Options Considered, Final Decision, Rationale, Owner, and Follow-up Tasks.
+```
+
+46. Submit the prompt.
+
+47. Review the generated Decision Log table.
+
+48. Verify that all requested columns are included.
+
+49. Select the **Copy** icon.
+
+50. Paste the table into the **4-Decision Log and Change Log** page.
+
+51. Remove any unnecessary copied conversation text.
+
+52. Place the cursor below the Decision Log table.
+
+53. Open the Copilot pane again.
+
+54. Enter the following prompt:
+
+```text
+Create a Change Log table for tracking schedule, scope, cost, and quality changes for a distribution center expansion project. Include columns for Change Request, Category, Description, Impact Summary, Approval Needed, Status, Owner, and Effective Date.
+```
+
+55. Submit the prompt.
+
+56. Review the generated Change Log table.
+
+57. Verify that the table includes:
+
+    * Change Request
+    * Category
+    * Description
+    * Impact Summary
+    * Approval Needed
+    * Status
+    * Owner
+    * Effective Date
+
+58. Select the **Copy** icon.
+
+59. Paste the Change Log below the Decision Log table.
+
+60. Remove any unnecessary copied text.
+
+---
+
+#### Preserve the Workspace for Later Use
+
+61. Review all four pages within the workspace.
+
+62. Verify that each page contains the expected content.
+
+63. Ensure that the workspace remains open.
+
+64. In a later exercise, you will share this workspace with project stakeholders.
+
+65. Keep the **Distribution Center Expansion – Project Plan** workspace available so that you can copy its link when required.
+
+### Expected Outcome
+
+You successfully used Microsoft 365 Copilot in Loop to:
+
+* Create a project management workspace.
+* Generate a project milestone and timeline plan.
+* Create a RAID log for project governance.
+* Build a RACI matrix to define responsibilities.
+* Create a Decision Log and Change Log.
+* Organize project information into a collaborative workspace that can be maintained throughout the project lifecycle.
+
+## Key Takeaways
+
+By completing this exercise, you learned how to:
+
+* Create and organize collaborative workspaces in Microsoft Loop.
+* Use Copilot to generate editable project management tables.
+* Track project milestones, risks, and dependencies.
+* Define roles and responsibilities using a RACI matrix.
+* Document project decisions and changes.
+* Improve project coordination using Microsoft 365 Copilot and Loop.

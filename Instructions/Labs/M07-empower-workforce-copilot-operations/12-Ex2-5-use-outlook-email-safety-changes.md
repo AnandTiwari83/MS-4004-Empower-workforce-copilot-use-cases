@@ -1,57 +1,252 @@
-# Exercise 2, Task 5: Use Copilot in Outlook to email the safety procedure changes to Operations staff
+# Exercise 2: Manage Facility Expansion Operations with Microsoft 365 Copilot
 
-With the updated safety procedures summarized in OneNote and saved to a PDF file, it’s time to distribute the information to the Operations staff across the Fargo distribution center. Leadership wants staff to understand the changes before the next shift rotation, ensuring everyone is aware of new risks, restricted areas, and emergency updates. You plan to use Copilot in Outlook to draft a clear, informative communication and share the summary with the Operations team.
+## Task 5: Use Copilot in Outlook to Email Safety Procedure Changes to Operations Staff
 
-Perform the following steps to complete this task:
+### Scenario
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Outlook** from the **Apps** menu.
+With the updated safety procedures summarized in OneNote and saved to a PDF file, it's time to distribute the information to the Operations staff across the Fargo distribution center. Leadership wants staff to understand the changes before the next shift rotation, ensuring everyone is aware of new risks, restricted areas, and emergency updates.
 
-2.  In **Outlook on the web**, create a new email. Attach the PDF file of the Summary report that you saved to your OneDrive at the end of the prior task.
+You plan to use Copilot in Outlook to draft a clear, informative communication and share the summary with the Operations team.
 
-3.  In the body of the message, select the **Open Copilot** (pencil) icon that appears next to the attached file.
+---
 
-4.  The Copilot window that appears contains a prompt field and a menu of edit options below it. In the prompt field, ask Copilot to create an email to Contoso’s Operations staff at its Fargo distribution center. Ask Copilot to:
+## Lab Overview
 
-    - Summarize the updates to the distribution center’s safety protocols that are found in the attached PDF file.
+In this task, you will use Microsoft 365 Copilot in Outlook to create a professional email based on the updated safety procedures summary. You will learn how Copilot can generate content from attached files, refine email drafts, adjust communication tone, and assist with content enhancements before sending the final message.
 
-    - Include specific data points from the report into the email. At a minimum, identify new risks and restricted areas.
+By the end of this task, you will have created and sent a professional, data-driven email communication that informs Operations staff about safety protocol changes related to the Fargo distribution center expansion project.
 
-    - Highlight key insights, but keep the message concise and actionable.
+---
 
-5.  Review the results. While it’s a good start, you feel that some things are missing. Ask Copilot to include information on emergency updates.
+## Prerequisites
 
-6.  Review the updated email. Notice how Copilot generated a new version of the email, which is draft 2 (2 of 2). You can select the back arrow to go to draft 1 of 2, which was the original version of the email that Copilot generated. Since you prefer to keep working with the latest draft, select the forward arrow to return to draft 2 of 2.
+Before starting this task, ensure that you have completed:
 
-   > [!NOTE]
-   > For each request that you make, Copilot generates a new draft of the email. You can optionally navigate to a prior draft and keep it, or you can ask Copilot to modify that draft (rather than the last draft). By default, you typically make each new request while viewing the last draft.
+* Exercise 2, Task 4: Use Copilot in OneNote to update safety protocols.
+* Created the **Summary of protocol changes** page.
+* Exported the summary page as a PDF file.
+* Saved the PDF file to your OneDrive account.
 
-7.  Review the results. You’re satisfied with this final update, so you’re ready to insert the draft into the actual email. In the Copilot menu, select the **Keep it** option to replace the original email with this final draft.
+> **Note:** The PDF file generated in the previous task will be attached to the email and used by Copilot as the primary source of information.
 
-   > [!TIP]
-   > If you preferred one of the earlier drafts, you could select the forward or backward arrows to go to the preferred draft. Ensure the draft you want to use is displayed when you select the **Keep it** option.
+---
 
-8.  Review the results. Copilot should have inserted the draft into the actual body of the email. Now, once you use Copilot to draft the initial email, you can still use it to modify the email even after inserting the draft.
+## Steps
 
-    - When modifying an actual email message, you must highlight the portion of the email that you want changed, whether it be a sentence, paragraph, or the entire email.
+### Launch Outlook
 
-    - Or if you want Copilot to add more text to the email, you must position the cursor where you want Copilot to insert the text.
+1. Open **Microsoft Edge**.
 
-    While looking at the email, you decide to make one more change. You’re not sure about the tone of the email, so drag your cursor over the entire email to highlight all of its content. When you do so, note how Copilot displays the **Open Copilot** (pencil) icon.
+2. Navigate to **https://www.microsoft365.com**.
 
-9.  In the Copilot menu, select **Change Tone**, and then select one of the tone options.
+3. Sign in using your Microsoft 365 credentials.
 
-10.  Review the results of the modified email that appears in the draft window. You still aren’t satisfied with the way it sounds, so try a different tone.
+4. In the left navigation pane, select **Apps**.
 
-11.  Note how Copilot creates a second draft using the new tone. You’re satisfied with this version of the email, so select the **Replace** option to replace the current version of the email with this draft version.
+5. From the **Apps** menu, select **Outlook**.
 
-12.  After proofing the email one last time, you aren’t sure whether the paragraph on emergency updates should be longer. You decide to have Copilot draft a longer version of this paragraph to see how it sounds. To do so, highlight just that paragraph and then select the **Open Copilot** icon.
+6. Outlook on the web opens in a new browser tab.
 
-13.  In the Copilot menu that appears, select the **Make it longer** option. Copilot opens a draft window and creates an expanded version of that paragraph. After reading this updated version, you feel that the original version sounds better for your audience. You don’t want to implement this expanded version, so select the **Discard** option in the Copilot menu.
+---
 
-14.  Notice how Copilot returns you to the email with the original version of the emergency updates paragraph left intact.
+### Create a New Email
 
-15.  At this point, you’re happy with the email. For lab purposes, send the email to your personal email address. Verify that you received the email and were able to open the report.
+1. Select **New mail**.
 
-At the end of this task, you should receive a professional, data-driven email that provides Contoso’s Operations staff with visibility into the safety protocol changes being implemented as part of the expansion project to the Fargo distribution center.
+2. Create a new email message.
 
+3. Attach the PDF file created in the previous task:
 
+   * Select **Attach file**.
+   * Browse to your OneDrive account.
+   * Select the PDF file containing the safety protocol summary.
+   * Attach the file to the email.
+
+4. Verify that the PDF attachment appears in the email message.
+
+---
+
+### Generate the Initial Email Draft Using Copilot
+
+1. In the body of the email message, locate the attached PDF.
+
+2. Select the **Open Copilot** (pencil) icon that appears next to the attached file.
+
+3. The Copilot compose window opens.
+
+4. In the prompt field, enter a prompt similar to the following:
+
+   ```text
+   Create an email to Contoso’s Operations staff at the Fargo distribution center.
+
+   Summarize the updates to the distribution center’s safety protocols found in the attached PDF.
+
+   Include specific data points from the report, including new risks and restricted areas.
+
+   Highlight key insights while keeping the message concise and actionable.
+   ```
+
+5. Submit the prompt.
+
+6. Review the draft generated by Copilot.
+
+---
+
+### Refine the Email Content
+
+1. Review the email draft.
+
+2. Determine whether all critical information is included.
+
+3. You decide that emergency updates should be included.
+
+4. In the Copilot prompt field, enter a request similar to:
+
+   ```text
+   Include information about emergency updates related to the facility expansion project.
+   ```
+
+5. Submit the prompt.
+
+6. Copilot generates an updated version of the email.
+
+7. Notice that Copilot now displays multiple draft versions.
+
+8. Use the navigation arrows to review:
+
+   * Draft 1 (original version)
+   * Draft 2 (updated version)
+
+9. Return to the latest draft.
+
+> **Note:** Each time you request a modification, Copilot creates a new draft version. You can review earlier versions at any time.
+
+---
+
+### Insert the Draft into the Email
+
+1. Review the latest version of the draft.
+
+2. Once satisfied with the content, select **Keep it**.
+
+3. Verify that Copilot replaces the original email body with the generated draft.
+
+4. Review the inserted content for accuracy.
+
+---
+
+### Modify the Email Tone
+
+1. Review the completed email.
+
+2. Decide that you would like to experiment with the tone of the message.
+
+3. Select all text in the email body (**Ctrl+A** within the message body).
+
+4. With the text highlighted, select the **Open Copilot** icon.
+
+5. In the Copilot menu, select:
+
+   **Change Tone**
+
+6. Select any tone option that you would like to test.
+
+   Examples:
+
+   * Professional
+   * Confident
+   * Friendly
+   * Enthusiastic
+
+7. Review the revised version generated by Copilot.
+
+8. If you would like to test another tone:
+
+   * Select **Change Tone** again.
+   * Choose a different tone option.
+
+9. Review the new draft.
+
+10. Once you find a version you prefer, select **Replace**.
+
+11. Verify that the email body is updated with the selected version.
+
+---
+
+### Test Content Expansion
+
+1. Review the final email.
+
+2. Locate the paragraph discussing emergency updates.
+
+3. Highlight only that paragraph.
+
+4. Select the **Open Copilot** icon.
+
+5. Select:
+
+   **Make it longer**
+
+6. Copilot generates an expanded version of the selected paragraph.
+
+7. Review the expanded content.
+
+8. Compare it with the original paragraph.
+
+9. For this exercise, decide that the original version communicates the information more effectively.
+
+10. Select **Discard**.
+
+11. Verify that the original paragraph remains unchanged.
+
+> **Note:** Selecting **Discard** removes the proposed revision and retains the existing content.
+
+---
+
+### Send the Email
+
+1. Perform a final review of the email.
+
+2. Verify that:
+
+   * The safety summary PDF remains attached.
+   * The email includes safety protocol updates.
+   * New risks are identified.
+   * Restricted areas are identified.
+   * Emergency updates are included.
+   * The tone is appropriate for Operations staff.
+
+3. In the **To** field, enter your personal email address for testing purposes.
+
+4. Select **Send**.
+
+5. Open your mailbox and verify:
+
+   * The email was received successfully.
+   * The PDF attachment opens correctly.
+   * The content appears as expected.
+
+---
+
+## Expected Outcome
+
+You should receive a professional, data-driven email that:
+
+* Summarizes updated safety protocols.
+* Highlights new risks and restricted areas.
+* Includes emergency procedure updates.
+* References information from the attached PDF report.
+* Uses a communication style appropriate for Operations personnel.
+
+The email should provide Contoso Operations staff with clear visibility into the safety protocol changes being implemented as part of the Fargo distribution center expansion project.
+
+## Key Takeaways
+
+By completing this task, you learned how to:
+
+* Use Copilot in Outlook with attached documents.
+* Generate email drafts from organizational content.
+* Refine communications through iterative drafting.
+* Adjust tone using Copilot editing capabilities.
+* Expand or shorten selected content sections.
+* Create professional communications faster while maintaining consistency and accuracy.

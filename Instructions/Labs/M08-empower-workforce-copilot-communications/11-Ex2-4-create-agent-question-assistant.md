@@ -1,122 +1,162 @@
+# Exercise 2: Enhance employee engagement and communication with Microsoft 365 Copilot
+
+## Task 4: Create a TR-Pulse FAQ Assistant using Copilot Studio
+
+### Lab Overview
+
+In this task, you create a no-code AI-powered FAQ assistant using Copilot Studio. The assistant helps employees access accurate and consistent information about the TR-Pulse communication program while maintaining appropriate escalation paths for policy, compliance, and sensitive questions. You configure the agent's instructions, knowledge sources, and suggested prompts to ensure that responses are trustworthy, empathetic, and aligned with organizational communication standards.
+
 ---
-lab:
-  title: 'Exercise 2, Task 4: Use Copilot Studio to create an FAQ Assistant agent'
-  description: <br/In the Configure tab, scroll down to the Knowledge section and verify the Search all websites toggle switch is disabled. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to only use the files that you provide. If the toggle switch is enabled, then disable it now.
-  duration: 48 minutes
-  level: 200
-  islab: true
+
+### Task 1: Create the TR-Pulse FAQ Assistant
+
+In this task, you create a new agent using Copilot Studio Agent Builder.
+
+1. Download the following files and save them to your OneDrive:
+
+   * **TR-Pulse Program Overview.docx**
+   * **TR-Pulse FAQ.docx**
+   * **TR-Pulse FAQ Assistant.docx**
+
+2. Open a new browser tab and navigate to **Microsoft 365**.
+
+3. In the navigation pane, select **New agent**.
+
+4. On the **New Agent** page, enter the following prompt:
+
+   > Create an agent titled TR-Pulse FAQ Assistant. The purpose of this agent is to provide answers to employee questions related to TR-Pulse, Trey Research’s quarterly communication experience that’s designed to improve transparency, celebrate employee contributions, and keep teams informed about major initiatives. The agent should only use the files assigned to it as knowledge sources.
+
+5. Select **Send**.
+
+6. Wait for Copilot to generate the agent.
+
+7. Verify that the **Agent preview** pane displays the generated agent name and description.
+
 ---
 
-# Exercise 2, Task 4: Use Copilot Studio to create an FAQ Assistant agent
+### Task 2: Review and update the agent instructions
+
+In this task, you review the automatically generated instructions and enhance them with additional guidance.
+
+1. Select the **Configure** tab.
+
+2. Review the generated **Name**, **Description**, and **Instructions**.
+
+3. Select the **Describe** tab.
+
+4. Enter the following prompt:
+
+   > Update the Instructions to include the following items:
+   >
+   > * Never disclose personal, confidential, or restricted data.
+   > * If a date or detail is not yet confirmed, say "scheduled/targeted for [month/week], pending confirmation," and link to the update source.
+   > * If a metric is unavailable, say "not published," explain why if known, and provide the expected refresh cadence.
+   > * If a policy question exceeds the agent’s scope, don’t speculate; instead, escalate to the listed owner or policy mailbox.
+   > * When to escalate: Policy interpretation, non-public data, unresolved access issues, missing source content, or compliance/legal queries.
+   > * How to escalate: Provide the official channel and list required details including summary of the question, team or organization, relevant links or screenshots, urgency, and accessibility needs.
+   > * Set expectations regarding typical response times and note that complex requests may require cross-functional review.
+
+5. Review Copilot’s response.
+
+6. Return to the **Configure** tab and verify that the new instructions were added.
+
 ---
-With TR‑Pulse now launched and the first quarterly town hall prepared, Trey Research must ensure employees can continue accessing clear, consistent, and empathetic information—without over‑reliance on email or delays in response.
 
-One of the core components of TR‑Pulse is the TR‑Pulse FAQ Assistant, a no‑code agent designed to provide employees with on‑demand answers about the TR‑Pulse program, how to participate, and where to go for more support when needed. This assistant helps scale transparency while maintaining appropriate boundaries—answering what it can confidently address and routing sensitive or out‑of‑scope questions to the right teams.
+### Task 3: Improve the instruction set
 
-As Trey Research’s Communications Manager, you’re responsible for designing and deploying this agent in a way that:
+In this task, you use Copilot to recommend additional improvements to the agent.
 
-- Reinforces trust through clear, empathetic responses
-- Maintains tone and message consistency across TR‑Pulse touchpoints
-- Respects organizational boundaries around HR, compliance, and personal matters
-- Reduces strain on Communications and leadership teams
+1. Select the **Describe** tab.
 
-> [!NOTE]
-> In this exercise, you use the Copilot Studio lite experience to create the TR‑Pulse FAQ Assistant agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
+2. Enter a prompt asking Copilot:
 
-Perform the following steps to complete this task:
+   > What additional instructions would you recommend to improve this FAQ Assistant and make its responses more useful, trustworthy, and employee-friendly?
 
-1.  Before creating the agent, select the following links to download these instructor‑provided documents and store them in your OneDrive:  
+3. Review the recommendations.
 
-    - [**TR‑Pulse Program Overview.docx**](https://go.microsoft.com/fwlink/?linkid=2347530). Provides an authoritative, employee‑facing explanation of what TR‑Pulse is, why it exists, and how employees can participate across each quarterly cycle.
+4. Enter a follow-up prompt asking Copilot to add all recommended improvements to the instructions.
 
-    - [**TR‑Pulse FAQ.docx**](https://go.microsoft.com/fwlink/?linkid=2347527). Contains a curated set of common employee questions and approved answers about TR‑Pulse to help the agent respond clearly and consistently to everyday inquiries.
+5. Once the update is complete, select the **Configure** tab.
 
-    - [**TR‑Pulse FAQ Assistant.docx**](https://go.microsoft.com/fwlink/?linkid=2347526). Defines the tone, boundaries, and escalation rules that govern how the FAQ agent responds empathetically while routing sensitive or out‑of‑scope questions appropriately.
+6. Review the enhanced instruction set.
 
-    These files represent the authoritative sources the TR‑Pulse FAQ Assistant should rely on when answering employee questions. They intentionally replace generalized SharePoint pages, HR policy repositories, and communications style guides for the purposes of this exercise.
+---
 
-2.  Open a new tab in your Microsoft Edge browser and then open Microsoft 365.
+### Task 4: Configure knowledge sources
 
-3.  In Microsoft 365, select **New agent** in the navigation pane. Doing so opens Copilot Studio’s **Agent Builder** and displays the **New agent** page.
+In this task, you configure the files that the FAQ Assistant uses to answer employee questions.
 
-4.  On the **New Agent** page, you want to ask Copilot to create an agent. In the prompt, you should enter the agent’s name and a general description of what the agent is about, who its target audience is, and what you want it to do.  
-    <br/>For this agent, enter the following prompt and then select the forward arrow (Send) icon to submit the prompt:  
-    <br/>**Create an agent titled TR‑Pulse FAQ Assistant. The purpose of this agent is to provide answers to employee questions related to TR-Pulse, Trey Research’s quarterly communication experience that’s designed to improve transparency, celebrate employee contributions, and keep teams informed about major initiatives. The agent should only use the files assigned to it as knowledge sources.**
+1. Scroll to the **Knowledge** section.
 
-5.  After you selected the forward arrow, the **Agent Builder** form appeared for your new agent. At the top of the form is a **Describe** tab and a **Configure** tab.
+2. Verify that **Search all websites** is disabled.
 
-    - The **Describe** tab enables you to carry on a conversation with Copilot. This tab is displayed by default.
+   > **Note:** The FAQ Assistant should only use the approved TR-Pulse documents as its knowledge source.
 
-    - The **Configure** tab enables you to define the detailed settings that drive the agent.
+3. Select **Upload from device**.
 
-    Wait a minute or two for Copilot to create the agent, at which time it displays the agent’s name and description in the **Agent preview** pane.
+4. Upload the following files:
 
-6.  Select the **Configure** tab at the top of the form. Let’s see what Copilot did based on the prompt that you entered.
+   * **TR-Pulse Program Overview.docx**
+   * **TR-Pulse FAQ.docx**
+   * **TR-Pulse FAQ Assistant.docx**
 
-7.  On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that you entered. Scroll down to the **Instructions** field. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed level of instructions that Copilot generated.
+5. Verify that all three documents appear in the Knowledge section.
 
-   > [!IMPORTANT]
-   > The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
+---
 
-8.  If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field, or you can ask Copilot to update the instructions for you.  
-    <br/>After reviewing the **Instructions**, you decide that you want to have Copilot add a couple of other items to the instruction set. To do so, select the **Describe** tab and then enter the following prompt:
+### Task 5: Generate and configure suggested prompts
 
-    **Update the Instructions to include the following items:**
-    
-    - **Never disclose personal, confidential, or restricted data.**
-    - **If a date or detail is not yet confirmed , say “scheduled/targeted for \[month/week\], pending confirmation,” and link to the update source.**
-    - **If a metric is unavailable , say “not published,” explain why if known (for example, validation cycle), and provide the expected refresh cadence.**
-    - **If a policy question exceeds the agent’s scope, don’t speculate; instead, escalate to the listed owner or policy mailbox.**
-    - **When to escalate: Policy interpretation, non‑public data, unresolved access issues, missing source content, or compliance/legal queries.**
-    - **How to escalate: Provide the official channel (for example, TR‑Pulse Support Form or Communications Operations mailbox ) and list required details: summary of the question, team/org, relevant links/screenshots, urgency/time dependency, accessibility needs.**
-    - **Set expectations: Typical response time window; note that complex items may require cross‑functional review.**
+In this task, you configure starter prompts to help employees interact with the FAQ Assistant.
 
-9.  Review Copilot’s response after updating the instructions. To verify the changes that Copilot made, select the **Configure** tab and then scroll down to the **Instructions** field. Verify that Copilot added the new instructions that you requested.
+1. Select the **Describe** tab.
 
-10.  While the current instructions look good, you wonder if they could be improved upon. You aren't sure how to improve them, so you decide to ask Copilot what it thinks.  
-    <br/>To do so, select the **Describe** tab. This time, enter a prompt that asks Copilot what other instructions it would recommend that could improve this agent.
+2. Enter the following prompt:
 
-11.  Review Copilot’s recommendations. You’re pleased with its suggestions, so ask Copilot to add them all to the agent’s instructions.
+   > Generate three suggested prompts for this FAQ Assistant.
 
-12.  Once Copilot responds that it updated the instructions, select the **Configure** tab and scroll through the **Instructions**. Note the new items that Copilot added.
+3. Review the generated prompts.
 
-13.  Now that you’re satisfied with the instructions, you’re ready to configure the agent’s knowledge sources and starter prompts.  
-    <br/>In the **Configure** tab, scroll down to the **Knowledge** section and verify the **Search all websites** toggle switch is disabled. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to only use the files that you provide. If the toggle switch is enabled, then disable it now.
+4. Select the **Configure** tab.
 
-14.  In the **Knowledge** section, select the **Upload from device** icon that appears next to the **Enter a URL or name or drop files here** field. In the **File Explorer** window that appears, select the three files that you downloaded in Step 1.
+5. Scroll to **Suggested prompts**.
 
-15.  For **Suggested prompts**, you can have Copilot generate prompts for you, or you can manually create your own prompts. Let’s try both methods.  
-    <br/>To have Copilot generate suggested prompts, select the **Describe** tab and then ask Copilot to generate three suggested prompts for the agent. Note how each prompt has a title and a message.
+6. Verify that the generated prompts appear.
 
-16.  You now want to enter several of your own prompts. Select the **Configure** tab and scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent.  
-        <br/>For each prompt that you want to manually add, select the **Add a suggested prompt** option that appears below the prompts.  
-        <br/>Six suggested prompts are displayed below that are related to popular business-related topics for Northwind Traders. Review these prompts, select two or three that you like, and then add them to the agent.
-    
-        - **Title:** Town Hall participation
-            - **Message:** When is the next TR‑Pulse town hall, how do I submit a question in advance, and will a recording and transcript be available afterward?  
-                
-        - **Title:** Recognize a colleague
-            - **Message:** How do I nominate a teammate for the TR‑Pulse recognition spotlight, what criteria are used, and when are honorees announced?  
-                
-        - **Title:** Highlights and updates
-            - **Message:** Where can I see the latest TR‑Pulse progress updates and metrics highlights for my org or project, and how often is this information refreshed?  
-                
-        - **Title:** TR-Pulse Accessibility
-            - **Message:** What accessibility options are available for TR‑Pulse content (live captions, translations, screen‑reader friendly docs, time‑zone friendly formats), and how can I request other accommodations?  
-                
-        - **Title:** Data privacy and compliance
-            - **Message:** How does TR‑Pulse use employee survey feedback and submitted questions, who can access this data, and how is privacy maintained in line with company policy and compliance requirements?  
-                
-        - **Title:** Support and escalation
-            - **Message:** If the TR‑Pulse FAQ agent can’t answer my question, how do I escalate for human support, what’s the typical response time, and what information should I include to speed up things?  
-            
-17.  Test several of the suggested prompts. Verify the agent is correctly pulling in data from the knowledge source documents.
+7. Select **Add a suggested prompt** and add two or more of the following prompts:
 
-18. Once you’re satisfied with the results for the suggested prompts, select the **Create** button to create the agent.
+| Title                       | Message                                                                                                                                                  |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Town Hall participation     | When is the next TR-Pulse town hall, how do I submit a question in advance, and will a recording and transcript be available afterward?                  |
+| Recognize a colleague       | How do I nominate a teammate for the TR-Pulse recognition spotlight, what criteria are used, and when are honorees announced?                            |
+| Highlights and updates      | Where can I see the latest TR-Pulse progress updates and metrics highlights for my organization or project, and how often is this information refreshed? |
+| TR-Pulse Accessibility      | What accessibility options are available for TR-Pulse content, and how can I request accommodations?                                                     |
+| Data privacy and compliance | How does TR-Pulse use employee survey feedback and submitted questions, and how is privacy maintained?                                                   |
+| Support and escalation      | If the TR-Pulse FAQ agent cannot answer my question, how do I escalate for human support and what information should I provide?                          |
 
-19. Once the agent is created, a dialog box appears that indicates the agent was successfully created. In this dialog box, you can either go to the agent or share it. Select the **Go to agent** option.
+---
 
-> [!NOTE]
-> At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn’t required since you’re working within your own tenant.
+### Task 6: Test and create the agent
 
+In this task, you validate the FAQ Assistant and publish it.
 
+1. Test several suggested prompts.
+
+2. Verify that responses are based on the uploaded knowledge source documents.
+
+3. Confirm that the agent appropriately escalates out-of-scope questions.
+
+4. Once satisfied with the results, select **Create**.
+
+5. Wait for the confirmation message indicating that the agent was successfully created.
+
+6. Select **Go to agent**.
+
+7. Review the completed **TR-Pulse FAQ Assistant**.
+
+> **Note:** The agent is created as a private agent and is accessible only to you. In a production environment, you can share the agent with other users as needed.
+
+---
+
+### Results
+
+In this exercise, you created a no-code AI-powered FAQ Assistant using Copilot Studio. You enhanced the agent's instructions, configured approved knowledge sources, added employee-focused starter prompts, tested responses, and published an agent that supports the TR-Pulse communication initiative while maintaining appropriate governance and escalation boundaries.

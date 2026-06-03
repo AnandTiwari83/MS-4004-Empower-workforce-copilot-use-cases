@@ -57,15 +57,10 @@ To get the most out of this module, you should have:
 - Familiarity with business reporting, project management, and executive decision-making processes.
 - Access to a Microsoft 365 tenant with Microsoft 365 Copilot enabled.
 
-## Getting Started with the Lab
-
-We've prepared a seamless environment for you to explore and learn about executive use cases for Microsoft 365 Copilot.
-
-This module provides hands-on experience using Copilot across multiple Microsoft 365 applications to support leadership, planning, communication, and business analysis scenarios.
 
 ## Getting Started with the lab
 
-We've prepared a seamless environment for you to explore and learn about **Module 04 - Empower workforce with Microsoft 365 Copilot for Marketing**. Let's begin by making the most of this experience!
+We've prepared a seamless environment for you to explore and learn about **Module 1: Empower Workforce with Microsoft 365 Copilot for Executives**. Let's begin by making the most of this experience!
 
 ## Accessing Your Lab Environment
  

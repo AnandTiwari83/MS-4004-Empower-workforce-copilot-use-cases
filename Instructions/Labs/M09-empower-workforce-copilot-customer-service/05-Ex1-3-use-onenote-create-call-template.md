@@ -10,9 +10,9 @@ To accomplish this goal, you plan to use Copilot in OneNote to generate a reusab
 
       ![](../media/module-9/E1T3S1-0306.png) 
 
-      > **Note:** If prompted, Sign in with your lab credentials.
+      > **Note:** If prompted, sign in with your lab credentials.
 
-2.  In **OneNote for the web**, click on **Create new Notebook**. On the Notebook, click on the notebook name **(1)** and click on the your **OneDrive (2)** to rename the notebook. 
+2.  In **OneNote for the web**, click on **Create new Notebook**. On the Notebook, click on the notebook name **(1)** and click on your **OneDrive (2)** to rename the notebook. 
 
 1. Click on the **ellipsis (...) (3)**, and select **Rename (4)**. Provide the name as **Support team shared notebook** and then click on it to **Open (5)**.
 
@@ -45,7 +45,7 @@ To accomplish this goal, you plan to use Copilot in OneNote to generate a reusab
 
       ![](../media/module-9/E1T3S6-0306.png) 
 
-7.  Note how Copilot displays its generated response in the Copilot detail pane rather than in the OneNote page. You must copy and paste the template into the OneNote page. You can paste it right now if you are satisfied with the response, or you can run the follow up prompts as per below steps.
+7.  Note how Copilot displays its generated response in the Copilot detail pane rather than in the OneNote page. You must copy and paste the template into the OneNote page. You can paste it right now if you are satisfied with the response, or you can run the follow-up prompts as per the steps below.
 
 8.  Review the contents of the template that Copilot created. While you’re happy with how the template is looking thus far, you want support reps to be able to assign a severity level to the issue. Ask Copilot to add severity tags in the template.
 
@@ -55,7 +55,7 @@ To accomplish this goal, you plan to use Copilot in OneNote to generate a reusab
     Update the call summary template to include severity levels for support issues. Add severity tags such as Critical, High, Medium, and Low, along with a brief description of when each level should be used.
     ```
 
-10.  Upon reviewing the template, you noticed that your original prompt was missing some key data. To address this shortcoming, ask Copilot to update the template to include fields for: Client Name, Date, Contact Method, Summary of Issue, Resolution, Follow-Up Needed.
+10.  Upon reviewing the template, you noticed that your original prompt was missing some key data. To address this shortcoming, ask Copilot to update the template to include fields for: Client Name, Date, Contact Method, Summary of Issue, Resolution, and Follow-Up Needed.
 
       Use the following prompt:
 
@@ -73,7 +73,7 @@ To accomplish this goal, you plan to use Copilot in OneNote to generate a reusab
 
 13.  Copilot might respond with formatting improvements, such as tables, headers, bullet points, or color-coded sections. You can accept, reject, or modify the suggestions if you wish.
 
-14. Once you finish updating the template with any other changes, you can copy the final response from Copilot and paste it in the Page.
+14. Once you finish updating the template with any other changes, you can copy the final response from Copilot and paste it into the Page.
 
 ## Summary
 

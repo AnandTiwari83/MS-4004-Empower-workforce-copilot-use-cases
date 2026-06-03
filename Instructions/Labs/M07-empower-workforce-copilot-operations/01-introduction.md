@@ -99,9 +99,9 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
     ![](../media/module-4/prereq-3.png)
 
-1. In **File Explorer**, navigate to **`C:\LabFiles\MS-4004-Empower-workforce-copilot-use-cases\ResourceFiles`**location and select all the files from the ResourceFiles folder and click **Open**.
+1. In **File Explorer**, navigate to `C:\LabFiles\MS-4004-Empower-workforce-copilot-use-cases\ResourceFiles` location and select all the files from the ResourceFiles folder and click **Open**.
 
-1. When the upload is complete, you should see **Uploaded 92 items to My files** in the bottom center of the screen.
+1. When the upload is complete, you should see **Uploaded 93 items to My files** in the bottom center of the screen.
 
 1. Leave **Edge** open and move on to the next task.
 

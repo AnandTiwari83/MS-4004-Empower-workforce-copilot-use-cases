@@ -1,88 +1,165 @@
----
-lab:
-  title: 'Exercise 2, Task 2: Use Copilot Chat to prepare for a town hall meeting'
-  description: 'As Trey Research’s Communications Manager, your role is to support leadership by preparing employee‑centered discussion topics for the TR‑Pulse town hall. You plan to use Microsoft 365 Copilot Chat to synthesize recent project updates and employee engagement survey results into a structured, presentation‑ready discussion outline that:'
-  duration: 48 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
-    - Microsoft 365 Copilot Chat
----
 
 # Exercise 2, Task 2: Use Copilot Chat to prepare for a town hall meeting
----
-Now that the launch announcement for TR‑Pulse is live, Trey Research is preparing for its first TR‑Pulse quarterly town hall—a cornerstone of the new communication experience. This town hall is designed to bring TR‑Pulse to life by giving employees direct visibility into recent progress, leadership priorities, and how employee feedback is shaping next steps.
 
-One of the core promises of TR‑Pulse is responsible transparency: sharing what’s working, acknowledging what’s not, and clearly communicating what actions leadership is taking. To deliver on that promise, the Communications team must help executives translate complex project data and candid employee feedback into messaging that feels open, empathetic, and grounded in reality—without overwhelming or sanitizing the truth.
+Now that the launch announcement for TR-Pulse is live, Trey Research is preparing for its first TR-Pulse quarterly town hall—a cornerstone of the new communication experience. This town hall is designed to bring TR-Pulse to life by giving employees direct visibility into recent progress, leadership priorities, and how employee feedback is shaping next steps.
 
-As Trey Research’s Communications Manager, your role is to support leadership by preparing employee‑centered discussion topics for the TR‑Pulse town hall. You plan to use Microsoft 365 Copilot Chat to synthesize recent project updates and employee engagement survey results into a structured, presentation‑ready discussion outline that:
+One of the core promises of TR-Pulse is responsible transparency: sharing what’s working, acknowledging what’s not, and clearly communicating what actions leadership is taking. To deliver on that promise, the Communications team must help executives translate complex project data and candid employee feedback into messaging that feels open, empathetic, and grounded in reality.
 
-- Highlights meaningful progress and momentum
-- Transparently addresses areas of employee concern
-- Reinforces trust by clearly naming challenges and commitments
-- Ends with a motivating call to action that demonstrates accountability
+As Trey Research’s Communications Manager, your role is to support leadership by preparing employee-centered discussion topics for the TR-Pulse town hall. In this task, you'll use Microsoft 365 Copilot Chat to analyze project updates and employee survey data, generate leadership talking points, and build a discussion outline for the upcoming town hall.
 
-This task demonstrates how Copilot can help Communications teams close the loop—turning employee input and operational updates into credible leadership communication that aligns with TR‑Pulse’s goals of trust, clarity, and connection.
+### Task Objectives
 
-#### Using Copilot Chat
+In this task, you will:
 
-In Copilot Chat on the web, the response mode selector lets you control how much time and reasoning Copilot uses when answering your prompt. You can leave it set to **Auto** (the default option) so Copilot balances speed and depth for you, or choose a faster or more in depth response style depending on the task.
+* Analyze project status updates using Copilot Chat.
+* Review employee sentiment survey data.
+* Generate leadership-ready summaries and insights.
+* Create a structured town hall discussion outline.
+* Refine messaging to improve transparency, engagement, and trust.
 
-When Copilot Chat opens in **Work** mode, the response mode selector isn’t shown. In **Work** mode, Copilot is optimized for secure, work context queries, so it automatically manages response depth for you. When you switch to **Web** mode, the response mode selector appears, allowing you to choose between faster responses or deeper reasoning. Once the selector is enabled, it remains visible as you switch between **Work** and **Web** modes.
+### Using Copilot Chat
 
-If you’ve used Copilot in Excel, you know that it also includes a response control selector. However, its options are different from the Chat selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might look similar, they control different aspects of Copilot and aren't the same setting.
+Copilot Chat enables Communications professionals to quickly synthesize information from multiple sources and transform it into actionable communication assets.
+
+In this exercise, you'll use **Work mode** so Copilot can securely access and analyze the files you provide. You'll then use iterative prompting techniques to improve the quality, tone, and transparency of the generated content.
 
 Perform the following steps to complete this task:
 
-1.  Select the following links to download the files used in this exercise:
+1. Download the following files and save them to your **OneDrive**:
 
-    - [**Trey Research Year-End Survey Results.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347818)
-    - [**Trey Research Q1 Project Status Summary.docx**](https://go.microsoft.com/fwlink/?linkid=2347529)
+   * **Trey Research Year-End Survey Results.xlsx**
+   * **Trey Research Q1 Project Status Summary.docx**
 
-2.  Store the downloaded files into your OneDrive.
+2. In your Microsoft Edge browser, navigate to:
 
-3.  In your Microsoft Edge browser, go to the **Microsoft 365** home page.
+   ```
+   https://www.microsoft365.com
+   ```
 
-4.  Since you want Copilot to use the **Trey Research Q1 Project Status Summary.docx** as its knowledge source, select the **Work** toggle.
+3. Sign in using the lab credentials provided in the **Environment** tab.
 
-5.  Attach the **Trey Research Q1 Project Status Summary.docx** file to the prompt.
+4. On the Microsoft 365 home page, select **Copilot**.
 
-6.  In the prompt field, ask Copilot to review the attached document and identify the top five project updates to be featured in the upcoming TR-Pulse town hall. it should prioritize projects based on business impact, alignment with company goals (for example, sustainability, innovation, and efficiency), and level of progress and cross-functional visibility. For each selected project, it should provide a brief in-depth summary that includes: Project name, Industry segment, Current status, Strategic importance (Why it matters), Quantified outcomes or business benefits (if available), Any executive or cross-functional visibility. Format the output for use in a leadership presentation.
+5. Verify that **Work** mode is selected.
 
-7.  Review the results. Everything looks good, so ask Copilot to create a downloadable Word document containing this analysis.
+6. Attach the **Trey Research Q1 Project Status Summary.docx** file to the prompt.
 
-8.  Select the link that Copilot provides to download the document that it generated. Store the document in your OneDrive.
+7. Enter the following prompt:
 
-9.  You now want Copilot Chat to review Trey Research’s year-end employee survey results. In Copilot Chat, attach the **Trey Research Year-End Survey Results.xlsx** file to the prompt.
+   ```text
+   Review the attached project status summary and identify the five most important project updates for the upcoming TR-Pulse town hall.
 
-10. In the prompt field, ask Copilot to review the attached employee survey results and summarize employee sentiment relevant to TR‑Pulse’s goals of transparency and trust. For each category, Copilot should provide:
+   Prioritize projects based on:
+   - Business impact
+   - Alignment with company goals such as sustainability, innovation, and efficiency
+   - Level of progress
+   - Cross-functional visibility
 
-    - A brief summary of overall sentiment (for example, positive, mixed, or areas of concern)
-    - Key themes or patterns based on favorable and unfavorable responses
-    - Notable highs or lows in specific questions that stand out
-    - Opportunities for leadership to respond or improve engagement
+   For each project provide:
+   - Project name
+   - Industry segment
+   - Current status
+   - Strategic importance
+   - Quantified outcomes or business benefits if available
+   - Executive or cross-functional visibility
 
-    Conclude with a short paragraph summarizing company-wide morale and any cross-category trends. Use a tone suitable for leadership communication, with clear and actionable insights.
+   Format the results for use in a leadership presentation.
+   ```
 
-10.  Review the results. Everything looks good, so ask Copilot to create a downloadable Word document containing this analysis.
+8. Review the generated analysis.
 
-11.  Select the link that Copilot provides to download the document that it generated. Store the document in your OneDrive.
+9. Ask Copilot to create a downloadable Word document containing the analysis.
 
-12.  Now that Copilot Chat summarized both the TR‑Pulse project highlights and the employee feedback themes, attach the two generated documents to a new Copilot Chat prompt.
+10. Download the generated document and save it to your **OneDrive**.
 
-13.  In the prompt field, ask Copilot to create a 30-minute discussion outline for the TR‑Pulse quarterly town hall that includes project highlights, employee feedback themes, and a closing motivational message for an employee town-hall meeting. In the closing section, include a Call to Action that identifies areas the leadership commits to addressing.
+11. Return to Copilot Chat and attach the **Trey Research Year-End Survey Results.xlsx** file.
 
-14.  After reviewing Copilot’s response, you feel that it’s a bit formal and not very engaging. To correct this situation, ask Copilot to change the overall tone to a warm, employee‑aware voice for virtual audiences, and to rephrase the discussion topics to be more casual and engaging.
+12. Enter the following prompt:
 
-15.  After reviewing Copilot’s response, you feel the tone is a bit too formal for a virtual, employee‑focused town hall. Ask Copilot to revise the outline using a warm, conversational, employee‑aware voice suitable for live and remote audiences.
+```text
+Review the attached employee survey results and summarize employee sentiment related to transparency, trust, and employee engagement.
 
-16.  Upon reviewing the revision, you notice that some employee feedback, especially areas needing improvement, feels overly softened. Ask Copilot to increase transparency by calling out specific unfavorable response percentages, naming low‑performing areas directly, and adding a note in the closing section such as: _“We hear you—and here’s what we’re doing about it.”_
+For each category provide:
+- Overall sentiment
+- Key themes and patterns
+- Notable highs and lows
+- Opportunities for leadership improvement
 
-17.  Lastly, ask Copilot to update the Call to Action to explicitly acknowledge that leadership recognizes serious challenges related to recognition and work‑life balance, and that it’s committed to treating these items as top priorities moving forward. Emphasize why these factors matter to employee morale, productivity, and well‑being.
+Conclude with a summary of company-wide morale and any trends that appear across categories.
 
-18.  Review the final results. Once satisfied, ask Copilot to create a downloadable Word document containing the complete TR‑Pulse town hall discussion outline.
+Use a tone suitable for leadership communications and provide actionable insights.
+```
 
+13. Review the results.
 
+14. Ask Copilot to create a downloadable Word document containing the employee sentiment analysis.
 
+15. Download the generated document and save it to your **OneDrive**.
+
+16. Start a new Copilot Chat conversation.
+
+17. Attach both Word documents that you generated in the previous steps.
+
+18. Enter the following prompt:
+
+```text
+Create a 30-minute discussion outline for the first TR-Pulse quarterly town hall.
+
+Include:
+- Project highlights
+- Employee feedback themes
+- Leadership discussion topics
+- Closing motivational message
+
+Include a Call to Action that identifies areas leadership commits to addressing.
+
+Organize the outline in a format suitable for executive presenters.
+```
+
+19. Review the generated outline.
+
+20. To make the content more engaging, enter the following prompt:
+
+```text
+Revise the discussion outline using a warm, employee-aware voice.
+
+Rephrase the discussion topics so they feel more conversational, engaging, and appropriate for a live virtual town hall audience.
+```
+
+21. Review the revised version.
+
+22. To increase transparency, enter the following prompt:
+
+```text
+Increase transparency throughout the discussion outline.
+
+Call out specific unfavorable survey response percentages where applicable, identify low-performing areas directly, and add a closing statement that says:
+
+"We hear you—and here's what we're doing about it."
+
+Ensure leadership commitments are clear and specific.
+```
+
+23. Review the updated outline.
+
+24. Enter the following prompt:
+
+```text
+Update the Call to Action to explicitly acknowledge that leadership recognizes challenges related to employee recognition and work-life balance.
+
+Explain why these areas are important to morale, productivity, and employee well-being.
+
+Emphasize leadership's commitment to improving these areas moving forward.
+```
+
+25. Review the final discussion outline.
+
+26. Once you're satisfied with the results, ask Copilot to create a downloadable Word document containing the complete TR-Pulse town hall discussion outline.
+
+27. Download the generated document and save it to your **OneDrive**.
+
+### Outcome
+
+In this task, you used Microsoft 365 Copilot Chat to transform project updates and employee feedback into a structured, employee-focused town hall discussion plan. By combining operational progress with employee sentiment, you created communication materials that support transparency, accountability, and leadership engagement—key goals of the TR-Pulse communication program.
+
+You can now use this town hall discussion outline as a foundation for leadership presentations, employee engagement initiatives, and future TR-Pulse communications.

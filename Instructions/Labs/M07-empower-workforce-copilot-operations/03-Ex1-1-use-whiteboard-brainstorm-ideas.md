@@ -1,102 +1,245 @@
-# Exercise 1 Task 1: Use Copilot in Whiteboard to brainstorm project plan ideas
+# Exercise 1: Use Copilot in Whiteboard to Brainstorm Project Plan Ideas
 
-As the Operations Manager at Adatum Corporation, you're planning to install a new boiler into your building's heating system. However, before you begin the installation process, you want to use Copilot in Whiteboard to suggest potential steps that companies typically complete when installing a new boiler system.
+## Scenario
 
-Think of this task as basically an AI-assisted sticky-note exercise. Have you ever participated in a brainstorming session before that involved sticky notes? Meeting attendees write ideas on sticky notes and then stick them to a whiteboard or to a wall. From there, the meeting facilitator rearranges the notes by organizing them into various categories, removes duplicate ideas, edits ideas for clarification, and so on. When you finish the session, you end up with stacks of ideas, organized into categories.
+As the Operations Manager at Adatum Corporation, you are planning the replacement of an aging boiler system in a 50-year-old office building. Before beginning the installation process, you need to identify the activities, risks, dependencies, and operational considerations involved in the project.
 
-Well, that's really what this task is - just a virtualized sticky-note exercise, all with the help of Copilot in Whiteboard. However, instead of having a room full of people brainstorming ideas and writing them on sticky notes, Copilot takes their place. In this task, Copilot generates a list of ideas, writes each one on a graphical sticky note, and attaches each note to your Whiteboard canvas. As the meeting facilitator, you can then edit and delete any of the notes. And then with your final list of notes in place, you can have Copilot organize the sticky-notes into various categories. Doing so aids future documentation and helps ensure that none of the notes are overlooked when creating the project plan.
+Rather than conducting a traditional brainstorming workshop with multiple stakeholders, you will use Microsoft Copilot in Whiteboard to generate ideas, organize them into meaningful categories, identify risk mitigation activities, and summarize the results. This exercise demonstrates how Copilot can accelerate project planning and help transform unstructured ideas into an organized project framework.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)** and select the **Apps** icon in the navigation pane. In the **Apps** menu that appears, select **All apps**. Under the top section of apps in the **Apps** window, select **All apps→**. In the **All apps** window, scroll down and select **Whiteboard**.
+In this hands-on lab, you will use Microsoft Whiteboard and Microsoft 365 Copilot to brainstorm and organize a boiler installation project. You will generate project activities, identify risk mitigation strategies, explore methods to minimize downtime during implementation, categorize brainstorming ideas, and create a summary of the planning session.
 
-2.  In **Whiteboard for the web**, start a new Whiteboard session.
+By the end of this exercise, you will have a structured Whiteboard containing categorized project planning activities that can be used as the foundation for a formal project plan.
 
-3.  The **Board name** for this session defaults to **Whiteboard X** (where X is a number). Select this field and change the **Board name** to **Boiler installation project plan**.
+## Task 1: Brainstorm and Organize a Boiler Installation Project Plan Using Copilot in Whiteboard
 
-4.  Select the **Copilot** icon next to the menu bar at the bottom of the page and select **Suggest** from the menu that appears.
+In this task, you will create a Whiteboard session, use Copilot to generate project planning ideas, add risk mitigation and downtime reduction recommendations, organize ideas into categories, and generate a summary of the brainstorming session.
 
-5.  In the **Suggest content with Copilot** window, ask Copilot in Whiteboard to suggest the steps that Adatum should follow when installing a new boiler system.
+### Steps
 
-   > [!NOTE]
-   > For this first prompt, we’ve provided the text so you can see what an effective prompt looks like when it incorporates the four key elements discussed in the Introduction unit. You must write all remaining prompts in this exercise, but in doing so, you can use this prompt as a model to emulate.
-    
-   **I'm the Operations Manager at Adatum Corporation. Our 50-year-old office building has a failing boiler, and I need to evaluate options for repair or replacement. Before starting the installation process, I want to brainstorm and organize the typical steps companies should follow when installing a new boiler system. Using your expertise, please suggest a comprehensive list of actionable steps for a successful boiler installation project.**
+1. Open **Microsoft Edge** and navigate to:
 
-6.  If the **Suggest content with Copilot** window displays an error message indicating that "**Something went wrong. Please try again.**" or "**Copilot couldn't process this prompt. Please rephrase it.**" then shorten the prompt. For example, enter:  
-    <br/>**I'm the Operations Manager for Adatum Corporation. We're installing a new boiler in our company’s heating system. Please suggest the steps we should follow to install the new boiler**.  
-    
-7.  If the **Suggest content with Copilot** window displays the same error, then shorten the prompt to its bare minimum. For example, enter:  
-    <br/>**Create a list of the steps that a company should take to install a new boiler heating system.**
+   ```text
+   https://www.microsoft365.com
+   ```
 
-   > [!TIP]
-   > Sometimes, Copilot works best with direct, single-action prompts. Once you get a response, you can build on it with follow-up requests.
+2. Sign in using your Microsoft 365 credentials.
 
-8.  By default, Copilot in Whiteboard generates ideas in groups of six. In the **Suggest content with Copilot** window that appears, note the first six ideas that it generated. Copilot gives you two options here. You can either attach the ideas to your whiteboard if you're satisfied with the suggestions, or you can have Copilot generate more suggestions. Notice how the **Insert (6)** button indicates the number of ideas that Copilot generated, which in this case is six. 
-    <br/><br/>While six suggestions are a good starting point, you want to dig deeper into the tasks needed to install the boiler system, so select the **Generate more** button. Note how Copilot generated another six ideas, so now the button displays **Insert (12)**. While you can keep generating more ideas, for the sake of time, let's insert the 12 ideas currently presented. Select the **Insert (12)** button.
+3. In the left navigation pane, select **Apps**.
 
-9.  Notice how Copilot attaches the suggested ideas to your whiteboard in the form of yellow sticky notes. As with a real-world brainstorming session involving actual sticky notes, you can edit a particular note, delete it, lock it from future removal, and so on. In Microsoft Whiteboard, these activities are supported through standard whiteboarding functionality. 
-    <br/><br/>If you haven't used Whiteboard before, try selecting (double-click) a specific note, and then in the menu bar that appears above it, you can select the **Edit text** (pencil) icon or any of the other options. Selecting the ellipsis icon at the end of the menu bar displays a menu of more options, such as deleting the note. Again, the idea behind Microsoft Whiteboard is to mimic real-world sticky-note exercises. Feel free to edit any note as you wish.
+4. Select **All apps** and then select **Whiteboard**.
 
-10.  In looking at the suggested ideas, you feel they don't cover risk mitigation adequately. Select the **Copilot** icon at the bottom of the page and then select **Suggest** from the menu.
+   > **Note:** If Whiteboard doesn't appear in the initial list, use the search box or scroll through the complete list of Microsoft 365 applications.
 
-11.  In the **Suggest content with Copilot** window that appears, ask Copilot to suggest ways to mitigate the risks of installing a new boiler into the building's heating system.
+5. In **Whiteboard for the web**, select **Create new Whiteboard**.
 
-12.  Generate 12 risk mitigation ideas and then insert them into the Whiteboard. Note how the block of 12 notes is highlighted with a line around the block. This block of notes is known as a note grid. You can move or resize a note grid just like any other element on your whiteboard. 
-    <br/><br/>As you resize a note grid, the sizes of all the sticky notes inside it adjust accordingly. If the block of 12 notes overlays on top of one of the existing blocks of notes, select one of the outside lines around the note grid and drag the entire block of 12 notes to the side so that it doesn't overlay any of the previous notes. 
-    <br/><br/>If you run out of space on the screen and part of the block falls off the screen, select the **Fit to Screen** icon on the bottom-right corner of the page to display all the notes on the screen (the **Fit to screen** icon appears when a block is partially off the screen). You might need to select the icon more than once to fit the content onto the screen.
+6. Select the default board name displayed at the top of the page (for example, *Whiteboard 1*) and rename it to:
 
-13.  You now have 24 suggestions. Feel free to select any of the suggestions and edit them as you wish.
+   ```text
+   Boiler Installation Project Plan
+   ```
 
-14.  At this point, you completed all the edits that you want done to the notes. You now want Copilot to organize the notes by category. When you categorize the notes, Copilot determines the names of the categories and automatically organizes the notes accordingly.
+7. Select the **Copilot** icon located near the bottom toolbar.
 
-   > [!WARNING]
-   > When you choose the option to categorize your notes, Whiteboard automatically selects the sticky notes that are currently in view on the canvas. It displays the selected notes within a border. Notes outside the current viewport aren’t included within this border, so if you proceed immediately, those notes that are outside the border aren’t categorized.
+8. Select **Suggest**.
 
-15.  There are two ways to expand the selection so that all notes are included within the border:
-    
-        - **Show more notes on the screen**. When you select the Copilot option to categorize notes, Copilot grabs everything that’s in view and places them within the border. To avoid the situation where Copilot doesn’t include all the notes within the border, zoom out or pan until all the notes you want are visible.
-    
-        - **Select everything explicitly using a keyboard command**. Press **Ctrl+A** to select all objects on the canvas, including sticky notes that aren't in view. Select one of the edges of the border and drag the entire selection of notes into the view on the canvas so that you can see all the notes.
-  
-        For this task, select **Ctrl+A** to select all the notes.  
+9. In the **Suggest content with Copilot** pane, enter the following prompt:
 
-16.  Note how Copilot selected all the sticky notes, even ones that weren’t currently in view on the canvas. If some of the notes aren’t fully in view on the canvas, select one of the edges of the border and drag the entire selection into the canvas so that you can see all the notes.
+   ```text
+   I'm the Operations Manager at Adatum Corporation. Our 50-year-old office building has a failing boiler, and I need to evaluate options for repair or replacement. Before starting the installation process, I want to brainstorm and organize the typical steps companies should follow when installing a new boiler system. Using your expertise, please suggest a comprehensive list of actionable steps for a successful boiler installation project.
+   ```
 
-17.  With all the notes now appearing within view on the canvas, select the **Copilot** icon on the bottom of the window and select the **Categorize** option in the menu. Doing so displays a **Categorize selected notes** window. Select the **Categorize** button that appears in this window.
+   > **Note:** This prompt demonstrates an effective prompt structure that provides role, context, objective, and desired output. Use it as a model when creating future prompts throughout this exercise.
 
-18.  Note what happened. Copilot generated a set of categories and reorganized the notes accordingly. It also assigned each category of notes a different color to help identify the differences between categories. 
-    <br/><br/>Sometimes the rectangle containing the notes is small and hard to read. If this situation occurs, select the **Fit to Screen** icon on the bottom-right corner of the page. You can select this icon multiple times until the image is large enough to read, but not too large that it exceeds the size of the screen.
+10. Select **Generate** and review the first six ideas generated by Copilot.
 
-19.  Note the icon tray that appears below the organized group of notes. If you aren’t satisfied with the categories, select the **Regenerate** button on the icon tray.
+11. If Copilot returns an error such as **"Something went wrong. Please try again."** or **"Copilot couldn't process this prompt. Please rephrase it."**, simplify the prompt and try again:
 
-   > [!TIP]
-   > You can select the **Regenerate** button as many times as needed until you're satisfied with the categories that Copilot provides. Select this button several times and note the changes that Copilot makes each time. Besides changing category names and relocating notes, Copilot might add or reduce the number of categories with each regeneration.
+```text
+I'm the Operations Manager for Adatum Corporation. We're installing a new boiler in our company’s heating system. Please suggest the steps we should follow to install the new boiler.
+```
 
-20.  After regenerating the categories several times, you’re not sure which iteration you liked best. While Copilot doesn’t currently support going back to a previous categorization, it does allow you to start over. Select the **Revert** button to return to the starting list of yellow sticky notes.
+12. If necessary, simplify the prompt further:
 
-21.  To categorize the sticky notes once again, select the **Copilot** icon at the bottom of the page and then select **Categorize** from the menu. In the **Categorize selected notes?** window, select the **Categorize** button.
+```text
+Create a list of the steps that a company should take to install a new boiler heating system.
+```
 
-22.  Now that you know how the **Regenerate** button works, for the sake of time, select it once or twice if necessary until you’re satisfied with the category results.
+> **Tip:** Sometimes Copilot works best with direct, single-action prompts. Once you receive a response, you can continue building on it with follow-up prompts.
 
-23.  After regenerating the categories several times, you realize that you're missing detailed steps concerning minimization of system downtime. You want to ask Copilot to add more ideas to your Whiteboard session concerning this issue. Plus, you identified a note that you want to remove. However, since you already organized your ideas, you must change your whiteboard session back into the editing mode that you were in before you categorized the notes. To do so, select the **Revert** button.
+13. By default, Copilot generates ideas in groups of six. Review the six suggestions that were generated.
 
-24.  Now that you're back into editing mode, select a note that you no longer want, and then in the icon tray that appears, select the ellipsis icon. Select **Delete** from the menu that appears to delete the note.
+14. Select **Generate more**.
 
-25.  Repeat the process that you performed earlier to have Copilot suggest more notes. In this case, ask Copilot to suggest ways to limit heating system downtime when installing a new boiler.
+15. Observe that Copilot generates six additional ideas and that the button now displays **Insert (12)**.
 
-26.  Review the six ideas that Copilot suggested. You're satisfied with these ideas, so insert them into your Whiteboard canvas. If the note grid containing the six new ideas overlays existing notes, drag the note grid to the side so that it doesn't overlay any of the previous notes. If you run out of space on the screen and part of the block falls off the screen, select the **Fit to Screen** icon on the bottom-right corner of the page. You might need to select the icon more than once to fit the entirety of content onto the screen.
+16. Select **Insert (12)**.
 
-27.  You're ready for Copilot to organize the sticky notes. Repeat the earlier process to have Copilot categorize the notes.
+17. Observe that Copilot inserts the suggestions onto the Whiteboard as yellow sticky notes.
 
-28.  Review the categories. Regenerate the categories until you’re satisfied with the results. At that point, select the **Keep it** button.
+18. Review the notes and explore the available Whiteboard editing capabilities.
 
-29. Note how each category of sticky notes is a different color. You realize that you would like a short summary of the brainstorming session added to your whiteboard content. To do so, select the **Copilot** icon at the bottom of the page and then select **Summarize** from the menu. 
-    <br/><br/>In our testing, Copilot sometimes generated a short summary of the main themes from this whiteboarding session; other times, it failed to do so. Scroll down to see if Copilot generated a summary. If so, select **Keep it**.
+19. Select a note and experiment with available options such as:
 
-30. Select the **Fit to Screen** icon on the bottom-right corner of the page to fit all the sticky notes and the session summary onto the entire screen.
+* Edit text
+* Change formatting
+* Lock a note
+* Delete a note
 
+20. Select the **Copilot** icon and choose **Suggest**.
 
+21. Enter the following prompt:
 
+```text
+Suggest ways to mitigate the risks of installing a new boiler into a commercial office building heating system.
+```
 
+22. Generate the suggestions.
 
+23. Select **Generate more** until twelve risk mitigation ideas are available.
+
+24. Select **Insert (12)**.
+
+25. Observe that the newly inserted notes are grouped into a note grid.
+
+26. If the note grid overlaps existing notes, drag the note grid to an empty area of the Whiteboard.
+
+27. If part of the note grid falls outside the visible canvas, select **Fit to Screen** in the lower-right corner of the page.
+
+> **Note:** You may need to select **Fit to Screen** multiple times until all content is visible.
+
+28. Review the risk mitigation suggestions and make any desired edits.
+
+29. At this point, you should have approximately 24 brainstorming notes on the Whiteboard.
+
+30. You are now ready to organize the notes into categories.
+
+> **Warning:** When categorizing notes, Whiteboard automatically selects only the notes currently visible on the canvas. Notes outside the current view will not be included in the categorization process.
+
+31. Press:
+
+```text
+Ctrl + A
+```
+
+to select all notes on the canvas.
+
+32. Verify that all sticky notes are selected, including notes that were previously outside the visible area.
+
+33. If necessary, drag the selected notes into view so that all notes can be seen.
+
+34. Select the **Copilot** icon and choose **Categorize**.
+
+35. In the **Categorize selected notes** window, select **Categorize**.
+
+36. Review the generated categories.
+
+37. Observe how Copilot:
+
+* Groups related notes together.
+* Creates category names automatically.
+* Assigns different colors to each category.
+
+38. If the categorized notes are difficult to read, select **Fit to Screen**.
+
+39. Review the icon tray displayed beneath the categorized notes.
+
+40. Select **Regenerate** to create alternative categorizations.
+
+41. Repeat the regeneration process several times and observe how Copilot changes:
+
+* Category names
+* Note placement
+* Number of categories
+
+42. If you want to return to the original collection of sticky notes, select **Revert**.
+
+43. To categorize the notes again, select:
+
+* **Copilot**
+* **Categorize**
+* **Categorize**
+
+44. Regenerate categories as needed until you are satisfied with the organization.
+
+45. After reviewing the categorized results, select **Revert** again to return to editing mode.
+
+46. Select a note that is no longer relevant.
+
+47. Select the **More options (...)** menu.
+
+48. Select **Delete**.
+
+49. Select the **Copilot** icon and choose **Suggest**.
+
+50. Enter the following prompt:
+
+```text
+Suggest ways to limit heating system downtime when installing a new boiler.
+```
+
+51. Review the six ideas generated by Copilot.
+
+52. Select **Insert (6)**.
+
+53. Move the new note grid if it overlaps existing content.
+
+54. If necessary, select **Fit to Screen** to ensure all notes remain visible.
+
+55. Press:
+
+```text
+Ctrl + A
+```
+
+to select all notes.
+
+56. Select **Copilot** and then **Categorize**.
+
+57. Select **Categorize**.
+
+58. Review the categorization results.
+
+59. Select **Regenerate** if necessary until you are satisfied with the organization.
+
+60. Select **Keep it**.
+
+61. Observe that each category is displayed using a different color.
+
+62. To generate a summary of the brainstorming session, select the **Copilot** icon and then select **Summarize**.
+
+63. Review the generated summary.
+
+> **Note:** During testing, Copilot sometimes generated a concise summary of the brainstorming session and other times was unable to generate a summary. Results may vary.
+
+64. If a summary is generated and meets your expectations, select **Keep it**.
+
+65. Select **Fit to Screen** to display all categorized notes and the summary on the Whiteboard canvas.
+
+66. Review the completed brainstorming session.
+
+### Expected Outcome
+
+You successfully used Microsoft 365 Copilot in Whiteboard to:
+
+* Generate project planning activities for a boiler installation project.
+* Brainstorm risk mitigation strategies.
+* Identify methods to minimize heating system downtime.
+* Organize ideas into meaningful categories.
+* Refine AI-generated categorizations.
+* Generate a summary of the brainstorming session.
+* Create a structured Whiteboard that can serve as the foundation for a formal project implementation plan.
+
+## Key Takeaways
+
+By completing this exercise, you learned how to:
+
+* Use Microsoft Whiteboard and Microsoft 365 Copilot together for project planning.
+* Generate brainstorming ideas using AI-assisted prompts.
+* Expand brainstorming sessions through iterative prompting.
+* Identify risks and mitigation strategies.
+* Organize large collections of ideas using Copilot categorization.
+* Refine and regenerate AI-generated categories.
+* Generate summaries from brainstorming content.
+* Transform unstructured ideas into a structured project planning framework.

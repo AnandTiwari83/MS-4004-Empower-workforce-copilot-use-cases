@@ -26,11 +26,6 @@ This task uses the default **Auto** selector mode.
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Copilot (2)**.
-
-    ![](./media/app-launcher-copilot.png)
-
-
 1. In Copilot Chat, select the **Work** option.
 
     > **`Note:`** Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs.
@@ -125,8 +120,6 @@ This task uses the default **Auto** selector mode.
     ![](./media/first-topic-section.png)
 
 1. Review the new section Copilot added. Now select a **second topic** from the list above. Place your cursor where you want the new section to appear, then ask Copilot to add another section comparing both contracts on this second topic.
-
-    ![](./media/second-topic-section.png)
 
 1. Review the new section Copilot added. You will use this document as the basis for a PowerPoint presentation in the next task. Feel free to make any additional enhancements before proceeding - for example, adding a third topic comparison from the list above, or exploring any of Copilot's suggested follow-up prompts in the Copilot pane.
 

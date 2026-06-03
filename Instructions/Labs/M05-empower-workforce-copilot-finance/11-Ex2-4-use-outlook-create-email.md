@@ -86,8 +86,6 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
     - Key points for review are listed in **bullet format**
     - The email opens by **stressing the deadline for feedback**
 
-    ![](./media/third-draft.png)
-
 1. Review the updated email - this is now **draft 3 of 3**. You decide to add one final paragraph. Ask Copilot to add a single paragraph at the end of the email that explains how your colleagues' input will improve the final deliverable. Include a motivating phrase such as:
 
     ```
@@ -104,11 +102,7 @@ This task helps you become familiar with Copilot's draft process in Outlook by g
     Your insights will make a big impact.
     ```
 
-    ![](./media/final-paragraph.png)
-
 1. Review the results. After re-reading the email, you aren't fully satisfied with the tone. In the Copilot menu, scroll down and select **Change Tone**, then choose one of the tone options from the menu.
-
-    ![](./media/change-tone.png)
 
 1. Review the new draft. You're still not completely satisfied, so enter a prompt directly asking Copilot to adjust the tone to sound **friendly and confident but still professional**.
 

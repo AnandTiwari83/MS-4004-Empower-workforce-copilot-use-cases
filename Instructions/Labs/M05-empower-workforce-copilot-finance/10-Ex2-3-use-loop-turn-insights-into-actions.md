@@ -108,8 +108,6 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
     Communication plan
     ```
 
-    ![](./media/communication-page.png)
-
 1. Open the **Copilot** pane on the **Communication plan** page. Ask Copilot to review the attached **Smart Sensor contract comparison – Finance.pptx** file and draft a **communication plan** for sharing its recommendations with stakeholders, including a timeline and recommended channels. Attach the file the same way as before - enter a forward slash **(/)** and select the file from the **Files** tab.
 
     ```
@@ -134,8 +132,6 @@ Before presenting the **Smart Sensor contract comparison - Finance** PowerPoint 
 1. Your **Adatum/Contoso contract comparison** workspace now contains three completed pages - **Negotiation Strategy**, **Risk mitigation ideas**, and **Communication plan**.
 
     > **`Note:`** Keep the Loop workspace open. In the next task, you will create an email for your Finance colleagues that includes a link to this workspace - you will need to copy its URL.
-
-    ![](./media/workspace-complete.png)
 
 1. You have now completed **Task 3**.
 

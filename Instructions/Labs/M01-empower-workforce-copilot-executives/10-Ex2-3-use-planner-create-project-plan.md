@@ -1,46 +1,206 @@
----
-lab:
-  title: 'Exercise 2, Task 3: Use the AI Project Manager agent in Planner to create a new project plan'
-  description: '<br/For this task, enter the following text after “Build a plan for”: Northwind Traders’ new organic snack line. The plan should include tasks for Marketing, Production, Logistics, and Sales departments. Assign deadlines, owners, and dependencies.'
-  duration: 36 minutes
-  level: 100
-  islab: true
----
+# Exercise 2: Use Copilot to Generate Executive Business Insights
 
-# Exercise 2, Task 3: Use the AI Project Manager agent in Planner to create a new project plan
----
-Northwind Traders is preparing to launch a new line of organic snacks—a cross-departmental effort involving marketing, production, and sales. As the executive sponsor, you’re responsible for ensuring the project stays aligned with company goals and is executed on time. In this task, you plan to use the AI Project Manager agent in Microsoft Planner to create, organize, and monitor the product launch plan. This scenario highlights how executives can use Copilot to oversee complex initiatives, promote collaboration, and maintain visibility into progress without getting lost in day-to-day details.
+## Task 3: Use the Copilot in Planner to Create a New Project Plan
 
-> [!IMPORTANT] 
-> Copilot in Planner first launched inside the Planner app in Microsoft Teams and has been progressively rolling out there. If you’re opening Planner on the web (planner.microsoft.com) or through older entry points, the Copilot button might not be present yet or it might require the plan to be set to Premium. For this training exercise, you should access the Planner app in Microsoft Teams.
+In this task, you will use the Copilot in Microsoft Planner to create and manage a project plan for a new product launch. The Copilot can generate tasks, milestones, dependencies, goals, timelines, and stakeholder updates based on a simple business description.
 
-Perform the following steps to complete this task:
+This exercise demonstrates how executives can use AI-powered project management capabilities to coordinate complex initiatives, monitor progress, and improve collaboration across multiple departments.
 
-1.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Teams** from the **Apps** menu.
+### Scenario
 
-2.  In the navigation pane in **Teams for the web**, select the **View more apps** (ellipsis) icon. In the menu that appears, select **Planner** if it appears in the apps window; otherwise, enter **Planner** in the **Search box** and then select **Planner** when it appears.
+Northwind Traders is preparing to launch a new line of organic snacks. The initiative requires coordination between Marketing, Production, Logistics, and Sales teams. As the executive sponsor, you need to ensure that the project is properly planned, key milestones are identified, dependencies are managed, and stakeholders remain informed throughout the project lifecycle.
 
-3.  On the **Planner** page, select **My Plans** in the navigation pane. On the **My Plans** page, select the **+New plan** button.
+Using the Copilot in Planner, you will create a project plan, review goals and timelines, and explore AI-generated project management capabilities.
 
-4.  In the **Create new** window, select the **Premium** tile. Note the description that appears for this tile – “Timeline, goals, and new AI features.”
+## Task 3.1: Create a New Premium Plan
 
-5.  In the **Create a premium plan from scratch** window, enter **New organic snack line** in the **Name** field. Leave the **Add to a group** field blank and select **Create**.
+### Steps
 
-6.  In the Planner window for the **New organic snack line** plan, select the “**Chat with your AI Project Manager agent**” icon that appears in the bottom-right corner.
+1. Open **Microsoft 365** in your browser.
 
-7.  The **Project Manager agent** pane that appears includes a **Create** prompt button, an **Ask** prompt button, several predefined prompts, and a manual prompt field. In this case, we want the agent to create a plan for Northwind’s new organic snack line, so select the **Create** button. Doing so inserts “**Build a plan for**” in the actual prompt field at the bottom of the pane. Next to this text, enter a description of the plan you want the agent to create.  
-    <br/>For this task, enter the following text after “Build a plan for”: **Northwind Traders’ new organic snack line. The plan should include tasks for Marketing, Production, Logistics, and Sales departments. Assign deadlines, owners, and dependencies.**
+2. Select **Apps**, and then select **Teams**.
 
-8.  Review the suggested project plan. In the **Project Manager agent** pane, after Copilot’s note that it built the plan, select the **Go to Board** button. Review how the plan appears on the board. In our testing, the agent created other departments besides the ones mentioned in the prior prompt. Check to see if it created extra departments in your version as well. Feel free to add any tasks to each of the columns on the board.
+3. In Teams, select **View more apps** (**...**) from the navigation pane.
 
-9.  Then select the **Go to Goals** button and review the results there. Make any adjustments as you see fit.
+4. Search for and open **Planner**.
 
-10. Ask the AI Project Manager agent if it can generate automated progress updates for stakeholders.
+5. In Planner, select **My Plans**.
 
-11. Review the response. Note the suggested prompts that are displayed above the prompt field. Test out these prompts.
+6. Select **+ New plan**.
 
-12. Ask the AI Project Manager agent to export a visual timeline of this project plan. You can then distribute this timeline to the Senior Leadership Team.
+7. In the **Create new** window, select **Premium**.
 
-13. After the agent generates the timeline, select the suggested prompt that tells it to provide a downloadable version of the timeline. If you don’t see this suggested prompt, then enter this request manually.  
-    <br/>Does your version of Planner display the image or allow you to download the PNG file? At the time of this writing, our version of Planner didn’t include the image or download link. However, since the AI Project Manager agent is a work in progress, this feature might be available at the time you perform this task. If so, download the timeline that was generated and save it to your OneDrive for use in Task 4.
+   > **Note:** Premium plans provide advanced features such as timelines, goals, and AI-powered project management capabilities.
 
+8. In the **Create a premium plan from scratch** window, enter the following name:
+
+   ```text
+   New organic snack line
+   ```
+
+9. Leave **Add to a group** blank.
+
+10. Select **Create**.
+
+   >**Note**: Creating a Premium plan may take up to **10–15 minutes** depending on service availability and tenant performance. If the plan doesn't appear immediately after selecting **Create**, wait for a few minutes and refresh the Planner page before proceeding to the next step.
+
+### Expected Outcome
+
+A new Premium Planner plan is created and ready for AI-assisted project planning.
+
+## Task 3.2: Generate a Project Plan Using the Copilot
+
+### Steps
+
+1. In the **New organic snack line** plan, select the **Chat with your Copilot** icon located in the lower-right corner.
+
+2. In the AI Project Manager pane, select **Create**.
+
+3. After the text **Build a plan for** appears in the prompt field, enter the following prompt:
+
+   ```text
+   Northwind Traders' new organic snack line. The plan should include tasks for Marketing, Production, Logistics, and Sales departments. Assign deadlines, owners, and dependencies.
+   ```
+
+4. Submit the prompt.
+
+5. Review the generated project plan.
+
+6. Observe the tasks, owners, dependencies, milestones, and project structure created by the agent.
+
+### Expected Outcome
+
+The Copilot generates a comprehensive project plan that includes tasks, assignments, dependencies, and timelines.
+
+## Task 3.3: Review the Project Board
+
+### Steps
+
+1. After the plan is generated, select **Go to Board**.
+
+2. Review the board view.
+
+3. Examine the project buckets or workstreams created by the agent.
+
+4. Verify that tasks have been organized into logical project areas.
+
+5. Note whether the Copilot created additional departments or workstreams beyond those specified in the prompt.
+
+6. If desired, add or modify tasks within the board.
+
+### Expected Outcome
+
+The project board provides a visual representation of project tasks and workstreams.
+
+## Task 3.4: Review Project Goals
+
+### Steps
+
+1. Select **Go to Goals**.
+
+2. Review the goals generated by the Copilot.
+
+3. Examine how the goals align with the project objectives.
+
+4. Modify or add goals if necessary.
+
+### Expected Outcome
+
+Project goals are created and aligned with the overall product launch strategy.
+
+## Task 3.5: Generate Stakeholder Updates
+
+### Steps
+
+1. Return to the Copilot pane.
+
+2. Enter the following prompt:
+
+   ```text
+   Can you generate automated progress updates for project stakeholders?
+   ```
+
+3. Review the response.
+
+4. Observe the suggested prompts displayed by the Copilot.
+
+5. Select one or more suggested prompts to explore additional project management capabilities.
+
+### Suggested Follow-Up Prompts
+
+```text
+Summarize the current project status.
+```
+
+```text
+Identify high-risk tasks and dependencies.
+```
+
+```text
+What tasks are currently on the critical path?
+```
+
+```text
+Generate a stakeholder update for this project.
+```
+
+```text
+What milestones should leadership monitor?
+```
+
+### Expected Outcome
+
+The Copilot provides project status summaries and stakeholder communication recommendations.
+
+## Task 3.6: Generate a Project Timeline
+
+### Steps
+
+1. In the Copilot pane, enter the following prompt:
+
+   ```text
+   Create a visual timeline for this project that can be shared with senior leadership.
+   ```
+
+2. Submit the prompt.
+
+3. Review the generated timeline.
+
+4. If a suggested prompt appears to download or export the timeline, select it.
+
+5. If no suggested prompt appears, enter the following prompt:
+
+   ```text
+   Provide a downloadable version of the project timeline.
+   ```
+
+6. Review the results.
+
+   > **Note:** Timeline export functionality may vary depending on the version of Planner available in your tenant. Some environments may provide an image preview or downloadable file, while others may only provide a textual representation of the timeline.
+
+7. If a downloadable timeline is available, save the file to your OneDrive.
+
+### Expected Outcome
+
+A project timeline is generated that can be used to communicate project milestones and schedules to leadership stakeholders.
+
+## Knowledge Check
+
+After completing this task, consider the following questions:
+
+- How did the Copilot simplify project planning?
+- What tasks or dependencies were automatically identified by the agent?
+- How could AI-generated stakeholder updates improve project communication?
+- What value does the project timeline provide during executive reviews?
+- How could AI-powered project management improve cross-functional collaboration?
+
+## Key Takeaways
+
+By completing this task, you learned how to:
+
+- Create Premium plans in Microsoft Planner.
+- Use the Copilot to generate project plans.
+- Create tasks, dependencies, goals, and timelines using natural language prompts.
+- Generate stakeholder updates and project summaries.
+- Visualize project schedules and milestones.
+- Use AI-powered project management tools to improve visibility and coordination across business initiatives.

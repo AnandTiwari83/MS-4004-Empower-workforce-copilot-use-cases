@@ -49,15 +49,6 @@ One of the primary keys to effectively using Copilot is the quality of your prom
 Using these four elements consistently helps produce clear, relevant, and actionable responses.
 
 
-## Prerequisites
-
-To get the most out of this module, you should have:
-
-- A basic understanding of Microsoft 365 applications such as Teams, Word, Excel, and Planner.
-- Familiarity with business reporting, project management, and executive decision-making processes.
-- Access to a Microsoft 365 tenant with Microsoft 365 Copilot enabled.
-
-
 ## Getting Started with the lab
 
 We've prepared a seamless environment for you to explore and learn about **Module 1: Empower Workforce with Microsoft 365 Copilot for Executives**. Let's begin by making the most of this experience!

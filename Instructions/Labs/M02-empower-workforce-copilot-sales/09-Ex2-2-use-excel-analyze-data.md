@@ -1,14 +1,7 @@
----
-lab:
-  title: 'Exercise 2, Task 2: Use Copilot in Excel to analyze historical RFP data'
-  description: 'Using Copilot in Excel, you plan to analyze this historical RFP data to uncover patterns, such as:'
-  duration: 28 minutes
-  level: 100
-  islab: true
----
-
 # Exercise 2, Task 2: Use Copilot in Excel to analyze historical RFP data
----
+
+## Overview
+
 Before you can finalize what your EcoSense 360 RFP Response Agent should know, you need data to guide your priorities when responding to RFPs. Fabrikam’s Sales Operations team maintains a record of past RFP submissions, including details on requested features, deal size, and won/loss outcomes.
 
 Using Copilot in Excel, you plan to analyze this historical RFP data to uncover patterns, such as:
@@ -19,7 +12,7 @@ Using Copilot in Excel, you plan to analyze this historical RFP data to uncover 
 
 These insights can help ensure that the EcoSense 360 RFP Response Agent focuses on the topics that matter most to prospective customers and avoids common pitfalls in future RFPs.
 
-#### Using Copilot in Excel
+### Using Copilot in Excel
 
 Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in place changes to worksheets, tables, and formulas. 
 
@@ -39,19 +32,29 @@ This task uses the default **Auto** selector mode.
 
 Perform the following steps to complete this task:
 
-1.  Select the following link to download the [**Fabrikam_Historical_RFP_Data.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347524) file, which contains the historical RFP data that was created by Fabrikam’s Sales Operations team.
+1. Uploade the **Fabrikam_Historical_RFP_Data.xlsx** file to the **EcoSense360-RFP-Documents** folder that you created in your OneDrive in the prior task. Doing so makes it available to the EcoSense 360 RFP Response agent that you plan to create in Task 3.
 
-2.  Store the file in the **EcoSense360-RFP-Documents** folder that you created in your OneDrive in the prior task. Doing so makes it available to the EcoSense 360 RFP Response agent that you plan to create in Task 3.
+3. In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **Excel** from the **App launcher** menu.
 
-3.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Excel** from the **Apps** menu.
+4. In **Excel for the web**, select the **Upload a file** button, and then select the **Fabrikam_Historical_RFP_Data.xlsx** file in the **EcoSense360-RFP-Documents** folder.
 
-4.  In **Excel for the web**, select the **Upload a file** button, and then select the **Fabrikam_Historical_RFP_Data.xlsx** file in the **EcoSense360-RFP-Documents** folder.
+   ![](../media/lab2-06-38.png) 
 
-5. On the **Home** tab ribbon, select **Copilot**. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
+5. From the Excel workbook, select the **Copilot** icon located at the bottom-right corner of the screen to open the Copilot pane. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus (+) sign. If you don’t see it, select the plus sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
 
-6.  Your goal is to have Copilot summarize the data into a list of insights that can guide the EcoSense 360 RFP Response Agent’s content priorities. In the Copilot pane, ask Copilot to add a new sheet that summarizes the top five most requested product features in past RFPs, highlight patterns in deals Fabrikam lost due to missing requirements, and identify which regions have the highest win rate for EcoSense 360.
+   ![](../media/lab2-06-39.png) 
 
-7.  Review the results. You now want Copilot to create visual summaries of key RFP insights. These visualizations can help the EcoSense 360 RFP Response Agent and the Sales team quickly identify what matters most to clients, where the team excels, and where improvements are needed. Ask Copilot to generate the following visualizations of key RFP insights, each of which should be added to a new sheet:
+6. Your goal is to have Copilot summarize the data into a list of insights that can guide the EcoSense 360 RFP Response Agent’s content priorities. In the Copilot pane, ask Copilot.
+
+   ```
+   Add a new sheet that summarizes the top five most requested product features in past RFPs, highlight patterns in deals Fabrikam lost due to missing requirements, and identify which regions have the highest win rate for EcoSense 360.
+   ```
+
+   ![](../media/lab2-06-40.png) 
+
+   ![](../media/lab2-06-41.png) 
+
+7. Review the results. You now want Copilot to create visual summaries of key RFP insights. These visualizations can help the EcoSense 360 RFP Response Agent and the Sales team quickly identify what matters most to clients, where the team excels, and where improvements are needed. Ask Copilot to generate the following visualizations of key RFP insights, each of which should be added to a new sheet:
 
     - Create a bar chart showing the top five most requested features in past RFPs.
 
@@ -63,6 +66,6 @@ Perform the following steps to complete this task:
 
     - Create a pivot table and heatmap comparing average deal size for won vs. lost RFPs.
 
-> [!WARNING]
-> During testing, Copilot in Excel usually generated the first few visuals before running into an internal issue where it couldn’t generate the remaining requests. Due to time constraints with this training, proceed to the next task if you experience this issue. Don’t wait and try again later. Remember, Copilot is still a work in progress, so sometimes these types of issues occur.
+      > [!WARNING]
+      > During testing, Copilot in Excel usually generated the first few visuals before running into an internal issue where it couldn’t generate the remaining requests. Due to time constraints with this training, proceed to the next task if you experience this issue. Don’t wait and try again later. Remember, Copilot is still a work in progress, so sometimes these types of issues occur.
 

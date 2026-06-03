@@ -24,9 +24,7 @@ Using Copilot in Word, you will create and enhance an executive briefing report 
 
 4. On the **Home** tab, select **Copilot**.
 
-5. Verify that **Edit with Copilot** is enabled.
-
-   > **Note:** If the **Edit with Copilot** icon is not displayed in the prompt field, select the **+** button and then select **Edit with Copilot**.
+5. Verify that **Allow editing** is enabled.
 
 6. In the Copilot prompt field, select **+** and then select **Add work content**.
 

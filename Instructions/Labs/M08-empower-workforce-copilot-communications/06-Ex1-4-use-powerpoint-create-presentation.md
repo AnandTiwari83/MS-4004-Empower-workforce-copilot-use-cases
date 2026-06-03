@@ -25,9 +25,7 @@ In this task, you'll use Microsoft 365 Copilot in PowerPoint to transform your c
    * The **AuroraHub Strategic Communication Brief** created in Task 1.
    * The **Trend Synthesis PDF Summary** created in Task 2.
 
-4. Verify that the **Edit with Copilot** icon appears in the prompt field.
-
-   > **Note:** If the **Edit with Copilot** icon isn't displayed, select the **plus (+)** icon and choose **Edit with Copilot**.
+4. Verify that the **Allow editing** icon appears in the prompt field.
 
 ### Task 4.3: Generate the executive presentation
 

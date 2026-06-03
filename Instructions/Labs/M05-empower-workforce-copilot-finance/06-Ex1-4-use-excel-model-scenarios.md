@@ -9,8 +9,6 @@ This task showcases Copilot's ability to perform dynamic modeling and visualizat
 
 ## Steps
 
-1. Select the following link to download the [**Relecloud Acquisition Financials.xlsx**](https://go.microsoft.com/fwlink/?linkid=2347812) file. Store the file in your **OneDrive** account for use by Copilot in your tenant.
-
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
     ```
@@ -23,32 +21,38 @@ This task showcases Copilot's ability to perform dynamic modeling and visualizat
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Excel (2)**.
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **OneDrive (2)**.
 
     ![](./media/app-launcher-excel.png)
 
-1. In **Excel for the web**, select the **Upload a file** button, navigate to your **OneDrive**, and then select the **Relecloud Acquisition Financials** spreadsheet that you downloaded in Step 1.
+1. In **OneDrive for the web**, select the **MyFiles (1)** from left menu, navigate to your **Relecloud Acquisition Financials**, and then select the **Relecloud Acquisition Financials.xlsx (2)** spreadsheet.
 
-    ![](./media/upload-file.png)
+    ![](./media/upload-file4.png)
 
-1. On the **Home** tab ribbon, select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Edit with Copilot** icon appears in the prompt field next to the plus **(+)** sign.
+1. Select **Copilot** to open the Copilot pane. Leave the response mode selector set to **Auto**. Then verify the **Allow editing** icon appears in the prompt field above to the plus **input** section.
 
     ![](./media/copilot-pane.png)
-
-    > **`Note:`** If you don't see the **Edit with Copilot** icon, select the **plus (+)** sign and then select **Edit with Copilot** in the drop-down menu. The icon should now appear in the prompt field.
-
-    ![](./media/edit-with-copilot.png)
 
 ### What-If Scenario 1: EBITDA Multiple and Synergy Savings
 
 1. Verify you're in the **Financial Analysis** sheet. In the Copilot prompt field, enter a prompt asking Copilot to perform a what-if scenario by updating the Relecloud acquisition financials to reflect a **1x increase in the EBITDA (earnings before interest, taxes, depreciation, and amortization) multiple** and a **20% increase in synergy savings**. Ask it to return the results in a new sheet.
 
+    ```
+    Perform a what-if analysis on the Relecloud acquisition financial model by increasing the EBITDA multiple by 1x and increasing synergy savings by 20%. Update all affected financial metrics and assumptions, and return the results in a new worksheet.
+    ```
     ![](./media/scenario-1-results.png)
 
 1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet to make it easy to visualize the magnitude and timing of improvements:
 
     - **Column Chart** comparing original vs. updated EBITDA and total synergy savings over time
     - **Line Chart** showing EBITDA trend before and after the change
+
+    ```
+    Create a new worksheet with the following visualizations based on the updated what-if scenario:
+    - Column chart comparing original vs. updated EBITDA over time
+    - Column chart comparing original vs. updated total synergy savings over time
+    - Line chart showing EBITDA trends before and after the changes
+    ```
 
     ![](./media/scenario-1-charts.png)
 
@@ -58,12 +62,22 @@ This task showcases Copilot's ability to perform dynamic modeling and visualizat
 
 1. Select the **Financial Analysis** sheet to return to the base dataset. Enter a prompt asking Copilot to perform a what-if scenario that updates the acquisition financial model based on the following assumption: **synergy savings are delayed by 12 months and only 75% are realized**. Ask it to return the results in a new sheet.
 
+    ```
+    Perform a what-if analysis on the Relecloud acquisition financial model assuming synergy savings are delayed by 12 months and only 75% of the projected savings are realized. Update the financial model and return the results in a new worksheet.
+    ```
+
     ![](./media/scenario-2-results.png)
 
 1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet that show both the timing and reduction in benefits, highlighting the impact on cash flow and ROI:
 
     - **Stacked Column Chart** showing annual synergy savings (original vs. delayed/reduced)
     - **Line Chart** for cumulative synergy savings over time
+
+    ```
+    Create a new worksheet with the following visualizations for the delayed and reduced synergy scenario:
+    - Stacked column chart comparing annual synergy savings (original vs. delayed/reduced scenario)
+    - Line chart showing cumulative synergy savings over time for both scenarios
+    ```
 
     ![](./media/scenario-2-charts.png)
 
@@ -73,12 +87,22 @@ This task showcases Copilot's ability to perform dynamic modeling and visualizat
 
 1. Select the **Financial Analysis** sheet to return to the base dataset. Enter a prompt asking Copilot to perform a what-if scenario that updates the financial model based on **operating expenses that are 10% higher due to integration challenges**. Ask it to return the results in a new sheet.
 
+    ```
+    Perform a what-if analysis on the Relecloud acquisition financial model assuming operating expenses increase by 10% due to integration challenges. Update all affected financial metrics and return the results in a new worksheet.
+    ```
+
     ![](./media/scenario-3-results.png)
 
 1. Review the results. Remain in the new what-if sheet and enter a prompt asking Copilot to generate the following charts in a new sheet that highlight the effect on profitability and expense trends:
 
     - **Line Chart** for operating expenses and EBITDA over time (original vs. scenario)
     - **Column Chart** comparing net income before and after the change
+
+    ```
+    Create a new worksheet with the following visualizations for the increased operating expense scenario:
+    - Line chart comparing operating expenses and EBITDA over time (original vs. scenario)
+    - Column chart comparing net income before and after the increase in operating expenses
+    ```
 
     ![](./media/scenario-3-charts.png)
 

@@ -34,10 +34,6 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Copilot (2)**.
-
-    ![](./media/app-launcher-copilot.png)
-
 1. In Copilot Chat, select the **Work** option.
 
     > **`Note:`** Since this task involves reviewing a file uploaded to OneDrive and generating insights from that internal document, select the **Work** option. The **Web** option doesn't apply here, since it searches external sources like public websites and blogs.
@@ -46,6 +42,8 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
 
 1. In the Copilot prompt field, select the **attachment** icon and attach the **Relecloud Business Perspective.docx** file that you downloaded in Step 1.
 
+    ![](./media/attach-file.png)
+
     ![](./media/attach-file4.png)
 
 1. Based on Robin Kline's request, enter a prompt asking Copilot to review the attached document and create a business perspective summary that contains the following three sections:
@@ -53,6 +51,13 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
     - Relecloud's financial data
     - Operations analysis of Relecloud
     - Integration plan for the acquisition
+
+    ```
+    Review the attached document and create a business perspective summary with the following sections:
+    1. Relecloud Financial Analysis
+    2. Relecloud Operations Analysis
+    3. Relecloud Acquisition Integration Plan
+    ```
 
     ![](./media/first-summary.png)
 
@@ -82,15 +87,37 @@ As you saw in the earlier task that used Copilot in Excel, it also includes a re
         - The following visual:
             - **Integration Timeline (Gantt Chart):** Visualizes the phases and milestones of the post-merger integration plan
 
+    ```
+    Expand the previous report and include the following:
+
+    Financial Analysis:
+    - Valuation and deal structure, including valuation multiples and deal structure implications
+    - Financial health and ratios, including liquidity, solvency, profitability trends, gross-to-net retention by cohort, regional ARR dynamics, and cash flow analysis
+    - Revenue and customer concentration, including revenue breakdown, customer concentration risk, customer concentration by sector/vertical, and churn and retention drivers
+    - Include charts showing revenue, EBITDA, net income, gross margin, and operating margin trends
+
+    Operations Analysis:
+    - Cost structure and efficiency, including COGS, operating expenses, efficiency metrics, and scalability assessment
+    - Competitive positioning, including SWOT analysis and peer benchmarking
+    - Include a SWOT matrix and a scalability assessment diagram
+
+    Integration Planning:
+    - Synergy and integration modeling, including synergy realization, integration risks, and a post-merger integration plan
+    - Leadership and organizational review, including management track record and organizational structure
+    - Include a Gantt chart showing the post-merger integration timeline and milestones
+    ```
+
     ![](./media/expanded-summary.png)
 
 1. Review the expanded results. Note the difference between the first summary report - based on a high-level prompt - and this second report - based on a much more detailed request. This comparison highlights the importance of crafting detailed prompts that incorporate all four key elements: **Goal**, **Context**, **Sources**, and **Expectations**.
 
+    ```
+    Compile the complete acquisition analysis into a single downloadable document with all sections, charts, diagrams, and recommendations included.
+    ```
+
     ![](./media/compare-results.png)
 
 1. Feel free to select any of Copilot's suggested follow-up prompts if you want to refine or expand the summary further. When you're ready, ask Copilot to **compile this information into a single downloadable document**. Download the file once it's generated and save it to your **OneDrive** account.
-
-    ![](./media/download-document.png)
 
 1. You have now completed **Task 3**.
 

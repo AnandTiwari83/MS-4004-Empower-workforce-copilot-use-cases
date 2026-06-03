@@ -1,27 +1,16 @@
----
-lab:
-  title: 'Exercise 1: Improve customer service efficiency using Microsoft 365 Copilot'
-  description: 'By reducing the time spent gathering information and building materials from scratch, Copilot allows Customer Service departments to focus more on what matters: faster case resolution, smoother workflows, and improved operational efficiency. In this exercise, you explore how Copilot supports that efficiency by helping you analyze communication threads, co‑create documentation, map improved workflows, and build data‑driven insights—all in the context of a busy support environment.'
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Exercise 1: Improve customer service efficiency using Microsoft 365 Copilot
----
+
+## Overview
+
 Customer Service teams operate in a high‑pressure, high‑volume environment where information is scattered across channels and workflows often evolve faster than documentation can keep up. Microsoft 365 Copilot helps Customer Service Managers bring order, clarity, and consistency to this complexity by streamlining the work that typically consumes hours of manual effort.
 
 With Copilot, support teams can quickly unify insights from chats, emails, meetings, and shared documents—turning them into organized summaries, clear priorities, and actionable plans. It becomes easier to spot recurring issues, uncover patterns, and maintain alignment across teams like IT, Operations, and Product. Copilot also accelerates the creation of resources such as troubleshooting guides, journey maps, and standardized templates, ensuring that support processes remain consistent and scalable.
 
 By reducing the time spent gathering information and building materials from scratch, Copilot allows Customer Service departments to focus more on what matters: faster case resolution, smoother workflows, and improved operational efficiency. In this exercise, you explore how Copilot supports that efficiency by helping you analyze communication threads, co‑create documentation, map improved workflows, and build data‑driven insights—all in the context of a busy support environment.
 
-> [!TIP]
-> The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
+> **TIP:** The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
 
-### Scenario
+## Scenario
 
 Lamna Healthcare Company provides an integrated appointment‑management, patient‑scheduling, and clinical‑workflow platform used by clinics and small healthcare groups across the region. While the company saw a surge in customer adoption over the past year, it also experienced an escalation in customer support challenges. Clinics are reporting delays in appointment syncing, intermittent authentication issues, inconsistent error handling across modules, and longer‑than‑expected case resolution times. As Lamna grew, so did the complexity of its support ecosystem.
 

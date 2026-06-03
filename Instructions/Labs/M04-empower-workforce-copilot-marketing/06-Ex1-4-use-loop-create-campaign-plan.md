@@ -64,7 +64,7 @@ Perform the following steps to complete this task:
     - Budget allocation
     - Risk assessment and mitigation
 
-1. For each page:
+1. For each page, perform the following steps:
 
     - Open the Copilot pane.
     - Attach the Smart Workspace Market Insights.docx file.

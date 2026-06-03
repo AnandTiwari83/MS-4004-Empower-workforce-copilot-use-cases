@@ -1,8 +1,8 @@
 # Module 04: Empower workforce with Microsoft 365 Copilot for Marketing
 
-### Overall Estimated Duration: 8 Hours
+### Overall Estimated Duration: 4 Hours
 
-## Lab Overview
+## Module Overview
 
 Microsoft 365 Copilot can help Marketing professionals in numerous ways. For example, they can generate content for their campaigns, improve productivity, provide insights into their campaigns, collaborate more effectively, and more. Copilot can suggest relevant hashtags, images, and even write social media posts for you. Similarly, if you’re creating a blog post, Copilot can suggest topics, provide research material, and even help you write the post.
 
@@ -83,7 +83,7 @@ Follow the steps below to upload all files needed to **OneDrive**:
     ```
     https://www.microsoft365.com
     ```
-1. Enter the following credentials to sign in to Microsoft 365:
+1. Enter the following credentials to sign in to Microsoft 365 and click on **Sign in**.
 
     - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
@@ -99,7 +99,7 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
     ![](../media/module-4/prereq-3.png)
 
-1. In **File Explorer**, navigate to **`C:\LabFiles\MS-4004-Empower-workforce-copilot-use-cases\ResourceFiles`**location and select all the files from the ResourceFiles folder and click **Open**.
+1. In **File Explorer**, navigate to **`C:\AllFiles`**location and select all the files from the folder and click **Open**.
 
 1. When the upload is complete, you should see **Uploaded 92 items to My files** in the bottom center of the screen.
 

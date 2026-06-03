@@ -1,5 +1,3 @@
-Below is a GitHub-ready lab guide that follows the same structure and style as the previous exercises while keeping the content aligned with the Microsoft learning path.
-
 # Exercise 2, Task 1: Use Copilot in Loop to Track Construction Milestones
 
 ## Scenario

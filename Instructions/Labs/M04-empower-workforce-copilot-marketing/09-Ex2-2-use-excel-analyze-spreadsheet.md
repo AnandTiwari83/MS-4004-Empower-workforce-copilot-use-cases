@@ -64,26 +64,28 @@ Perform the following steps to complete this task:
 10.  Review Copilot’s response in the new sheet that it created. When you’re done, return to **Sheet 1**.
 
 11.  In Excel, a **sparkline** is a tiny, simple chart that fits inside a single cell. It visually shows the trend of a data series across months, such as sales, engagement, or searches. Because sparklines represent data trends for a row or column, they’re great for quickly spotting patterns, spikes, or dips without taking up much space.  
-    <br/>For this spreadsheet, you want to see which months had spikes or dips in Social Media Engagement, Online Searches, and Total Chai Sales. Doing so enables you to quickly spot if the months with the most activity on social media are also the months when sales were highest.
 
-        Before Copilot, a marketing professional could manually create a sparkline to this spreadsheet by performing the following steps **(don’t perform these steps; this is just for comparison purposes)**:
-    <br/>
-        1.  **Select the cells for a metric:**
+1. For this spreadsheet, you want to see which months had spikes or dips in Social Media Engagement, Online Searches, and Total Chai Sales. Doing so enables you to quickly spot if the months with the most activity on social media are also the months when sales were highest.
+
+1. Before Copilot, a marketing professional could manually create a sparkline to this spreadsheet by performing the following steps **(don’t perform these steps; this is just for comparison purposes)**:
+    
+    1.  **Select the cells for a metric:**
               1.  For example, select the range of cells for “Total Chai Sales” (January to December).
 
-        2.  **Insert a Sparkline:**
-              1.  Go to the “Insert” tab in Excel.
-              2.  Choose “Line Sparkline.”
-              3.  In the dialog, set the data range (for example, B2:B13 for Total Chai Sales).
-              4.  Set the location range to a cell next to your data (for example, C2).
+    2.  **Insert a Sparkline:**
+              
+        1.  Go to the “Insert” tab in Excel.
+        2.  Choose “Line Sparkline.”
+        3.  In the dialog, set the data range (for example, B2:B13 for Total Chai Sales).
+        4.  Set the location range to a cell next to your data (for example, C2).
 
-        However, you want to see how Copilot can automate this process. To do so, ask Copilot to add sparklines to show the monthly trend between Total Chai Sales, Social Media Engagement, and Online Searches. 
+1. However, you want to see how Copilot can automate this process. To do so, ask Copilot to add sparklines to show the monthly trend between Total Chai Sales, Social Media Engagement, and Online Searches. 
 
-        Use the following prompt:
+    Use the following prompt:
 
-        ```
-        Add sparklines to this spreadsheet to visually represent the monthly trends for Total Chai Sales, Social Media Engagement, and Online Searches for Chai. Place the sparklines in new columns next to each respective metric so that I can easily compare the trends across these three key indicators.
-        ```
+    ```
+    Add sparklines to this spreadsheet to visually represent the monthly trends for Total Chai Sales, Social Media Engagement, and Online Searches for Chai. Place the sparklines in new columns next to each respective metric so that I can easily compare the trends across these three key indicators.
+    ```
 
 12.  Review the results. In our testing, Copilot added the sparklines to the Correlation Analysis sheet that it created earlier. Visually compare each sparkline to see if its spikes occur in the same months. When you're done, return to **Sheet 1**.
 

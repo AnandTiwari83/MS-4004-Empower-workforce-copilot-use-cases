@@ -1,14 +1,20 @@
 # Exercise 2, Task 2: Use Viva Engage to announce the new HR self-service agent
 
-## Overview
+## Scenario
 
 Adatum is rolling out its new **HR Self-Service Assistant** agent, designed to empower employees to get instant answers to common HR questions—such as benefits, leave policies, and onboarding—directly within Microsoft 365. In your role as an HR Analyst, you completed building and testing the agent (Task 1). Now, you must ensure employees are aware of this new resource and feel confident using it.
 
 Adatum's Chief People Officer asked you to create a company-wide announcement in Viva Engage. The goal is to introduce the HR self-service agent, highlight its benefits, and encourage employees to try it out and share feedback. You want to post this announcement in testing community to ensure it meets all requirements. Once you’re satisfied with the results, you then plan to post it in Adatum’s company community so that it reaches all staff.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **More apps**.
+In this hands-on lab, you will use Viva Engage and Copilot to create an engaging company-wide announcement for the new HR Self-Service Assistant. You will draft, refine, and personalize the communication to explain the agent’s benefits, encourage adoption, and gather employee feedback. The final announcement will help drive awareness and increase employee engagement with the new HR support resource.
+
+## Task 2: Use Viva Engage to announce the new HR self-service agent
+
+In this task, you will use Copilot in Viva Engage to create and enhance an announcement introducing the HR Self-Service Assistant to employees. You will refine the messaging, incorporate employee testimonials, and prepare the post for publication in a community environment.
+
+1. In Microsoft Edge browser, navigate to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **More apps**.
 
      ![](../media/lab6-06-21.png)
 
@@ -69,7 +75,7 @@ Perform the following steps to complete this task:
      Reword the first 1–2 sentences to address employees directly, emphasize why this agent matters to them, and set a conversational tone. Shift the message from a corporate announcement to a personal invitation.
      ```
 
-10. Review the revised opening. You like what Copilot did, but you decide to make one other change to give the announcement a more personal touch. You feel that it would make the agent more relatable by adding several quotes from employees who were involved in the pilot project.
+10. Review the revised opening. To make the announcement more personal and relatable, add employee testimonials from the pilot project.
 
 1. In the **Copilot** prompt box, enter the provided prompt.
 
@@ -108,18 +114,22 @@ Perform the following steps to complete this task:
      Rewrite the announcement using the original revised opening and employee testimonials that you previously generated.
      ```
 
-13. Once you’re satisfied with the announcement, select the **+ Add to post** option that appears at the end of the results in the Copilot pane.
+13. After reviewing the announcement, select the **+ Add to post** option that appears at the end of the results in the Copilot pane.
 
 14. Review the announcement that appears in the post window. Delete any of the extraneous Copilot chat text that appears at the start and end of the post, such as “You asked for a…”.
 
     ![](../media/lab6-06-40.png)
 
-15. Before you can post this announcement, you must first select a community or storyline. However, you created the **Adatum HR agent testing** community at the start of this task, and since that community was displayed in Viva Engage when you created this post, the announcement should appear at the bottom of the post window, above the menu bar **(1)**. If a **Select a community or storyline** option appears at the bottom of the Viva Engage post instead, then select it and select the **Adatum HR agent testing** community from the menu that appears.
+15. Before posting the announcement, select a community or storyline. However, created the **Adatum HR agent testing** community at the start of this task, and since that community was displayed in Viva Engage when created this post, the announcement should appear at the bottom of the post window, above the menu bar **(1)**. If a **Select a community or storyline** option appears at the bottom of the Viva Engage post instead, then select it and select the **Adatum HR agent testing** community from the menu that appears.
 
 16. Select the **Post (2)** button.
 
      ![](../media/lab6-06-41.png)
 
-17. In the **Adatum HR agent testing** community, you should see the post that Copilot just created for you.
+17. In the **Adatum HR agent testing** community, should see the post that Copilot just created.
 
     - In an actual rollout, you would post your announcement in the testing community, review feedback, and make any necessary revisions before sharing the finalized announcement in a company-wide Viva Engage community. For this training exercise, we stop short of that final step, as Viva Engage operates across your entire tenant.
+
+## Summary
+
+In this exercise, you used Copilot in Viva Engage to create a compelling announcement for the rollout of the HR Self-Service Assistant. You improved the message with a conversational tone, added employee testimonials, and emphasized the value of the new HR support experience. The completed announcement helps promote awareness, encourage adoption, and invite employee feedback to support continuous improvement of the assistant.

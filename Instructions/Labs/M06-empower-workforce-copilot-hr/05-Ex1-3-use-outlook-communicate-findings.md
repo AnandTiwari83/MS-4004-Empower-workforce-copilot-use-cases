@@ -1,12 +1,18 @@
 # Exercise 1, Task 3: Use Copilot in Outlook to communicate findings to HR leadership
 
-## Overview
+## Scenario
 
 The Manager Performance report that you created in the prior task analyzes data from the **Contoso_HR_ManagerMetrics.xlsx** file and identifies each manager’s top 3 strengths and recommended areas for improvement. Your goal is to communicate these findings to the HR senior leadership team in a clear and professional manner, helping them understand strengths, opportunities, and actionable steps for development.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **Outlook**.
+In this hands-on lab, you will use Copilot in Outlook to communicate manager performance insights to HR leadership. You will create a professional email based on a Manager Summary report, highlight key strengths and development opportunities, and provide actionable recommendations. The final communication will help leadership make informed decisions to improve manager effectiveness and organizational performance.
+
+## Task 3: Use Copilot in Outlook to communicate findings to HR leadership
+
+In this task, you will use Copilot in Outlook to draft and refine an email that summarizes manager performance findings from a generated report. You will adjust the content and tone to create a concise, actionable message for HR leadership.
+
+1. In Microsoft Edge browser, navigate to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **Outlook**.
 
 1. In **Outlook**, create a new email.
 
@@ -26,7 +32,7 @@ Perform the following steps to complete this task:
 
    ![](../media/lab6-06-16.png)
 
-5. Review the results. Because the email is being sent to the HR Director, you want to tighten it up a bit. In the **Copilot** prompt box, enter the provided prompt.
+5. Review the results. Since the email is intended for the HR Director, enter the provided prompt to make the message more concise and actionable. In the **Copilot** prompt box, enter the provided prompt.
 
    ```
    Make the message concise and actionable.
@@ -34,19 +40,19 @@ Perform the following steps to complete this task:
 
    ![](../media/lab6-06-17.png)
 
-6. Review the updated email. Notice how Copilot generated a new version of the email, which is draft 2 (2 of 2). You can select the back arrow to go to draft 1 of 2, which was the original version of the email that Copilot generated. Since you prefer to keep working with the latest draft, select the forward arrow to return to draft 2 of 2.
+6. Review the updated email. Notice how Copilot generated a new version of the email, which is draft 2 (2 of 2). You can select the back arrow to go to draft 1 of 2, which was the original version of the email that Copilot generated. To continue working with the latest draft, select the forward arrow to return to draft 2 of 2.
 
    ![](../media/lab6-06-18.png)
 
    >**Note:** For each request that you make, Copilot generates a new draft of the email. You can optionally navigate to a prior draft and keep it, or you can ask Copilot to modify that draft (rather than the last draft). By default, you typically make each new request while viewing the last draft.
 
-7. While you’re satisfied with the contents of the email, you’re unsure about its tone. In the Copilot window, one of the edit options is **Change Tone (1)**. Select one of the tones that you want from the menu that’s displayed **(2)**.
+7. Review the email draft. To adjust the tone, in the Copilot window, select **Change Tone (1)** and then choose the tones that you want from the menu that’s displayed **(2)**.
 
    ![](../media/lab6-06-19.png)
 
-8. Review the results. Continue to make any updates that you feel are necessary. Try different tones and lengths. Note how the draft number changes with each change request.
+8. Review the results. Continue refining the draft as needed by trying different tones and lengths. Note how the draft number changes with each change request.
 
-9. You can select the backward and forward arrows to go back through the prior drafts to view the changes. Review each of the drafts. Once you settle on a specific draft that you would like to use, ensure that draft is displayed in the draft window and then select the **Insert below** option in the Copilot menu.
+9. You can select the backward and forward arrows to go back through the prior drafts to view the changes. Review each of the drafts. Review the available drafts. Once the preferred draft is displayed, select the **Insert below** option in the Copilot menu.
 
    ![](../media/lab6-06-20.png)
 
@@ -56,7 +62,7 @@ Perform the following steps to complete this task:
     
     - Or if you want Copilot to add more text to the email, you must position the cursor where you want Copilot to insert the text.
         
-1. In looking at the email, you decide to make one more change. You want to add one final paragraph at the end that mentions how you’re looking forward to moving ahead with these actionable insights to help improve the management culture at Contoso. You want this paragraph at the very end, so select the **last sentence or paragraph** in the email. That way, you can have Copilot insert this new paragraph below the selected sentence or paragraph. When you select into the email, note how Copilot displays the **Open Copilot** (pencil) icon. Select the **Open Copilot** icon.
+1. To add a closing paragraph about moving forward with the actionable insights, select the **last sentence or paragraph** in the email. and then select the **Open Copilot** (pencil) icon.
         
 11. In the Copilot window that appears, enter the provided prompt.
 
@@ -64,17 +70,20 @@ Perform the following steps to complete this task:
     Add a paragraph that mentions how you're looking forward to moving ahead with these actionable insights to help improve the management culture at Contoso.
     ```
 
-12. Review the results. Note how Copilot displayed this content in the email and highlighted just this text. Only this highlighted content applies to the Copilot window that appears below it. You can continue to make more changes to this highlighted content just as you did with the initial email draft, or you can accept it as is. You like the paragraph, so select **Replace**.
+12. Review the results. Note how Copilot displayed this content in the email and highlighted just this text. Only this highlighted content applies to the Copilot window that appears below it. You can continue to make more changes to this highlighted content just as you did with the initial email draft, or you can accept it as is. Review the generated paragraph, and then select **Replace**.
 
-14. After reading through the email one last time, you aren’t sure about the message’s tone. Drag your cursor over the entire email so that it’s all highlighted, and then select the **Open Copilot** icon.
+14. Review the email, select all content, and then select the **Open Copilot** icon.
 
 15. In the Copilot menu, scroll down and select **Change Tone** and then select the tone that you want from the menu that’s displayed.
 
-16. Review the results of the modified email that appears in the draft window. You still aren’t satisfied with the way the email sounds, so try a different tone.
+16. Review the results of the modified email that appears in the draft window. If desired, select a different tone and review the updated draft.
 
-17. Review the new draft that Copilot generated. You still aren’t satisfied with the way the email sounds, so this time ask Copilot to change the tone by making it sound friendly and confident but still professional.
+17. Review the new draft that Copilot generated. Ask Copilot to make the tone friendly and confident while remaining professional.
 
-18. Review the results. You’re satisfied with this version, so select the **insert or replace** option in the Copilot window. Doing so takes you out of Copilot draft mode and into the actual email itself.
+18. Review the results. Once the preferred version is displayed, select the **insert or replace** option in the Copilot window. Doing so takes you out of Copilot draft mode and into the actual email itself.
 
 19. Notice how Copilot replaced the original version of the email with this modified version. The email is now finished. If you want, go ahead and send it to your personal email address and then verify you received the email and it contains the attached document.
 
+## Summary
+
+In this exercise, you used Copilot in Outlook to transform manager performance analysis into a clear and professional communication for HR leadership. You refined the email by summarizing key metrics, highlighting strengths and development opportunities, and incorporating actionable recommendations. The completed message enables leaders to quickly understand workforce trends and take informed actions to strengthen management effectiveness across Contoso.

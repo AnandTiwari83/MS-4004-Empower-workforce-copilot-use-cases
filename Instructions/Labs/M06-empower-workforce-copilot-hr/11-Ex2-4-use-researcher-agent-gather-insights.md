@@ -1,14 +1,20 @@
 # Exercise 2, Task 4: Use the Researcher agent to gather employee relocation insights
 
-## Overview
+## Scenario
 
 As part of your relocation to the Adatum office in Fargo, North Dakota, you want to explore what it’s like to live in Fargo and nearby communities in both North Dakota and Minnesota. You plan to use this information to help decide where your family settles. Key considerations include quality of life, housing options, commute times, recreational opportunities, community amenities, and access to strong educational programs for your children.
 
 You then ask Researcher to analyze the cities in which these communities are located and provide a ranking of the top areas to consider based on a combination of these factors.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. In your Microsoft Edge browser, you should still be in the **HR Self-Service Assistant** agent. In the list of agents in the navigation pane, select the **Researcher** agent.
+In this hands-on lab, you will use the Researcher agent to analyze relocation options around Fargo, North Dakota, and evaluate communities based on quality of life, affordability, family amenities, education, and commute considerations. You will also research and compare local high schools, then combine both analyses to identify the most suitable communities for families. The resulting reports will support informed relocation and lifestyle decisions.
+
+## Task 4: Use the Researcher agent to gather employee relocation insights
+
+In this task, you will use the Researcher agent to compare communities and schools within the Fargo metropolitan area using current web-based information. You will evaluate key factors, rank options, and generate structured reports to support relocation planning.
+
+1. In Microsoft Edge browser, you should still be in the **HR Self-Service Assistant** agent. In the list of agents in the navigation pane, select the **Researcher** agent.
 
     ![](../media/lab6-06-44.png)
 
@@ -36,6 +42,8 @@ Perform the following steps to complete this task:
 4. Review Researcher’s analysis of your request. If everything looks OK, tell it to **Go ahead**.
 
    ![](../media/lab6-06-46.png)
+
+    > **NOTEL** Researcher may take 10–15 minutes to complete its analysis, depending on the complexity of the request. Wait for the analysis to finish.
 
    **Expected Output:**
 

@@ -1,15 +1,20 @@
 # Exercise 2, Task 1: Create an HR self-service agent for company employees
 
-## Overview
+## Scenario
 
 You’re an HR Analyst at Adatum Corporation, a mid-sized technology firm with approximately 3,000 employees across multiple U.S. locations. Adatum’s HR department receives hundreds of inquiries each month about benefits, promotions, relocation, and other company policies.
 
 To reduce costs and improve service, you were asked to create an HR self-service agent in Microsoft 365 Copilot. The purpose of this agent is to answer employee questions using official HR policy documents as its knowledge base.
 
-> [!NOTE]
-> In this exercise, you use the Copilot Studio lite experience to create the HR self-service agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
+> **NOTE:** In this exercise, you use the Copilot Studio lite experience to create the HR self-service agent. This simplified experience is designed for everyday business users and requires no programming skills. By contrast, software developers who build more complex, advanced agents typically use the full Copilot Studio experience.
 
-Perform the following steps to complete this task:
+## Lab Overview
+
+In this hands-on lab, you will use Copilot Studio to create an HR Self-Service Assistant that helps employees find answers to common HR questions using approved company policy documents. You will configure agent instructions, add knowledge sources, and create suggested prompts to improve the employee self-service experience. The completed agent will provide consistent, policy-based responses while reducing the workload on HR teams.
+
+## Task 1: Create an HR self-service agent for company employees
+
+In this task, you will use Copilot Studio Agent Builder to create and configure an HR Self-Service Assistant for Adatum employees. You will define agent behavior, attach HR policy documents, add suggested prompts, and validate the agent's responses against approved knowledge sources.
 
 1. Open a new tab in your **Microsoft Edge** browser and then open **Microsoft 365**.
 
@@ -37,15 +42,15 @@ Perform the following steps to complete this task:
 
     ![](../media/lab6-06-34.png)
 
-6. Let’s see what Copilot did based on the prompt that you entered.
+6. Let’s see what Copilot did based on the prompt that entered.
 
-7. On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that you entered. Scroll down to the **Instructions** field. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed level of instructions that Copilot generated.
+7. On the **Configure** tab, the **Name** and **Description** fields should be filled in based on the prompt that was entered. Scroll down to the **Instructions** field. Copilot generated these instructions based on the description that you provided in your initial prompt. Review the detailed level of instructions that Copilot generated.
 
-   >[!IMPORTANT] The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
+   >**!IMPORTANT** The beauty of the Agent Builder process is that Copilot automatically translates your basic, natural language description into a complex set of instructions. This process saves you from creating this detailed instruction set on your own.
 
-8. If you wish to change the instructions, you can either manually edit them directly in the **Instructions** field, or you can ask Copilot to update the instructions for you. 
+8. The instructions can be updated either manually in the **Instructions** field or by using Copilot. 
 
-1. After reviewing the **Instructions**, you decide that you want to have Copilot add a couple of other items to the instruction set. To do so, in the **Describe** tab enter the following prompt:
+1. After reviewing the **Instructions**, enter the provided prompt to add additional guidance.
 
      ```
      Update the Instructions to include the following items:
@@ -56,17 +61,17 @@ Perform the following steps to complete this task:
      - Avoid jargon; define terms briefly if needed.
     ```
 
-9. Review Copilot’s response after updating the instructions. To verify the changes that Copilot made, in the **Configure** tab and then scroll down to the **Instructions** field. Verify that Copilot added the new instructions that you requested.
+9. Review Copilot’s response after updating the instructions. To verify the changes that Copilot made, in the **Configure** tab scroll down to the **Instructions** field. Verify that Copilot added the new instructions that requested.
 
-10. While the current instructions look good, you wonder if they could be improved upon. You aren't sure how to improve them, so you decide to ask Copilot what it thinks. 
+10. While the current instructions look good, To identify additional improvements, enter the provided prompt.
     
-    - To do so, in the **Describe** tab. This time, enter a prompt.
+    - To do so, in the **Describe** tab, enter a prompt.
 
     ```
     What other instructions would you recommend to improve this agent?
     ```
 
-11. Review Copilot’s recommendations. You’re pleased with its suggestions.
+11. Review Copilot’s recommendations.
 
 1. In the prompt box, ask Copilot to add all the recommended instructions to the agent.
 
@@ -74,9 +79,9 @@ Perform the following steps to complete this task:
      Add all of the recommended instructions to the agent's instructions.
      ```
 
-12. Once Copilot responds that it updated the instructions, in the **Configure** tab and scroll through the **Instructions**. Note the new items that Copilot added.
+12. Once Copilot responds that it updated the instructions, in the **Configure** tab scroll through the **Instructions**. Note the new items that Copilot added.
 
-13. Now that you’re satisfied with the instructions, you’re ready to configure the agent’s knowledge sources and starter prompts. 
+13. After reviewing the instructions, configure the agent's knowledge sources and suggested prompts.
     
     - In the **Configure** tab, scroll down to the **Knowledge** section and verify the **Search all websites** toggle switch is disabled. Copilot should have disabled this toggle switch when it created the agent based on the description you provided in your original prompt, which told it to only use the files that you provide. If the toggle switch is enabled, then disable it now.
 
@@ -94,11 +99,11 @@ Perform the following steps to complete this task:
 
      ![](../media/lab6-06-35.png) 
 
-15. For **Suggested prompts**, you can have Copilot generate prompts for you, or you can manually create your own prompts. Let’s try both methods. 
+15. Suggested prompts can be generated by Copilot or added manually. Begin by generating suggested prompts.
     
     - To have Copilot generate suggested prompts, in the **Describe** tab ask Copilot to generate three suggested prompts for the agent. Note how each prompt has a title and a message.
 
-16. You now want to enter several of your own prompts. In the **Configure** tab and scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent. 
+16. In the **Configure** tab and scroll down to the **Suggested prompts** section. You should see the three prompts that Copilot added to the agent. 
     
     - For each prompt that you want to manually add, select the **Add a suggested prompt** option that appears below the prompts. 
     
@@ -122,9 +127,9 @@ Perform the following steps to complete this task:
         - **Title:** Parental Leave
             - **Message:** What is Adatum’s parental leave policy?  
                 
-17. Test several of the suggested prompts (you submit custom prompts in the next task). Verify the agent is correctly pulling in data from the knowledge source documents. You perform more extensive usage of this agent in a later task.
+17. Test several suggested prompts and verify that responses are based on the attached knowledge source documents.
 
-18. Once you’re satisfied with the results for the suggested prompts, select the **Create** button to create the agent.
+18. OAfter reviewing the suggested prompts and responses, select the **Create** button to create the agent.
 
      ![](../media/lab6-06-36.png)
 
@@ -132,7 +137,9 @@ Perform the following steps to complete this task:
 
     > **Note:** At this stage, the agent is private and accessible only to you. In a real-world scenario where the agent needs to be used by multiple team members, you would share it with those individuals. For this training exercise, sharing isn’t required since you’re working within your own tenant.
 
+## Summary
 
+In this exercise, you used Copilot Studio to build an HR Self-Service Assistant that provides employees with answers to common HR policy questions. You enhanced the agent with detailed instructions, privacy-aware guidance, source citations, and curated HR knowledge documents. The completed agent delivers reliable, policy-based support while helping improve employee access to information and reducing routine HR inquiries.
 
 
 

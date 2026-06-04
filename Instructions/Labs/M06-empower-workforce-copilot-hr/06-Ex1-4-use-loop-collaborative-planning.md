@@ -1,17 +1,22 @@
 # Exercise 1, Task 4: Use Copilot in Loop to facilitate collaborative manager development planning
 
-## Overview
+## Scenario
 
 Contoso just completed its annual review of manager performance and team health. Following the review, Contoso's Chief People Officer, Holly Dickson, asked you to lead a collaborative planning session to help managers turn data-driven insights into concrete development actions. Holly wants to ensure that every manager receives clear, actionable feedback and has a plan to address areas for growth.
 
-> [!NOTE]
-> While the manager data used in this task is fictitious, your goal is to simulate how HR would guide managers through interpreting their results, setting goals, and tracking progress in a real organization.
+>**Note:** While the manager data used in this task is fictitious, your goal is to simulate how HR would guide managers through interpreting their results, setting goals, and tracking progress in a real organization.
 
 You plan to use Microsoft Loop to organize and facilitate this process. You want to create a collaborative Loop workspace that serves as the central hub for manager development planning. Copilot in Loop can help summarize findings, generate action steps, and facilitate discussion, just as you would if working with real managers.
 
-Perform the following steps to complete this task:
+## Lab Overview
 
-1. In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **More apps**.
+In this hands-on lab, you will use Microsoft Loop and Copilot to create collaborative manager development plans based on performance insights generated from HR data. You will summarize manager strengths and development opportunities, generate actionable improvement plans, and consolidate recommendations into a shared workspace. The resulting workspace will support ongoing coaching, accountability, and manager growth initiatives across the organization.
+
+## Task 4: Use Copilot in Loop to facilitate collaborative manager development planning
+
+In this task, you will use Copilot in Loop to create development plans for individual managers and document actionable recommendations. You will then consolidate these plans into a summary page that outlines implementation strategies, support requirements, and progress-tracking approaches.
+
+1. In Microsoft Edge browser, navigate to the **Microsoft 365** home page, select **App launcher** in the navigation pane, and then select **More apps**.
 
      ![](../media/lab6-06-21.png)
 
@@ -25,7 +30,7 @@ Perform the following steps to complete this task:
 
 3. While the Manager Performance PDF file contains insights on 15 Contoso managers that you analyzed in earlier tasks, this training doesn’t have enough time to summarize the findings for all 15 of them. To give you an appreciation for how this exercise would work in a real-world scenario without being overly time-consuming, this task only focuses on two of the managers, Jacob Hancock and Kerry Allen. 
     
-1. You want to create a Loop page for each manager. To begin, change the current title of the first page from **Untitled** to **Jacob Hancock (1)** and then select **Create new page (2)**
+1. Create a Loop page for each manager. To begin, change the current title of the first page from **Untitled** to **Jacob Hancock (1)** and then select **Create new page (2)**
 
     ![](../media/lab6-06-24.png)
 
@@ -63,7 +68,7 @@ Perform the following steps to complete this task:
 
     ![](../media/lab6-06-30.png)
 
-10. We asked you to perform these prior two steps to see how Copilot in Loop handles chat sessions within Loop pages. We now want you to perform the same analysis on Kerry’s Loop pages that you did with Jacob. To do so, **repeat steps 7-10 for Kerry**.
+10. The previous steps demonstrated how Copilot in Loop manages chat sessions within individual Loop pages. Perform the same analysis on **Kerry’s** Loop pages that you did with Jacob. To do so, **repeat steps 7-10 for Kerry**.
 
 11. Next, add a **new page** under your **Contoso Manager Development Plans** workspace. Change the title of this page to **Action Plan Summary (1)**.
 
@@ -77,6 +82,7 @@ Perform the following steps to complete this task:
 
 13. Review the results and then copy and paste the content into the **Action Plan Summary** page. Delete any extraneous text that was copied and pasted along with the ideas.
 
-You just created a collaborative Loop workspace that could serve as the central hub for manager development planning. This task provided a realistic experience of facilitating manager development planning in a modern HR environment, using Loop and Copilot as collaborative tools.
+## Summary
 
+In this exercise, you used Copilot in Loop to transform manager performance insights into actionable development plans. You created dedicated collaboration pages for individual managers, generated recommendations to improve engagement and reduce attrition, and consolidated the results into a workspace-wide action plan summary. The completed Loop workspace serves as a central hub for manager development planning, collaboration, and progress tracking.
 

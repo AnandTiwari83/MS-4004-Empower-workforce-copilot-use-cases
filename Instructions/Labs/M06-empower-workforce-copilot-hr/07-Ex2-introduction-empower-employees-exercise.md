@@ -8,8 +8,7 @@ For example, an HR department can build a custom agent that enables employees to
 
 Meanwhile, prebuilt Copilot agents like Researcher empower employees and HR professionals to gather and synthesize external insights to support informed decision-making. Together, these tools demonstrate how intelligent agents in Microsoft 365 can extend HR’s impact and foster a more connected, data-driven workplace.
 
-> [!TIP]
-> The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
+> **TIP:** The Introduction unit in this module reminded you of the four key elements of an effective prompt: Goal, Context, Sources, and Expectations. Keep these elements in mind as you create prompts in this exercise.
 
 ## Scenario
 

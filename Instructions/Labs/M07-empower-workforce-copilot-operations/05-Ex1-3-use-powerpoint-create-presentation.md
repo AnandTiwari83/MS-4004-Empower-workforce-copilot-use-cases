@@ -38,15 +38,15 @@ By the end of this task, you will have a complete executive presentation ready f
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **PowerPoint (2)**.
 
-    ![](./M05-empower-workforce-copilot-finance/media/app-launcher-powerpoint.png)
+    ![](../M05-empower-workforce-copilot-finance/media/app-launcher-powerpoint.png)
 
 1. In **PowerPoint for the web**, click on  **create a blank presentation**.
 
-    ![](./M05-empower-workforce-copilot-finance/media/blank-presentation.png)
+    ![](../M05-empower-workforce-copilot-finance/media/blank-presentation.png)
 
 1. Select **Copilot** at the right bottom of the page and tap to open the Copilot pane.
 
-    ![](./M05-empower-workforce-copilot-finance/media/copilot-ribbon.png)
+    ![](../M05-empower-workforce-copilot-finance/media/copilot-ribbon.png)
 
 1. In the Copilot prompt field, select the **plus (+)** sign and choose **Add work content** from the drop-down menu. Browse your **OneDrive** and attach the **Heating System Comparison** report created in the previous task.
 

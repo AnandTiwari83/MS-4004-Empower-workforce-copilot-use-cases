@@ -79,3 +79,7 @@ In this task, you will use the Researcher agent to compare communities and schoo
     ```
 
 8. Review the results. As this task showed, Researcher can take even a short prompt and deliver a thorough, structured analysis using up‑to‑date web data. You can use this same capability to explore, compare, and evaluate almost any topic where research, comparison, or decision support is needed.
+
+## Summary
+
+In this exercise, you used the Researcher agent to gather and analyze information about communities and schools in and around Fargo, North Dakota. You compared locations based on quality of life, affordability, amenities, education, and commuting considerations, and then evaluated local schools using academic and extracurricular criteria. The resulting analysis provided a data-driven framework for making informed relocation and family planning decisions.

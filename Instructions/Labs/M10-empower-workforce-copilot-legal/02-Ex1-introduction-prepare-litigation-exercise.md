@@ -1,17 +1,5 @@
----
-lab:
-  title: 'Exercise 1: Prepare for regulatory response and litigation readiness using Microsoft 365 Copilot'
-  description: In this exercise, you take on the role of an Associate Counsel for Boulder Innovations. Boulder is a mid‑sized manufacturer specializing in consumer electronics, smart home accessories, and a growing line of technology‑enhanced play products. Their portfolio includes interactive educational toys, remote controlled toys, connected devices, and modular electronic components used across multiple product families.
-  duration: 12 minutes
-  level: 200
-  islab: true
-  primarytopics:
-    - Microsoft 365
-    - Microsoft 365 Copilot
----
-
 # Exercise 1: Prepare for regulatory response and litigation readiness using Microsoft 365 Copilot
----
+
 Modern legal departments are under increasing pressure to respond quickly and accurately to regulatory inquiries, contract risks, litigation exposure, and compliance demands. Microsoft 365 Copilot gives companies a powerful advantage by transforming how legal teams analyze information, prepare documentation, and coordinate responses. Instead of manually reviewing dense regulations or lengthy contracts, Copilot helps lawyers and compliance professionals rapidly interpret requirements, identify red flags, and generate internal guidance tailored to the organization’s needs.
 
 In high‑stakes situations, such as responding to regulatory audits or preparing for potential litigation, speed and clarity matter. Copilot accelerates workflows by summarizing complex documents, drafting guidance in plain language, generating issue briefs for leadership, and helping teams visualize obligations and timelines. Tools like Copilot Chat, Copilot in Word, and the Researcher agent empower legal teams to quickly turn scattered information into actionable insights.
@@ -48,4 +36,12 @@ Your job is to lead the first wave of regulatory readiness tasks using Microsoft
 - Prepare internal regulatory guidance
 
 - Help functional teams visualize and prepare for investigative inquiries
+
+### Lab Objectives
+
+- Exercise 1 - Task 1: Use Copilot Chat to create regulatory legal guidance.
+- Exercise 1 - Task 1: Use Copilot Chat to create regulatory legal guidance.
+- Exercise 1 - Task 3: Use Copilot Researcher to prepare a regulator facing issue brief.
+- Exercise 1 - Task 4: Use Copilot Studio to create a Regulatory Inquiry Assistant
+- Exercise 1 -  Task 5: Ask the Regulatory Inquiry Assistant questions related to an audit
 

@@ -22,25 +22,31 @@ Using the Copilot in Planner, you will create a project plan, review goals and t
 
 3. In Teams, select **View more apps** (**...**) from the navigation pane.
 
+   ![](../media/m01-13.png)
+
 4. Search for and open **Planner**.
 
-5. In Planner, select **My Plans**.
+5. In Planner, select **+ Create a plan**.
 
-6. Select **+ New plan**.
+   ![](../media/m01-14.png)
 
-7. In the **Create new** window, select **Premium**.
+6. In the **Create new** window, select **Premium plan (1)** and **Create premium plan (2)**
+
+   ![](../media/m01-15.png)
 
    > **Note:** Premium plans provide advanced features such as timelines, goals, and AI-powered project management capabilities.
 
-8. In the **Create a premium plan from scratch** window, enter the following name:
+8. In the **Create a plan** window, enter the following name:
 
    ```text
    New organic snack line
    ```
 
-9. Leave **Add to a group** blank.
+9. Leave **Share with your group** blank.
 
-10. Select **Create**.
+   ![](../media/m01-16.png)
+   
+10. Select **Create premium plan**.
 
    >**Note**: Creating a Premium plan may take up to **10–15 minutes** depending on service availability and tenant performance. If the plan doesn't appear immediately after selecting **Create**, wait for a few minutes and refresh the Planner page before proceeding to the next step.
 

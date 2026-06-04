@@ -1,6 +1,6 @@
 # Exercise 1, Task 1: Use Copilot in Excel to identify key manager metrics
 
-## Overview
+## Scenario
 
 Contoso's Chief People Officer, Holly Dickson, provided you with a spreadsheet containing manager-level performance and engagement metrics. Holly then asked you to identify which metrics best indicate manager strengths and which might reveal opportunities for development, such as high attrition or low training completion. You plan to use Microsoft 365 Copilot in Excel to explore and summarize key HR metrics that provide insights into manager effectiveness.
 
@@ -15,29 +15,17 @@ These key HR metrics are stored in the file titled **Contoso_HR_ManagerMetrics.x
 - Internal Promotions (Past Year)
 - Performance Rating (1–5)
 
-### Using Copilot in Excel
+## Lab Overview
 
-Excel provides two ways to use Copilot: standard Copilot prompts for asking questions and getting insights about the data in the workbook, and **Edit with Copilot** in the Copilot pane for making direct, in‑place changes to worksheets, tables, and formulas.
+In this hands-on lab, you will use Copilot in Excel to analyze manager performance and engagement metrics across Contoso. You will identify indicators of manager effectiveness, uncover trends related to engagement, attrition, training, and performance, and generate visualizations that highlight key workforce insights. The analysis will help HR leaders identify strengths, development opportunities, and overall team health.
 
-- You should use Copilot’s standard prompts in Excel for quick questions, simple summaries, or one‑off insights about the data you’re already viewing. When using the Copilot pane, if you enter a prompt without selecting **Edit with Copilot**, Copilot responds in a chat‑style mode that generates suggestions or content separately, rather than making direct, in‑place changes to the workbook. 
-    
-- You should use **Edit with Copilot** when you want Copilot to work directly with the worksheet—such as cleaning data, adding formulas, restructuring tables, or making iterative, in‑place changes. **Edit with Copilot** is designed for hands‑on data work, so it understands the structure of the sheet and can apply changes directly, rather than just describing what you could do.
+## Task 1: Use Copilot in Excel to identify key manager metrics
 
-In summary, use chat‑style Copilot for thinking and generating ideas; use **Edit with Copilot** for hands‑on editing inside the file. **Edit with Copilot** proposes specific changes (formulas, columns, cleanup steps) and, once you confirm, it applies those changes directly to the worksheet rather than expecting the user to explicitly apply them through copy and paste. 
-
-This task uses the **Edit with Copilot** functionality.
-
-In addition, Copilot for Excel provides a response control selector that lets you choose which AI model Copilot uses to work with your workbook. You can leave this set to **Auto** (the default option) and let Copilot select a model for you, or choose a specific model when you want to influence how Copilot approaches the task.
-
-If you’ve used Copilot Chat, you know that it also includes a response control selector. However, its options are different from the Excel selector. In Copilot Chat, the selector controls how deeply Copilot reasons about your request. In Excel, the selector controls which AI model performs the work. Although these selectors might appear to be similar, they control different aspects of Copilot and aren't the same setting.
-
-This task uses the default **Auto** selector mode.
-
-Perform the following steps to complete this task:
+In this task, you will use Copilot in Excel to explore manager-level HR data and identify patterns that influence team performance and engagement. You will generate summaries, rankings, and visualizations that support data-driven HR decision making.
 
 1. In **OneDrive**, locate the **Contoso_HR_ManagerMetrics.xlsx** file that was uploaded, and then open the file in **Excel for the web**.
 
-  ![](../media/lab6-06-3.png) 
+   ![](../media/lab6-06-3.png) 
 
 4. From the Excel workbook, select **Copilot** icon located at the bottom-right corner of the screen to open the Copilot pane. In the Copilot pane, leave the response mode selector set to **Auto**. Then verify the **Allow editing** icon appears in the prompt field next to the plus (+) sign. 
 
@@ -51,7 +39,7 @@ Perform the following steps to complete this task:
 
 6. Review the results in the new sheet.
 
-7. When working in Excel, you must always be on the workbook that you’re requesting Copilot to use. In this case, select **Sheet1 (1)** since you want Copilot to continue working with the spreadsheet data. Next, you want Copilot to identify trends in the data, in the Copilot prompt box, enter the following prompt **(2)**:
+7. When working in Excel, Copilot uses the currently selected workbook and worksheet context. In this case, select **Sheet1 (1)** to continue working with the spreadsheet data. To identify trends in the data, enter the provided prompt in the Copilot prompt box **(2)**:
 
    ```
    Identify managers with engagement scores below 70% and attrition rates above 15%, and present the results in a new sheet.
@@ -63,11 +51,11 @@ Perform the following steps to complete this task:
 
    ![](../media/lab6-06-5.png) 
 
-1. You now want Copilot to create a visualization for this new sheet, so remain in the sheet and place your cursor after the last line of information. This cell is where you want Copilot to insert the visualization. In the Copilot prompt box, enter the following prompt:
+1. To create a visualization for the new sheet, remain in the worksheet and place the cursor in the cell immediately after the last line of information. Enter the provided prompt in the Copilot prompt box.
 
-  ```
-  Provide a visualization of the managers with engagement scores below 70% and attrition rates above 15%.
-  ```
+    ```
+    Provide a visualization of the managers with engagement scores below 70% and  attrition rates above 15%.
+    ```
 
 1. Review the visualization generated by Copilot.
 
@@ -101,4 +89,6 @@ Perform the following steps to complete this task:
 
 13. Keep the tab open in your Microsoft Edge browser containing the **Contoso_HR_ManagerMetrics.xlsx** file for the next task.
 
-At the end of this task, you should have a summarized view of manager performance and engagement across Contoso, including key indicators of team health. This dataset serves as the foundation for deeper analysis in Task 2, where you use Copilot to generate insights and produce individual manager reports.
+## Summary
+
+In this exercise, you used Copilot in Excel to analyze manager performance metrics and evaluate key indicators of team health. You identified trends related to engagement, attrition, training completion, and performance ratings, while generating visualizations and rankings to highlight areas of success and improvement. The resulting insights provide HR leaders with a stronger understanding of manager effectiveness and workforce performance.

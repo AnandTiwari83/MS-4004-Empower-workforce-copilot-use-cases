@@ -35,7 +35,7 @@ By the end of this task, you will have a structured Loop workspace containing ke
 
 1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Loop (2)**.
 
-    ![](../media/task-1/app-launcher-loop.png)
+    ![](./media/app-launcher-loop.png)
 
 1. In **Loop for the web**, create a new workspace and name it:
 
@@ -43,7 +43,7 @@ By the end of this task, you will have a structured Loop workspace containing ke
     Distribution Center Expansion – Project Plan
     ```
 
-    ![](../media/task-1/create-workspace.png)
+    ![](./media/create-workspace.png)
 
 ### Page 1: Milestones and Timeline
 
@@ -53,7 +53,7 @@ By the end of this task, you will have a structured Loop workspace containing ke
     1-Milestones and Timeline
     ```
 
-    ![](../media/task-1/milestones-page.png)
+    ![](./media/milestones-page.png)
 
 1. Open the **Copilot** pane and enter the following prompt:
 
@@ -63,13 +63,13 @@ By the end of this task, you will have a structured Loop workspace containing ke
 
     > **`Note:`** This prompt demonstrates an effective structure that includes role, context, objective, and desired output format. Use it as a model when creating prompts for the remaining pages in this task.
 
-    ![](../media/task-1/milestones-prompt.png)
+    ![](./media/milestones-prompt.png)
 
 1. Review the generated project plan table and verify that it includes the following columns: **Task Name**, **Bucket/Phase**, **Start Date**, **Due Date**, **Dependencies**, **Owner (role)**, and **Checklist Items**.
 
     > **`Note:`** Copilot may not insert the table directly into the Loop page. If that happens, select the **Copy** icon below the generated table, paste the content into the **1-Milestones and Timeline** page, and delete any extraneous conversation text that was copied along with the table.
 
-    ![](../media/task-1/milestones-table.png)
+    ![](./media/milestones-table.png)
 
 1. Scroll horizontally to review all columns. Leave the generated content as-is and proceed to the next page.
 
@@ -81,15 +81,15 @@ By the end of this task, you will have a structured Loop workspace containing ke
     2-RAID Log (Risk/Assumption/Issue/Dependency)
     ```
 
-    ![](../media/task-1/raid-page.png)
+    ![](./media/raid-page.png)
 
 1. Open the **Copilot** pane and enter a prompt asking Copilot to create a RAID log table for a 24-week distribution center expansion project. Your prompt should ask for risks, assumptions, issues, and dependencies related to construction, safety, inventory movement, vendor coordination, and facility readiness. Ask for the following columns: **Type**, **Title**, **Description**, **Impact**, **Probability**, **Owner**, **Target Date**, **Mitigation/Action**, and **Status**. Also ask for a short paragraph identifying critical path risks below the table.
 
-    ![](../media/task-1/raid-prompt.png)
+    ![](./media/raid-prompt.png)
 
 1. Review the generated RAID log. Verify that all requested columns are present and that a critical path risk summary appears below the table. Select the **Copy** icon, paste the content into the **2-RAID Log** page, and delete any extraneous text.
 
-    ![](../media/task-1/raid-table.png)
+    ![](./media/raid-table.png)
 
 ### Page 3: RACI Matrix
 
@@ -99,15 +99,15 @@ By the end of this task, you will have a structured Loop workspace containing ke
     3-RACI Matrix (Roles and Responsibilities)
     ```
 
-    ![](../media/task-1/raci-page.png)
+    ![](./media/raci-page.png)
 
 1. Open the **Copilot** pane and enter a prompt asking Copilot to build a RACI matrix for the following milestones: **site preparation**, **foundation**, **framing**, **electrical**, **sprinkler testing**, **dock upgrades**, **inspection**, **equipment installation**, and **go-live readiness**. Ask for a table where rows represent milestones and columns represent the following roles: **Operations Lead**, **Construction Lead**, **Safety Manager**, **Logistics Coordinator**, **Finance**, **IT**, and **Vendor PM**. Ask Copilot to populate each cell using **R**, **A**, **C**, and **I** values.
 
-    ![](../media/task-1/raci-prompt.png)
+    ![](./media/raci-prompt.png)
 
 1. Review the generated matrix. Verify that rows represent milestones, columns represent project roles, and each cell contains a valid RACI designation. Select the **Copy** icon, paste the content into the **3-RACI Matrix** page, and delete any extraneous text.
 
-    ![](../media/task-1/raci-table.png)
+    ![](./media/raci-table.png)
 
 ### Page 4: Decision Log and Change Log
 
@@ -117,23 +117,23 @@ By the end of this task, you will have a structured Loop workspace containing ke
     4-Decision Log and Change Log
     ```
 
-    ![](../media/task-1/decision-page.png)
+    ![](./media/decision-page.png)
 
 1. Open the **Copilot** pane and enter a prompt asking Copilot to create a **Decision Log table** for a distribution center expansion project with the following columns: **Decision**, **Requested By**, **Due Date**, **Options Considered**, **Final Decision**, **Rationale**, **Owner**, and **Follow-up Tasks**.
 
-    ![](../media/task-1/decision-prompt.png)
+    ![](./media/decision-prompt.png)
 
 1. Review the generated Decision Log table and verify that all requested columns are included. Select the **Copy** icon, paste the table into the **4-Decision Log and Change Log** page, and delete any extraneous text.
 
-    ![](../media/task-1/decision-table.png)
+    ![](./media/decision-table.png)
 
 1. Place your cursor **below the Decision Log table**. Open the **Copilot** pane again and enter a prompt asking Copilot to create a **Change Log table** for tracking schedule, scope, cost, and quality changes for a distribution center expansion project. Ask for the following columns: **Change Request**, **Category**, **Description**, **Impact Summary**, **Approval Needed**, **Status**, **Owner**, and **Effective Date**.
 
-    ![](../media/task-1/change-prompt.png)
+    ![](./media/change-prompt.png)
 
 1. Review the generated Change Log table and verify that all requested columns are present. Select the **Copy** icon, paste the Change Log **below the Decision Log table**, and delete any extraneous text.
 
-    ![](../media/task-1/change-table.png)
+    ![](./media/change-table.png)
 
 ### Preserve the Workspace for Later Use
 
@@ -144,7 +144,7 @@ By the end of this task, you will have a structured Loop workspace containing ke
     - **3-RACI Matrix** — roles and responsibilities matrix across all milestones
     - **4-Decision Log and Change Log** — two tracking tables on a single page
 
-    ![](../media/task-1/workspace-complete.png)
+    ![](./media/workspace-complete.png)
 
     > **`Note:`** Keep the **Distribution Center Expansion – Project Plan** workspace open. In a later task, you will share this workspace with project stakeholders and will need to copy its link.
 
@@ -184,4 +184,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-1/next-button.png)
+![](./media/next-button.png)

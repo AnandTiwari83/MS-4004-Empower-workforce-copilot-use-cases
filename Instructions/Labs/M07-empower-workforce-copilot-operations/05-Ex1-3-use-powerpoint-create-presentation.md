@@ -50,13 +50,13 @@ By the end of this task, you will have a complete executive presentation ready f
 
 1. In the Copilot prompt field, select the **plus (+)** sign and choose **Add work content** from the drop-down menu. Browse your **OneDrive** and attach the **Heating System Comparison** report created in the previous task.
 
-    ![](../media/task-3/add-work-content.png)
+    ![](./media/add-work-content.png)
 
 1. Verify that the **Edit with Copilot** icon appears next to the **plus (+)** sign in the prompt field.
 
     > **`Note:`** If the icon is not visible, select the **plus (+)** sign and choose **Edit with Copilot** from the drop-down menu. The icon should now appear in the prompt field. When **Edit with Copilot** is enabled, Copilot can directly create and modify slides within the presentation.
 
-    ![](../media/task-3/edit-with-copilot.png)
+    ![](./media/edit-with-copilot.png)
 
 ### Generate the Executive Presentation
 
@@ -66,7 +66,7 @@ By the end of this task, you will have a complete executive presentation ready f
     Create an executive leadership presentation based on the attached Heating System Comparison report.
     ```
 
-    ![](../media/task-3/create-prompt.png)
+    ![](./media/create-prompt.png)
 
 1. If Copilot asks follow-up questions about the presentation, review and respond to each one. Questions may include:
 
@@ -79,13 +79,13 @@ By the end of this task, you will have a complete executive presentation ready f
 
     > **`Note:`** If no template is selected, Copilot may generate slides using a simple default format.
 
-    ![](../media/task-3/copilot-questions.png)
+    ![](./media/copilot-questions.png)
 
 1. Wait while Copilot analyzes the report and generates the presentation. This may take several minutes.
 
     > **`Note:`** During testing, Copilot behavior varied. It sometimes generated the full slide deck automatically. Other times, it produced a slide outline first and asked for confirmation before proceeding. If you receive an outline, review the proposed structure and instruct Copilot to **proceed with slide generation**.
 
-    ![](../media/task-3/generated-slides.png)
+    ![](./media/generated-slides.png)
 
 1. Review the generated presentation and verify that it covers the following areas:
 
@@ -98,13 +98,13 @@ By the end of this task, you will have a complete executive presentation ready f
 
     If Copilot provides additional enhancement suggestions in the pane, review and apply any that you find useful.
 
-    ![](../media/task-3/review-slides.png)
+    ![](./media/review-slides.png)
 
 ### Add an AI-Generated Image
 
 1. Locate a slide in the presentation that does not contain an image and select it in the slide thumbnail pane.
 
-    ![](../media/task-3/select-slide.png)
+    ![](./media/select-slide.png)
 
 1. In the Copilot prompt field, enter the following prompt and select **Submit**:
 
@@ -112,19 +112,19 @@ By the end of this task, you will have a complete executive presentation ready f
     Generate an image related to the content on this slide and add it to the presentation.
     ```
 
-    ![](../media/task-3/image-prompt.png)
+    ![](./media/image-prompt.png)
 
 1. Wait while Copilot generates and inserts the image. Verify that the image has been added to the selected slide.
 
     > **`Note:`** Image generation may take several minutes depending on service availability.
 
-    ![](../media/task-3/image-added.png)
+    ![](./media/image-added.png)
 
 ### Add a Lifespan Comparison Slide
 
 1. Review the presentation and confirm there is no slide covering the expected lifespan of boiler versus furnace systems. In the slide thumbnail pane on the left, select the position where you want the new slide inserted. Verify that a red insertion line appears between the slides at your chosen location.
 
-    ![](../media/task-3/insertion-line.png)
+    ![](./media/insertion-line.png)
 
 1. In the Copilot prompt field, enter the following prompt and select **Submit**:
 
@@ -132,17 +132,17 @@ By the end of this task, you will have a complete executive presentation ready f
     Research the expected lifespan of commercial boiler systems versus commercial furnace systems and add the information to a new slide.
     ```
 
-    ![](../media/task-3/lifespan-prompt.png)
+    ![](./media/lifespan-prompt.png)
 
 1. Wait while Copilot creates the slide. Verify that the new slide is added at the intended location. If the slide appears in an incorrect position, drag and drop it into the desired location in the slide thumbnail pane.
 
-    ![](../media/task-3/lifespan-slide.png)
+    ![](./media/lifespan-slide.png)
 
 ### Add a Q&A Slide
 
 1. Navigate to the end of the presentation and select the final slide in the deck to set the insertion point.
 
-    ![](../media/task-3/final-slide.png)
+    ![](./media/final-slide.png)
 
 1. In the Copilot prompt field, enter the following prompt and select **Submit**:
 
@@ -150,11 +150,11 @@ By the end of this task, you will have a complete executive presentation ready f
     Add a Question and Answer (Q&A) slide after the final slide in the presentation.
     ```
 
-    ![](../media/task-3/qa-prompt.png)
+    ![](./media/qa-prompt.png)
 
 1. Verify that Copilot creates the Q&A slide at the end of the deck. If the slide isn't placed at the end, drag it to the final position in the slide thumbnail pane.
 
-    ![](../media/task-3/qa-slide.png)
+    ![](./media/qa-slide.png)
 
 1. Review the completed presentation and confirm it includes the following:
 
@@ -198,4 +198,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-3/next-button.png)
+![](./media/next-button.png)

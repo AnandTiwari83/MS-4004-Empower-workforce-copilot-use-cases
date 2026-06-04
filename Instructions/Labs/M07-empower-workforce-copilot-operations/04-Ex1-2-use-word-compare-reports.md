@@ -57,7 +57,7 @@ By the end of this task, you will understand how to use both document-editing an
     - Average defect rates and reliability considerations for boiler systems versus furnace systems
     ```
 
-    ![](../media/task-2/generate-report.png)
+    ![](./media/generate-report.png)
 
 1. Wait while Copilot generates the report, then review the content inserted directly into the document. Verify that the report covers the following areas:
 
@@ -77,7 +77,7 @@ By the end of this task, you will understand how to use both document-editing an
     Revise this report to make it suitable for a C-suite executive audience.
     ```
 
-    ![](../media/task-2/revise-prompt.png)
+    ![](./media/revise-prompt.png)
 
 1. Review the updated report. Observe how Copilot revised the document directly — no manual copy-and-paste was required. Note the key differences between the original and the revised version, such as:
 
@@ -90,7 +90,7 @@ By the end of this task, you will understand how to use both document-editing an
 
 1. Select **New chat** icon in the prompt field. Verify that the icon disappears from the prompt field.
 
-    ![](../media/task-2/disable-edit.png)
+    ![](./media/disable-edit.png)
 
     > **`Note:`** When **Edit with Copilot** is disabled, Copilot functions in chat mode and no longer updates the document automatically. Instead, it responds in the Copilot pane as a research assistant.
 
@@ -100,7 +100,7 @@ By the end of this task, you will understand how to use both document-editing an
     Summarize the key differences between boiler systems and furnace systems for commercial buildings. Focus on efficiency, maintenance, lifespan, and typical use cases.
     ```
 
-    ![](../media/task-2/chat-prompt.png)
+    ![](./media/chat-prompt.png)
 
 1. Review the response generated in the Copilot pane. Observe that the document itself remains **unchanged** — Copilot responded in the pane only, without modifying the document.
 
@@ -110,13 +110,13 @@ By the end of this task, you will understand how to use both document-editing an
 
 1. Select the **More actions (...)** menu and choose **Export to Word**.
 
-    ![](../media/task-2/export-to-word.png)
+    ![](./media/export-to-word.png)
 
 1. Observe that Word for the web opens the exported content in a **new browser tab**. Review the exported document.
 
     > **`Note:`** The exported document may include additional Copilot conversation text before or after the generated summary. Delete any unnecessary text that is not part of the report content.
 
-    ![](../media/task-2/exported-document.png)
+    ![](./media/exported-document.png)
 
 1. Review the cleaned-up document and compare the exported summary with the original report generated using **Edit with Copilot**. Note how the two Copilot experiences — document editing and chat mode — each serve a different purpose in your workflow.
 
@@ -153,4 +153,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-2/next-button.png)
+![](./media/next-button.png)

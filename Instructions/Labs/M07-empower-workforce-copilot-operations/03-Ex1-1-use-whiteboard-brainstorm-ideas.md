@@ -40,6 +40,8 @@ In this task, you will create a Whiteboard session, use Copilot to generate and 
 
     ![](./media/app-launcher-whiteboard.png)
 
+   ![](./media/app-launcher-whiteboarda.png)
+
     > **`Note:`** If Whiteboard doesn't appear in the initial list, use the search box or scroll through the complete list of Microsoft 365 applications.
 
 1. In **Whiteboard for the web**, select **Create new Whiteboard**.

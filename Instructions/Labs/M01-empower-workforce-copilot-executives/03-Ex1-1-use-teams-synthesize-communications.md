@@ -18,9 +18,13 @@ In this task, you will use Microsoft 365 Copilot Chat in Teams to summarize comm
 
 3. In the left navigation pane, select **Apps**.
 
-4. From the **Apps** menu, select **Teams**.
+4. From the **Apps (1)** menu, select **Teams (2)**.
+
+   ![](../media/m02-2.png)
 
 5. In **Teams for the web**, select **Copilot** from the left navigation pane.
+
+   ![](../media/m01-1.png)
 
    > **Note:** Selecting Copilot opens the Microsoft 365 Copilot Chat experience within Teams.
 
@@ -61,7 +65,8 @@ In this task, you will use Copilot Chat to identify pending tasks and responsibi
    ```text
    What action items are still open for this project?
    ```
-
+   ![](../media/m01-3.png)
+   
 3. If no suitable suggestion is available, enter a prompt similar to the following:
 
    ```text
@@ -93,8 +98,7 @@ In this task, you will use Copilot Chat to create a project status announcement 
 
    ```text
    Draft an announcement to stakeholders summarizing the recent activity and progress related to Project Nexus
-   ```
-
+   ```  
 2. Submit the prompt.
 
 3. Review the generated announcement.

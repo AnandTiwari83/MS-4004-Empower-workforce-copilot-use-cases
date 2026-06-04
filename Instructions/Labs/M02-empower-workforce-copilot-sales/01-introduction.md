@@ -91,7 +91,7 @@ Follow the steps below to upload all files needed to **OneDrive**:
 
 1. If prompted to **Stay signed in**, select **Don't show this again** and then **Yes**.
 
-1. In the Microsoft 365 portal, click on the **App launcher  (1)**button and select **OneDrive (2)**.
+1. In the Microsoft 365 portal, click on the **App launcher  (1)** button and select **OneDrive (2)**.
 
     ![](../media/module-4/prereq-2.png)
 

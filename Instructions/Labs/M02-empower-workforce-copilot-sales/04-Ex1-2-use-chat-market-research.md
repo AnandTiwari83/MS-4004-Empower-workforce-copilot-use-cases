@@ -102,7 +102,7 @@ While you’re waiting for the Researcher agent to finish its analysis in Task 1
 
 10. Close the **EcoSense360 market research.docx** file in Word so that you can reference it when you return to Task 1.
 
-    > **!IMPORTANT:** `At this point, you should return to Task 1. By now, the Researcher agent should have hopefully completed its analysis and you can finish Task 1.`
+    > **`!IMPORTANT:`** `At this point, return to Task 1. By now, the Researcher agent should have hopefully completed its analysis and you can finish Task 1.`
 
 ## Summary
 

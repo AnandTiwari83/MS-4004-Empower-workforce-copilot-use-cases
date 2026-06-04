@@ -4,53 +4,49 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/01-introduction.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/02-Ex1-introduction-transform-research-exercise.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/03-Ex1-1-create-market-research-agent.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/04-Ex1-2-use-market-research-agent.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/05-Ex1-3-use-analyst-agent-recommendations.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/06-Ex1-4-use-loop-create-campaign-plan.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/07-Ex2-introduction-develop-campaign-exercise.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/08-Ex2-1-use-word-consolidate-reports.md",
         "Order": 8
       }, 
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/09-Ex2-2-use-excel-analyze-spreadsheet.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/10-Ex2-3-use-idea-coach-agent.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing/11-Ex2-4-use-writing-coach-agent.md",
         "Order": 11
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M04-empower-workforce-copilot-marketing",
-        "Order": 12
-      } 
+      }
     ]
     }
 ]

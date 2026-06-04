@@ -4,53 +4,49 @@
     "Language": "English",
     "Files": [
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/01-introduction.md",
         "Order": 1
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/02-Ex1-introduction-optimize-reporting-exercise.md",
         "Order": 2
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/03-Ex1-1-use-excel-analyze-product-line.md",
         "Order": 3
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/04-Ex1-2-use-teams-summarize-meeting-notes.md",
         "Order": 4
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/05-Ex1-3-use-chat-analyze-potential-acquisition.md",
         "Order": 5
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/06-Ex1-4-use-excel-model-scenarios.md",
         "Order": 6
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/07-Ex2-introduction-contract-analysis-exercise.md",
         "Order": 7
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/08-Ex2-1-use-chat-evaluate-vendor-contracts.md",
         "Order": 8
       }, 
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/09-Ex2-2-use-powerpoint-create-presentation.md",
         "Order": 9
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/10-Ex2-3-use-loop-turn-insights-into-actions.md",
         "Order": 10
       },
       {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
+        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/M05-empower-workforce-copilot-finance/11-Ex2-4-use-outlook-create-email.md",
         "Order": 11
-      },
-      {
-        "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/MS-4004-Empower-workforce-copilot-use-cases/refs/heads/Prod/Instructions/Labs/",
-        "Order": 12
-      } 
+      }
     ]
     }
 ]

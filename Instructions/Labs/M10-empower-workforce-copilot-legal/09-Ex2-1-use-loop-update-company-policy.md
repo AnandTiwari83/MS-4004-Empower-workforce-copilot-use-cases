@@ -1,23 +1,27 @@
----
-lab:
-  title: 'Exercise 2, Task 1: Use Copilot in Loop to collaborate on updating a company policy'
-  description: '<br/Combine the content from the following Loop pages in this workspace into a single, structured draft suitable for an executive briefing: Draft Policy Sections and Test Tracker & Assignment. Create a clear outline that includes the following sections: Overview of governance gaps, Updated policy sections (plain language), Cross-department action items for the Legal, IT, and HR departments, 90-day corrective action roadmap, and Metrics and accountability. Write in a professional, concise tone for Legal/Compliance. Don’t invent new findings. Use only what’s on these pages.'
-  duration: 52 minutes
-  level: 300
-  islab: true
----
+# Exercise 2 - Task 1: Use Copilot in Loop to collaborate on updating a company policy
 
-# Exercise 2, Task 1: Use Copilot in Loop to collaborate on updating a company policy
----
+### Estimated duration: 52 minutes
+
 As General Counsel for Lamna Healthcare Company, you’re part of a cross-functional team tasked with updating the company’s Device Handling and Remote Clinical Access Policy to reflect new guidelines for remote work. With an increasing number of employees working from home, there’s a growing need to address how devices, data access, and security protocols should be managed in a remote environment. Legal, IT, and HR personnel are meeting together to ensure the policy is comprehensive, clear, and compliant with current regulations while aligning with the company’s operational needs. Your role is to collaborate with these teams, using Copilot in Microsoft Loop to co-draft and refine the updated policy. Your goal is to ensure that all necessary elements are covered and the policy is aligned across departments.
 
 To facilitate collaboration, you plan to use Copilot in Loop to help draft and revise key sections of the policy. Copilot can help generate content for device use, access control, and security measures. You also plan work with IT and HR to add actionable items, such as ensuring that personal devices are used securely, and tag specific tasks for each department to ensure alignment. Once the Device Handling and Remote Clinical Access Policy is collaboratively reviewed and finalized, you can convert it into a Word or PDF document for distribution and publication across the company. This exercise helps ensure that all relevant stakeholders contribute to the policy, making it clear and enforceable while also improving communication and efficiency within the team.
 
-Perform the following steps to use Copilot in Loop to co-draft and revise policy documents:
 
-1.  In your Microsoft Edge browser, sign in to the **Microsoft 365** home page **(https://www.microsoft365.com)**, select **Apps** in the navigation pane, and then select **Loop** from the **Apps** menu.
+1. In the **Microsoft 365 Copilot Chat** window, select the **Apps (1)** icon in the navigation pane. In the **Apps** menu that appears, select **More apps (2)**. 
 
-2.  In **Loop for the web**, create a new workspace titled **Policy Update -** **Remote Work Guidelines**.
+   ![](../media/Module3/E1T2S1.png)
+
+1. Under the top section of apps in the **Apps launcher** window, select **All apps→ (1)**. In the **All apps** window, scroll down and select **Loop (2)**.
+
+   ![](../media/Module3/E1T2S2.png)
+
+   ![](../media/Module10/E2T1S2i.png)
+
+2.  In **Loop for the web**, Click on **+ Create new (1) > New Workspace (2)** to create a new workspace, name it as **Policy Update - Remote Work Guidelines (3)** then click on **Create (4)**.
+
+    ![](../media/Module10/E2T1S3.png)
+
+    ![](../media/Module10/E2T1S3i.png)
 
 3.  You plan to create the following pages under this Loop workspace (in this order):
 
@@ -27,11 +31,15 @@ Perform the following steps to use Copilot in Loop to co-draft and revise policy
 
     - Task Tracker & Assignments
 
-    To begin, change the current title of the first page from **Untitled** to **Draft Policy Sections**. Note how the page name is automatically updated in the middle navigation pane.
+1. Once the workspace is created you will notice an **Untitled**page, change the current title of the first page from **Untitled** to **Draft Policy Sections**. Note how the page name is automatically updated in the middle navigation pane.
+
+    ![](../media/Module10/E2T1S5.png)
 
 4.  Repeat the prior step to create the two remaining pages for this workspace.
 
-5.  The **Policy Update -** **Remote Work Guidelines** workspace should now include these three pages. However, the pages appear in the reverse order from which they were created, so that the last page appears first. You want to rearrange their order, so select the **Draft Policy Sections** page in the navigation pane and drag and drop it to the top of the list. Then repeat this process for the **Departmental Input & Review** page to move it up to the second page. The pages should appear in this order:
+    ![](../media/Module10/E2T1S6.png)
+
+5.  The **Policy Update - Remote Work Guidelines** workspace should now include these three pages. However, the pages appear in the reverse order from which they were created, so that the last page appears first. You want to rearrange their order, so select the **Draft Policy Sections** page in the navigation pane and drag and drop it to the top of the list. Then repeat this process for the **Departmental Input & Review** page to move it up to the second page. The pages should appear in this order:
 
     - Draft Policy Sections
 

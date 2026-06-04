@@ -68,7 +68,7 @@ To complete this task, you plan to use Microsoft 365 Copilot Chat to gather and 
 
       > **NOTE:** Due to time constraints and the time it takes Copilot to generate images, limit your request to one image.
 
-1.	Place your cursor in the document where you want Copilot to insert the image. Once Copilot generates the image in the Copilot pane, hover over the image and select the plus **(+)(1)** sign that appears. Doing so inserts the image into the document at the location of your cursor. 
+1. Place your cursor in the document where you want Copilot to insert the image. Once Copilot generates the image in the Copilot pane, hover over the image and select the plus **(+)(1)** sign that appears. Doing so inserts the image into the document at the location of your cursor. 
 
       ![](../media/Module3/E1T1S14.png)
 

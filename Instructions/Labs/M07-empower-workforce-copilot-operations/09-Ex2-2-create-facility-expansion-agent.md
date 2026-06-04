@@ -1,433 +1,251 @@
-# Exercise 2: Manage Facility Expansion Operations with Microsoft 365 Copilot
-
-## Task 2: Use Copilot Studio to Build a Facility Expansion FAQ Agent
-
-### Scenario
+# Exercise 2, Task 2: Use Copilot Studio to Build a Facility Expansion FAQ Agent
 
 Contoso recently began construction on the Fargo Distribution Center Expansion project. Project milestones, risks, responsibilities, and operational activities are already being tracked in Microsoft Loop.
 
-As the Operations Leader, you are receiving a growing number of questions from frontline employees, supervisors, logistics teams, safety coordinators, vendors, and leadership stakeholders. Many of these questions are repetitive and require consistent, approved responses.
+As the Operations Leader, you are receiving a growing number of questions from frontline employees, supervisors, logistics teams, safety coordinators, vendors, and leadership stakeholders. Many of these questions are repetitive and require consistent, approved responses. Examples include:
 
-Examples include:
+- Is Dock 3 open yet?
+- What PPE is required in the new construction area?
+- Which temporary evacuation route applies to the Packing area?
+- When are inventory move waves scheduled?
+- What vendor access restrictions are currently in place?
 
-* Is Dock 3 open yet?
-* What PPE is required in the new construction area?
-* Which temporary evacuation route applies to the Packing area?
-* When are inventory move waves scheduled?
-* What vendor access restrictions are currently in place?
+To provide accurate, consistent, and citation-based answers while reducing the burden on the Operations team, you will create a **Microsoft Copilot Studio agent** that serves as a centralized FAQ assistant for the Fargo expansion project. The agent will:
 
-To provide accurate, consistent, and citation-based answers while reducing the burden on the Operations team, you will create a Microsoft Copilot Studio agent that serves as a centralized FAQ assistant for the Fargo expansion project.
-
-The agent will:
-
-* Answer natural language questions using approved documentation.
-* Provide citations and references to source content.
-* Avoid speculation and unsupported answers.
-* Redirect users when information is unavailable.
-* Support frontline workers, supervisors, coordinators, and leadership teams.
-
----
+- Answer natural language questions using approved documentation.
+- Provide citations and references to source content.
+- Avoid speculation and unsupported answers.
+- Redirect users when information is unavailable.
+- Support frontline workers, supervisors, coordinators, and leadership teams.
 
 ## Lab Overview
 
-In this task, you will use the Copilot Studio Agent Builder experience to create a Facility Expansion FAQ Assistant.
+In this hands-on lab, you will use the **Copilot Studio Agent Builder** to create a Facility Expansion FAQ Assistant. You will:
 
-You will:
+- Create and configure a new Copilot Studio agent.
+- Define agent purpose, audience, and detailed operating instructions.
+- Upload approved knowledge source documents.
+- Generate and customize suggested prompts.
+- Test the agent's responses against uploaded documentation.
+- Publish the completed agent for use.
 
-* Create a new Copilot Studio agent.
-* Define agent purpose and audience.
-* Configure detailed operational instructions.
-* Upload approved knowledge source documents.
-* Generate and customize suggested prompts.
-* Test the agent's responses.
-* Publish the completed agent for personal use.
+> **`Note:`** This task uses the Copilot Studio Agent Builder experience designed for business users. No coding or development experience is required.
 
-> **Note**
->
-> This exercise uses the Copilot Studio Agent Builder experience designed for business users. No coding or development experience is required.
+## Prerequisites — Download Required Knowledge Files
 
----
+Before starting this task, download the following files and save them to your **OneDrive** account. Verify all seven files are available in OneDrive before continuing.
 
-## Prerequisites
-
-Before starting this task, ensure:
-
-* You have access to Microsoft 365 Copilot and Copilot Studio.
-* You can access Microsoft 365 through a supported browser such as Microsoft Edge.
-* You have access to OneDrive.
-* You are signed in with an account licensed for Microsoft 365 Copilot.
-* Internet connectivity is available.
-
-### Download Required Knowledge Files
-
-Download the following files and save them to your OneDrive account:
-
-| File                                     |
-| ---------------------------------------- |
-| Contoso_Expansion_Project_Overview.docx  |
-| Contoso_Expansion_FAQ_Reference.docx     |
-| Contoso_Expansion_Knowledge_Pack.docx    |
-| Contoso_Inventory_Move_Schedule.xlsx     |
-| Contoso_Safety_Protocol_Updates.docx     |
+| File |
+|------|
+| Contoso_Expansion_Project_Overview.docx |
+| Contoso_Expansion_FAQ_Reference.docx |
+| Contoso_Expansion_Knowledge_Pack.docx |
+| Contoso_Inventory_Move_Schedule.xlsx |
+| Contoso_Safety_Protocol_Updates.docx |
 | Contoso_Temporary_Evacuation_Routes.docx |
-| Contoso_Vendor_Access_and_Hours.docx     |
-
-Verify all seven files are available in OneDrive before continuing.
-
----
+| Contoso_Vendor_Access_and_Hours.docx |
 
 ## Steps
 
-### Step 1: Open Copilot Studio Agent Builder
+### Open Copilot Studio Agent Builder
 
-1. Open Microsoft Edge.
+1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
-2. Navigate to:
+    ```
+    https://www.microsoft365.com
+    ```
 
-   ```text
-   https://www.microsoft365.com
-   ```
+1. Enter the following credentials to sign in to Microsoft 365:
 
-3. Sign in using your Microsoft 365 credentials.
+    - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
-4. In the left navigation pane, select **New agent**.
+    - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-5. Verify that the **Agent Builder** experience opens and displays the **New Agent** page.
+1. In the left navigation pane, select **New agent** to open the **Agent Builder** experience.
 
----
+    ![](../media/task-2/new-agent.png)
 
-### Step 2: Create the Facility Expansion FAQ Assistant
+### Create the Facility Expansion FAQ Assistant
 
-1. In the agent creation prompt, enter the following request:
+1. In the agent creation prompt field, enter the following request and select **Send**:
 
-   ```text
-   Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso’s Fargo distribution center expansion, such as construction timelines, safety protocols, temporary evacuation routes, inventory move waves, vendor access requirements, and operational impacts—using only approved documents that are assigned to this agent as knowledge sources.
-   ```
+    ```
+    Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso's Fargo distribution center expansion, such as construction timelines, safety protocols, temporary evacuation routes, inventory move waves, vendor access requirements, and operational impacts—using only approved documents that are assigned to this agent as knowledge sources.
+    ```
 
-2. Select the **Send** icon.
+    ![](../media/task-2/create-agent-prompt.png)
 
-3. Wait for Copilot Studio to generate the agent.
+1. Wait up to two minutes for Copilot Studio to generate the agent. In the **Agent Preview** pane, review the generated **Agent Name**, **Description**, and **Purpose**.
 
-4. Observe the following information in the Agent Preview pane:
+    ![](../media/task-2/agent-preview.png)
 
-   * Agent Name
-   * Description
-   * Purpose
+### Review and Enhance the Agent Configuration
 
-5. Allow up to two minutes for generation to complete.
+1. Select the **Configure** tab and review the **Name**, **Description**, and **Instructions** fields. Scroll through the Instructions section to observe how Copilot translated the business description into detailed operating instructions.
 
-### Expected Outcome
+    ![](../media/task-2/configure-tab.png)
 
-A new agent named **Facility Expansion FAQ Assistant** is created and displayed in the Agent Builder.
+    > **`Note:`** Copilot automatically converts natural language requirements into structured instructions, reducing the need to manually author detailed system prompts.
 
----
+1. Return to the **Describe** tab and enter the following prompt to add guardrails and scope restrictions to the agent instructions:
 
-### Step 3: Review the Generated Agent Configuration
+    ```
+    Update the Instructions to include the following items:
 
-1. Select the **Configure** tab.
+    - Don't speculate. If information is missing or ambiguous, flag the gap and provide a polite fallback response, such as: "I don't have a verified answer for that yet. Please check the Expansion Overview or contact Operations Intake."
 
-2. Review the following fields:
+    - Politely decline sensitive topics (for example, budget breakdowns or contracts) with: "I'm unable to share that information. Please contact the Project Controller."
 
-   * Name
-   * Description
-   * Instructions
+    - Keep answers specific to the Fargo expansion and the current 24-week timeline.
 
-3. Scroll through the generated Instructions section.
+    - Provide links/citations and highlight critical dates or zones in the response.
+    ```
 
-4. Observe how Copilot translated the business description into detailed operating instructions.
+    ![](../media/task-2/enhance-instructions.png)
 
-> **Important**
->
-> Copilot automatically converts natural language requirements into structured instructions, reducing the need to manually author detailed system prompts.
+1. Select the **Configure** tab and verify the new guardrails, fallback messaging, citation requirements, and scope restrictions were added to the Instructions section.
 
-### Expected Outcome
+    ![](../media/task-2/updated-instructions.png)
 
-The agent contains automatically generated instructions aligned to the Fargo expansion project.
+1. Return to the **Describe** tab and ask Copilot the following to further improve the agent:
 
----
+    ```
+    What additional instructions would you recommend to improve this agent?
+    ```
 
-### Step 4: Enhance Agent Instructions
+    Review the recommendations. If the suggestions appear useful, submit the following prompt:
 
-1. Return to the **Describe** tab.
+    ```
+    Add all recommended improvements to the instructions.
+    ```
 
-2. Enter the following prompt:
+    Return to the **Configure** tab and verify the instruction set has been updated with the additional best practices.
 
-   ```text
-   Update the Instructions to include the following items:
+    ![](../media/task-2/additional-instructions.png)
 
-   - Don’t speculate. If information is missing or ambiguous, flag the gap and provide a polite fallback response, such as: “I don’t have a verified answer for that yet. Please check the Expansion Overview or contact Operations Intake.”
+### Configure Knowledge Sources
 
-   - Politely decline sensitive topics (for example, budget breakdowns or contracts) with: “I’m unable to share that information. Please contact the Project Controller.”
+1. In the **Configure** tab, scroll to the **Knowledge** section. Verify that **Search all websites** is **disabled**. If the toggle is enabled, disable it.
 
-   - Keep answers specific to the Fargo expansion and the current 24-week timeline.
+    > **`Note:`** The agent should only answer using approved project documentation — not public web content.
 
-   - Provide links/citations and highlight critical dates or zones in the response.
-   ```
+    ![](../media/task-2/knowledge-section.png)
 
-3. Submit the prompt.
+1. Select **Upload from device**, browse to your **OneDrive** location, and select all seven knowledge files downloaded in the prerequisites. Upload the files and wait for indexing to complete.
 
-4. Review Copilot's response.
+    ![](../media/task-2/upload-files.png)
 
-5. Select the **Configure** tab.
+### Generate and Add Suggested Prompts
 
-6. Verify that the new instructions were added successfully.
+1. Return to the **Describe** tab and enter the following prompt to generate starter prompts for the agent:
 
-### Expected Outcome
+    ```
+    Generate three suggested prompts for this agent.
+    ```
 
-The agent now includes guardrails, fallback messaging, citation requirements, and scope restrictions.
+    Review the generated prompts and note the **Title** and **Message** fields for each one.
 
----
+    ![](../media/task-2/generated-prompts.png)
 
-### Step 5: Improve the Agent Further
+1. Select the **Configure** tab, scroll to the **Suggested prompts** section, and verify the Copilot-generated prompts are present. Select **Add a suggested prompt** and add two or three additional prompts from the following options:
 
-1. Return to the **Describe** tab.
+    **Construction Timeline Check**
+    - Title: `Construction Timeline Check`
+    - Message: `What construction phase are we currently in for the Fargo distribution center expansion, and which areas of the building are affected this week?`
 
-2. Ask Copilot:
+    **PPE & Safety Requirements**
+    - Title: `PPE & Safety Requirements`
+    - Message: `What PPE is required in the construction-adjacent zones, and do these requirements change during the 24-week expansion?`
 
-   ```text
-   What additional instructions would you recommend to improve this agent?
-   ```
+    **Temporary Evacuation Route Guidance**
+    - Title: `Temporary Evacuation Route Guidance`
+    - Message: `What is the temporary evacuation route for the Packing area during the expansion, and where is the nearest assembly point?`
 
-3. Review the recommendations.
+    **Inventory Move Wave Details**
+    - Title: `Inventory Move Wave Details`
+    - Message: `Which SKUs are included in the next inventory move wave, and what are the start and end dates for that wave?`
 
-4. If the suggestions appear useful, ask Copilot:
+    **Vendor Access & Parking Instructions**
+    - Title: `Vendor Access & Parking Instructions`
+    - Message: `Where should vendors park during the expansion, and what are the temporary access hours and check-in rules?`
 
-   ```text
-   Add all recommended improvements to the instructions.
-   ```
+    **Operational Impacts Summary**
+    - Title: `Operational Impacts Summary`
+    - Message: `What operational impacts should staff expect over the next few weeks due to the ongoing construction and dock upgrades?`
 
-5. Wait for confirmation.
+    ![](../media/task-2/add-prompts.png)
 
-6. Return to the **Configure** tab.
+### Test the Agent
 
-7. Review the updated Instructions section.
+1. Select several of the suggested prompts and review the responses generated by the agent. Verify that each response:
 
-### Expected Outcome
+    - References the uploaded project documents.
+    - Provides citations where available.
+    - Remains within the Fargo expansion scope.
+    - Does not speculate or use unapproved information.
 
-The instruction set is enhanced with additional best practices recommended by Copilot.
+    ![](../media/task-2/test-prompts.png)
 
----
+1. Optionally, test the following custom prompts to further validate the agent's behavior:
 
-### Step 6: Configure Knowledge Sources
+    ```
+    Is Dock 3 currently operational?
+    ```
 
-1. In the **Configure** tab, scroll to the **Knowledge** section.
+    ```
+    What safety updates affect warehouse staff this month?
+    ```
 
-2. Verify that **Search all websites** is disabled.
+    ```
+    When is the next inventory move wave scheduled?
+    ```
 
-> **Note**
->
-> The agent should only answer using approved project documentation.
+    ![](../media/task-2/custom-prompts.png)
 
-3. If the toggle is enabled, disable it.
+### Create and Publish the Agent
 
-4. Select **Upload from device**.
+1. When testing is complete and you are satisfied with the agent's responses, select **Create** and wait for agent creation to finish.
 
-5. Browse to your OneDrive location.
+    ![](../media/task-2/create-agent.png)
 
-6. Select all seven previously downloaded files.
+1. When the confirmation dialog appears, select **Go to agent** and review the completed Facility Expansion FAQ Assistant.
 
-7. Upload the files.
+    ![](../media/task-2/agent-complete.png)
 
-8. Wait for indexing to complete.
+1. You have now completed **Task 2**.
 
-### Expected Outcome
+## Summary
 
-All project documents are attached as approved knowledge sources.
+In this task, you used **Microsoft Copilot Studio** to build a business-focused FAQ agent for Contoso's Fargo distribution center expansion. You:
 
----
-
-### Step 7: Generate Suggested Prompts with Copilot
-
-1. Return to the **Describe** tab.
-
-2. Enter the following request:
-
-   ```text
-   Generate three suggested prompts for this agent.
-   ```
-
-3. Submit the prompt.
-
-4. Review the generated prompts.
-
-5. Note the following components for each prompt:
-
-   * Title
-   * Message
-
-### Expected Outcome
-
-Copilot generates starter prompts relevant to facility expansion activities.
-
----
-
-### Step 8: Add Additional Suggested Prompts
-
-1. Select the **Configure** tab.
-
-2. Scroll to the **Suggested prompts** section.
-
-3. Verify that the Copilot-generated prompts are present.
-
-4. Select **Add a suggested prompt**.
-
-5. Add two or three additional prompts from the following examples.
-
-#### Construction Timeline Check
-
-**Title**
-
-```text
-Construction Timeline Check
-```
-
-**Message**
-
-```text
-What construction phase are we currently in for the Fargo distribution center expansion, and which areas of the building are affected this week?
-```
-
-#### PPE & Safety Requirements
-
-**Title**
-
-```text
-PPE & Safety Requirements
-```
-
-**Message**
-
-```text
-What PPE is required in the construction-adjacent zones, and do these requirements change during the 24-week expansion?
-```
-
-#### Temporary Evacuation Route Guidance
-
-**Title**
-
-```text
-Temporary Evacuation Route Guidance
-```
-
-**Message**
-
-```text
-What is the temporary evacuation route for the Packing area during the expansion, and where is the nearest assembly point?
-```
-
-#### Inventory Move Wave Details
-
-**Title**
-
-```text
-Inventory Move Wave Details
-```
-
-**Message**
-
-```text
-Which SKUs are included in the next inventory move wave, and what are the start and end dates for that wave?
-```
-
-#### Vendor Access & Parking Instructions
-
-**Title**
-
-```text
-Vendor Access & Parking Instructions
-```
-
-**Message**
-
-```text
-Where should vendors park during the expansion, and what are the temporary access hours and check-in rules?
-```
-
-#### Operational Impacts Summary
-
-**Title**
-
-```text
-Operational Impacts Summary
-```
-
-**Message**
-
-```text
-What operational impacts should staff expect over the next few weeks due to the ongoing construction and dock upgrades?
-```
-
-### Expected Outcome
-
-The agent contains both Copilot-generated and manually created starter prompts.
-
----
-
-### Step 9: Test the Agent
-
-1. Select several suggested prompts.
-
-2. Review the responses generated by the agent.
-
-3. Verify that responses:
-
-   * Reference uploaded documents.
-   * Provide citations when available.
-   * Remain within the Fargo expansion scope.
-   * Do not speculate.
-   * Use approved information sources.
-
-4. Optionally test additional custom prompts such as:
-
-   ```text
-   Is Dock 3 currently operational?
-   ```
-
-   ```text
-   What safety updates affect warehouse staff this month?
-   ```
-
-   ```text
-   When is the next inventory move wave scheduled?
-   ```
-
-### Expected Outcome
-
-The agent answers questions using information from the uploaded knowledge sources and includes supporting references.
-
----
-
-### Step 10: Create the Agent
-
-1. When testing is complete, select **Create**.
-
-2. Wait for agent creation to finish.
-
-3. When the confirmation dialog appears, select:
-
-   ```text
-   Go to agent
-   ```
-
-4. Review the completed agent.
-
-### Expected Outcome
-
-The Facility Expansion FAQ Assistant is successfully created and available for use.
-
----
+- Created the **Facility Expansion FAQ Assistant** using the Agent Builder experience.
+- Configured detailed operating **instructions** including guardrails, fallback messaging, citation requirements, and scope restrictions.
+- Enhanced the instruction set further using Copilot's own improvement recommendations.
+- Restricted the agent to **approved knowledge sources** by uploading seven project documents and disabling web search.
+- Generated and customized **suggested prompts** to improve agent usability for frontline staff, supervisors, and vendors.
+- Tested the agent against uploaded documentation to validate citation-based, in-scope responses.
+- Published the completed agent for organizational use.
 
 ## Key Takeaways
 
 By completing this task, you learned how to:
 
-* Create a business-focused agent using Copilot Studio.
-* Define agent behavior through natural language instructions.
-* Enhance agent responses using guardrails and fallback guidance.
-* Restrict answers to approved knowledge sources.
-* Upload and manage enterprise knowledge documents.
-* Create suggested prompts that improve usability.
-* Test and validate agent responses before deployment.
-* Build a scalable FAQ solution that reduces operational support requests.
+- Create a **business-focused agent** using Copilot Studio Agent Builder — no coding required.
+- Define agent behavior through **natural language instructions** and iterative prompt refinement.
+- Restrict agent answers to **approved knowledge sources** to ensure accuracy and compliance.
+- Upload and manage **enterprise knowledge documents** as agent knowledge bases.
+- Build and customize **suggested prompts** that improve agent discoverability and usability.
+- Test and validate agent responses before deployment to ensure quality and scope adherence.
 
-This version is ready to paste directly into a GitHub `.md` file and matches the style and structure used in Microsoft Learn hands-on labs.
+## Support Contact
+
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the bottom right corner to proceed to the next task!
+
+![](../media/task-2/next-button.png)

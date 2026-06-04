@@ -1,46 +1,114 @@
----
-lab:
-  title: 'Exercise 1, Task 2: Use Copilot in Teams to summarize meeting notes'
-  description: You didn’t have time to take detailed notes, so you turn to Copilot for help. In this exercise, you plan to use Copilot in Teams to summarize the meeting notes. This summary can help you quickly extract key takeaways and action items, which can then be shared with your manager and used to align future financial reporting processes.
-  duration: 32 minutes
-  level: 200
-  islab: true
----
-
 # Exercise 1, Task 2: Use Copilot in Teams to summarize meeting notes
----
-In your role as a Financial Analyst for Fabrikam, you joined a meeting with Robin Kline, Fabrikam’s Finance Manager, and other members of the Finance department, including Amari Rivera, Quincy Brooks, Miguel Reyes, and Eric Solomon. The purpose of the meeting was to discuss the upcoming year-end financial analysis and reporting requirement. The discussion covered how new data fields and automation might affect financial reporting timelines and formats.
 
-You didn’t have time to take detailed notes, so you turn to Copilot for help. In this exercise, you plan to use Copilot in Teams to summarize the meeting notes. This summary can help you quickly extract key takeaways and action items, which can then be shared with your manager and used to align future financial reporting processes.
+In your role as a Financial Analyst for Fabrikam, you joined a meeting with Robin Kline, Fabrikam's Finance Manager, and other members of the Finance department, including Amari Rivera, Quincy Brooks, Miguel Reyes, and Eric Solomon. The purpose of the meeting was to discuss the upcoming year-end financial analysis and reporting requirement. The discussion covered how new data fields and automation might affect financial reporting timelines and formats.
 
-> [!NOTE]
-> Since this course uses a bring-your-own-subscription (BYOS) model, it doesn’t include a simulated lab or demo environment for Fabrikam. Therefore, there’s no Microsoft 365 tenant to access. To replicate the experience of a real Teams meeting in a simple, accessible format, meeting notes are provided in a text (.txt) file. In a corporate environment, these conversations would typically be stored in Teams, but for this exercise, the text file allows learners to upload and use the content with Copilot Chat without needing access to a live Teams channel. The format preserves sender names, timestamps, and message content so you can practice summarizing and extracting key information just as you would with actual Teams chat messages.
+You didn't have time to take detailed notes, so you turn to Copilot for help. In this task, you plan to use Copilot in Teams to summarize the meeting notes. This summary can help you quickly extract key takeaways and action items, which can then be shared with your manager and used to align future financial reporting processes.
 
-Perform the following steps to complete this task:
+> **`Note:`** Since this course uses a bring-your-own-subscription (BYOS) model, it doesn't include a simulated lab or demo environment for Fabrikam. Therefore, there's no Microsoft 365 tenant to access. To replicate the experience of a real Teams meeting in a simple, accessible format, meeting notes are provided in a text (.txt) file. In a corporate environment, these conversations would typically be stored in Teams, but for this exercise, the text file allows learners to upload and use the content with Copilot Chat without needing access to a live Teams channel. The format preserves sender names, timestamps, and message content so you can practice summarizing and extracting key information just as you would with actual Teams chat messages.
 
-1.  Select the following link to download the [**Fabrikam Finance meeting notes.txt**](https://go.microsoft.com/fwlink/?linkid=2347810) file. Store the file in your OneDrive account for use by Copilot in your tenant.
+## Steps
 
-2.  In your Microsoft Edge browser, go to the **Microsoft 365** home page, select **Apps** in the navigation pane, and then select **Teams** from the **Apps** menu.
+1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
-3.  In **Teams for the web**, select **Copilo**t in the navigation pane.
+    ```
+    https://www.microsoft365.com
+    ```
 
-4.  On the **Welcome to Copilot Chat** page, ask Copilot to summarize the key decisions, updates, and action items in the **Fabrikam Finance meeting notes.txt** file, which you should attach to the prompt.
+1. Enter the following credentials to sign in to Microsoft 365:
 
-5.  Review the summary to ensure it includes decisions, next steps, and responsibilities. Ask Copilot to generate a downloadable file for distribution to the meeting participants. Download the document that Copilot generated.
+    - **Email/Username**: **<inject key="AzureAdUserEmail"></inject>**
 
-6.  After reviewing the next steps in the report summary, ask Copilot to generate a detailed task list for each participant based on the action items in the notes. Have Copilot assign deadlines or priorities to tasks (for example, “high priority for compliance checks”).
+    - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-7.  Once Copilot generates this task list for each meeting participant, ask it to draft an email to the team and include these tasks in the email. In a real-world scenario, you would then copy and paste the draft into an email in Outlook. For this exercise, review the draft and then proceed to the next step.
+1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Teams (2)**.
 
-8.  Ask Copilot to generate a timeline of key milestones discussed in the meeting.
+    ![](./media/app-launcher-teams.png)
 
-9.  In follow-up to the timeline, ask Copilot to draft a calendar invite for the team to reconvene.
+1. In **Teams for the web**, select **Copilot** in the left navigation pane.
 
-10. Review the results. In our testing, Copilot produced two results. Sometimes it provided several dates to choose from for the team’s next meeting. Other times, Copilot displayed a draft of the invitation’s message and a request for the meeting date, but it didn’t provide any date options. If you experience the latter, then you would need to respond with a prompt that tells Copilot what date to use (you don't need to do that here).
-  <br/><br/>In a real-world scenario, you would select the Copilot option to send the meeting request. However, since this exercise deals with a fictitious company, you can just proceed to the next step.
+    ![](./media/teams-copilot-nav.png)
 
-11. Finally, after reviewing the meeting notes, ask Copilot to draft a short policy brief explaining the override approval workflow that was discussed during the meeting. You plan to use the brief as an authoritative guide when handling exceptions, overrides, or compliance-related tasks. Doing so should ensure that all team members follow the same process, reducing ambiguity and risk.
+1. On the **Welcome to Copilot Chat** page, enter a prompt asking Copilot to summarize the key decisions, updates, and action items in the meeting notes. Attach the **Fabrikam Finance meeting notes.txt** file to the prompt by selecting the **attachment** icon before submitting.
 
+    ![](./media/attach-file.png)
 
+    ![](./media/attach-filea.png)
 
+1. Review the summary to ensure it includes decisions, next steps, and responsibilities. Then ask Copilot to generate a downloadable file of the summary for distribution to the meeting participants. Download the document that Copilot generates.
 
+    ```
+    Create a meeting summary that includes key decisions, action items, next steps, and assigned responsibilities. Generate the summary as a downloadable document
+    ```
+
+    ![](./media/download-summary.png)
+
+1. After reviewing the next steps in the report summary, enter a prompt asking Copilot to generate a detailed **task list for each participant** based on the action items in the notes. Ask Copilot to assign deadlines or priorities to each task - for example, *"high priority for compliance checks"*.
+
+    ```
+    Based on the meeting notes, create a detailed task list for each participant. Assign priorities and suggested deadlines for every action item.
+    ```
+
+    ![](./media/task-list.png)
+
+1. Once Copilot generates the task list for each meeting participant, ask it to **draft an email to the team** that includes these tasks. In a real-world scenario, you would copy and paste the draft into Outlook to send it. For this exercise, review the draft and then proceed to the next step.
+
+    ```
+    Draft an email to the team summarizing the meeting outcomes, assigned tasks, priorities, and next steps.
+    ```
+
+    ![](./media/email-draft.png)
+
+1. Ask Copilot to generate a **timeline of key milestones** discussed in the meeting.
+
+    ```
+    Create a timeline of the key milestones and deliverables discussed during the meeting.
+    ```
+
+    ![](./media/milestones-timeline.png)
+
+1. As a follow-up to the timeline, ask Copilot to **draft a calendar invite** for the team to reconvene.
+
+    ```
+    Draft a calendar invitation for a follow-up team meeting based on the timeline and action items discussed.
+    ```
+
+    > **`Note:`** In testing, Copilot may produce one of two results - it may offer several date options for the team's next meeting, or it may display a draft invitation message and ask you to provide a date. If you experience the latter, you would normally respond with a preferred date, but you don't need to do that for this exercise. In a real-world scenario, you would use the Copilot option to send the meeting request. Since this exercise involves a fictitious company, proceed to the next step.
+
+    ![](./media/calendar-invite.png)
+
+1. Finally, after reviewing the meeting notes, ask Copilot to **draft a short policy brief** explaining the override approval workflow that was discussed during the meeting. You plan to use this brief as an authoritative guide when handling exceptions, overrides, or compliance-related tasks. This ensures that all team members follow the same process, reducing ambiguity and risk.
+
+    ```
+    Create a policy brief that explains the override approval workflow discussed during the meeting, including approval requirements, responsibilities, compliance considerations, and exception-handling procedures.
+    ```
+
+    ![](./media/policy-brief.png)
+
+1. Review the policy brief generated by Copilot. You have now completed **Task 2**.
+
+## Summary
+
+In this task, you used **Copilot in Microsoft Teams** to process and act on the Fabrikam Finance department meeting notes. You:
+
+- Summarized key decisions, updates, and action items from the meeting notes.
+- Generated a downloadable summary document for distribution to participants.
+- Created a prioritized task list for each meeting participant with deadlines.
+- Drafted a team email embedding the assigned tasks.
+- Generated a timeline of key milestones discussed during the meeting.
+- Drafted a calendar invite for the team to reconvene.
+- Produced a policy brief outlining the override approval workflow for compliance guidance.
+
+These outputs demonstrate how Copilot in Teams can transform unstructured meeting notes into actionable, shareable deliverables - saving time and improving team alignment.
+
+## Support Contact
+
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+
+Learner Support Contacts:
+
+- Email Support: [cloudlabs-support@spektrasystems.com](mailto:cloudlabs-support@spektrasystems.com)
+- Live Chat Support: https://cloudlabs.ai/labs-support
+
+Click **Next** from the bottom right corner to proceed to the next task!
+
+![](./media/next-button.png)

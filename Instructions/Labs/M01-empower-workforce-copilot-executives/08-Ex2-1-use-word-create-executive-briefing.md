@@ -22,33 +22,41 @@ Using Copilot in Word, you will create and enhance an executive briefing report 
 
 3. In **Word for the web**, create a new blank document.
 
+   ![](../media/m01-9.png)
+
 4. On the **Home** tab, select **Copilot**.
 
+   ![](../media/m01-6.png)
+   
 5. Verify that **Allow editing** is enabled.
 
+   ![](../media/m01-7.png)
+   
    > **Note:** If **Allow editing** is enabled, Copilot automatically insert the generated content directly into the document.
 
 6. In the Copilot prompt field, select **+** and then select **Add work content**.
 
+   ![](../media/m01-8.png)
+   
 7. Search for and attach the following file:
 
    ```text
    Northwind Traders Q3 sales data.xlsx
    ```
-
+   > **Note:** If the file is not displayed in the suggested files list, select Attach cloud files, browse to OneDrive, and attach Northwind Traders Q3 sales data.xlsx.
+   
 8. Enter the following prompt:
 
    ```text
    As the COO at Northwind Traders, I need you to create a strategic briefing report for our Senior Leadership Team that's based on the company's Q3 sales performance data, which can be found in the attached Northwind Traders Q3 sales data.xlsx file. This file contains detailed sales data for our Q3 performance this year, along with year-over-year growth percentages for Q3 revenue and profit by category and region. Please create a professional executive briefing report in Word that summarizes Q3 sales trends and highlights emerging opportunities and potential risks. The format of the report should include an executive summary, a bulleted list of key insights (including top-performing categories and regions, areas with declining performance, and emerging opportunities), and a clear year-over-year analysis (including charts) of revenue and profit growth by category and region.
    ```
-
+   ![](../media/m01-10.png)
+   
 9. Submit the prompt.
 
 10. Review the generated report.
 
-11. Select the **Copy response** icon.
-
-12. Place the cursor at the beginning of the document and paste the generated content.
+   ![](../media/m01-11.png)
 
 ### Expected Outcome
 

@@ -1,28 +1,20 @@
-# Exercise 1, Task 3: Use Copilot in PowerPoint to Create an Executive Presentation
+# Exercise 1, Task 3: Use Copilot in PowerPoint to create an executive presentation
 
-In the previous task, you used Microsoft 365 Copilot in Word to generate a **Heating System Comparison** report that analyzed the differences between boiler and furnace heating systems. You now need to present those findings to Adatum Corporation's senior leadership team.
+In the previous task, you used Copilot in Word to create the **Heating System Comparison** report, which identified the differences between boiler and furnace heating systems. You now want to create an executive-level presentation that summarizes the findings and helps leadership make an informed decision.
 
-To help leadership understand the advantages, disadvantages, costs, maintenance considerations, and operational impacts of each heating system, you will use Microsoft 365 Copilot in PowerPoint to create an executive-level presentation based on the report generated in the previous task.
+To support this goal, you'll use Microsoft 365 Copilot in PowerPoint to generate a presentation from the report, add supporting visuals, insert an additional research slide, and create a closing Q&A slide. This task demonstrates how Copilot in PowerPoint can help transform written analysis into a leadership-ready presentation.
 
-This task also demonstrates how Copilot can generate presentations from existing content, add slides, create AI-generated images, and make direct edits within a PowerPoint presentation.
+## Using Copilot in PowerPoint
 
-## Lab Overview
+PowerPoint provides two ways to use Copilot: standard Copilot prompts for quickly generating slide content or summaries, and **Edit with Copilot** in the Copilot pane for making direct, in-place changes to the presentation.
 
-In this hands-on lab, you will use **Microsoft 365 Copilot in PowerPoint** to create an executive presentation from the Heating System Comparison report stored in OneDrive. You will:
+- You should use Copilot's standard prompts in PowerPoint when you want to draft slides quickly, summarize content, or generate speaker notes without changing the overall structure of the deck.
 
-- Generate a slide deck from existing source material.
-- Modify and enhance presentation content using Copilot.
-- Add AI-generated images to slides.
-- Create new slides based on additional research.
-- Finalize the presentation with a Q&A slide.
+- You should use **Edit with Copilot** when you want Copilot to work directly in the presentation-such as reorganizing slides, refining slide text, improving layouts, or making iterative edits.
 
-By the end of this task, you will have a complete executive presentation ready for leadership review.
-
-> **`Important:`** Ensure you have completed **Exercise 1, Task 2: Use Copilot in Word to Compare Operational Reports** and that the **Heating System Comparison** report has been saved to your OneDrive before starting this task.
+In summary, use chat-style Copilot for generating ideas and content suggestions; use **Edit with Copilot** for hands-on editing inside the file.
 
 ## Steps
-
-### Open PowerPoint and Attach the Report
 
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
@@ -40,27 +32,25 @@ By the end of this task, you will have a complete executive presentation ready f
 
     ![](../M05-empower-workforce-copilot-finance/media/app-launcher-powerpoint.png)
 
-1. In **PowerPoint for the web**, click on  **create a blank presentation**.
+1. In **PowerPoint for the web**, create a blank presentation.
 
     ![](../M05-empower-workforce-copilot-finance/media/blank-presentation.png)
 
-1. Select **Copilot** at the right bottom of the page and tap to open the Copilot pane.
+1. Select **Copilot** to open the Copilot pane.
 
     ![](../M05-empower-workforce-copilot-finance/media/copilot-ribbon.png)
 
-1. In the Copilot prompt field, select the **plus (+)** sign and choose **Add work content** from the drop-down menu. Browse your **OneDrive** and attach the **Heating System Comparison** report created in the previous task.
+1. In the Copilot prompt field, select the **plus (+)** sign and choose **Add work content**. Attach the **Heating System Comparison** report that you created in the previous task and stored in **OneDrive**.
 
     ![](./media/add-work-content.png)
 
 1. Verify that the **Edit with Copilot** icon appears next to the **plus (+)** sign in the prompt field.
 
-    > **`Note:`** If the icon is not visible, select the **plus (+)** sign and choose **Edit with Copilot** from the drop-down menu. The icon should now appear in the prompt field. When **Edit with Copilot** is enabled, Copilot can directly create and modify slides within the presentation.
-
     ![](./media/edit-with-copilot.png)
 
-### Generate the Executive Presentation
+    > **`Note:`** If the icon isn't visible, select the **plus (+)** sign and choose **Edit with Copilot** from the menu.
 
-1. In the Copilot prompt field, enter the following prompt and select **Submit**:
+1. In the Copilot prompt field, ask Copilot to generate an executive leadership presentation based on the attached file.
 
     ```
     Create an executive leadership presentation based on the attached Heating System Comparison report.
@@ -68,26 +58,17 @@ By the end of this task, you will have a complete executive presentation ready f
 
     ![](./media/create-prompt.png)
 
-1. If Copilot asks follow-up questions about the presentation, review and respond to each one. Questions may include:
-
-    - Intended audience
-    - Presentation purpose and style
-    - Presentation length
-    - Theme or slide template selection
-
-    Select your preferred options and then select **Confirm**. If a second set of questions appears, answer them as desired or select **Skip all** to let Copilot use its best judgment.
-
-    > **`Note:`** If no template is selected, Copilot may generate slides using a simple default format.
+1. If Copilot asks follow-up questions about the presentation, review and answer them as you prefer. Questions may relate to audience, style, deck length, or template selection. Once finished, select **Confirm**.
 
     ![](./media/copilot-questions.png)
 
-1. Wait while Copilot analyzes the report and generates the presentation. This may take several minutes.
-
-    > **`Note:`** During testing, Copilot behavior varied. It sometimes generated the full slide deck automatically. Other times, it produced a slide outline first and asked for confirmation before proceeding. If you receive an outline, review the proposed structure and instruct Copilot to **proceed with slide generation**.
+1. Wait while Copilot analyzes the report and generates the presentation.
 
     ![](./media/generated-slides.png)
 
-1. Review the generated presentation and verify that it covers the following areas:
+    > **`Note:`** During testing, Copilot sometimes generated the slides automatically. In other cases, it first generated a slide outline and then asked for confirmation before creating the slides.
+
+1. Review the generated presentation. Verify that it includes topics such as:
 
     - Boiler and furnace system overviews
     - Energy efficiency considerations
@@ -96,17 +77,13 @@ By the end of this task, you will have a complete executive presentation ready f
     - System conversion considerations
     - Executive recommendations
 
-    If Copilot provides additional enhancement suggestions in the pane, review and apply any that you find useful.
-
     ![](./media/review-slides.png)
 
-### Add an AI-Generated Image
-
-1. Locate a slide in the presentation that does not contain an image and select it in the slide thumbnail pane.
+1. Locate a slide that doesn't contain an image and select it.
 
     ![](./media/select-slide.png)
 
-1. In the Copilot prompt field, enter the following prompt and select **Submit**:
+1. In the Copilot pane, ask Copilot to generate an image related to the content on the selected slide and add it to the presentation.
 
     ```
     Generate an image related to the content on this slide and add it to the presentation.
@@ -114,19 +91,15 @@ By the end of this task, you will have a complete executive presentation ready f
 
     ![](./media/image-prompt.png)
 
-1. Wait while Copilot generates and inserts the image. Verify that the image has been added to the selected slide.
-
-    > **`Note:`** Image generation may take several minutes depending on service availability.
+1. Wait while Copilot generates and inserts the image.
 
     ![](./media/image-added.png)
 
-### Add a Lifespan Comparison Slide
-
-1. Review the presentation and confirm there is no slide covering the expected lifespan of boiler versus furnace systems. In the slide thumbnail pane on the left, select the position where you want the new slide inserted. Verify that a red insertion line appears between the slides at your chosen location.
+1. Review the deck and identify where you want to insert a new slide about the expected lifespan of commercial boiler systems versus commercial furnace systems.
 
     ![](./media/insertion-line.png)
 
-1. In the Copilot prompt field, enter the following prompt and select **Submit**:
+1. In the Copilot pane, ask Copilot to research the expected lifespan of commercial boiler systems versus commercial furnace systems and add the information to a new slide.
 
     ```
     Research the expected lifespan of commercial boiler systems versus commercial furnace systems and add the information to a new slide.
@@ -134,17 +107,15 @@ By the end of this task, you will have a complete executive presentation ready f
 
     ![](./media/lifespan-prompt.png)
 
-1. Wait while Copilot creates the slide. Verify that the new slide is added at the intended location. If the slide appears in an incorrect position, drag and drop it into the desired location in the slide thumbnail pane.
+1. Verify that Copilot added the new slide at the intended location. If the slide appears in the wrong place, drag and drop it to the desired location.
 
     ![](./media/lifespan-slide.png)
 
-### Add a Q&A Slide
-
-1. Navigate to the end of the presentation and select the final slide in the deck to set the insertion point.
+1. Navigate to the end of the presentation and select the final slide.
 
     ![](./media/final-slide.png)
 
-1. In the Copilot prompt field, enter the following prompt and select **Submit**:
+1. In the Copilot pane, ask Copilot to add a **Question and Answer (Q&A)** slide after the final slide in the presentation.
 
     ```
     Add a Question and Answer (Q&A) slide after the final slide in the presentation.
@@ -152,7 +123,7 @@ By the end of this task, you will have a complete executive presentation ready f
 
     ![](./media/qa-prompt.png)
 
-1. Verify that Copilot creates the Q&A slide at the end of the deck. If the slide isn't placed at the end, drag it to the final position in the slide thumbnail pane.
+1. Verify that the Q&A slide appears at the end of the deck. If needed, move it to the proper location.
 
     ![](./media/qa-slide.png)
 
@@ -164,32 +135,23 @@ By the end of this task, you will have a complete executive presentation ready f
     - Lifespan comparison slide
     - Q&A slide at the end
 
-1. You have now completed **Task 3**.
+1. You have now completed **Task 3**. Click **Next** to proceed to the next task.
 
 ## Summary
 
 In this task, you used **Microsoft 365 Copilot in PowerPoint** to transform the Heating System Comparison report into a leadership-ready executive presentation for Adatum Corporation. You:
 
-- Generated a full **executive slide deck** from the Heating System Comparison report using **Edit with Copilot**.
-- Responded to Copilot's follow-up questions to tailor the presentation style, audience, and theme.
-- Added an **AI-generated image** to a content slide using a Copilot prompt.
-- Created a new **lifespan comparison slide** based on additional research requested from Copilot.
-- Added a **Q&A slide** to close the presentation for leadership discussion.
+- Generated an executive slide deck from the Heating System Comparison report using **Edit with Copilot**.
+- Responded to Copilot's follow-up questions to shape the presentation.
+- Added an AI-generated image to a content slide.
+- Created a new research-based slide comparing system lifespan.
+- Added a Q&A slide to close the presentation.
 
-## Key Takeaways
-
-By completing this task, you learned how to:
-
-- Use **Copilot in PowerPoint** to generate presentations directly from existing Word documents.
-- Tailor executive presentations by responding to Copilot's follow-up prompts.
-- Apply **Edit with Copilot** to make in-place changes across a slide deck.
-- Generate and insert **AI-created images** to enhance visual engagement.
-- Add **research-based slides** for topics not covered in the source document.
-- Accelerate executive presentation creation using Microsoft 365 Copilot.
+You now have a presentation that can support executive review and decision-making regarding the building heating system.
 
 ## Support Contact
 
-The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both learners and instructors, ensuring that all your needs are promptly and efficiently addressed.
+The **CloudLabs support** team is available 24/7, 365 days a year, via email and live chat to ensure seamless assistance at any time. We offer dedicated support channels tailored specifically for both technical and training-related queries.
 
 Learner Support Contacts:
 

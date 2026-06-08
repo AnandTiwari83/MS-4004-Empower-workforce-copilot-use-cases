@@ -6,8 +6,6 @@ You're tasked with revising the regional distribution center's safety protocols 
 
 ## Steps
 
-1. Select the following link to download the [**Contoso Expansion Safety Procedures.onepkg**](https://go.microsoft.com/fwlink/?linkid=2347515) file. Store the file in your **OneDrive** account for use by Copilot.
-
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
 
     ```
@@ -20,13 +18,23 @@ You're tasked with revising the regional distribution center's safety protocols 
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher** button and select **OneNote**.
+1. In the Microsoft 365 portal, click on the **App launcher** button and select **OneDrive**.
 
-1. In **OneNote for the web**, open the **Contoso Expansion Safety Procedures** notebook. If it doesn't appear immediately, search for it by name.
+    ![](./media/onenote.png)
+
+1. In **OneDrive**, download the **Contoso Expansion Safety Procedures** notebook. Open it through the desktop app.
+
+1. If its ask for the sign in, then provide email and password to complete the sign in procedure.
 
 1. Select **Copilot** to open the Copilot pane. If announcements appear, select **Skip**.
 
 1. Ask Copilot to review the safety procedures and identify any areas that might be affected by the construction of the new warehouse wing and dock upgrades.
+
+    ```
+    Review the Contoso Expansion Safety Procedures notebook and identify any safety procedures, operational processes, emergency guidance, or employee workflows that may be affected by the construction of the new warehouse wing and dock upgrades. Summarize the impacted areas and explain why they may require updates.
+    ``` 
+
+    ![](./media/outlook1.png)
 
 1. Review Copilot's analysis and note the impacted areas. If Copilot displays a suggested prompt related to mitigation recommendations, feel free to submit it.
 
@@ -34,7 +42,19 @@ You're tasked with revising the regional distribution center's safety protocols 
 
 1. Ask Copilot to draft updated safety protocols that reflect temporary construction zones, new dock procedures, revised emergency exit guidance, and related operational changes.
 
+    ```
+    Based on the impacted areas you identified, draft updated safety protocols for the Contoso Expansion project. Include temporary construction zone requirements, revised dock operations and traffic flow procedures, updated emergency exits and evacuation guidance, contractor safety requirements, employee access restrictions, hazard communication procedures, and any other operational changes needed during construction. Format the content as a formal safety procedures document.
+    ```
+
+    ![](./media/onenote1.png)
+
 1. Review the draft that Copilot generates. Ask Copilot to format the content as a OneNote page with headings or icons.
+
+    ```
+    Reformat the updated safety protocols as a OneNote page using clear headings, subheadings, bullet points, and appropriate icons or visual markers. Organize the content so it is easy for employees and operations staff to read and follow.
+    ```
+
+    ![](./media/onenote2.png)
 
 1. Once the formatting is complete, select **Copy response** to copy the updated draft.
 
@@ -48,17 +68,25 @@ You're tasked with revising the regional distribution center's safety protocols 
 
 1. Ask Copilot to generate a concise summary of the safety protocol changes that can be shared with Operations staff.
 
-1. Review the summary. If needed, request any changes. Once you're satisfied, select **Copy response**.
-
-1. Add another new page titled:
-
     ```
-    Summary of protocol changes
+    Create a concise summary of the updated safety protocol changes for Operations staff. Highlight the most important changes related to construction zones, dock procedures, emergency exits, employee access, and safety compliance. Keep the summary clear, professional, and easy to share with employees.
     ```
 
-1. Paste the copied summary into the page and remove any extra text.
+    ![](./media/onenote3.png)
 
-1. To prepare for the next task, save the **Summary of protocol changes** page as a PDF file.
+1. Review the summary. If needed, request any changes.
+
+1. Click on the **(...)** dots and select **Export to Word**.
+
+    ![](./media/onenote4.png)
+
+1. Now open the word file and change the name as **Summary of protocol changes**.
+
+1. Now click on the **File** form the menu selcet **Export** and download the file as pdf by selecting **Download as PDF**.
+
+    ![](./media/onenote5.png)
+
+1. Now upload the pdf file to **OneDrive**.
 
 1. You have now completed **Task 4**. Click **Next** to proceed to the next task.
 

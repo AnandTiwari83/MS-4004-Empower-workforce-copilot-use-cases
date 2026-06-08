@@ -7,7 +7,7 @@ In this task, you'll use Copilot in Outlook to draft a professional, concise, an
 ## Steps
 
 1. In your **Microsoft Edge** browser, navigate to the Microsoft 365 home page:
-
+    
     ```
     https://www.microsoft365.com
     ```

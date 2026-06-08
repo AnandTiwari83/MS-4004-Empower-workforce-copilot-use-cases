@@ -104,6 +104,8 @@ By the end of this task, you will understand how to use both document-editing an
 
 1. Review the response generated in the Copilot pane. Observe that the document itself remains **unchanged** — Copilot responded in the pane only, without modifying the document.
 
+1. Save the file as **Heating System Comparison**, you will be using this file in upcoming labs.
+
 ### Export the Summary to a New Word Document
 
 1. Below the Copilot response, review the available action options, which may include **Add to doc**, **Copy response**, and **More actions (...)**.

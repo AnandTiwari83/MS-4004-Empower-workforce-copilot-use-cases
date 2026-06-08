@@ -52,6 +52,8 @@ This task uses **Work** mode because you're working with files created earlier i
 
 1. Review the decision criteria and refine it if needed. Submit any suggested prompts that help improve the criteria.
 
+    ![](./media/decision-criteriaa.png)
+
 1. Ask Copilot to create a decision matrix that compares three options: boiler repair, boiler replacement, and convert to furnace. Include columns for cost, installation time, energy efficiency, expected lifespan, and risk level.
 
     ```

@@ -43,19 +43,17 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
 
 1. In the Copilot prompt field, ask Copilot to generate an executive leadership presentation based on the attached file.
 
+   >Note: Upload the link of you word document if required.
+
     ```
     Create an executive leadership presentation based on the attached Heating System Comparison report.
     ```
 
-    ![](./media/create-prompt.png)
-
 1. If Copilot asks follow-up questions about the presentation, review and answer them as you prefer. Questions may relate to audience, style, deck length, or template selection. Once finished, select **Confirm**.
-
-    ![](./media/copilot-questions.png)
 
 1. Wait while Copilot analyzes the report and generates the presentation.
 
-    ![](./media/generated-slides.png)
+    ![](./media/create-prompt.png)
 
     > **`Note:`** During testing, Copilot sometimes generated the slides automatically. In other cases, it first generated a slide outline and then asked for confirmation before creating the slides.
 
@@ -68,8 +66,6 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
     - System conversion considerations
     - Executive recommendations
 
-    ![](./media/review-slides.png)
-
 1. Locate a slide that doesn't contain an image and select it.
 
     ![](./media/select-slide.png)
@@ -80,11 +76,7 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
     Generate an image related to the content on this slide and add it to the presentation.
     ```
 
-    ![](./media/image-prompt.png)
-
 1. Wait while Copilot generates and inserts the image.
-
-    ![](./media/image-added.png)
 
 1. Review the deck and identify where you want to insert a new slide about the expected lifespan of commercial boiler systems versus commercial furnace systems.
 
@@ -95,8 +87,6 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
     ```
     Research the expected lifespan of commercial boiler systems versus commercial furnace systems and add the information to a new slide.
     ```
-
-    ![](./media/lifespan-prompt.png)
 
 1. Verify that Copilot added the new slide at the intended location. If the slide appears in the wrong place, drag and drop it to the desired location.
 
@@ -111,8 +101,6 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
     ```
     Add a Question and Answer (Q&A) slide after the final slide in the presentation.
     ```
-
-    ![](./media/qa-prompt.png)
 
 1. Verify that the Q&A slide appears at the end of the deck. If needed, move it to the proper location.
 

@@ -20,6 +20,8 @@ In this task, you'll use Copilot in Outlook to draft a professional, concise, an
 
 1. In the Microsoft 365 portal, click on the **App launcher** button and select **Outlook**.
 
+    ![](./media/outlook.png)
+
 1. In **Outlook on the web**, create a new email.
 
 1. Attach the PDF file of the summary report that you saved to your **OneDrive** at the end of the previous task.

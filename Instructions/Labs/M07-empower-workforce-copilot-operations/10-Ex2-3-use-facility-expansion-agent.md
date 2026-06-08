@@ -20,6 +20,8 @@ This will help you evaluate whether the agent is providing accurate, in-scope, c
     - Are forklifts allowed in the new wing this week?
     - When do SKU CHAI-12 and COFF-08 move to the new racks?
 
+    ![](./media/create-agent-prompta.png)
+
 1. Review the agent's responses. Observe how the agent cites or summarizes information from the uploaded knowledge source files.
 
 1. Now ask some questions that aren't covered by the knowledge source documents, such as:
@@ -27,12 +29,16 @@ This will help you evaluate whether the agent is providing accurate, in-scope, c
     - What is the total cost of the Fargo expansion project, and which contractor submitted the lowest bid?
     - Will the new wing include an automated picking system or robotics platform?
 
+    ![](./media/create-agent-promptb.png)
+
 1. Review how the agent responds to those out-of-scope questions. Verify that it declines appropriately or provides a fallback response instead of speculating.
 
 1. Next, ask some questions that are only partially covered by the knowledge source documents, such as:
 
     - When will the facility return to normal routing, and what permanent safety procedures will replace the temporary ones?
     - Exactly how many pallets do we plan to move during Wave 5, and what's the breakdown by product category?
+
+    ![](./media/create-agent-promptc.png)
 
 1. Review how the agent responds to the partially covered questions. Verify that it answers the portion supported by the knowledge sources and uses an appropriate fallback for anything not confirmed.
 

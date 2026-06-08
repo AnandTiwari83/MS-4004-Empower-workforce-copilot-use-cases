@@ -40,15 +40,6 @@ In summary, use chat-style Copilot for generating ideas and content suggestions;
 
     ![](../M05-empower-workforce-copilot-finance/media/copilot-ribbon.png)
 
-1. In the Copilot prompt field, select the **plus (+)** sign and choose **Add work content**. Attach the **Heating System Comparison** report that you created in the previous task and stored in **OneDrive**.
-
-    ![](./media/add-work-content.png)
-
-1. Verify that the **Edit with Copilot** icon appears next to the **plus (+)** sign in the prompt field.
-
-    ![](./media/edit-with-copilot.png)
-
-    > **`Note:`** If the icon isn't visible, select the **plus (+)** sign and choose **Edit with Copilot** from the menu.
 
 1. In the Copilot prompt field, ask Copilot to generate an executive leadership presentation based on the attached file.
 

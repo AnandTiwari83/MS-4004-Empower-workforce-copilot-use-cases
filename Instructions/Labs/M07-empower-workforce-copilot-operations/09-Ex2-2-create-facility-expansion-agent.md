@@ -40,23 +40,21 @@ This agent should:
 
 1. In Microsoft 365, select **New agent** in the navigation pane. Doing so opens Copilot Studio's **Agent Builder**.
 
-    ![](../media/task-2/new-agent.png)
-
 1. In the prompt field, ask Copilot to create an agent using the following prompt:
 
     ```
     Create an agent titled Facility Expansion FAQ Assistant. The purpose of this agent is to answer employee questions about Contoso's Fargo distribution center expansion, such as construction timelines, inventory move schedules, temporary evacuation routes, safety requirements, and vendor access rules. The target audience includes frontline staff, supervisors, coordinators, and leadership. The agent should answer questions using approved files, provide citations, avoid speculation, and stay within the Fargo expansion scope.
     ```
 
-    ![](../media/task-2/create-agent-prompt.png)
+    ![](./media/create-agent-prompt.png)
 
 1. Wait while Copilot creates the agent. Review the generated **Agent Name**, **Description**, and **Purpose** in the preview pane.
 
-    ![](../media/task-2/agent-preview.png)
+    ![](./media/agent-preview.png)
 
 1. Select the **Configure** tab and review the generated **Instructions**.
 
-    ![](../media/task-2/configure-tab.png)
+    ![](./media/configure-tab.png)
 
 1. Return to the **Describe** tab and ask Copilot to update the instructions by adding the following items:
 
@@ -65,23 +63,31 @@ This agent should:
     - Keep answers specific to the Fargo expansion and the current 24-week timeline.
     - Provide citations and highlight critical dates or zones in the response.
 
-    ![](../media/task-2/enhance-instructions.png)
+    ```
+    Update the Copilot instructions with the following guidance:
+
+    * Do not speculate. If information is missing, incomplete, or ambiguous, clearly identify the gap and provide an appropriate fallback response.
+    * Politely decline requests involving sensitive information, including budget breakdowns, financial details, or contract terms.
+    * Keep all responses focused on the Fargo Distribution Center Expansion Project and the current 24-week project timeline.
+    * Provide citations whenever possible and highlight critical dates, milestones, inspection deadlines, and operational zones that may impact project execution.
+    * Ensure responses are accurate, concise, and aligned with available project documentation.
+    ```
 
 1. Review the updated instructions in the **Configure** tab.
 
-    ![](../media/task-2/updated-instructions.png)
+    ![](./media/updated-instructions.png)
 
 1. In the **Describe** tab, ask Copilot what additional instructions it recommends to improve the agent. If you like the recommendations, ask Copilot to add them.
 
-    ![](../media/task-2/additional-instructions.png)
+    ```
+    Review the current agent instructions and recommend additional guidance that would improve the quality, accuracy, and consistency of responses for the Fargo Distribution Center Expansion Project. Focus on areas such as risk identification, mileston tracking, issue escalation, schedule impacts, response formatting, source validation, and stakeholder communication. If the recommendations are appropriate, incorporate them into the agent instructions and provide a summary of the changes made.
+    ```
 
 1. In the **Configure** tab, scroll to the **Knowledge** section and verify that **Search all websites** is disabled.
 
-    ![](../media/task-2/knowledge-section.png)
+    ![](./media/knowledge-section.png)
 
-1. In the **Knowledge** section, select **Upload from device** and upload all seven files that you downloaded earlier.
-
-    ![](../media/task-2/upload-files.png)
+1. In the **Knowledge** section, select **Upload from onedrive** and upload all seven files that mention earlier on the lab guide.
 
 1. Return to the **Describe** tab and ask Copilot to generate three suggested prompts for the agent.
 
@@ -89,23 +95,19 @@ This agent should:
     Generate three suggested prompts for this agent.
     ```
 
-    ![](../media/task-2/generated-prompts.png)
+    ![](./media/add-prompts.png)
 
 1. In the **Configure** tab, review the suggested prompts. Add two or three more prompts manually from the examples provided in the lab.
 
-    ![](../media/task-2/add-prompts.png)
-
 1. Test several of the suggested prompts and review the responses. Verify that the agent references the uploaded files and stays within scope.
-
-    ![](../media/task-2/test-prompts.png)
 
 1. When you're satisfied with the configuration and test results, select **Create**.
 
-    ![](../media/task-2/create-agent.png)
+    ![](./media/create-agent.png)
 
 1. When the confirmation dialog appears, select **Go to agent**.
 
-    ![](../media/task-2/agent-complete.png)
+    ![](./media/agent-complete.png)
 
 1. You have now completed **Task 2**. Click **Next** to proceed to the next task.
 
@@ -134,4 +136,4 @@ Learner Support Contacts:
 
 Click **Next** from the bottom right corner to proceed to the next task!
 
-![](../media/task-2/next-button.png)
+![](./media/next-button.png)

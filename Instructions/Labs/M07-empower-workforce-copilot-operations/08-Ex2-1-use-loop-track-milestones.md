@@ -25,9 +25,7 @@ The four pages you'll create are:
 
     - **Password**: **<inject key="AzureAdUserPassword"></inject>**
 
-1. In the Microsoft 365 portal, click on the **App launcher (1)** button and select **Loop (2)**.
-
-    ![](./media/app-launcher-loop.png)
+1. In the Microsoft 365 portal, click on the **App launcher** button, select **More apps** and select **Loop** .
 
 1. In **Loop for the web**, create a new workspace titled:
 
@@ -53,11 +51,9 @@ The four pages you'll create are:
     I'm the Operations Lead overseeing Contoso's distribution center expansion project in Fargo, ND. This project involves multiple construction phases, safety updates, vendor coordination, and inventory moves. Create a milestone and timeline table for a 24-week project plan. Include columns for Task Name, Bucket/Phase, Start Date, Due Date, Dependencies, Owner (role), and a Checklist column.
     ```
 
-    ![](./media/milestones-prompt.png)
-
 1. Review the generated table. If Copilot doesn't insert the table directly into the page, copy and paste the content into the **1-Milestones and Timeline** page.
 
-    ![](./media/milestones-table.png)
+    ![](./media/milestones-prompt.png)
 
 1. Scroll horizontally to view all columns and review the plan.
 
@@ -69,13 +65,15 @@ The four pages you'll create are:
 
     ![](./media/raid-page.png)
 
-1. Open the Copilot pane and ask Copilot to create a RAID log table for the 24-week distribution center expansion project. Your prompt should request risks, assumptions, issues, and dependencies, along with owners, due dates, status, and mitigation actions.
+1. Open the Copilot pane and ask Copilot to create a RAID log table for the 24-week distribution center expansion project. Your prompt should request risks, assumptions, issues, and dependencies, along with owners, due dates, status, and mitigation actions.\
 
-    ![](./media/raid-prompt.png)
+    ```
+    Create a RAID (Risks, Assumptions, Issues, and Dependencies) log for a 24-week Distribution Center Expansion Project. Include relevant risks, assumptions, issues, and dependencies along with owners, due dates, current status, impact, and mitigation actions. Present the information in a clear table format suitable for project tracking and review.
+    ```
 
 1. Review the RAID log and the critical path risk summary. If everything looks correct, copy and paste the content into the **2-RAID Log** page.
 
-    ![](./media/raid-table.png)
+    ![](./media/raid-prompt.png)
 
 1. Add a third page and rename it:
 
@@ -87,11 +85,13 @@ The four pages you'll create are:
 
 1. Open the Copilot pane and ask Copilot to build a RACI matrix for the following milestones: site preparation, foundation, framing, electrical, sprinkler installation, rack installation, inventory move, and go-live readiness.
 
-    ![](./media/raci-prompt.png)
+    ```
+    Create a RACI matrix for a Distribution Center Expansion Project covering the following milestones: Site Preparation, Foundation, Framing, Electrical Installation, Sprinkler Installation, Rack Installation, Inventory Move, and Go-Live Readiness. Include appropriate project roles and clearly identify who is Responsible (R), Accountable (A), Consulted (C), and Informed (I) for each milestone. Present the matrix in a clear table format suitable for project planning and stakeholder review.
+    ```
 
 1. Review the generated matrix. If everything looks correct, copy and paste it into the **3-RACI Matrix** page.
 
-    ![](./media/raci-table.png)
+    ![](./media/raci-prompt.png)
 
 1. Add a final page and rename it:
 
@@ -111,15 +111,15 @@ The four pages you'll create are:
 
 1. Place your cursor below the Decision Log table. Ask Copilot to create a **Change Log** table for tracking potential shifts in inspection dates, routing, cost, schedule, and go-live readiness.
 
-    ![](./media/change-prompt.png)
+    ```
+    Create a Change Log table for the Distribution Center Expansion Project to track potential changes related to inspection dates, routing, project costs, schedule timelines, and go-live readiness. Include columns for Change ID, Change Description, Date Requested, Impact Area, Requested By, Priority, Status, Approval Decision, Owner, and Comments. Present the information in a clear and professional table format suitable for project governance and change management.
+    ```
 
 1. Review the generated Change Log and paste it below the Decision Log table.
 
-    ![](./media/change-table.png)
+    ![](./media/change-prompt.png)
 
 1. Review all four pages in the workspace and verify they contain the expected content.
-
-    ![](./media/workspace-complete.png)
 
 1. Keep the **Distribution Center Expansion - Project Plan** workspace open. In a later task, you'll need to reference and share it.
 

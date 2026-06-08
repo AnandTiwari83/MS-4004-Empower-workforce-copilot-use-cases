@@ -60,13 +60,15 @@ This task uses **Work** mode because you're working with files created earlier i
     Create a decision matrix that compares boiler repair, boiler replacement, and furnace conversion. Include columns for cost, installation time, energy efficiency, expected lifespan, and risk level.
     ```
 
-    ![](./media/decision-matrix-prompt.png)
+   ![](./media/decision-matrix-prompt.png)
 
 1. Review the matrix. If needed, ask Copilot to add columns for warranty terms and compliance requirements.
 
     ```
     Update the decision matrix by adding warranty terms and compliance requirements as additional evaluation criteria.
     ```
+
+   ![](./media/decision-matrix-prompta.png)
 
 1. Once the decision criteria are in place, ask Copilot to make the matrix more actionable by rating or scoring each option against the evaluation criteria.
 
@@ -84,17 +86,13 @@ This task uses **Work** mode because you're working with files created earlier i
     Format this decision matrix as a downloadable Word report. Include a title, introduction, decision matrix table, and a usage guidance section explaining how leadership should use the matrix for decision-making.
     ```
 
-    ![](./media/matrix-download-prompt.png)
-
 1. Download the decision matrix document once Copilot provides the download link.
 
-    ![](./media/download-matrix.png)
+    ![](./media/matrix-download-prompt.png)
 
 ### Create the HVAC Vendor RFP
 
 1. In Copilot Chat, attach the decision matrix document that you downloaded.
-
-    ![](./media/attach-matrix.png)
 
 1. Ask Copilot to draft an RFP for HVAC vendors based on the decision matrix.
 
@@ -136,8 +134,6 @@ This task uses **Work** mode because you're working with files created earlier i
 
     The summary should be concise, executive-focused, and decision-ready.
     ```
-
-    ![](./media/executive-summary-prompt.png)
 
 1. Review the executive summary and submit any suggested prompts that improve it.
 
